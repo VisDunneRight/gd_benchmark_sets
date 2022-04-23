@@ -1,0 +1,251 @@
+﻿Name,Added,Citation issue,DOI,Graph feature,Authors,Dataset used,Dataset tag,Evaluation qual/quant,Evaluation type,Notes,link,year,paper type,dataset size,Conference,Technique,samples sum
+Layout of Compound Directed Graphs,No,No,,"Compound graphs, Directed graphs",Georg Sander,no dataset,none,,,used in dagre,https://publikationen.sulb.uni-saarland.de/bitstream/20.500.11880/25862/1/tr-A03-96.pdf,,,,-,,
+BaryLayout: A Simple Algorithm for Fast Drawing Large Graphs,No,No,,large,"https://ieeexplore.ieee.org/author/37964308300
+; https://ieeexplore.ieee.org/author/37538234700","same as https://www.notion.so/An-Experimental-Comparison-of-Fast-Algorithms-for-Drawing-General-Large-Graphs-190e5036cf974a879b50614cfff525f1 ",,,,,https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=5677225,2010,algorithm,29?,CISE 2010,,29
+An experimental comparison of four graph drawing algorithms,No,No,https://doi.org/10.1016/S0925-7721(96)00005-3,,"Di Battista, Giuseppe, Ashim Garg, Giuseppe Liotta, Roberto Tamassia, Emanuele Tassinari, and Francesco Vargiu",Rome-Lib,Rome-Lib,,,Origin of Rome-Lib,,2008,algorithm,11389,Discrete Optimization 2008,,11389
+"Fast filtering and animation of large dynamic
+networks",No,No,,"dynamic, large","Przemyslaw A Grabowicz1,2* , Luca Maria Aiello 3 and Filippo Menczer",their own (contains description of how they were made),custom,,,,https://epjdatascience.springeropen.com/track/pdf/10.1140/epjds/s13688-014-0027-8.pdf,2014,algorithm,4,EPJ data science 2018,,4
+"A New Approach to Exact Crossing
+Minimization",No,No,10.1007/978-3-540-87744-8_24,,"Markus Chimani, Petra Mutzel, and Immanuel Bomze",Rome-Lib,Rome-Lib,,,,http://tcs.uni-osnabrueck.de/_media/pubs/esa08_preprint_newcrnoilp_pdf.pdf,2008,algorithm,7172 (Rome-Lib non-trivial),ESA 2008,ILP,7172
+"An ILP-based Proof System for the Crossing
+Number Problem",No,No,,,Markus Chimani and Tilo Wiedera,"Rome-Lib, North Lib and their own","North Lib, Rome-Lib, custom",,,,https://drops.dagstuhl.de/opus/volltexte/2016/6380/pdf/LIPIcs-ESA-2016-29.pdf,,algorithm,3110 + 1277 + 145,ESA 2016,ILP,3110
+Visualizing the evolution of compound digraphs with TimeArcTrees,No,No,,"Compound graphs, dynamic","• Martin Greilich   
+•  Michael Burch   
+•  Stephan Diehl   ",,,,,,https://dl.acm.org/doi/10.1111/j.1467-8659.2009.01451.x,2009,,,EuroVis 2009,,
+The State of the Art in Visualizing Dynamic Graphs,No,No,,"Compound graphs, dynamic","Fabian Beck1, Michael Burch1, Stephan Diehl2, and Daniel Weiskopf",no experiment (just survey),none,,,"Good discussion on possible domains ",https://www.researchgate.net/publication/261723303_The_State_of_the_Art_in_Visualizing_Dynamic_Graphs,2014,survey,,EuroVis 2014,,
+TimeArcs: Visualizing Fluctuations in Dynamic Networks,No,No,,"Layered graphs, dynamic, many layers, temporal event sequence",Dang et al.,no experiment,none,,,,https://www.cs.uic.edu/~tdang/TimeArcs/EuroVis2016/TimeArcs_Dang_EuroVis2016.pdf,2016,algorithm,,EuroVis 2016,,
+https://scholar.google.com/citations?view_op=view_citation&hl=en&user=VAi0mIQAAAAJ&citation_for_view=VAi0mIQAAAAJ:ufrVoPGSRksC,No,No,,"Layered graphs, dynamic, hypergraphs, many layers",Di Bartolomeo et al.,"VIS collaboration network, INRIA collaboration network, sliced","INRIA collaboration network, VIS collaboration network",,,,https://files.osf.io/v1/resources/grvwu/providers/osfstorage/61a91f310db65903c183461f?action=download&direct&version=1,2022,algorithm,1300,EuroVis 2022,,1300
+A Force-Directed Algorithm that Preserves Edge Crossing Properties,No,No,10.1016/S0020-0190(00)00042-9,,Fran ̧cois Bertault,no experiment,none,,,,https://link.springer.com/content/pdf/10.1007/3-540-46648-7_36.pdf,1999,,,GD 1999,,
+Fast and Simple Horizontal Coordinate Assignment,No,No,10.1007/3-540-45848-4_3,"Layered graphs, many layers",Ulrik Brandes and Boris Kopf,no experiment,none,,,"used in dagre. paper has pseudocode.
+be sure to check errors:
+https://arxiv.org/pdf/2008.01252.pdf",http://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=E944F4081AA4CCC56173B048E0F281D7?doi=10.1.1.64.4457&rep=rep1&type=pdf,,,,GD 2001,,
+Applying Crossing Reduction Strategies to Layered Compound Graphs,No,No,10.5555/647554.729577,"Compound graphs, Layered graphs",Michael Forster,no dataset,none,,,used in dagre,https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.59.3610&rep=rep1&type=pdf,2002,,,GD 2002,,
+"An Experimental Study of Crossing
+Minimization Heuristics",No,No,https://doi.org/10.1007/978-3-540-24595-7_2,,Carsten Gutwenger and Petra Mutzel,Rome Lib,Rome-Lib,,,,https://link.springer.com/content/pdf/10.1007%2F978-3-540-24595-7_2.pdf,2003,comparison,11389,GD 2003,,11389
+"A Fast and Simple Heuristic
+for Constrained Two-Level Crossing Reduction",No,No,10.1007/978-3-540-31843-9_22,"Layered graphs, two-level crossing minimiazation",Michael Forster,randomly generated,custom (random),,,"used in dagre. Experiment says ""We have tested the im-
+plementations using a total number of 37,500 random graphs: 150 graphs for
+every combination of the following parameters: |V2|∈{50, 100, 150, 200, 250},
+|E|/|V2|∈{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}, |C|/|V2|∈{0, 0.25, 0.5, 0.75, 1.0}.""",https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.59.1966&rep=rep1&type=pdf,,,,GD 2004,,
+An Experimental Comparison of Fast Algorithms for Drawing General Large Graphs,No,No,10.1007/11618058_22,large,Stefan Hachul and Michael J ̈unger,their own + AT&T + “C. Walshaw’s graph collection”,"C. Walshaw's graph collection, North Lib, custom",,,has some discussion on what they did to generate their own graphs,http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.129.685&rep=rep1&type=pdf,2005,comparison,29,GD 2005,,29
+Exact Crossing Minimization,No,No,10.1007/11618058_4,,"Christoph Buchheim, Dietmar Ebner, Michael Jünger, Gunnar W. Klau, Petra Mutzel, René Weiskircher",Rome-Lib,Rome-Lib,,,,https://link.springer.com/content/pdf/10.1007/11618058_4.pdf,,,,GD 2005,ILP,
+Line Crossing Minimization on Metro Maps,No,No,https://doi.org/10.1007/978-3-540-77537-9_24,"grid layout, terminals","Michael A. Bekos, Michael Kaufmann, Katerina Potika,
+and Antonios Symvonis",no experiment,none,,,,https://link.springer.com/content/pdf/10.1007/978-3-540-77537-9_24.pdf,2007,algorithm,,GD 2007,,
+Optimal k-level planarization and crossing minimization,No,No,10.5555/1964371.1964394,"Layered graphs, many layers","Gange, Stuckey, Marriott","Self-made (randomly generated), graphviz examples","custom (random), graphviz examples",,,"Used a dataset they randomly generated
+
+To compare speed and effectiveness of the model we ran it on two sets of
+graphs. The first set of graphs are all the hierarchical network diagrams appear-
+ing in the GraphViz gallery [3]. The second set of graphs are random graphs of
+k-levels with n nodes per level and a fixed edge density of 20% (that is each node
+is connected on average to 20% of the nodes on the next layer). Problem class
+gk n is a suite of 10 randomly generated instances with k levels and n nodes per
+level",http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.300.5595&rep=rep1&type=pdf,2010,algorithm,23 + 9,GD 2010,ILP,23
+Advances in the Planarization Method: Effective Multiple Edge Insertions,No,No,10.1007/978-3-642-25878-7_10,," https://www.researchgate.net/scientific-contributions/Markus-Chimani-20439176?_sg%5B0%5D=ql3CoUwoD-8sDu85UNLnGqD9WcXY9djKPw0y1r0_kc3e6CCgsw3mqrbdKF8wsf1-_VBRCiA.7oT2it0fvzu1wyyn_tNAy6Rmd_SDdaeCuKkr5ijulvjlDJZbMOSxBkzFPjUJBwBwYYQFhgjzZ5_74i_PDwYpxA&_sg%5B1%5D=k6eys1G5BunGCbyHZv-5Jyvg2leYF5Amqoq_7td7V2NsXtmMiEmJUybFU9gLRI0Z_rSaU-8.OGLwx_glH4WMvVnKFEcYHQ6Pi5A2HfJhtWrAl_qcRETNA5sZe7btUGQ7rwzCpFmXePGnzULb3-18gvamyKfqwA
+ https://www.researchgate.net/profile/Carsten-Gutwenger?_sg%5B0%5D=ql3CoUwoD-8sDu85UNLnGqD9WcXY9djKPw0y1r0_kc3e6CCgsw3mqrbdKF8wsf1-_VBRCiA.7oT2it0fvzu1wyyn_tNAy6Rmd_SDdaeCuKkr5ijulvjlDJZbMOSxBkzFPjUJBwBwYYQFhgjzZ5_74i_PDwYpxA&_sg%5B1%5D=k6eys1G5BunGCbyHZv-5Jyvg2leYF5Amqoq_7td7V2NsXtmMiEmJUybFU9gLRI0Z_rSaU-8.OGLwx_glH4WMvVnKFEcYHQ6Pi5A2HfJhtWrAl_qcRETNA5sZe7btUGQ7rwzCpFmXePGnzULb3-18gvamyKfqwA","Rome-Lib, AT&T","North Lib, Rome-Lib",,,Has link to dataset but gives 404,https://www.researchgate.net/publication/221557299_Advances_in_the_Planarization_Method_Effective_Multiple_Edge_Insertions,2011,algorithm,"1843 (section of Rome-Lib) + 311 (section of AT&T) ",GD 2011,,1843
+Offline Drawing of Dynamic Trees: Algorithmics and Document Integration,No,No,https://doi.org/10.1007/978-3-319-50106-2_44,"dynamic, tree",,no experiment,,,,proof by theorem,https://link.springer.com/content/pdf/10.1007%2F978-3-319-50106-2.pdf,2016,algorithm,,GD 2016,,
+Gabriel Triangulations and Angle-Monotone Graphs,No,No,https://doi.org/10.1007/978-3-319-50106-2_40,,,no experiment,,,,"algorithm done through proof
+also not a full graph layout algorithm, only talks about a property",https://link.springer.com/content/pdf/10.1007%2F978-3-319-50106-2.pdf,2016,algorithm,,GD 2016,,
+Block Crossings in Storyline Visualizations,No,No,https://doi.org/10.1007/978-3-319-50106-2_30,"Layered graphs, temporal event sequence",,random,custom (random),quantitative,aggregate,algorithm is done through proof,https://link.springer.com/content/pdf/10.1007%2F978-3-319-50106-2.pdf,2016,algorithm,1000,GD 2016,,1000
+"A Note on the Practicality of Maximal Planar
+Subgraph Algorithms",No,No,https://doi.org/10.1007/978-3-319-50106-2_28,,,"Rome, North, SteinLib, Baal, Regular (random)","North Lib, Rome-Lib, SteinLib, custom (random)",quantitative,aggregate,"steinlib: http://steinlib.zib.de/steinlib.php
+
+baal: generated with BarabasiAlbertGenerator of the java universal network/graph framework. http://
+jung.sourceforge.net
+
+regular: Steger, A., Wormald, N.C.: Generating random regular graphs quickly. Comb.
+Probab. Comput. 8(4), 377–396 (1999)",https://link.springer.com/content/pdf/10.1007%2F978-3-319-50106-2.pdf,2016,comparison,9558,GD 2016,,9558
+Bitonic st-orderings for Upward Planar Graphs,No,No,https://doi.org/10.1007/978-3-319-50106-2_18,"planar, st-graphs",,no experiment,,,,"validates through proof
+bitonic = sorting algorithm that’s common for networks",https://link.springer.com/content/pdf/10.1007%2F978-3-319-50106-2.pdf,2016,algorithm,,GD 2016,,
+Compact Layered Drawings of General Directed Graphs,No,No,https://doi.org/10.1007/978-3-319-50106-2_17,"Layered graphs, many layers",,AT&T (subsection),"North Lib, custom (random)",quantitative,aggregate,,https://link.springer.com/content/pdf/10.1007%2F978-3-319-50106-2.pdf,2016,algorithm,486,GD 2016,,486
+A Generalization of the Directed Graph Layering Problem,No,No,https://doi.org/10.1007/978-3-319-50106-2_16,"Layered graphs, many layers",,"North Lib but a subset (at least 20 nodes with aspect ratio below .5 ??) - removed plain pats, pairs of nodes connected with 1 edge, and trees","North Lib, custom (random)",quantitative,aggregate,,https://link.springer.com/content/pdf/10.1007%2F978-3-319-50106-2.pdf,2016,algorithm,146 + 160,GD 2016,,146
+Placing Arrows in Directed Graph Drawings,No,No,https://doi.org/10.1007/978-3-319-50106-2_4,"Directed graphs, large",,"custom (random), AT&T (North graphs)","North Lib, custom (random)",quantitative,aggregate,"talks about arrow placement
+→ large: not really, up to 500",https://link.springer.com/content/pdf/10.1007%2F978-3-319-50106-2.pdf,2016,"algorithm, comparison",1275 + 60,GD 2016,,1275
+Node Overlap Removal by Growing a Tree,No,No,https://doi.org/10.7155/jgaa.00442,large,,,"custom (random), graphviz examples",quantitative,"visual, aggregate",,https://link.springer.com/content/pdf/10.1007%2F978-3-319-50106-2.pdf,2016,"algorithm, comparison",14,GD 2016,,14
+A Sparse Stress Model,No,No,http://dx.doi.org/10.7155/jgaa.00440,large,,sparse matrix collection,,quantitative,"aggregate, visual",source for dataset: http://www.cise.ufl.edu/research/sparse/matrices,https://link.springer.com/content/pdf/10.1007%2F978-3-319-50106-2.pdf,2016,algorithm,13,GD 2016,,13
+A Distributed Multilevel Force-Directed Algorithm,No,No,https://doi.org/10.1109/TPDS.2018.2869805,large,,,"Network Data Repository, SNAP",quantitative,visual,source for dataset 2: https://networkrepository.com/,https://link.springer.com/content/pdf/10.1007%2F978-3-319-50106-2.pdf,2016,algorithm,51,GD 2016,,51
+Crossing Minimization in Storyline Visualization,No,No,10.1007/978-3-319-50106-2_29,"Layered graphs, dynamic, temporal event sequence","Martin Gronemann, Michael Jünger, Frauke Liers, Francesco Mambelli",movie plots (lost),"Stanford GraphBase, movie plots",quantitative,"visual, quantitative individual",good evaluation,https://link.springer.com/content/pdf/10.1007%2F978-3-319-50106-2.pdf,2016,algorithm,44,GD 2016,ILP,44
+Drawing Dynamic Graphs Without Timeslices,No,No,https://doi.org/10.1007/978-3-319-73915-1_31,dynamic,,"infovis coauthorship, van de bunt, newcomb fraternity data, rugby, pride and prejudice",,quantitative,not really visual,"Dataset sources: 
+
+InfoVis Co-Authorship (Discrete): a co-authorship network for papers published
+in the InfoVis conference from 1995 to 2015 [1]. Authors collaborating on a paper
+are connected in a clique at the time of publication of the paper. Note this is
+not a cumulative network as authors can appear, disappear, and appear again.
+The data is of discrete nature with exactly 21 timeslices (one per year).
+Van De Bunt (Discrete): shows the relationships between 32 freshmen at
+seven different time points. A discrete dynamic graph is built using the method
+of Brandes et al. [9], with an undirected edge inserted into a timeslice if the
+participants reciprocally report “best friendship” or “friendship” at that time.
+Newcomb Fraternity Data (Discrete): contains the sociometric preference of
+17 members of a fraternity in the University of Michigan in the fall of 1956 [39].
+As in previous work [9], at each timeslice, we inserted undirected edges connect-
+ing students to their three best friends.
+Rugby (Continuous): is a network derived from over 3,000 tweets involving
+teams in the Guinness Pro12 rugby competition. The tweets were posted between
+09.01.2014 and 10.23.2015. Each tweet contains information about the involved
+teams and the time of publication with a precision down to the second.
+Pride and Prejudice (Continuous): lists the dialogues between characters in
+the novel Pride and Prejudice in order [29]. The book has 61 chapters and the
+data set includes over 4,000 interactions between characters.",https://link.springer.com/content/pdf/10.1007%2F978-3-319-73915-1.pdf,2017,"algorithm, comparison",5,GD 2017,,5
+"MLSEB: Edge Bundling Using Moving Least
+Squares Approximation",No,No,https://doi.org/10.1007/978-3-319-73915-1_30,spatial,,"Airlines - US airlines, US migrations, France airlines, large US migrations",,quantitative,visual,"edge bundling algorithm
+- does not precisely list the source of the data 
+- pretty large dataset and maybe the enron dataset would be fitting for edge bundling techniques too",https://link.springer.com/content/pdf/10.1007%2F978-3-319-73915-1.pdf,2017,algorithm,4,GD 2017,,4
+"Computing Storyline Visualizations
+with Few Block Crossings",No,No,https://doi.org/10.1007/978-3-319-73915-1_29,"Layered graphs, groups, temporal event sequence",,movie plots,"custom, movie plots",,"visual, aggregate","description of how the custom dataset was generated: 
+
+Random Instances. We test using random instances of two kinds. The first are
+uniform instances and these are the same as in previous work [3]. First, pick κ,
+n, and a probability p. (We report here on p = 0.5.) Then generate a meeting
+by picking, independently at random with probability p, whether each character
+is in the meeting. Reject meetings with fewer than two characters, and repeat
+until there are n meetings. We let all characters be alive at all times, so we can
+run all three algorithms.",https://link.springer.com/content/pdf/10.1007%2F978-3-319-73915-1.pdf,2017,algorithm,103,GD 2017,,103
+Anisotropic Radial Layout for Visualizing Centrality and Structure in Graphs,No,No,https://doi.org/10.1007/978-3-319-73915-1_28,,,"Zachary’s karate club , Terrorist network Rodr ́ıguez, J.A., Rodr ́ıguez, J.A.: The March 11th terrorist network: in its weakness
+lies its strength (2005), Les Miserables (stanford graph base )","Stanford GraphBase, Terrorist Network, Zachary's karate club",,visual,both evaluations are case studies,https://link.springer.com/content/pdf/10.1007%2F978-3-319-73915-1.pdf,2017,algorithm,3,GD 2017,,3
+Visualizing Co-phylogenetic Reconciliations,No,No,https://doi.org/10.1007/978-3-319-73915-1_27,binary trees,,"Eucalypt tool (Donati, B., Baudet, C., Sinaimeri, B., Crescenzi, P., Sagot, M.F.: EUCALYPT:
+efficient tree reconciliation enumerator. Algorithms Mol. Biol. 10(1), 3 (2015)), trees from a bioinfromatics journal (Wieseke, N., Hartmann, T., Bernt, M., Middendorf, M.: Cophylogenetic reconcil-
+iation with ILP. IEEE/ACM Trans. Comput. Biol. Bioinform. 12(6), 1227–1235
+(2015))",,quantitative,,,https://link.springer.com/content/pdf/10.1007%2F978-3-319-73915-1.pdf,2017,algorithm,16,GD 2017,,16
+"Drawing Big Graphs Using Spectral
+Sparsification",No,No,https://doi.org/10.1007/978-3-319-73915-1_22,large,,"Hachul library, Walshaw’s Graph Partitioning Archive (sparse matrices (Davis, T.A., Hu, Y.: The University of Florida sparse matrix collection. ACM
+Trans. Math. Softw. 38(1), 1:1–1:25 (2011)), network repository (http://networkrepository.com/)), GION dataset (https://doi.org/10.1007/978-3-662-45803-7_10), custom","C. Walshaw's graph collection, GION, custom (random)",,"visual, aggregate",some discussion about metrics,https://link.springer.com/content/pdf/10.1007%2F978-3-319-73915-1.pdf,2017,algorithm,26,GD 2017,,26
+?? Visual Similarity Perception of Directed Acyclic Graphs,No,No,https://doi.org/10.7155/jgaa.00467,DAG,,custom,custom,,aggregate,user study,https://link.springer.com/content/pdf/10.1007%2F978-3-319-73915-1.pdf,2017,quality metrics,69,GD 2017,,69
+Experimental Evaluation of Book Drawing Algorithms,No,No,https://doi.org/10.1007/978-3-319-73915-1_19,book embedding,,custom,custom,,aggregate,bunch of features in benchmark graphs described in section 3 - not proper graph features though,https://link.springer.com/content/pdf/10.1007%2F978-3-319-73915-1.pdf,2017,comparison,1800,GD 2017,,1800
+"?? Drawing Bobbin Lace Graphs, or, Fundamental Cycles",No,No,https://doi.org/10.1007/978-3-319-73915-1_12,,,no experiment,none,,,,https://link.springer.com/content/pdf/10.1007%2F978-3-319-73915-1.pdf,2017,"algorithm, proof",,GD 2017,,
+?? Experimental Analysis of the Accessibility of Drawings with Few Segments,No,No,https://doi.org/10.7155/jgaa.00474,,,Rome-Lib,Rome-Lib,,aggregate,,https://link.springer.com/content/pdf/10.1007%2F978-3-319-73915-1.pdf,2017,"comparison, quality metrics",92,GD 2017,,92
+An Interactive Tool to Explore and Improve the Ply Number of Drawings,No,No,https://doi.org/10.1007/978-3-319-73915-1_4,,,"Rome-Lib (subset), custom (random), FM3data (from another paper)","FM3data, Rome-Lib, custom (random)",,aggregate,FM3 data from https://link.springer.com/chapter/10.1007/978-3-319-53925-6_11,https://link.springer.com/content/pdf/10.1007%2F978-3-319-73915-1.pdf,2017,"comparison, tool",1094 + 100 + 100?,GD 2017,,1094
+? Algorithms and Bounds for Drawing Directed Graphs,No,No,https://doi.org/10.1007/978-3-030-04414-5_41,"Layered graphs, many layers",,no experiment,none,,,,https://link.springer.com/content/pdf/10.1007%2F978-3-030-04414-5.pdf,2018,"algorithm, proof",,GD 2018,,
+Bend-Minimum Orthogonal Drawings in Quadratic Time,No,No,https://doi.org/10.1007/978-3-030-04414-5_34,SPQR trees,,no experiment,none,,,,https://link.springer.com/content/pdf/10.1007%2F978-3-030-04414-5.pdf,2018,"algorithm, proof",,GD 2018,,
+"* ?? Same Stats, Different Graphs
+(Graph Statistics and Why We Need Graph Drawings)",No,No,https://doi.org/10.1007/978-3-030-04414-5_33,,,"custom ",custom,,aggregate,data analysis here: http://vader.lab.asu.edu/GraphAnalytics/,https://link.springer.com/content/pdf/10.1007%2F978-3-030-04414-5.pdf,2018,graph stats,4950 + 274668 + 100000,GD 2018,,4950
+Network Alignment by Discrete Ollivier-Ricci Flow,No,No,https://doi.org/10.1007/978-3-030-04414-5_32,,,custom (random),custom (random),,aggregate,they start from a single graph with 1000 nodes and generate the second one by removing few nodes from the original graph,https://link.springer.com/content/pdf/10.1007%2F978-3-030-04414-5.pdf,2018,"algorithm, comparison",2,GD 2018,,2
+? Perception of Symmetries in Drawings of Graphs,No,No,https://doi.org/10.1007/978-3-030-04414-5_31,,,,,,,this paper is a qualitative evaluation of how well symmetry works for perception. Not sure it fits with the other evaluations.,https://link.springer.com/content/pdf/10.1007%2F978-3-030-04414-5.pdf,2018,quality metrics,,GD 2018,,
+?? Monotone Drawings of k-Inner Planar Graphs,No,No,https://doi.org/10.1007/978-3-030-04414-5_24,k-inner planar graph,,no experiment,none,,,,https://link.springer.com/content/pdf/10.1007%2F978-3-030-04414-5.pdf,2018,"algorithm, proof",,GD 2018,,
+A Greedy Heuristic for Crossing-Angle Maximization,No,No,https://doi.org/10.1007/978-3-030-04414-5_20,,,"North Lib, Rome-Lib, Community (generated), 1-planar (custom generated), tri+x (randomly generated)","North Lib, Rome-Lib, custom, custom (random)",,aggregate,nice evaluation,https://link.springer.com/content/pdf/10.1007%2F978-3-030-04414-5.pdf,2018,algorithm,600,GD 2018,,600
+Drawings of Graphs with High Crossing Resolution,No,No,https://doi.org/10.1007/978-3-030-04414-5_19,,,"Rome-Lib (non-planar), AT&T → in extended paper version","North Lib, Rome-Lib",,aggregate,"nice evaluation, can use pictures from here",https://link.springer.com/content/pdf/10.1007%2F978-3-030-04414-5.pdf,2018,algorithm,8100,GD 2018,,8100
+?? Crossing Minimization in Perturbed Drawings,No,No,https://doi.org/10.1007/978-3-030-04414-5_16,,,no experiment,none,,,mainly proof with an algorithm inside?,https://link.springer.com/content/pdf/10.1007%2F978-3-030-04414-5.pdf,2018,"algorithm, proof",,GD 2018,,
+Horizontal Coordinate Assignment with Prescribed Width,No,No,https://doi.org/10.1007/978-3-030-04414-5_13,"Layered graphs, hierarchical, many layers",,AT&T (subset),North Lib,,aggregate,"10 to 100 nodes per graph, restricts width of layout, compares against Gansner",https://link.springer.com/content/pdf/10.1007%2F978-3-030-04414-5.pdf,2018,algorithm,1277,GD 2018,,1277
+? Aesthetic Discrimination of Graph Layouts,No,No,https://doi.org/10.1007/978-3-030-04414-5_12,,,"Rome-Lib, North Lib, Random DAG, Matrix Market, custom","Matrix Market, North Lib, Random DAG, Rome-Lib, custom",,"visual, aggregate",machine learning,https://link.springer.com/content/pdf/10.1007%2F978-3-030-04414-5.pdf,2018,quality metrics,36000,GD 2018,,36000
+Visualizing the Template of a Chaotic Attractor,No,No,https://doi.org/10.1007/978-3-030-04414-5_8,chaotic attractor,,custom,custom,,aggregate,link to tool: https://gitlab.uni.lu/pcog/cate,https://link.springer.com/content/pdf/10.1007%2F978-3-030-04414-5.pdf,2018,algorithm,168,GD 2018,,168
+Short Plane Supports for Spatial Hypergraphs,No,No,https://doi.org/10.1007/978-3-030-04414-5_4,"hypergraphs, spatial",,custom (randomly generated),custom (random),,aggregate,compares heuristics vs optimal,https://link.springer.com/content/pdf/10.1007%2F978-3-030-04414-5.pdf,2018,comparison,1000 + 1000,GD 2018,,1000
+A Natural Quadratic Approach to the Generalized Graph Layering Problem,No,No,https://doi.org/10.1007/978-3-030-35802-0_40,many layers,,AT&T (modified),North Lib,,"aggregate, visual","AT&T: whereof we extracted all non-tree instances with 20 ≤ |V | ≤ 60, and
+20 ≤ |A| ≤ 168",,2019,algorithm,180 + 127,GD 2019,,180
+? Symmetry Detection and Classification in Drawings of Graphs,No,No,https://doi.org/10.1007/978-3-030-35802-0_38,,,custom made,custom,,aggregate,"it’s a machine-learning paper so datasets used are for the model not for the graph layout
+
+implementation and dataset: https://github.com/enggiqbal/mlsymmetric",,2019,evaluation,64000,GD 2019,,64000
+"Mixed Linear Layouts: Complexity, Heuristics, and Experiments",No,No,https://doi.org/10.1007/978-3-030-35802-0_35,linear layout,,custom made (random),custom (random),,aggregate,datasets generated according sparse graph classes,,2019,algorithm,549,GD 2019,,549
+Graph Drawing with Morphing Partial Edges,No,No,https://doi.org/10.1007/978-3-030-35802-0_26,,,custom made,custom,,visual,lacking evaluation,,2019,algorithm,1?,GD 2019,,1
+Maximizing Ink in Partial Edge Drawings of k-plane Graphs,No,No,https://doi.org/10.1007/978-3-030-35802-0_25,,,custom made,custom,,aggregate,,,2019,algorithm,800,GD 2019,,800
+Stress-Plus-X (SPX) Graph Layout,No,No,https://doi.org/10.1007/978-3-030-35802-0_23,,,2017 and 2018 graph drawing contest + 400 graph from Radermacher et al. + custom made,,,"aggregate, visual",implementation: https://github.com/devkotasabin/SPX-graph-layout,,2019,"algorithm, comparison",400 + 36 + 100,GD 2019,,400
+ChordLink: A New Hybrid Visualization Model,No,No,https://doi.org/10.1007/978-3-030-35802-0_22,"labeled nodes, nodes with categorical feature",,DBLP + Italian Revenue Agency,"DBLP, Italian Revenue Agency",,visual,turns very-highly connected regions into chord-link diagrams,,2019,algorithm,2,GD 2019,,2
+? Generation of Topological Representations,No,No,https://doi.org/10.1007/978-3-030-35802-0_20,,,k-planar graphs,k-planar graphs,,,implementation: https://github.com/beyond-planarity/complete-graphs,,2019,algorithm,?,GD 2019,,
+* Computing Height-Optimal Tangles Faster,No,No,https://doi.org/10.1007/978-3-030-35802-0_16,wires,,custom made,custom,,"visual, aggregate",dataset link: https://github.com/PhKindermann/chaotic-attractors,,2019,algorithm,1151,GD 2019,,1151
+Node Overlap Removal Algorithms: A Comparative Study,No,No,https://doi.org/10.1007/978-3-030-35802-0_14,,,custom made with OGDF + graphviz’s test graphs,"custom, graphviz examples",,aggregate,,,2019,comparison,854,GD 2019,,854
+Multi-level Graph Drawing Using Infomap Clustering,No,No,10.1007/978-3-030-35802-0_11,multilevel,,bunch of references,,,"visual, aggregate","dataset ref 1: Bartel, G., Gutwenger, C., Klein, K., Mutzel, P.: An experimental evaluation of
+multilevel layout methods. In: Brandes, U., Cornelsen, S. (eds.) GD 2010. LNCS,
+vol. 6502, pp. 80–91. Springer, Heidelberg (2011). https://doi.org/10.1007/978-3-
+642-18469-7 8
+
+dataset ref2: guyen, A., Hong, S.: k-core based multi-level graph visualization for scale-free
+networks. In: 2017 IEEE Pacific Visualization Symposium, PacificVis 2017, Seoul,
+South Korea, 18–21 April 2017, pp. 21–25 (2017)
+
+dataset ref 3: Walshaw, C., et al.: A multilevel algorithm for force-directed graph-drawing. J.
+Graph Algorithms Appl. 7(3), 253–285 (2003)",,2019,algorithm,19,GD 2019,,19
+A Quality Metric for Visualization of Clusters in Graphs,No,No,10.1007/978-3-030-35802-0_10,clusters,,custom made + SNAP,"SNAP, custom",,"visual, aggregate",,,2019,"comparison, quality metrics",18,GD 2019,,18
+Computing Stable Demers Cartograms,No,No,10.1007/978-3-030-35802-0_4,dynamic,,"World bank - bunch of references ",,,aggregate,,https://arxiv.org/pdf/1908.07291.pdf,2019,algorithm,9,GD 2019,,9
+The Turing Test for Graph Drawing Algorithms,No,No,10.1007/978-3-030-68766-3_36,,,bunch of references for individual dataset - both synthetic and abstract - they tried to balance between synthetic and natural,,,visual,empirical study (turing test),,2020,comparison,9,GD 2020,,9
+New Quality Metrics for Dynamic Graph Drawing,No,No,10.1007/978-3-030-68766-3_35,dynamic,,custom made + Social Evolution set,custom,,"visual, aggregate","second dataset from: Madan, A., Cebrian, M., Moturu, S., Farrahi, K., et al.: Sensing the “health state”
+of a community. IEEE Pervasive Comput. 11(4), 36–45 (2011)",,2020,quality metrics,15,GD 2020,,15
+"Storyline Visualizations with Ubiquitous
+Actors",No,No,10.1007/978-3-030-68766-3_25,"dynamic, temporal event sequence",,Graph drawing collaboration network,GD collaboration network,,visual,,https://link.springer.com/content/pdf/10.1007%2F978-3-030-68766-3.pdf,2020,algorithm,2,GD 2020,,2
+"An Integer-Linear Program
+for Bend-Minimization in Ortho-Radial
+Drawings",No,No,https://doi.org/10.1007/978-3-030-68766-3_19,"ortho, ortho-radial",,Rome-Lib,Rome-Lib,,"aggregate, measures bends",,https://link.springer.com/content/pdf/10.1007%2F978-3-030-68766-3.pdf,2020,algorithm,4048 (Rome-Lib < 44 nodes),GD 2020,,4048
+"Layered Drawing of Undirected Graphs
+with Generalized Port Constraints",No,No,10.1007/978-3-030-68766-3_18,"Layered graphs, many layers, port constraints",,cable plans of a german company (says dataset is on github),,,aggregate. measures ratio of crossings and ratio of bends,,https://link.springer.com/content/pdf/10.1007%2F978-3-030-68766-3.pdf,2020,algorithm,380,GD 2020,,380
+"VAIM: Visual Analytics for Influence
+Maximization",No,No,10.1007/978-3-030-68766-3_9,,,fb-combined from stanford snap,SNAP,,visual only,lacking evaluation,https://link.springer.com/content/pdf/10.1007%2F978-3-030-68766-3.pdf,2020,algorithm,1,GD 2020,,1
+"HOTVis: Higher-Order Time-Aware
+Visualisation of Dynamic Graphs",No,No,10.1007/978-3-030-68766-3_8,"dynamic, temporal event sequence",,"some custom sets: flights, tube, hospital, workplace, school + synthetic",,,"visual + aggregate. measures edge crossings, causal path dispersion and closeness eccentricity",okay evaluation,https://link.springer.com/content/pdf/10.1007%2F978-3-030-68766-3.pdf,2020,algorithm,6,GD 2020,,6
+"Stochastic Gradient Descent Works
+Really Well for Stress Minimization",No,No,10.1007/978-3-030-68766-3_2,,,their own custom chosen set,custom,,visual evaluation + aggregates,,https://link.springer.com/content/pdf/10.1007%2F978-3-030-68766-3.pdf,2020,algorithm,6,GD 2020,,6
+"Graph Drawing via Gradient
+Descent, (GD)2",No,No,https://doi.org/10.1007/978-3-030-68766-3_1,,,their own custom chosen set,custom,,"visual evaluation. measures crossings, stress, neighbor preservation, vertex resolution, crossing angle, ideal edge length, angular resolution, gabriel graph property, aspect ratio",,https://link.springer.com/content/pdf/10.1007%2F978-3-030-68766-3.pdf,2020,algorithm,10,GD 2020,,10
+"Deep Neural Network for DrawiNg
+Networks, (DN N )2",No,No,10.1007/978-3-030-92931-2_27,,"Loann Giovannangeli , Frederic Lalanne , David Auber ,
+Romain Giot , and Romain Bourqui","Rome-Lib, random graphs","Rome-Lib, custom (random)",,,has a visual evaluation of the results,https://link.springer.com/content/pdf/10.1007%2F978-3-030-92931-2.pdf,2021,algorithm,12534,GD 2021,,12534
+"Layered Area-Proportional Rectangle
+Contact Representations",No,No,10.1007/978-3-030-92931-2_23,Layered graphs,"Martin N ̈ollenburg , Ana ̈ıs Villedieu , and Jules Wulms",no experiment,none,,,,https://link.springer.com/content/pdf/10.1007%2F978-3-030-92931-2.pdf,2021,algorithm,,GD 2021,ILP,
+"Unit Disk Representations of Embedded
+Trees, Outerplanar and Multi-legged
+Graphs",No,No,10.1007/978-3-030-92931-2_22,,"Sujoy Bhore , Maarten L ̈offler, Soeren Nickel ,
+and Martin N ̈ollenburg",no experiment,none,,,,https://link.springer.com/content/pdf/10.1007%2F978-3-030-92931-2.pdf,2021,"algorithm, proof",,GD 2021,,
+"Quasi-upward Planar Drawings
+with Minimum Curve Complexity",No,No,10.1007/978-3-030-92931-2_14,,"Carla Binucci, Emilio Di Giacomo , Giuseppe Liotta ,
+and Alessandra Tappini",no experiment,none,,,,https://link.springer.com/content/pdf/10.1007%2F978-3-030-92931-2.pdf,2021,algorithm,,GD 2021,,
+"Planar Straight-Line Realizations
+of 2-Trees with Prescribed Edge Lengths",No,No,10.1007/978-3-030-92931-2_12,binary trees,"Carlos Alegr ́ıa, Manuel Borrazzo, Giordano Da Lozzo,
+Giuseppe Di Battista, Fabrizio Frati, and Maurizio Patrignani",no experiment,none,,,,https://link.springer.com/content/pdf/10.1007%2F978-3-030-92931-2.pdf,2021,algorithm,,GD 2021,,
+Upward Planar Drawings with Three and More Slopes,No,No,10.1007/978-3-030-92931-2_11,,"Jonathan Klawitter, Johannes Zink",no experiment,none,,,,https://link.springer.com/content/pdf/10.1007%2F978-3-030-92931-2.pdf,2021,algorithm,,GD 2021,,
+Visualizing JIT Compiler Graph,No,No,10.1007/978-3-030-92931-2_10,,"HeuiChan Lim, Stephen Kobourov",no experiment but mentions Chromium bug reports,none,,,,https://link.springer.com/content/pdf/10.1007%2F978-3-030-92931-2.pdf,2021,algorithm,,GD 2021,,
+"Recognizing and Embedding Simple
+Optimal 2-Planar Graphs",No,No,10.1007/978-3-030-92931-2_6,,"Henry F ̈orster , Michael Kaufmann ,
+and Chrysanthi N. Raftopoulou",no experiment,none,,,,https://link.springer.com/content/pdf/10.1007%2F978-3-030-92931-2.pdf,2021,algorithm,,GD 2021,,
+"Simplifying Non-simple Fan-Planar
+Drawings",No,No,10.1007/978-3-030-92931-2_4,,"Boris Klemz , Kristin Knorr , Meghana M. Reddy ,
+and Felix Schr ̈oder",no experiment,none,,,,https://link.springer.com/content/pdf/10.1007%2F978-3-030-92931-2.pdf,2021,algorithm,,GD 2021,,
+"Star-Struck by Fixed Embeddings:
+Modern Crossing Number Heuristics",No,No,10.1007/978-3-030-92931-2_3,,"Markus Chimani , Max Ilsen , and Tilo Wiedera","Complete, Complete-Bip., or KnownCR, Rome-Lib, [...] (open as page, see picture)","KnownCR, North Lib, Rome-Lib, complete graphs, complete-bip, custom",,,Open as page and see picture! This paper has good classification of existing tools,https://arxiv.org/abs/2108.11443,2021,comparison,6792,GD 2021,,6792
+A Technique for Drawing Directed Graphs,No,No,,"Directed graphs, Layered graphs","Emden R. Gansner, Eleftherios Koutsofios, Stephen C. North, and Kiem-Phong Vo",no experiment,none,,,,https://www.researchgate.net/profile/Emden-Gansner/publication/3187542_A_Technique_for_Drawing_Directed_Graphs/links/5c0abd024585157ac1b04523/A-Technique-for-Drawing-Directed-Graphs.pdf,1993,,,IEEE Transactions on Software Engineering,,
+Drawing Directed Acyclic Graphs: An Experimental Study,No,No,,Directed graphs,"G. Di Battista, A. Garg, G. Liotta, A. Parise, R Tamassia, E Tassinari, F Vargiu, L Vismara","North DAGs, Pert DAGs","North Lib, Pert DAG",,,"this paper has a fair amount of discussion on datasets.
+not interesting in terms of what graphs they deal with, but very interesting in terms of discussion about datasets
+
+introduces North Graphs!",https://www.researchgate.net/profile/Giuseppe-Liotta/publication/226769927_Drawing_directed_acyclic_graphs_An_experimental_study/links/09e41508af2c5405ea000000/Drawing-directed-acyclic-graphs-An-experimental-study.pdf,1996,,,International Journal of Computational Geometry & Applications,,
+A Framework for Solving VLSI Graph Layout Problems,No,No,,grid layout,"Sandeep N. Bhatt, Frank Thomson Leighton",no experiment,none,,,,https://www.sciencedirect.com/science/article/pii/0022000084900710,1984,,,https://www.sciencedirect.com/journal/journal-of-computer-and-system-sciences,,
+2-Layer Straightline Crossing Minimization,No,No,,"Layered graphs, two-level crossing minimiazation",Junger and Mutzel,random_bigraph from Stanford GraphBase,Stanford GraphBase,,,used in dagre,https://www.researchgate.net/profile/Petra-Mutzel/publication/30508315_2-Layer_Straightline_Crossing_Minimization_Performance_of_Exact_and_Heuristic_Algorithms/links/09e4150eabaf4cc7bd000000/2-Layer-Straightline-Crossing-Minimization-Performance-of-Exact-and-Heuristic-Algorithms.pdf,1997,,,Journal of Graph Algorithms and Applications,,
+Simple and Efficient Bilayer Cross Counting,No,No,,"Layered graphs, two-level crossing minimiazation",Wilhelm Barth Petra Mutzel,AT&T,North Lib,,,"used in dagre
+
+""Finally, we ran the algorithms on a selection of real-world graphs compiled
+from the AT&T directed graph collection by Michael Kr ̈uger of the Max-Planck-
+Institut f ̈ur Informatik in Saarbr ̈ucken. We used the first phase of the AGD
+Sugiyama implementation in order to obtain layerings with the Longest-Path
+and Coffman-Graham options from which we extracted the resulting layer pairs
+as test instances. Thus, we compiled two collections of 30,061 instances and
+57,300 instances, respectively. For each instance, we applied 10 random shuffles
+of the northern and southern layers, each followed by a MEDIAN-ordered run
+as explained above. So we ran a total of 601,220 and 1,146,000 instances of the
+Longest-Path generated layer pairs and the Coffman-Graham generated layer
+pairs, respectively""",https://jgaa.info/accepted/2004/BarthMutzelJuenger2004.8.2.pdf,2004,,,Journal of Graph Algorithms and Applications 2004,,
+"An effective crossing minimisation heuristic
+based on star insertion",No,No,http://dx.doi.org/10.7155/jgaa.00487,,"Kieran Clancy, Michael Haythorpe, Alex Newcombe","KnownCR (can’t find it), Rome-Lib, Complete, Complete-Bip","KnownCR, Rome-Lib, complete graphs, complete-bip",,,,https://arxiv.org/pdf/1804.09900.pdf,2019,algorithm,,Journal of Graph Algorithms and Applications 2019,,
+An Improved Algorithm for the Metro-Line Crossing Minimization Problem,No,No,,terminals,Nollenburg,no experiment,none,,,,https://i11www.iti.kit.edu/extra/publications/n-iamlc-10.pdf,2009,algorithm,,LNTCS,,
+A hierarchical O (N log N) force-calculation algorithm,No,No,,,"J Barnes, P Hut",no experiment,none,,,,https://idp.nature.com/authorize/casa?redirect_uri=https://www.nature.com/articles/324446a0.pdf%3Forigin%3Dppub&casa_token=_bH6RCC4ACUAAAAA:6HvbghkoWPlmq3p5jP8b0VKSlHYvUG4N5vtxTvO-quOBuqKZQSeQYcpylNTLjlxHEzUzvp-Eb4V0w3mdaA,1986,,,Nature 1986,,
+Reordering massive sequence views: Enabling temporal and structural analysis of dynamic networks,No,No,,"Layered graphs, dynamic, temporal event sequence","S van den Elzen, D Holten, J Blaas, JJ van Wijk",Enron dataset,Enron Dataset,,,not a real evaluation,https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6596125,2013,algorithm,1,PacificVis 2013,,1
+Optimal Sankey Diagrams via Integer Programming,No,No,,"Layered graphs, groups","Zarate, Le Bodic, Tim Dwyer, Gange, Stuckey",World Greenhouse Gas Emissions,World Greenhouse Gas Emissions,,,,https://ialab.it.monash.edu/~dwyer/papers/optimal-sankey-diagrams.pdf,2018,,,PacificVis 2018,ILP,
+"ForceAtlas2, a Continuous Graph Layout Algorithm for Handy Network Visualization Designed for the Gephi Software",No,No,,,https://www.researchgate.net/profile/Mathieu-Jacomy?_sg%5B0%5D=fE-MjRPEupqNatnumhF6dUulpvAQIcifj2fexBQWdXZdfd6747rdHfBpFZhwUj_uscFquaM.iIXB3A4ohlXYPqz1gHE6FDtjpbbzfMqLx1bTrpHe85nT2DaqXUkHTMMeO3GALMKC62XYJ83T7dbSgK-hoIcbBw&_sg%5B1%5D=PcaFT6YOiINt4PGrIc2Ml1wseMJPY6Uc2dw_yGmDiAEUQCTSZ5zrBXxXwmyLHivUVz0kK0Q.yGOZDpW7imkG0G-guR5vRpWpgeRacm3AwXOnyEsbfZVMpwcX_kaL73XCI2cgm605O7GB7dedjBiqhNFHqDU8bwhttps://www.researchgate.net/profile/Tommaso-Venturini-2?_sg%5B0%5D=fE-MjRPEupqNatnumhF6dUulpvAQIcifj2fexBQWdXZdfd6747rdHfBpFZhwUj_uscFquaM.iIXB3A4ohlXYPqz1gHE6FDtjpbbzfMqLx1bTrpHe85nT2DaqXUkHTMMeO3GALMKC62XYJ83T7dbSgK-hoIcbBw&_sg%5B1%5D=PcaFT6YOiINt4PGrIc2Ml1wseMJPY6Uc2dw_yGmDiAEUQCTSZ5zrBXxXwmyLHivUVz0kK0Q.yGOZDpW7imkG0G-guR5vRpWpgeRacm3AwXOnyEsbfZVMpwcX_kaL73XCI2cgm605O7GB7dedjBiqhNFHqDU8bwhttps://www.researchgate.net/scientific-contributions/Sebastien-Heymann-2047900074?_sg%5B0%5D=fE-MjRPEupqNatnumhF6dUulpvAQIcifj2fexBQWdXZdfd6747rdHfBpFZhwUj_uscFquaM.iIXB3A4ohlXYPqz1gHE6FDtjpbbzfMqLx1bTrpHe85nT2DaqXUkHTMMeO3GALMKC62XYJ83T7dbSgK-hoIcbBw&_sg%5B1%5D=PcaFT6YOiINt4PGrIc2Ml1wseMJPY6Uc2dw_yGmDiAEUQCTSZ5zrBXxXwmyLHivUVz0kK0Q.yGOZDpW7imkG0G-guR5vRpWpgeRacm3AwXOnyEsbfZVMpwcX_kaL73XCI2cgm605O7GB7dedjBiqhNFHqDU8bwhttps://www.researchgate.net/profile/Mathieu-Bastian?_sg%5B0%5D=fE-MjRPEupqNatnumhF6dUulpvAQIcifj2fexBQWdXZdfd6747rdHfBpFZhwUj_uscFquaM.iIXB3A4ohlXYPqz1gHE6FDtjpbbzfMqLx1bTrpHe85nT2DaqXUkHTMMeO3GALMKC62XYJ83T7dbSgK-hoIcbBw&_sg%5B1%5D=PcaFT6YOiINt4PGrIc2Ml1wseMJPY6Uc2dw_yGmDiAEUQCTSZ5zrBXxXwmyLHivUVz0kK0Q.yGOZDpW7imkG0G-guR5vRpWpgeRacm3AwXOnyEsbfZVMpwcX_kaL73XCI2cgm605O7GB7dedjBiqhNFHqDU8bw,dataset here: https://github.com/medialab/benchmarkForceAtlas2,,,,"Pretty good example of a proper evaluation
+
+Graphs in benchmark set had 5 to 23133 nodes",https://www.researchgate.net/publication/262977655_ForceAtlas2_a_Continuous_Graph_Layout_Algorithm_for_Handy_Network_Visualization_Designed_for_the_Gephi_Software,2014,algorithm,68,PLOS one,,68
+"ContexTour: Contextual Contour Visual Analysis on Dynamic Multi-
+Relational Clustering",No,No,,"dynamic, tripartite","Yu-Ru Lin1 Jimeng Sun2 Nan Cao2,3 Shixia Liu",their own,custom,,,,http://shixialiu.com/publications/contextour/paper.pdf,2010,algorithm,not specified,SIAM 2010,,
+Multi-Level Area Balancing of Clustered Graphs,No,No,https://doi.org/10.1109/TVCG.2020.3038154,"clusters, groups, labeled nodes, nodes with categorical feature","Hsiang-Yun Wu , Martin Nollenburg , and Ivan Viola",,,,,,http://yun-vis.net/projects/bionet/tvcg2020.pdf,2020,algorithm,,TVCG,,
+https://ieeexplore.ieee.org/abstract/document/9231271/,No,No,1https://doi.org/10.1109/tvcg.2020.3030442,"Layered graphs, dynamic, many layers, temporal event sequence",Di Bartolomeo et al.,chess games,Chess Games,,,,https://par.nsf.gov/servlets/purl/10200661,2020,algorithm,10,TVCG,,10
+Design Considerations for Optimizing Storyline Visualizations,No,No,,"Layered graphs, dynamic, temporal event sequence","Yuzuru Tanahashi, Kwan-Liu Ma",movie plots (lost),movie plots,,,doesn’t really have a quantitative evaluation,https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6327274,2012,algorithm,4,TVCG 2012,,4
+StoryFlow: Tracking the Evolution of Stories,No,No,,"Layered graphs, dynamic, temporal event sequence","https://www.semanticscholar.org/author/Shixia-Liu/48641970, https://www.semanticscholar.org/author/Yingcai-Wu/121962020",movie plots (lost),movie plots,,,,https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6634164,2013,algorithm,4,TVCG 2013,,4
+An Efficient Framework for Generating Storyline Visualizations from Streaming Data,No,No,,"Layered graphs, dynamic, temporal event sequence","Yuzuru Tanahashi, Chien-Hsin Hsueh, and Kwan-Liu Ma","movie plots (lost), other datasets (all lost excluding https://www.cs.cmu.edu/~enron/) ",movie plots,,,,https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7015617,2015,algorithm,8?,TVCG 2015,,8
+Dynamic Drawing of Clustered Graphs,No,No,,"clusters, dynamic, groups","Frishman, Tal",,,,,"Simple but pretty good, decent computational evaluation
+
+",https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1382908,2004,,,VIS 2004,,
+"Edge Compression Techniques for
+Visualization of Dense Directed Graphs",No,No,,"Compound graphs, Layered graphs, labeled nodes, many layers","Tim Dwyer, Nathalie Henry Riche, Kim Marriott, Christopher Mears","no experiment ",none,,,This paper studies if the number of crossing really influences accuracy - interesting,https://www.microsoft.com/en-us/research/wp-content/uploads/2016/12/edgecompression_infovis2013.pdf,2013,algorithm,,VIS 2013,,
+Automatic Polygon Layout for Primal-Dual Visualization of Hypergraphs,No,No,http://doi.org/10.1109/tvcg.2021.3114759,"clusters, groups, labeled nodes",Qu et al.,"Small Pathway, Recipe, Met-
+abolic Pathway, and KEGG Overview Pathway (look inside for details)",,,,,http://yun-vis.net/projects/bionet/tvcg2020.pdf,2021,algorithm,4,VIS 2021,,4
+Edge-Path Bundling: A Less Ambiguous Edge Bundling Approach,No,No,https://doi.ieeecomputersociety.org/10.1109/TVCG.2021.3114795,,Wallinger et al.,"custom-made, US airlines, migrations, air traffic, amazon","US airlines, air traffic, amazon, custom, migrations",,,"Has data available here: https://github.com/mwallinger-tu/edge-path-bundling/tree/master/data
+
+Also note: this paper uses larger graphs compared to the rest. Still under 1k nodes.",https://arxiv.org/pdf/2108.05467.pdf,2021,algorithm,9,VIS 2021,,9
+Stratisfimal Layout: A modular optimization model for laying out layered node-link network visualizations,No,No,https://doi.org/10.1109/TVCG.2021.3114756,"Compound graphs, Layered graphs, groups, many layers",Di Bartolomeo et al.,"Rome-Lib - layered and with added groups ",Rome-Lib,,,,https://osf.io/qdyt9,2021,algorithm,468 (graphs with too many nodes were left out from Rome-Lib),VIS 2021,ILP,468
+Experiments on Exact Crossing Minimization Using Column Generation,No,No,,,"Markus Chimani, Carsten Gutwenger, and Petra Mutzel",Rome-Lib,Rome-Lib,,,,https://link.springer.com/chapter/10.1007/11764298_28,2006,,,WEA 2006,ILP,
+A branch-and-cut approach to the crossing number problem,No,No,https://doi.org/10.1016/j.disopt.2007.05.006,,"Christoph Buchheim, Markus Chimani, Dietmar Ebner, Carsten Gutwenger, Michael Jünger, Gunnar W Klau, Petra Mutzel, René Weiskircher",Rome-Lib,Rome-Lib,,,"Uses ILP. Chapter 5 contains their experiment, and it has some mention of the challenges of running computational experiments (e.g. when to stop, timeout) - contains a comparison against a heuristic.",https://www.sciencedirect.com/science/article/pii/S1572528607000497,2006,,11389,WEA 2006,ILP,11389
+Layer-Free Upward Crossing Minimization,No,No,,Layered graphs,"Markus Chimani, Carsten Gutwenger, Petra Mutzel, and Hoi-Ming Wong","Rome-Lib, North DAGs","North Lib, Rome-Lib",,,used in dagre. experiment sorts by edges with North DAGs and by nodes with Rome-Lib,https://www.researchgate.net/publication/221131619_Layer-Free_Upward_Crossing_Minimization,2008,,,WEA 2008,,
+Visualizing Group Structures in Graphs: A Survey,No,No,,groups,"Corinna Vehlow, Fabian Beck and Daniel Weiskopf",no experiment,none,,,focuses on design space. still useful,https://onlinelibrary.wiley.com/doi/epdf/10.1111/cgf.12872?saml_referrer,2017,survey,,,,
+Using Graph Layout to Visualize Train Interconnection Data,No,No,,,"Ulrik Brandes, Dorothea Wagner",train data,train data,,,this is a good idea for the source for a natural dataset: train stations and their connections,https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.48.6703&rep=rep1&type=pdf,,,,,,

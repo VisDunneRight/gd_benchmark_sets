@@ -1,0 +1,5 @@
+__pycache__/
+# data/walshaw/
+data/
+survey/notion_key
+.DS_Store
