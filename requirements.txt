@@ -1,0 +1,5 @@
+networkx
+numpy
+matplotlib
+pandas
+altair
