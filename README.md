@@ -1,14 +1,9 @@
 # Benchmark sets
 
-Before running the tests, please unzip datasets from `data/Archive.zip` into the `data` directory.
 Make sure the folder structure looks like this:
 ```
 data/
     chess/
-    maildir/
-    north/
-    rome/
-    walshaw/
 ```
 
 ### Requirements
