@@ -1,11 +1,11 @@
 __pycache__/
-data/walshaw/
+# data/walshaw/
 # data/chess/
-data/maildir/
-data/north/
-data/rome/
-data/Storylines/
-data/Archive.zip
+# data/maildir/
+# data/north/
+# data/rome/
+# data/Storylines/
+# data/Archive.zip
 # data/
 survey/notion_key
 .DS_Store

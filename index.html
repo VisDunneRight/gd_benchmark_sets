@@ -1,0 +1,44 @@
+
+<!doctype html>
+<html>
+<head>
+    <title>Thing</title>
+    <meta name="description" content="Our first page">
+    <meta name="keywords" content="html tutorial template">
+</head>
+<body>
+Hello 
+</body>
+<script>
+    async function main(){
+        let NOTION_URL = 'https://api.notion.com/v1/databases/'
+        let TABLE_ID = "64e0439269f9497799025562a4087ce1"
+
+        // console.log("aaa")
+
+        let KEY = await fetch("./survey/notion_key").then(r => r.text())
+        let url = NOTION_URL + TABLE_ID + "/query"
+        console.log(url)
+
+        const response = await fetch(url, {
+            method: "POST", // *GET, POST, PUT, DELETE, etc.
+            mode: "no-cors", // no-cors, *cors, same-origin
+            // cache: "no-cache", // *default, no-cache, reload, force-cache, only-if-cached
+            credentials: "same-origin", // include, *same-origin, omit
+            headers: {
+                "Content-Type": "application/json",
+                'Authorization': 'Bearer ' + KEY,
+                'Notion-Version': '2022-06-28',
+                'Content-Type': 'application/json'
+            },
+            // redirect: "follow", // manual, *follow, error
+            // referrerPolicy: "no-referrer", // no-referrer, *no-referrer-when-downgrade, origin, origin-when-cross-origin, same-origin, strict-origin, strict-origin-when-cross-origin, unsafe-url
+            // body: JSON.stringify(data), // body data type must match "Content-Type" header
+        });
+
+        console.log(response)
+    }
+
+    main()
+</script>
+</html>

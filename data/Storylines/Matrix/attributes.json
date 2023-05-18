@@ -1,0 +1,16 @@
+{
+  "Jones": {"role" : "villain", "gender" : "male", "kind": "non-human"},
+  "Neo": { "role": "hero", "gender" : "male", "kind" : "human", "trope": "protagonist"},
+  "Cypher": { "role": "villain", "gender" : "male", "kind" : "human", "trope": "traitor"},
+  "Tank": { "role": "hero", "gender" : "male", "kind" : "human"},
+  "Apoc": { "role": "hero", "gender" : "male", "kind" : "human"},
+  "Brown": { "role": "villain", "gender" : "male", "kind" : "non-human", "trope": "minion"},
+  "Smith": { "role": "villain", "gender" : "male", "kind" : "non-human", "trope": "antagonist"},
+  "Squid_Robots": { "role": "villain", "gender" : "non-binary", "kind" : "non-human", "trope": "minion"},
+  "Morpheus": { "role": "hero", "gender" : "male", "kind" : "human", "trope": "mentor"},
+  "Switch": { "role": "hero", "gender" : "male", "kind" : "human"},
+  "Dozer": { "role": "hero", "gender" : "male", "kind" : "human"},
+  "Oracle": { "role": "hero", "gender" : "female", "kind" : "human", "trope": "prophet"},
+  "Mouse": { "role": "hero", "gender" : "female", "kind" : "human"},
+  "Trinity": { "role": "hero", "gender" : "female", "kind" : "human", "trope": "love interest"}
+}
