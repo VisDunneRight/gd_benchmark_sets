@@ -2,41 +2,140 @@
 <!doctype html>
 <html>
 <head>
-    <title>Thing</title>
-    <meta name="description" content="Our first page">
-    <meta name="keywords" content="html tutorial template">
+    <title>Graph Benchmark Datasets</title>
+    <meta name="description" content="Graph Benchmark Datasets">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+
+    <style>
+        #named-list {
+            display: flex;
+            flex-direction: column;
+            font-size: small;
+        }
+
+        .small-text {
+            font-size: x-small;
+        }
+    </style>
 </head>
 <body>
-Hello 
+
+    <div class="container overflow-hidden">
+        <h1 class="" style="margin-top: 5%">Graph Benchmark Datasets</h1>
+        <div class="row">
+          <!-- <div class="col-sm-2">
+            navbar navbar navbar menu menu menu <br> <br>
+            Usage instructions, cite us at [bibtex]
+          </div> -->
+          <div class="col-lg-10 bg-light">
+            The following is a list of benchmark datasets for testing graph layout algorithms. <br>
+            Click on the names of the collections to expand them and access information about their contents and a list of papers using them.
+            <br>
+            TODO: DOI links are all messed up <br>
+            TODO: add readme with figures <br>
+            TODO: make info collapsible
+            <br>
+            <br>
+            <div id="named-list">
+            </div>
+          </div>
+        </div>
+      </div>
 </body>
 <script>
+    function add_simple_field(entry, field_name, div){
+        if (entry[field_name] != "" && entry[field_name] != undefined){
+            div.append("div").html("<b>" + field_name + ": </b>" + urlify(entry[field_name]))
+        }
+    }
+
+    function urlify(text) {
+        var urlRegex = /(([a-z]+:\/\/)?(([a-z0-9\-]+\.)+([a-z]{2}|aero|arpa|biz|com|coop|edu|gov|info|int|jobs|mil|museum|name|nato|net|org|pro|travel|local|internal))(:[0-9]{1,5})?(\/[a-z0-9_\-\.~]+)*(\/([a-z0-9_\-\.]*)(\?[a-z0-9+_\-\.%=&amp;]*)?)?(#[a-zA-Z0-9!$&'()*+.=-_~:@/?]*)?)(\s+|$)/gi;
+        return text.replace(urlRegex, function(url) {
+            return '<a href="' + url + '">' + url + '</a>';
+        })
+    }
+
+    function doify(text){
+        if (text == "" || text == undefined) return text;
+        if (text.includes("doi")) return (text);
+        else return ("https://doi.org/" + text);
+    }
+
+    graph_feature_tags = []
+    graph_feature_tags_colors = ["#9B9A97", "#64473A", "#D9730D", "#DFAB01", "#0F7B6C", "#0B6E99", "#6940A5", "#AD1A72", "#E03E3E"]
+
     async function main(){
-        let NOTION_URL = 'https://api.notion.com/v1/databases/'
-        let TABLE_ID = "64e0439269f9497799025562a4087ce1"
+        let data = await d3.csv("notion_data/Benchmark datasets 64e0439269f9497799025562a4087ce1.csv")
+        let named_list_dom = d3.select("#named-list")
 
-        // console.log("aaa")
+        for (let entry of data){
+            if (entry["graph features handled"] != "" && entry["graph features handled"] != undefined){
+                let tags = entry["graph features handled"].split(",")
+                for (let tag of tags){
+                    if (!graph_feature_tags.includes(tag)){
+                        graph_feature_tags.push(tag)
+                    }
+                }
+            }
+        }
+        
+        for (let entry of data){
+            console.log(entry)
 
-        let KEY = await fetch("./survey/notion_key").then(r => r.text())
-        let url = NOTION_URL + TABLE_ID + "/query"
-        console.log(url)
+            let row = named_list_dom.append("div")
+                .attr("class", "row")
 
-        const response = await fetch(url, {
-            method: "POST", // *GET, POST, PUT, DELETE, etc.
-            mode: "no-cors", // no-cors, *cors, same-origin
-            // cache: "no-cache", // *default, no-cache, reload, force-cache, only-if-cached
-            credentials: "same-origin", // include, *same-origin, omit
-            headers: {
-                "Content-Type": "application/json",
-                'Authorization': 'Bearer ' + KEY,
-                'Notion-Version': '2022-06-28',
-                'Content-Type': 'application/json'
-            },
-            // redirect: "follow", // manual, *follow, error
-            // referrerPolicy: "no-referrer", // no-referrer, *no-referrer-when-downgrade, origin, origin-when-cross-origin, same-origin, strict-origin, strict-origin-when-cross-origin, unsafe-url
-            // body: JSON.stringify(data), // body data type must match "Content-Type" header
-        });
+            row.append("div")
+                .attr("class", "col")
+                .append("a")
+                .style("font-weight", "bold")
+                .html("<u>" + entry["Name"] + "</u>")
 
-        console.log(response)
+            let gfeatures = row.append("div")
+                .attr("class", "col")
+            for (let graph_feature of entry["graph features handled"].split(",")){
+                gfeatures.append("div")
+                    .attr("class", "rounded-pill badge")
+                    .style("margin", "2px")
+                    .style("background-color", graph_feature_tags_colors[graph_feature_tags.indexOf(graph_feature)%graph_feature_tags_colors.length])
+                    .text(graph_feature)
+            }
+
+            let inforow = named_list_dom.append("div")
+                .append("div")
+                .attr("class", "row")
+                .append("div")
+                .attr("class", "col small-text")
+
+            add_simple_field(entry, "where to find", inforow)
+            add_simple_field(entry, "Note", inforow)
+            add_simple_field(entry, "Number of Files", inforow)
+            add_simple_field(entry, "Size", inforow)
+            add_simple_field(entry, "Origin Notes", inforow)
+            add_simple_field(entry, "Format", inforow)
+
+            inforow.append("div").html("<b>Origin paper: </b>")
+            for (let e of entry["Origin paper plaintext"].split(",")){
+                if (e != "") inforow.append("div").html(urlify(e))
+            }
+
+            inforow.append("div").html("<b>Usage examples: </b>")
+            for (let i in entry["Related to Literature plaintext"].split(",")){
+                let e = entry["Related to Literature plaintext"].split(",")[i]
+                if (e != "") {
+                    let doi = doify(entry["Related to Literature DOIs plaintext"].split(",")[i])
+                    let link;
+                    if (doi != undefined && doi != "") link = '<a href="' + doi + '">[link]</a>'
+                    else link = ""
+                    inforow.append("div").html(link + " &nbsp; " + urlify(e))
+                }
+            }
+
+            inforow.append("br")
+        }
     }
 
     main()
