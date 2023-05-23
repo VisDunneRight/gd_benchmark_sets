@@ -7,6 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
     <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.1.0/showdown.min.js"></script>
 
     <style>
         #named-list {
@@ -16,7 +17,7 @@
         }
 
         .small-text {
-            font-size: x-small;
+            font-size: small;
         }
     </style>
 </head>
@@ -33,9 +34,9 @@
             The following is a list of benchmark datasets for testing graph layout algorithms. <br>
             Click on the names of the collections to expand them and access information about their contents and a list of papers using them.
             <br>
-            TODO: DOI links are all messed up <br>
-            TODO: add readme with figures <br>
-            TODO: make info collapsible
+            TODO: split between different types of collections <br>
+            TODO: sort with some criteria <br>
+            TODO: have some stopword to stop drawing info
             <br>
             <br>
             <div id="named-list">
@@ -64,12 +65,41 @@
         else return ("https://doi.org/" + text);
     }
 
+    function getTextAfterSecondEmptyLine(input) {
+        const lines = input.split('\n');
+        let emptyLineCount = 0;
+        let text = '';
+
+        for (let i = 0; i < lines.length; i++) {
+            const line = lines[i].trim();
+            
+            if (line === '') {
+                emptyLineCount++;
+                
+                if (emptyLineCount === 2) {
+                    // Collect text after the second empty line
+                    text = lines.slice(i + 1).join('\n');
+                    break;
+                }
+            } 
+        }
+        
+        return text;
+    }
+
+    function name_cleanup(name){
+        return name.replace("(", "").replace(")", "").replace(" ", "_").replace(".", "").replace("'", "").replace("&", "").replace(" ", "")
+    }
+
     graph_feature_tags = []
     graph_feature_tags_colors = ["#9B9A97", "#64473A", "#D9730D", "#DFAB01", "#0F7B6C", "#0B6E99", "#6940A5", "#AD1A72", "#E03E3E"]
 
     async function main(){
         let data = await d3.csv("notion_data/Benchmark datasets 64e0439269f9497799025562a4087ce1.csv")
+        let paper_data = await d3.csv("notion_data/Literature - Algorithm 12e01bfc60a84007aa7d2d34293e123d 5.csv")
         let named_list_dom = d3.select("#named-list")
+
+        // console.log(paper_data)
 
         for (let entry of data){
             if (entry["graph features handled"] != "" && entry["graph features handled"] != undefined){
@@ -83,7 +113,7 @@
         }
         
         for (let entry of data){
-            console.log(entry)
+            // console.log(entry)
 
             let row = named_list_dom.append("div")
                 .attr("class", "row")
@@ -93,6 +123,12 @@
                 .append("a")
                 .style("font-weight", "bold")
                 .html("<u>" + entry["Name"] + "</u>")
+                .attr("data-bs-toggle", "collapse")
+                .attr("href", "#inforow_" + name_cleanup(entry["Name"]))
+                .attr("aria-expanded", "false")
+                .attr("aria-controls", "inforow_" + name_cleanup(entry["Name"]))
+                .style("color", "black")
+                .attr("role", "button")
 
             let gfeatures = row.append("div")
                 .attr("class", "col")
@@ -104,9 +140,15 @@
                     .text(graph_feature)
             }
 
-            let inforow = named_list_dom.append("div")
+            let infocontainer = named_list_dom.append("div")
+                .attr("class", "container collapse")
+                .attr("id", "inforow_" + name_cleanup(entry["Name"]))
+                .style("padding", "2%")
+                // .style("margin", "2%")
+
+            let inforow = infocontainer.append("div")
                 .append("div")
-                .attr("class", "row")
+                .attr("class", "card card-body")
                 .append("div")
                 .attr("class", "col small-text")
 
@@ -119,22 +161,56 @@
 
             inforow.append("div").html("<b>Origin paper: </b>")
             for (let e of entry["Origin paper plaintext"].split(",")){
-                if (e != "") inforow.append("div").html(urlify(e))
+                e = e.trim();
+                if (e == "") continue;
+                let origindoi = (paper_data.find(a => a.Name == e) || {}).DOI
+                if (origindoi != undefined && origindoi != "") 
+                    inforow.append("div").html('<a href="' + doify(origindoi) + '">' + "[link]" + '</a> &nbsp;' + e)
+                else inforow.append("div").html(e)
             }
 
             inforow.append("div").html("<b>Usage examples: </b>")
             for (let i in entry["Related to Literature plaintext"].split(",")){
-                let e = entry["Related to Literature plaintext"].split(",")[i]
+                let e = entry["Related to Literature plaintext"].split(",")[i].trim()
                 if (e != "") {
-                    let doi = doify(entry["Related to Literature DOIs plaintext"].split(",")[i])
+                    let doi = (paper_data.find(a => a.Name == e) || {}).DOI
                     let link;
-                    if (doi != undefined && doi != "") link = '<a href="' + doi + '">[link]</a>'
+                    if (doi != undefined && doi != "") link = '<a href="' + doify(doi) + '">[link]</a>'
                     else link = ""
                     inforow.append("div").html(link + " &nbsp; " + urlify(e))
                 }
             }
 
             inforow.append("br")
+
+            // DRAW REST OF THE PAGE
+            let otherinfo = ""
+            try{
+                let otherinfo = await fetch("notion_data/Benchmark datasets 64e0439269f9497799025562a4087ce1/" + entry["Name"].replace(".", "") + " " + entry["Page id"] + ".md")
+                otherinfo = await otherinfo.text()
+                var converter = new showdown.Converter();
+                
+                otherinfo = getTextAfterSecondEmptyLine(otherinfo);
+                
+                for (let line of otherinfo.split("\n")){
+                    if (line[0] == "!") {
+                        let img = line.split("(")[1].slice(0, -1)
+                        inforow.append("div")
+                            .style("text-align", "center")
+                            .append("img")
+                            .attr("src", "notion_data/Benchmark datasets 64e0439269f9497799025562a4087ce1/" + img)
+                            .attr("width", "50%")
+                    }
+                    else inforow.append("div").html(converter.makeHtml(line))
+                    
+                }
+
+            } catch (e){
+                console.log(e)
+            }
+
+            inforow.append("br")
+            // break;
         }
     }
 
