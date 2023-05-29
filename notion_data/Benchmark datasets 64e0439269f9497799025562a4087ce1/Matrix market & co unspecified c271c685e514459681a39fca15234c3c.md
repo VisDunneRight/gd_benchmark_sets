@@ -1,5 +1,6 @@
 # Matrix market & co unspecified
 
+Added in paper: No
 Appeared in years: 1
 Graph features in papers: 2
 In repo?: No
@@ -14,5 +15,6 @@ duplicate?: No
 is it stored properly?: No
 link works?: No
 must be analyzed: No
+unavailable/skip: No
 
 probably comes from [An Experimental Comparison of Fast Algorithms for Drawing General Large Graphs](https://www.notion.so/An-Experimental-Comparison-of-Fast-Algorithms-for-Drawing-General-Large-Graphs-190e5036cf974a879b50614cfff525f1)

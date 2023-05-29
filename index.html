@@ -14,10 +14,21 @@
             display: flex;
             flex-direction: column;
             font-size: small;
+            padding-bottom: 5%;
         }
 
         .small-text {
             font-size: small;
+        }
+
+        .footer{
+            /* position: fixed; */
+            bottom: 0;
+            width: 100%;
+            height: 2.5rem;
+            background-color: gray;
+            text-align: center;
+            padding-top: 1%;
         }
     </style>
 </head>
@@ -34,15 +45,17 @@
             The following is a list of benchmark datasets for testing graph layout algorithms. <br>
             Click on the names of the collections to expand them and access information about their contents and a list of papers using them.
             <br>
-            TODO: split between different types of collections <br>
             TODO: sort with some criteria <br>
-            TODO: have some stopword to stop drawing info
             <br>
             <br>
             <div id="named-list">
             </div>
           </div>
         </div>
+      </div>
+
+      <div class="footer">
+        Hello I am footer
       </div>
 </body>
 <script>
@@ -88,18 +101,124 @@
     }
 
     function name_cleanup(name){
-        return name.replace("(", "").replace(")", "").replace(" ", "_").replace(".", "").replace("'", "").replace("&", "").replace(" ", "")
+        return name.replace("(", "").replace(")", "").replace(" ", "_").replace(".", "").replace("'", "").replace("&", "").replaceAll(" ", "")
+    }
+
+    async function add_entry_row(named_list_dom, paper_data, entry){
+        // console.log(entry["Type of Collection"])
+        
+        let row = named_list_dom.append("div")
+            .attr("class", "row")
+
+        row.append("div")
+            .attr("class", "col")
+            .append("a")
+            .style("font-weight", "bold")
+            .html("<u>" + entry["Name"] + "</u>")
+            .attr("data-bs-toggle", "collapse")
+            .attr("href", "#inforow_" + name_cleanup(entry["Name"]))
+            .attr("aria-expanded", "false")
+            .attr("aria-controls", "inforow_" + name_cleanup(entry["Name"]))
+            .style("color", "black")
+            .attr("role", "button")
+
+        let gfeatures = row.append("div")
+            .attr("class", "col")
+        
+        for (let graph_feature of entry["graph features handled"].split(",")){
+            gfeatures.append("div")
+                .attr("class", "rounded-pill badge")
+                .style("margin", "2px")
+                .style("background-color", graph_feature_tags_colors[graph_feature_tags.indexOf(graph_feature)%graph_feature_tags_colors.length])
+                .text(graph_feature)
+        }
+
+        let infocontainer = row.append("div")
+            .attr("class", "container collapse")
+            .attr("id", "inforow_" + name_cleanup(entry["Name"]))
+            .style("padding", "2%")
+
+        let inforow = infocontainer.append("div")
+            .append("div")
+            .attr("class", "card card-body")
+            .append("div")
+            .attr("class", "col small-text")
+
+        add_simple_field(entry, "where to find", inforow)
+        add_simple_field(entry, "Note", inforow)
+        add_simple_field(entry, "Number of Files", inforow)
+        add_simple_field(entry, "Size", inforow)
+        add_simple_field(entry, "Origin Notes", inforow)
+        add_simple_field(entry, "Format", inforow)
+
+        inforow.append("div").html("<b>Origin paper: </b>")
+        for (let e of entry["Origin paper plaintext"].split(",")){
+            e = e.trim();
+            if (e == "") continue;
+            let origindoi = (paper_data.find(a => a.Name == e) || {}).DOI
+            if (origindoi != undefined && origindoi != "") 
+                inforow.append("div").html('<a href="' + doify(origindoi) + '">' + "[link]" + '</a> &nbsp;' + e)
+            else inforow.append("div").html(e)
+        }
+
+        inforow.append("div").html("<b>Usage examples: </b>")
+        for (let i in entry["Related to Literature plaintext"].split(",")){
+            let e = entry["Related to Literature plaintext"].split(",")[i].trim()
+            if (e != "") {
+                let doi = (paper_data.find(a => a.Name == e) || {}).DOI
+                let link;
+                if (doi != undefined && doi != "") link = '<a href="' + doify(doi) + '">[link]</a>'
+                else link = ""
+                inforow.append("div").html(link + " &nbsp; " + urlify(e))
+            }
+        }
+
+        inforow.append("br")
+
+        // DRAW REST OF THE PAGE
+        let otherinfo = ""
+        try{
+            let otherinfo = await fetch("notion_data/Benchmark datasets 64e0439269f9497799025562a4087ce1/" + entry["Name"].replace(".", "") + " " + entry["Page id"] + ".md")
+            otherinfo = await otherinfo.text()
+            var converter = new showdown.Converter();
+            
+            otherinfo = getTextAfterSecondEmptyLine(otherinfo);
+            
+            for (let line of otherinfo.split("\n")){
+                if (line[0] == "!") {
+                    let img = line.split("(")[1].slice(0, -1)
+                    inforow.append("div")
+                        .style("text-align", "center")
+                        .append("img")
+                        .attr("src", "notion_data/Benchmark datasets 64e0439269f9497799025562a4087ce1/" + img)
+                        .attr("width", "50%")
+                } else if (line.includes("STOP RENDERING")){
+                     break;
+                } else inforow.append("div").html(converter.makeHtml(line))
+                
+            }
+
+        } catch (e){
+            console.log(e)
+        }
+
+        inforow.append("br")
+        // break;
+
+        row.append("hr")
+            .style("margin-left", "2.5%")
+            .style("width", "95%")
+            .style("margin-top", "5px")
+            .style("margin-bottom", "5px")
     }
 
     graph_feature_tags = []
     graph_feature_tags_colors = ["#9B9A97", "#64473A", "#D9730D", "#DFAB01", "#0F7B6C", "#0B6E99", "#6940A5", "#AD1A72", "#E03E3E"]
 
     async function main(){
-        let data = await d3.csv("notion_data/Benchmark datasets 64e0439269f9497799025562a4087ce1.csv")
+        let data = await d3.csv("notion_data/Benchmark datasets 64e0439269f9497799025562a4087ce1 4.csv")
         let paper_data = await d3.csv("notion_data/Literature - Algorithm 12e01bfc60a84007aa7d2d34293e123d 5.csv")
         let named_list_dom = d3.select("#named-list")
-
-        // console.log(paper_data)
 
         for (let entry of data){
             if (entry["graph features handled"] != "" && entry["graph features handled"] != undefined){
@@ -111,107 +230,96 @@
                 }
             }
         }
+
+        named_list_dom.append("div")
+            .attr("class", "row")
+            .append("div")
+            .attr("class", "col")
+            .append("h3")
+            .text("Benchmark datasets")
+            .style("margin-top", "10px")
+
+        named_list_dom.append("div")
+            .attr("class", "row")
+            .append("div")
+            .attr("class", "col")
+            .append("p")
+            .text("These are collections of graphs that have been frequently used in graph drawing papers. By clicking on each collection name, you can see additional information. We also provide an analysis of the contents of each collection, and a list of papers that use them, their sources, and various types of information.")
+            .style("color", "gray")
         
-        for (let entry of data){
-            // console.log(entry)
-
-            let row = named_list_dom.append("div")
-                .attr("class", "row")
-
-            row.append("div")
-                .attr("class", "col")
-                .append("a")
-                .style("font-weight", "bold")
-                .html("<u>" + entry["Name"] + "</u>")
-                .attr("data-bs-toggle", "collapse")
-                .attr("href", "#inforow_" + name_cleanup(entry["Name"]))
-                .attr("aria-expanded", "false")
-                .attr("aria-controls", "inforow_" + name_cleanup(entry["Name"]))
-                .style("color", "black")
-                .attr("role", "button")
-
-            let gfeatures = row.append("div")
-                .attr("class", "col")
-            for (let graph_feature of entry["graph features handled"].split(",")){
-                gfeatures.append("div")
-                    .attr("class", "rounded-pill badge")
-                    .style("margin", "2px")
-                    .style("background-color", graph_feature_tags_colors[graph_feature_tags.indexOf(graph_feature)%graph_feature_tags_colors.length])
-                    .text(graph_feature)
-            }
-
-            let infocontainer = named_list_dom.append("div")
-                .attr("class", "container collapse")
-                .attr("id", "inforow_" + name_cleanup(entry["Name"]))
-                .style("padding", "2%")
-                // .style("margin", "2%")
-
-            let inforow = infocontainer.append("div")
-                .append("div")
-                .attr("class", "card card-body")
-                .append("div")
-                .attr("class", "col small-text")
-
-            add_simple_field(entry, "where to find", inforow)
-            add_simple_field(entry, "Note", inforow)
-            add_simple_field(entry, "Number of Files", inforow)
-            add_simple_field(entry, "Size", inforow)
-            add_simple_field(entry, "Origin Notes", inforow)
-            add_simple_field(entry, "Format", inforow)
-
-            inforow.append("div").html("<b>Origin paper: </b>")
-            for (let e of entry["Origin paper plaintext"].split(",")){
-                e = e.trim();
-                if (e == "") continue;
-                let origindoi = (paper_data.find(a => a.Name == e) || {}).DOI
-                if (origindoi != undefined && origindoi != "") 
-                    inforow.append("div").html('<a href="' + doify(origindoi) + '">' + "[link]" + '</a> &nbsp;' + e)
-                else inforow.append("div").html(e)
-            }
-
-            inforow.append("div").html("<b>Usage examples: </b>")
-            for (let i in entry["Related to Literature plaintext"].split(",")){
-                let e = entry["Related to Literature plaintext"].split(",")[i].trim()
-                if (e != "") {
-                    let doi = (paper_data.find(a => a.Name == e) || {}).DOI
-                    let link;
-                    if (doi != undefined && doi != "") link = '<a href="' + doify(doi) + '">[link]</a>'
-                    else link = ""
-                    inforow.append("div").html(link + " &nbsp; " + urlify(e))
-                }
-            }
-
-            inforow.append("br")
-
-            // DRAW REST OF THE PAGE
-            let otherinfo = ""
-            try{
-                let otherinfo = await fetch("notion_data/Benchmark datasets 64e0439269f9497799025562a4087ce1/" + entry["Name"].replace(".", "") + " " + entry["Page id"] + ".md")
-                otherinfo = await otherinfo.text()
-                var converter = new showdown.Converter();
-                
-                otherinfo = getTextAfterSecondEmptyLine(otherinfo);
-                
-                for (let line of otherinfo.split("\n")){
-                    if (line[0] == "!") {
-                        let img = line.split("(")[1].slice(0, -1)
-                        inforow.append("div")
-                            .style("text-align", "center")
-                            .append("img")
-                            .attr("src", "notion_data/Benchmark datasets 64e0439269f9497799025562a4087ce1/" + img)
-                            .attr("width", "50%")
-                    }
-                    else inforow.append("div").html(converter.makeHtml(line))
-                    
-                }
-
-            } catch (e){
-                console.log(e)
-            }
-
-            inforow.append("br")
-            // break;
+        for (let entry of data.filter(d => d["Type of Collection"] == "Small Collection (Do report)")){
+            entry.added = true;
+            await add_entry_row(named_list_dom, paper_data, entry)
         }
+
+        named_list_dom.append("div")
+            .attr("class", "row")
+            .append("div")
+            .attr("class", "col")
+            .append("h3")
+            .text("Large, well-known collections")
+            .style("margin-top", "10px")
+
+        named_list_dom.append("div")
+            .attr("class", "row")
+            .append("div")
+            .attr("class", "col")
+            .append("p")
+            .text("The following collections are organized, classified and maintained by other people or institutions. We do not claim any ownership over them, and we do not guarantee that they will be maintained in the future. We provide links to them for convenience, as well as information about which papers use them and what features are contained in the graphs in them.")
+            .style("color", "gray")
+
+        for (let entry of data.filter(d => d["Type of Collection"] == "Large Collection (No report)")){
+            entry.added = true;
+            await add_entry_row(named_list_dom, paper_data, entry)
+        }
+
+        named_list_dom.append("div")
+            .attr("class", "row")
+            .append("div")
+            .attr("class", "col")
+            .append("h3")
+            .text("Aggregate collections")
+            .style("margin-top", "10px")
+
+        named_list_dom.append("div")
+            .attr("class", "row")
+            .append("div")
+            .attr("class", "col")
+            .append("p")
+            .text("The following collections are aggregates: they share similar sources and similar features/purpose. ")
+            .style("color", "gray")
+
+        for (let entry of data.filter(d => d["Type of Collection"] == "Aggregate collection")){
+            entry.added = true;
+            await add_entry_row(named_list_dom, paper_data, entry)
+        }
+
+        named_list_dom.append("div")
+            .attr("class", "row")
+            .append("div")
+            .attr("class", "col")
+            .append("h3")
+            .text("Single Graphs")
+            .style("margin-top", "10px")
+
+        for (let entry of data.filter(d => d["Type of Collection"] == "Single Graph (Do report)")){
+            entry.added = true;
+            await add_entry_row(named_list_dom, paper_data, entry)
+        }
+
+        named_list_dom.append("div")
+            .attr("class", "row")
+            .append("div")
+            .attr("class", "col")
+            .append("h3")
+            .text("Other")
+            .style("margin-top", "10px")
+
+        for (let entry of data.filter(d => d.added != true)){
+            entry.added = true;
+            await add_entry_row(named_list_dom, paper_data, entry)
+        }
+
     }
 
     main()

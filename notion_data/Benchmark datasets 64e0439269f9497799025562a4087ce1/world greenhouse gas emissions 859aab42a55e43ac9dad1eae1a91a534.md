@@ -1,23 +1,26 @@
 # world greenhouse gas emissions
 
+Added in paper: No
 Appeared in years: 1
 Graph features in papers: 3
-In repo?: No
+In repo?: Yes
 Origin Notes: Data collected by the World Resources Institute
 Page id: 859aab42a55e43ac9dad1eae1a91a534
 Related to Literature - Algorithm (1) (Dataset tag relations): https://www.notion.so/Optimal-Sankey-Diagrams-via-Integer-Programming-87de96d0019e4e27ba0e57c27a0d5b15
 Related to Literature - Algorithm (Dataset tag relations) 1: https://www.notion.so/Optimal-Sankey-Diagrams-via-Integer-Programming-fcb5d816998f40d6b57c4d8dd5a8b52f
-Related to Literature DOIs: 10.1109/PacificVis.2018.00025
-Related to Literature DOIs plaintext: 10.1109/PacificVis.2018.00025
+Related to Literature DOIs: https://doi.org/10.1109/PacificVis.2018.00025
+Related to Literature DOIs plaintext: https://doi.org/10.1109/PacificVis.2018.00025
 Related to Literature plaintext: Optimal Sankey Diagrams via Integer Programming
 Size: 5 datasets
-cleaned format?: No
+cleaned format?: Yes
 duplicate?: No
 is it stored properly?: No
 link works?: No
 must be analyzed: No
+unavailable/skip: No
 where to find: https://www.wri.org/data/world-greenhouse-gas-emissions-2005
 https://www.wri.org/search?keys=world%20greenhouse%20gas%20emissions&f%5B0%5D=content_type%3Adata
+https://github.com/lhc70000/sankey/tree/master
 
 Data exists for 5 years on the WRI website: 2000, 2005, 2016, 2018, and 2019.
 

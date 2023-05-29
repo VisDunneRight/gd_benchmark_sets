@@ -1,5 +1,6 @@
 # Investment interdependence
 
+Added in paper: No
 Appeared in years: 1
 Graph features in papers: 3
 In repo?: No
@@ -14,3 +15,4 @@ duplicate?: No
 is it stored properly?: No
 link works?: No
 must be analyzed: No
+unavailable/skip: No
