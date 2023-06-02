@@ -45,7 +45,7 @@
             The following is a list of benchmark datasets for testing graph layout algorithms. <br>
             Click on the names of the collections to expand them and access information about their contents and a list of papers using them.
             <br>
-            TODO: sort with some criteria <br>
+            
             <br>
             <br>
             <div id="named-list">
@@ -105,7 +105,7 @@
     }
 
     async function add_entry_row(named_list_dom, paper_data, entry){
-        // console.log(entry["Type of Collection"])
+        console.log(entry["Type of Collection"])
         
         let row = named_list_dom.append("div")
             .attr("class", "row")
@@ -216,7 +216,7 @@
     graph_feature_tags_colors = ["#9B9A97", "#64473A", "#D9730D", "#DFAB01", "#0F7B6C", "#0B6E99", "#6940A5", "#AD1A72", "#E03E3E"]
 
     async function main(){
-        let data = await d3.csv("notion_data/Benchmark datasets 64e0439269f9497799025562a4087ce1 4.csv")
+        let data = await d3.csv("notion_data/Benchmark datasets 64e0439269f9497799025562a4087ce1.csv")
         let paper_data = await d3.csv("notion_data/Literature - Algorithm 12e01bfc60a84007aa7d2d34293e123d 5.csv")
         let named_list_dom = d3.select("#named-list")
 
@@ -229,6 +229,11 @@
                     }
                 }
             }
+        }
+
+        for (let entry of data.filter(d => d["Type of Collection"] == "Skip")){
+            entry.added = true;
+            continue;
         }
 
         named_list_dom.append("div")
@@ -247,7 +252,7 @@
             .text("These are collections of graphs that have been frequently used in graph drawing papers. By clicking on each collection name, you can see additional information. We also provide an analysis of the contents of each collection, and a list of papers that use them, their sources, and various types of information.")
             .style("color", "gray")
         
-        for (let entry of data.filter(d => d["Type of Collection"] == "Small Collection (Do report)")){
+        for (let entry of data.filter(d => d["Type of Collection"] == "Uniform Benchmark")){
             entry.added = true;
             await add_entry_row(named_list_dom, paper_data, entry)
         }
@@ -257,7 +262,7 @@
             .append("div")
             .attr("class", "col")
             .append("h3")
-            .text("Large, well-known collections")
+            .text("Established Network Repositories")
             .style("margin-top", "10px")
 
         named_list_dom.append("div")
@@ -268,7 +273,7 @@
             .text("The following collections are organized, classified and maintained by other people or institutions. We do not claim any ownership over them, and we do not guarantee that they will be maintained in the future. We provide links to them for convenience, as well as information about which papers use them and what features are contained in the graphs in them.")
             .style("color", "gray")
 
-        for (let entry of data.filter(d => d["Type of Collection"] == "Large Collection (No report)")){
+        for (let entry of data.filter(d => d["Type of Collection"] == "Established Network Repo (No report)")){
             entry.added = true;
             await add_entry_row(named_list_dom, paper_data, entry)
         }
@@ -286,7 +291,7 @@
             .append("div")
             .attr("class", "col")
             .append("p")
-            .text("The following collections are aggregates: they share similar sources and similar features/purpose. ")
+            .text("The following collections are aggregates: they share similar sources and similar features/purpose, but come from different sources. ")
             .style("color", "gray")
 
         for (let entry of data.filter(d => d["Type of Collection"] == "Aggregate collection")){
@@ -302,7 +307,36 @@
             .text("Single Graphs")
             .style("margin-top", "10px")
 
-        for (let entry of data.filter(d => d["Type of Collection"] == "Single Graph (Do report)")){
+        named_list_dom.append("div")
+            .attr("class", "row")
+            .append("div")
+            .attr("class", "col")
+            .append("p")
+            .text("The following are not collections, but individual graphs. They are often used as examples in papers, or as test cases for specific features. ")
+            .style("color", "gray")
+
+        for (let entry of data.filter(d => d["Type of Collection"] == "Single Graph")){
+            entry.added = true;
+            await add_entry_row(named_list_dom, paper_data, entry)
+        }
+
+        named_list_dom.append("div")
+            .attr("class", "row")
+            .append("div")
+            .attr("class", "col")
+            .append("h3")
+            .text("Lost or Unavailable")
+            .style("margin-top", "10px")
+
+        named_list_dom.append("div")
+            .attr("class", "row")
+            .append("div")
+            .attr("class", "col")
+            .append("p")
+            .text("The following collections are unavailable, often due to link rot or unmaintained websites. We invite whoever might have access to these collections to contact us so that we can add them to the list, or gather more information about them. ")
+            .style("color", "gray")
+
+        for (let entry of data.filter(d => d["Type of Collection"] == "Lost/Unavailable")){
             entry.added = true;
             await add_entry_row(named_list_dom, paper_data, entry)
         }

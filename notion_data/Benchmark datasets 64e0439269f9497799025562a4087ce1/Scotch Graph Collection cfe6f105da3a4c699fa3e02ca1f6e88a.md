@@ -2,6 +2,8 @@
 
 Added in paper: No
 Appeared in years: 1
+Child collections: C. Walshaw (C%20Walshaw%20e40b37a1147942d89ff1d8dfad285256.md)
+Cleaned ALL data: No
 Graph features in papers: 2
 In repo?: Yes
 Note: The SCOTCH software package is produced by the SCOTCH project whose goal is to study static mapping by the means of graph theory, using a “divide and conquer'' approach.
@@ -11,12 +13,12 @@ Number of Files: 39
 Origin Notes: Collection consisting of graphs from various sources including topological meshes, meshes related to physicla problems (fluid dynamics, structural mechanics, combinatorial optimization), and interprocess communicaiton graphs for a parallel computing implementation of a factorization solver. 
 Collected from Steve Hammond, the Harwell-Boeing Collection, Bruce Hendrickson, and Horst Simon.
 Page id: cfe6f105da3a4c699fa3e02ca1f6e88a
-Related to Literature - Algorithm (1) (Dataset tag relations): https://www.notion.so/ACE-A-Fast-Multiscale-Eigenvectors-Computation-for-Drawing-Huge-Graphs-44f8183954f14ada944d642d9ff1298e, https://www.notion.so/A-Fast-Multi-Scale-Method-for-Drawing-Large-Graphs-a49d7ec5808945baae7a5246a191c986
-Related to Literature - Algorithm (Dataset tag relations) 1: https://www.notion.so/A-Fast-Multi-Scale-Method-for-Drawing-Large-Graphs-fdc9e1d148bc4fcd848d8b4cc959cdfd, https://www.notion.so/ACE-A-Fast-Multiscale-Eigenvectors-Computation-for-Drawing-Huge-Graphs-5e8de72ea8d0436babf760ca379cc457
+Related to Literature - Algorithm (1) (Dataset tag relations): ACE: A Fast Multiscale Eigenvectors Computation for Drawing Huge Graphs (https://www.notion.so/ACE-A-Fast-Multiscale-Eigenvectors-Computation-for-Drawing-Huge-Graphs-44f8183954f14ada944d642d9ff1298e?pvs=21), A Fast Multi-Scale Method for Drawing Large Graphs (https://www.notion.so/A-Fast-Multi-Scale-Method-for-Drawing-Large-Graphs-a49d7ec5808945baae7a5246a191c986?pvs=21)
+Related to Literature - Algorithm (Dataset tag relations) 1: A Fast Multi-Scale Method for Drawing Large Graphs (https://www.notion.so/A-Fast-Multi-Scale-Method-for-Drawing-Large-Graphs-fdc9e1d148bc4fcd848d8b4cc959cdfd?pvs=21), ACE: A Fast Multiscale Eigenvectors Computation for Drawing Huge Graphs (https://www.notion.so/ACE-A-Fast-Multiscale-Eigenvectors-Computation-for-Drawing-Huge-Graphs-5e8de72ea8d0436babf760ca379cc457?pvs=21)
 Related to Literature DOIs: https://doi.org/10.1007/3-540-44541-2_18,https://doi.org/10.1109/INFVIS.2002.1173159
 Related to Literature DOIs plaintext: https://doi.org/10.1007/3-540-44541-2_18,https://doi.org/10.1109/INFVIS.2002.1173159
 Related to Literature plaintext: A Fast Multi-Scale Method for Drawing Large Graphs, ACE: A Fast Multiscale Eigenvectors Computation for Drawing Huge Graphs
-Type of Collection: Large Collection (No report)
+Type of Collection: Uniform Benchmark
 cleaned format?: Yes
 duplicate?: No
 format: Scotch (.src files) - first line is the number of vertices followed by . number of arcs (2 time |E|). Then each line represents a vertex with the following format:

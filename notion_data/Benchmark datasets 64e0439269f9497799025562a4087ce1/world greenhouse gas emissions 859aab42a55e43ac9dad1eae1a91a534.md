@@ -2,18 +2,21 @@
 
 Added in paper: No
 Appeared in years: 1
+Cleaned ALL data: No
 Graph features in papers: 3
 In repo?: Yes
 Origin Notes: Data collected by the World Resources Institute
 Page id: 859aab42a55e43ac9dad1eae1a91a534
-Related to Literature - Algorithm (1) (Dataset tag relations): https://www.notion.so/Optimal-Sankey-Diagrams-via-Integer-Programming-87de96d0019e4e27ba0e57c27a0d5b15
-Related to Literature - Algorithm (Dataset tag relations) 1: https://www.notion.so/Optimal-Sankey-Diagrams-via-Integer-Programming-fcb5d816998f40d6b57c4d8dd5a8b52f
+Related to Literature - Algorithm (1) (Dataset tag relations): Optimal Sankey Diagrams via Integer Programming (https://www.notion.so/Optimal-Sankey-Diagrams-via-Integer-Programming-87de96d0019e4e27ba0e57c27a0d5b15?pvs=21)
+Related to Literature - Algorithm (Dataset tag relations) 1: Optimal Sankey Diagrams via Integer Programming (https://www.notion.so/Optimal-Sankey-Diagrams-via-Integer-Programming-fcb5d816998f40d6b57c4d8dd5a8b52f?pvs=21)
 Related to Literature DOIs: https://doi.org/10.1109/PacificVis.2018.00025
 Related to Literature DOIs plaintext: https://doi.org/10.1109/PacificVis.2018.00025
 Related to Literature plaintext: Optimal Sankey Diagrams via Integer Programming
 Size: 5 datasets
+Type of Collection: Single Graph
 cleaned format?: Yes
 duplicate?: No
+graph features handled: Layered graphs
 is it stored properly?: No
 link works?: No
 must be analyzed: No

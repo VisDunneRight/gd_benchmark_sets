@@ -1,8 +1,9 @@
 # Enron
 
-Added in paper: No
+Added in paper: Yes
 Appeared in years: 2
-Child collections: SNAP%20(Stanford%20Network%20Analysis%20Platform)%201cd77eaee57147ce8263b2f9eaa2589c.md
+Child collections: SNAP (Stanford Network Analysis Platform) (SNAP%20(Stanford%20Network%20Analysis%20Platform)%201cd77eaee57147ce8263b2f9eaa2589c.md)
+Cleaned ALL data: No
 Graph features in papers: 4
 In repo?: No
 Note: Very high variance in node degrees 
@@ -10,23 +11,24 @@ Data can be considered threaded and directed, SNAP version of network data is ex
 Origin Notes: Data made public by the Federal Energy Regulatory Comission when investigating Enron. It has had a few changes over time documented in the link. The data is currently hosted by William W.Cohen from CMU on a webiste,and it is also hosted on SNAP. SNAP asks to cite the paper linked in Origin paper, although this is not the original source of the data.
 Origin paper plaintext: Introducing the Enron Corpus
 Page id: ed3c62b92cf14a7b86c691ac3651dab3
-References: https://www.notion.so/Introducing-the-Enron-Corpus-52663d33d36b4940b5966f72f6c73a70
-Related to Literature - Algorithm (1) (Dataset tag relations): https://www.notion.so/Reordering-massive-sequence-views-Enabling-temporal-and-structural-analysis-of-dynamic-networks-59101c28c7a54141bfebd74208f0250f, https://www.notion.so/An-Efficient-Framework-for-Generating-Storyline-Visualizations-from-Streaming-Data-d06da0be3b5244b791f30c22ff2b7277
-Related to Literature - Algorithm (Dataset tag relations) 1: https://www.notion.so/An-Efficient-Framework-for-Generating-Storyline-Visualizations-from-Streaming-Data-0a3f35ebac3f468cb9c3adee03f62a06, https://www.notion.so/Reordering-massive-sequence-views-Enabling-temporal-and-structural-analysis-of-dynamic-networks-f62118d5310d44b099b3ccc71fd5a8aa
+References: Introducing the Enron Corpus (https://www.notion.so/Introducing-the-Enron-Corpus-52663d33d36b4940b5966f72f6c73a70?pvs=21)
+Related to Literature - Algorithm (1) (Dataset tag relations): Reordering massive sequence views: Enabling temporal and structural analysis of dynamic networks (https://www.notion.so/Reordering-massive-sequence-views-Enabling-temporal-and-structural-analysis-of-dynamic-networks-59101c28c7a54141bfebd74208f0250f?pvs=21), An Efficient Framework for Generating Storyline Visualizations from Streaming Data (https://www.notion.so/An-Efficient-Framework-for-Generating-Storyline-Visualizations-from-Streaming-Data-d06da0be3b5244b791f30c22ff2b7277?pvs=21)
+Related to Literature - Algorithm (Dataset tag relations) 1: An Efficient Framework for Generating Storyline Visualizations from Streaming Data (https://www.notion.so/An-Efficient-Framework-for-Generating-Storyline-Visualizations-from-Streaming-Data-0a3f35ebac3f468cb9c3adee03f62a06?pvs=21), Reordering massive sequence views: Enabling temporal and structural analysis of dynamic networks (https://www.notion.so/Reordering-massive-sequence-views-Enabling-temporal-and-structural-analysis-of-dynamic-networks-f62118d5310d44b099b3ccc71fd5a8aa?pvs=21)
 Related to Literature DOIs: https://doi.org/10.1109/TVCG.2015.2392771,https://doi.org/10.1109/PacificVis.2013.6596125
 Related to Literature DOIs plaintext: https://doi.org/10.1109/TVCG.2015.2392771,https://doi.org/10.1109/PacificVis.2013.6596125
 Related to Literature plaintext: An Efficient Framework for Generating Storyline Visualizations from Streaming Data, Reordering massive sequence views: Enabling temporal and structural analysis of dynamic networks
 Size: 150 enron executives, 500k messages
+Type of Collection: Skip
 cleaned format?: No
 duplicate?: No
-graph features handled: Generic
+graph features handled: Dynamic - discrete, Generic, Large
 is it stored properly?: No
 link works?: Yes
 must be analyzed: Yes
 unavailable/skip: Yes
 where to find: https://www.cs.cmu.edu/~enron/
 
-From [**An Efficient Framework for Generating Storyline Visualizations from Streaming Data**](https://www.notion.so/An-Efficient-Framework-for-Generating-Storyline-Visualizations-from-Streaming-Data-0a3f35ebac3f468cb9c3adee03f62a06) 
+From [**An Efficient Framework for Generating Storyline Visualizations from Streaming Data**](https://www.notion.so/An-Efficient-Framework-for-Generating-Storyline-Visualizations-from-Streaming-Data-0a3f35ebac3f468cb9c3adee03f62a06?pvs=21) 
 
 ![Untitled](Enron%20ed3c62b92cf14a7b86c691ac3651dab3/Untitled.png)
 
@@ -66,7 +68,7 @@ Visualizations from [https://www.kaggle.com/jamestollefson/enron-network-analysi
 
 This paper definitely uses this as a layered, categorical graph - could even be a hypergraph
 
-From [Reordering massive sequence views: Enabling temporal and structural analysis of dynamic networks](https://www.notion.so/Reordering-massive-sequence-views-Enabling-temporal-and-structural-analysis-of-dynamic-networks-f62118d5310d44b099b3ccc71fd5a8aa) 
+From [Reordering massive sequence views: Enabling temporal and structural analysis of dynamic networks](https://www.notion.so/Reordering-massive-sequence-views-Enabling-temporal-and-structural-analysis-of-dynamic-networks-f62118d5310d44b099b3ccc71fd5a8aa?pvs=21) 
 
 ![Untitled](Enron%20ed3c62b92cf14a7b86c691ac3651dab3/Untitled%203.png)
 

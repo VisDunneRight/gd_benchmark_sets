@@ -2,19 +2,23 @@
 
 Added in paper: No
 Appeared in years: 5
+Cleaned ALL data: No
 Graph features in papers: 7
 In repo?: Yes
 Note: Time Arcs uses AMERICAblog, Huffington Post, and ProPublica data which can be found at https://github.com/CreativeCodingLab/TimeArcs/tree/master/Text/data.
 Fast filtering uses the Twitter gardenhouse streaming API to collect data on the 2013 super bowl and the announcement of osama bin laden’s death, both can be found https://github.com/WICI/fastviz/tree/master/data (shared hashtags)
 Origin paper plaintext: An Information Flow Model for Conflict and Fission in Small Groups
 Page id: e315a82238dc40c5a3559c81ef7c57c8
-References: https://www.notion.so/An-Information-Flow-Model-for-Conflict-and-Fission-in-Small-Groups-34bb7441d1c4482a990c99d9d4990e14
-Related to Literature - Algorithm (1) (Dataset tag relations): https://www.notion.so/The-Turing-Test-for-Graph-Drawing-Algorithms-2a183bdf85bf4ab0acb311d5b9615440, https://www.notion.so/TimeArcs-Visualizing-Fluctuations-in-Dynamic-Networks-968889d3ca4a4109aca698513515e837, https://www.notion.so/Fast-filtering-and-animation-of-large-dynamic-networks-a9ecbc1aa880473b834754638c54026b, https://www.notion.so/Online-Dynamic-Graph-Drawing-ae22e4cc10ec451bb95c2ba6cfc35499
-Related to Literature - Algorithm (Dataset tag relations) 1: https://www.notion.so/Online-Dynamic-Graph-Drawing-3c5e54c02d0b473294442f7387ddb03d, https://www.notion.so/The-Turing-Test-for-Graph-Drawing-Algorithms-9927a9580ae74b49a468a8c2816334da, https://www.notion.so/Fast-filtering-and-animation-of-large-dynamic-networks-04f8b4c82871465fb46f8ad2a01d6815, https://www.notion.so/TimeArcs-Visualizing-Fluctuations-in-Dynamic-Networks-9d27b7e02aec4b80bc15447255eb4f4c, https://www.notion.so/Event-based-Dynamic-Graph-Drawing-without-the-Agonizing-Pain-e67037f1481b48fab8cbd0c2802fcbe5
+References: An Information Flow Model for Conflict and Fission in Small Groups (https://www.notion.so/An-Information-Flow-Model-for-Conflict-and-Fission-in-Small-Groups-34bb7441d1c4482a990c99d9d4990e14?pvs=21)
+Related to Literature - Algorithm (1) (Dataset tag relations): The Turing Test for Graph Drawing Algorithms (https://www.notion.so/The-Turing-Test-for-Graph-Drawing-Algorithms-2a183bdf85bf4ab0acb311d5b9615440?pvs=21), TimeArcs: Visualizing Fluctuations in Dynamic Networks (https://www.notion.so/TimeArcs-Visualizing-Fluctuations-in-Dynamic-Networks-968889d3ca4a4109aca698513515e837?pvs=21), Fast filtering and animation of large dynamic
+networks (https://www.notion.so/Fast-filtering-and-animation-of-large-dynamic-networks-a9ecbc1aa880473b834754638c54026b?pvs=21), Online Dynamic Graph Drawing (https://www.notion.so/Online-Dynamic-Graph-Drawing-ae22e4cc10ec451bb95c2ba6cfc35499?pvs=21)
+Related to Literature - Algorithm (Dataset tag relations) 1: Online Dynamic Graph Drawing (https://www.notion.so/Online-Dynamic-Graph-Drawing-3c5e54c02d0b473294442f7387ddb03d?pvs=21), The Turing Test for Graph Drawing Algorithms (https://www.notion.so/The-Turing-Test-for-Graph-Drawing-Algorithms-9927a9580ae74b49a468a8c2816334da?pvs=21), Fast filtering and animation of large dynamic
+networks (https://www.notion.so/Fast-filtering-and-animation-of-large-dynamic-networks-04f8b4c82871465fb46f8ad2a01d6815?pvs=21), TimeArcs: Visualizing Fluctuations in Dynamic Networks (https://www.notion.so/TimeArcs-Visualizing-Fluctuations-in-Dynamic-Networks-9d27b7e02aec4b80bc15447255eb4f4c?pvs=21), Event-based Dynamic Graph Drawing without the Agonizing Pain (https://www.notion.so/Event-based-Dynamic-Graph-Drawing-without-the-Agonizing-Pain-e67037f1481b48fab8cbd0c2802fcbe5?pvs=21)
 Related to Literature DOIs: https://doi.org/10.1109/TVCG.2008.11,https://doi.org/10.1007/978-3-030-68766-3_36,https://doi.org/10.1140/epjds/s13688-014-0027-8,https://doi.org/10.1111/cgf.12882,https://doi.org/10.1111/cgf.14615
 Related to Literature DOIs plaintext: https://doi.org/10.1109/TVCG.2008.11,https://doi.org/10.1007/978-3-030-68766-3_36,https://doi.org/10.1140/epjds/s13688-014-0027-8,https://doi.org/10.1111/cgf.12882,https://doi.org/10.1111/cgf.14615
 Related to Literature plaintext: Online Dynamic Graph Drawing, The Turing Test for Graph Drawing Algorithms, Fast filtering and animation of large dynamic
 networks, TimeArcs: Visualizing Fluctuations in Dynamic Networks, Event-based Dynamic Graph Drawing without the Agonizing Pain
+Type of Collection: Aggregate collection
 cleaned format?: No
 duplicate?: No
 graph features handled: temporal event sequence
