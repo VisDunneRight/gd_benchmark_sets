@@ -234,9 +234,7 @@
                 let tags = entry["graph features handled"].split(",")
                 for (let j = 0; j < tags.length; j++){
                     if (tags[j].charAt(0) == ' '){
-                        console.log(tags[j])
                         tags[j] = tags[j].substring(1)
-                        console.log(tags[j])
                     }
                     if (!graph_feature_tags.includes(tags[j])){
                         graph_feature_tags.push(tags[j])
