@@ -30,6 +30,11 @@
             text-align: center;
             padding-top: 1%;
         }
+
+        blockquote {
+            margin-left: 40px;
+            margin-right: 40px;
+        }
     </style>
 </head>
 <body>
@@ -43,7 +48,8 @@
           </div> -->
           <div class="col-lg-10 bg-light">
             The following is a list of benchmark datasets for testing graph layout algorithms. <br>
-            Click on the names of the collections to expand them and access information about their contents and a list of papers using them.
+            Click on the names of the collections to expand them and access information about their contents and a list of papers using them.<br>
+            If you use any of these datasets in your research, please cite our paper as well as the linked "Origin Paper" for each dataset used.
             <br>
             
             <br>
@@ -144,12 +150,12 @@
             .append("div")
             .attr("class", "col small-text")
 
-        add_simple_field(entry, "where to find", inforow)
+        add_simple_field(entry, "Originally found at", inforow)
         add_simple_field(entry, "Note", inforow)
         add_simple_field(entry, "Number of Files", inforow)
         add_simple_field(entry, "Size", inforow)
         add_simple_field(entry, "Origin Notes", inforow)
-        add_simple_field(entry, "Format", inforow)
+        // add_simple_field(entry, "Format", inforow)
 
         inforow.append("div").html("<b>Origin paper: </b>")
         for (let e of entry["Origin paper plaintext"].split(",")){
