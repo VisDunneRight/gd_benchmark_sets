@@ -80,7 +80,7 @@
 
     function doify(text){
         if (text == "" || text == undefined) return text;
-        if (text.includes("doi")) return (text);
+        if (text.includes("https")) return (text);
         else return ("https://doi.org/" + text);
     }
 
@@ -226,7 +226,7 @@
 
     async function main(){
         let data = await d3.csv("notion_data/Benchmark datasets 64e0439269f9497799025562a4087ce1.csv")
-        let paper_data = await d3.csv("notion_data/Literature - Algorithm 12e01bfc60a84007aa7d2d34293e123d 5.csv")
+        let paper_data = await d3.csv("notion_data/Literature - Algorithm 12e01bfc60a84007aa7d2d34293e123d.csv")
         let named_list_dom = d3.select("#named-list")
 
         for (let entry of data){
