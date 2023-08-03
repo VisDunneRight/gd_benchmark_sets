@@ -25,7 +25,7 @@ Technique: other
 Graph feature: Clusters (pre-existing), Generic, Labeled Nodes, Layered graphs, N-layers
 Dataset tag clean: Biological Pathways, Social Networks
 dataset size: 3
-Dataset tag relations: social network (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/social%20network%2090888b3285d042d49072985b05f95203.md)
+Dataset tag relations: Social Networks (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Social%20Networks%2090888b3285d042d49072985b05f95203.md)
 Type of edit to the dataset: NA
 Size of graphs (Clean up): NA
 Easy to find info about graphs?: NO

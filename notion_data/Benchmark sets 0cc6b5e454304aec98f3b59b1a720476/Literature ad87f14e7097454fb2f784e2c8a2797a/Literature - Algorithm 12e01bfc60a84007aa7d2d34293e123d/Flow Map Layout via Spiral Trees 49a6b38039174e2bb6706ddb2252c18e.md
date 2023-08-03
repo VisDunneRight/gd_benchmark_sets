@@ -32,7 +32,7 @@ tics Norway (www.ssb.no), Central Statistical Bureau of Latvia
 inburgh, statistical report 2009 (www.scotch-whisky.org.uk).
 All URLs were accessed on 2011-04-19.
 dataset size: 7
-Dataset tag relations: Tobler's flow mapper (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Tobler's%20flow%20mapper%205b849ca858de45f192db4b8bd4f44c65.md)
+Dataset tag relations: Tobler's Flow Mapper (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Tobler's%20Flow%20Mapper%205b849ca858de45f192db4b8bd4f44c65.md)
 Type of edit to the dataset: NA
 Size of graphs (Clean up): NA
 Size of graphs: unspecified

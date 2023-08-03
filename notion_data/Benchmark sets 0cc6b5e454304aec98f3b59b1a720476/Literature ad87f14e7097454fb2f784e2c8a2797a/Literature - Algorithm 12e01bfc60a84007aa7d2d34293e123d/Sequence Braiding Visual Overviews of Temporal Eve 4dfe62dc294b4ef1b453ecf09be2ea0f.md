@@ -25,7 +25,7 @@ Graph feature: Dynamic, Dynamic - discrete, Layered graphs, N-layers
 Dataset tag clean: Chess Games, Custom (Reproducible), Diabetes data, Movie Plots
 Dataset used: chess games
 dataset size: 7
-Dataset tag relations: Chess games (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Chess%20games%20023a47d6ae914567a05132ac1dfbe972.md), Storylines/Movie Plots (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Storylines%20Movie%20Plots%205d9ea7cbfc2c4a6c88a7ca1bf32c67d7.md)
+Dataset tag relations: Chess Games (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Chess%20Games%20023a47d6ae914567a05132ac1dfbe972.md), Storylines/Movie Plots (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Storylines%20Movie%20Plots%205d9ea7cbfc2c4a6c88a7ca1bf32c67d7.md)
 Type of edit to the dataset: rank assignment
 Size of graphs (Clean up): 83 - 1200
 Size of graphs: 83-1200

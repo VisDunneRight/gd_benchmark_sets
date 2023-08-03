@@ -1,50 +1,61 @@
-# Mathematics genealogy
+# Mathematics Genealogy
 
-Added in paper: No
-Appeared in years: 1
-Cleaned ALL data: No
+Note: Refer to the https://mathgenealogy.org/contact.php for the data, which consists of doctoral graduates in mathematics and some adjacent fields, alongside properties like the degree granting institution and tittle of thesis. Entries also have relations based on advisors. 
+Origin Notes: Database from a project started by Harry Coonce and now supported by the North Dakota State University. 
+graph features handled: dynamic, nonplanar, temporal, tree-like
 Graph features in papers: 2
-In repo?: No
-Note: (Circa 2016 the graph consisted of 200037 nodes with 3.8% percent of them being isolated, and 1962 components of size two). Largest component contained 180094 nodes.
-Page id: 081ba4645aac48c19719b16033c637f3
-Related to Literature - Algorithm (Dataset tag relations) 1: Visualizing Evolving Trees (https://www.notion.so/Visualizing-Evolving-Trees-3596f84acbbe46799f4f093af2f28aae?pvs=21)
-Related to Literature DOIs: 10.1007/978-3-031-22203-0_23
-Related to Literature DOIs plaintext: 10.1007/978-3-031-22203-0_23
-Related to Literature plaintext: Visualizing Evolving Trees
-Size: 291014 records as of May 2023 (possibly nodes)
+Originally found at: https://genealogy.math.ndsu.nodak.edu/
+Size: 291014 records as of May 2023. In 2016 the graph consisted of 200037 nodes with 3.8% percent of them being isolated, and 1962 components of size two. The largest component contained 180094 nodes.
+Number of Graphs: 0
+References: The Mathematics Genealogy Project (https://www.notion.so/The-Mathematics-Genealogy-Project-c75a9e7eb263423c9d8ad1be3e898095?pvs=21)
+Appeared in years: 1
 Type of Collection: Lost/Unavailable
+is it stored properly?: No
+must be analyzed: No
+In repo?: No
 cleaned format?: No
 duplicate?: No
-graph features handled: nonplanar, temporal, tree-like
-is it stored properly?: No
 link works?: Yes
-must be analyzed: No
+Added in paper: No
+Origin paper plaintext: The Mathematics Genealogy Project
+Page id: 081ba4645aac48c19719b16033c637f3
 unavailable/skip: Yes
-where to find: https://genealogy.math.ndsu.nodak.edu/
+Cleaned ALL data: No
+Related to Literature - Algorithm (Dataset tag relations) 1: Visualizing Evolving Trees (../Benchmark%20sets%200cc6b5e454304aec98f3b59b1a720476/Literature%20ad87f14e7097454fb2f784e2c8a2797a/Literature%20-%20Algorithm%2012e01bfc60a84007aa7d2d34293e123d/Visualizing%20Evolving%20Trees%203596f84acbbe46799f4f093af2f28aae.md)
+first look: Yes
+
+# Body
+
+### Description from Literature
+
+From [**Visualizing Evolving Trees](https://www.notion.so/Visualizing-Evolving-Trees-95d3552ad36746f4a3e3614cd1c1f561?pvs=21):**
+
+> **The Mathematics Genealogy:** shows advisor-advisee relationships in the world of mathematics, stretching back to the middle ages [[36](https://link.springer.com/chapter/10.1007/978-3-031-22203-0_23#ref-CR36)]. The dataset includes the thesis titles, students, advisors, dates, and number of descendants. The total number of nodes is around 260,000 and is continuously updated. While this data is not quite a tree (or even connected, or planar), we extract a subset to create a tree with 500 nodes. The maximum node degree of this tree is 5 and the radius is 14.
+> 
+
+### Example Figures
+
+From The Mathematics Genealogy Project, the data source at [https://genealogy.math.ndsu.nodak.edu/](https://genealogy.math.ndsu.nodak.edu/):
+
+![Untitled](Mathematics%20Genealogy%20081ba4645aac48c19719b16033c637f3/Untitled.png)
+
+From [**Visualizing Evolving Trees](https://www.notion.so/Visualizing-Evolving-Trees-95d3552ad36746f4a3e3614cd1c1f561?pvs=21):**
+
+![Untitled](Mathematics%20Genealogy%20081ba4645aac48c19719b16033c637f3/Untitled%201.png)
+
+**Fig. 4:** Layouts from DynNoSlice, DynaGraph, Dagre, Radial, ImPrEd, DynaCola and DynaSafe of the same evolving math genealogy tree; each row adds six new nodes.
+
+== STOP RENDERING ==
 
 [https://github.com/abureyanahmed/evolving_tree/tree/main/dataset](https://github.com/abureyanahmed/evolving_tree/tree/main/dataset)
 
-from [https://genealogy.math.ndsu.nodak.edu/](https://genealogy.math.ndsu.nodak.edu/):
-
-![Untitled](Mathematics%20genealogy%20081ba4645aac48c19719b16033c637f3/Untitled.png)
-
-^ from source website one of their examples for their poster services. 
-
-From [**Visualizing Evolving Trees**](Tree%20of%20Life%20cb0493d6b6da4a73a979f06225983011/Visualizing%20Evolving%20Trees%2095d3552ad36746f4a3e3614cd1c1f561.md)
-
-![Untitled](Mathematics%20genealogy%20081ba4645aac48c19719b16033c637f3/Untitled%201.png)
-
-Fig. 4: Layouts from DynNoSlice, DynaGraph, Dagre, Radial, ImPrEd, DynaCola and DynaSafe of the same evolving math genealogy tree; each row adds six new nodes.
-
 They make you request the data individually and in the linked form they have a note about not redistributing data:
 
-[mgp-permission-agreement.pdf](Mathematics%20genealogy%20081ba4645aac48c19719b16033c637f3/mgp-permission-agreement.pdf)
+[mgp-permission-agreement.pdf](Mathematics%20Genealogy%20081ba4645aac48c19719b16033c637f3/mgp-permission-agreement.pdf)
 
-![Untitled](Mathematics%20genealogy%20081ba4645aac48c19719b16033c637f3/Untitled%202.png)
+![Untitled](Mathematics%20Genealogy%20081ba4645aac48c19719b16033c637f3/Untitled%202.png)
 
 reached out to them 5/18/2023
-
-=== STOP RENDERING ===
 
 It is non-planar because multiple advisors can advise the same person or a person can have multiple advisors! Infact, there is a K3,3 in it
 

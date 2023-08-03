@@ -20,7 +20,7 @@ Technique: machine learning
 Graph feature: Generic
 Dataset tag clean: SuiteSparse Matrix Collection, Transportation Network/Map
 dataset size: 10
-Dataset tag relations: transportation network (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/transportation%20network%20720a658bb1914b51910c480d86943e80.md), SuiteSparse Matrix Collection (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/SuiteSparse%20Matrix%20Collection%20b8772d6a2cbb456894b4673e32c6f956.md)
+Dataset tag relations: Transportation Networks (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Transportation%20Networks%20720a658bb1914b51910c480d86943e80.md), SuiteSparse Matrix Collection (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/SuiteSparse%20Matrix%20Collection%20b8772d6a2cbb456894b4673e32c6f956.md)
 Type of edit to the dataset: truncated
 Size of graphs (Clean up): NA
 Size of graphs: ? - 1000

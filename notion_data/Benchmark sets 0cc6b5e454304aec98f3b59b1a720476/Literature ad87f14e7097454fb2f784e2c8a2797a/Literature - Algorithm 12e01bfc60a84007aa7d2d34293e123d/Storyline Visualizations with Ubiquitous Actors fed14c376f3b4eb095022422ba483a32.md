@@ -21,7 +21,7 @@ Graph feature: Clusters (pre-existing), Dynamic, Dynamic - discrete
 Dataset tag clean: Collaboration Networks
 Dataset used: Graph drawing collaboration network
 dataset size: 2
-Dataset tag relations: Assorted collaboration network (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Assorted%20collaboration%20network%206062ff126f474a50b5f3dc9b945d43da.md)
+Dataset tag relations: Assorted Collaboration Network (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Assorted%20Collaboration%20Network%206062ff126f474a50b5f3dc9b945d43da.md)
 Type of edit to the dataset: NA
 Size of graphs (Clean up):  115 - 127
 Size of graphs: 100

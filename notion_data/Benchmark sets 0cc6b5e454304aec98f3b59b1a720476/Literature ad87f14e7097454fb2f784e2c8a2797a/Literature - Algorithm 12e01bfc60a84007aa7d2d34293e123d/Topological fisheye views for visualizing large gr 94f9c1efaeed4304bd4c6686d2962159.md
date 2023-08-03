@@ -28,7 +28,7 @@ vol. 32, no. 4, pp. 97-98, 102, Apr. 1999
 
 (dead) [25] J. Petit , http://www.lsi.upc.es/jpetit/MinLA/Experiments, 2005
 dataset size: 6 + 1
-Dataset tag relations: internet mapping project (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/internet%20mapping%20project%20fe59286f353d4841a2a328fdd6160b2f.md), C. Walshaw (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/C%20Walshaw%20e40b37a1147942d89ff1d8dfad285256.md)
+Dataset tag relations: Internet Mapping Project (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Internet%20Mapping%20Project%20fe59286f353d4841a2a328fdd6160b2f.md), Walshaw (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Walshaw%20e40b37a1147942d89ff1d8dfad285256.md)
 Type of edit to the dataset: NA
 Size of graphs (Clean up): 1240 - 250000
 Size of graphs: [1240, 250000]

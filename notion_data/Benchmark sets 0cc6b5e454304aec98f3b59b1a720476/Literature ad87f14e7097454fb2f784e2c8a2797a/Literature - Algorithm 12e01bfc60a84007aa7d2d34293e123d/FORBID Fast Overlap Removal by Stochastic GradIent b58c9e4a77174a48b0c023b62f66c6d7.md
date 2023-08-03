@@ -32,7 +32,7 @@ Technique: other
 Graph feature: Generic
 Dataset tag clean: Custom (Reproducible), Graphviz Examples
 dataset size: 854
-Dataset tag relations: Graphviz examples (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Graphviz%20examples%20e90aec42f02c4e8b8a6b8727fe2f86ae.md)
+Dataset tag relations: Graphviz Examples (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Graphviz%20Examples%20e90aec42f02c4e8b8a6b8727fe2f86ae.md)
 Type of edit to the dataset: NA, generated
 Size of graphs (Clean up): 10 - 1463
 Easy to find info about graphs?: Text

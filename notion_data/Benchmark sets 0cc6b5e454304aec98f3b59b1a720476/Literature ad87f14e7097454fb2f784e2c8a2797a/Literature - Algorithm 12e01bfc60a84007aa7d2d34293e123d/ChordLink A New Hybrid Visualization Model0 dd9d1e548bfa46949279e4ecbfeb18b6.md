@@ -23,7 +23,7 @@ Graph feature: Categorical Nodes, High degree, Labeled Nodes
 Dataset tag clean: Collaboration Networks, Fiscal Network
 Dataset used: DBLP + Italian Revenue Agency
 dataset size: 2
-Dataset tag relations: Assorted collaboration network (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Assorted%20collaboration%20network%206062ff126f474a50b5f3dc9b945d43da.md), Assorted fiscal network (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Assorted%20fiscal%20network%206610534d6d3b48c5a119b04659153258.md)
+Dataset tag relations: Assorted Collaboration Network (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Assorted%20Collaboration%20Network%206062ff126f474a50b5f3dc9b945d43da.md), Assorted Fiscal Network (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Assorted%20Fiscal%20Network%206610534d6d3b48c5a119b04659153258.md)
 Type of edit to the dataset: truncated
 Size of graphs (Clean up): 174 - 1766
 Size of graphs: 174 nodes, 200 edges (italian revenue agency) + 1766 nodes and 3780 edges (dblp)

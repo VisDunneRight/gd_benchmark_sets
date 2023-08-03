@@ -28,7 +28,7 @@ Dataset used: world bank: http://www.worldbank.org/,
 Freeman [18] performed a meta-analysis of 21 earlier studies that assigned the women to groups
 2 are from Pajek; Online Dictionary for library — Direct flight between US airports
 dataset size: 4
-Dataset tag relations: Pajek (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Pajek%20e323e05a735d4151a0bccfec08aa3bd6.md), Trade data (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Trade%20data%20e6e54a00bc574c639cfa165458c71232.md)
+Dataset tag relations: Pajek (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Pajek%20e323e05a735d4151a0bccfec08aa3bd6.md), World Bank Trade Data (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/World%20Bank%20Trade%20Data%20e6e54a00bc574c639cfa165458c71232.md)
 Type of edit to the dataset: NA
 Size of graphs (Clean up): 32 - 2896
 Easy to find info about graphs?: In Figure

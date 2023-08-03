@@ -36,7 +36,7 @@ Technique: other
 Graph feature: Bundled edges (generated), Clusters (generated), Directed Edges, Hierarchical, High degree, Labeled Edges, Labeled Nodes, Layered graphs, Multivariate, N-layers
 Dataset tag clean: Custom (Replicable), Neural Networks
 dataset size: 2
-Dataset tag relations: neural network (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/neural%20network%20badcd1335be24b1e8acee792794d84a4.md)
+Dataset tag relations: Neural Network (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Neural%20Network%20badcd1335be24b1e8acee792794d84a4.md)
 Type of edit to the dataset: generated
 Size of graphs (Clean up): NA
 Size of graphs: unspecified

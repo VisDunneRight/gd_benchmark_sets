@@ -24,7 +24,7 @@ Dataset tag clean: Social Networks, Stanford GraphBase
 Dataset used: Zachary’s karate club , Terrorist network Rodr ́ıguez, J.A., Rodr ́ıguez, J.A.: The March 11th terrorist network: in its weakness
 lies its strength (2005), Les Miserables (stanford graph base )
 dataset size: 3
-Dataset tag relations: Stanford GraphBase (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Stanford%20GraphBase%20effff4b40e9d4a79b6f33825ccca7401.md), social network (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/social%20network%2090888b3285d042d49072985b05f95203.md)
+Dataset tag relations: Stanford GraphBase (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Stanford%20GraphBase%20effff4b40e9d4a79b6f33825ccca7401.md), Social Networks (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Social%20Networks%2090888b3285d042d49072985b05f95203.md)
 Type of edit to the dataset: NA
 Size of graphs (Clean up): 34 - 77
 Size of graphs: 34-77

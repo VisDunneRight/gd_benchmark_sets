@@ -23,7 +23,7 @@ Dataset tag clean: Collaboration Networks, Custom (Non Replicable)
 Dataset used: their own - dblp 1995 to 2008 with cherry-picked conferences
 dataset size: 9
 dataset size comment: not specified
-Dataset tag relations: Assorted collaboration network (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Assorted%20collaboration%20network%206062ff126f474a50b5f3dc9b945d43da.md)
+Dataset tag relations: Assorted Collaboration Network (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Assorted%20Collaboration%20Network%206062ff126f474a50b5f3dc9b945d43da.md)
 Type of edit to the dataset: cherry-picked, generated
 Size of graphs (Clean up): 32 - 2000
 Size of graphs: 32 - 2000

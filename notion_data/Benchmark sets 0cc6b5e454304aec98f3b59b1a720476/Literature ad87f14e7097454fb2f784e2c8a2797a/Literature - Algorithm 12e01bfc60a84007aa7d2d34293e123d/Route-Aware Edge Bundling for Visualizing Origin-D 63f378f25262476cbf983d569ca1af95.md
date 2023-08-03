@@ -25,7 +25,7 @@ Technique: other
 Graph feature: Bundled edges (generated), Spatial
 Dataset tag clean: Custom (Non Replicable), Transportation Network/Map
 dataset size: 4
-Dataset tag relations: transportation network (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/transportation%20network%20720a658bb1914b51910c480d86943e80.md)
+Dataset tag relations: Transportation Networks (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Transportation%20Networks%20720a658bb1914b51910c480d86943e80.md)
 Type of edit to the dataset: generated
 Size of graphs (Clean up): 100000-160000
 Easy to find info about graphs?: NO, Text

@@ -24,7 +24,7 @@ Graph feature: Clusters (generated)
 Dataset tag clean: Collaboration Networks, Custom (Replicable), Social Networks
 Dataset used: DBLP, source for second dataset: https://arxiv.org/pdf/1006.1260.pdf
 dataset size: 8
-Dataset tag relations: Assorted collaboration network (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Assorted%20collaboration%20network%206062ff126f474a50b5f3dc9b945d43da.md), social network (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/social%20network%2090888b3285d042d49072985b05f95203.md)
+Dataset tag relations: Assorted Collaboration Network (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Assorted%20Collaboration%20Network%206062ff126f474a50b5f3dc9b945d43da.md), Social Networks (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Social%20Networks%2090888b3285d042d49072985b05f95203.md)
 Type of edit to the dataset: NA
 Size of graphs (Clean up): 76 - 527
 Size of graphs: 76-527

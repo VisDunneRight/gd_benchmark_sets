@@ -21,7 +21,7 @@ Graph feature: Generic
 Dataset tag clean: Blogposts/Tweets/Forum Posts, Planar Graphs, Social Networks, causes of x
 Dataset used: bunch of references for individual dataset - both synthetic and abstract - they tried to balance between synthetic and natural
 dataset size: 9
-Dataset tag relations: social network (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/social%20network%2090888b3285d042d49072985b05f95203.md), Blogposts, Tweets and Forum posts (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Blogposts,%20Tweets%20and%20Forum%20posts%20e315a82238dc40c5a3559c81ef7c57c8.md)
+Dataset tag relations: Social Networks (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Social%20Networks%2090888b3285d042d49072985b05f95203.md), Blogposts, Tweets, and Forums (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Blogposts,%20Tweets,%20and%20Forums%20e315a82238dc40c5a3559c81ef7c57c8.md)
 Size of graphs (Clean up): 18 - 108
 Size of graphs: 18-108
 Easy to find info about graphs?: In Table

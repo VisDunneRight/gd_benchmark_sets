@@ -1,36 +1,50 @@
 # Enron
 
-Added in paper: Yes
-Appeared in years: 2
-Child collections: SNAP (Stanford Network Analysis Platform) (SNAP%20(Stanford%20Network%20Analysis%20Platform)%201cd77eaee57147ce8263b2f9eaa2589c.md)
-Cleaned ALL data: No
+Note: Very high variance in node degrees . Data can be considered threaded and directed, however SNAP provides a version of network data that is explicitly undirected.
+Origin Notes: Data made public by the Federal Energy Regulatory Commission when investigating Enron. It has had a few changes over time documented in the link. The data is currently hosted by William W. Cohen from CMU on a webiste, and it is also hosted on SNAP. SNAP asks to cite the paper linked in Origin paper, although this is not the original source of the data.
+graph features handled: dynamic (discrete), generic, large
 Graph features in papers: 4
-In repo?: No
-Note: Very high variance in node degrees 
-Data can be considered threaded and directed, SNAP version of network data is explicitely undirected though
-Origin Notes: Data made public by the Federal Energy Regulatory Comission when investigating Enron. It has had a few changes over time documented in the link. The data is currently hosted by William W.Cohen from CMU on a webiste,and it is also hosted on SNAP. SNAP asks to cite the paper linked in Origin paper, although this is not the original source of the data.
-Origin paper plaintext: Introducing the Enron Corpus
-Page id: ed3c62b92cf14a7b86c691ac3651dab3
+Originally found at: https://www.cs.cmu.edu/~enron/
+Size: The data consists of 150 Enron executives, who sent 500,000 messages between themselves.
 References: Introducing the Enron Corpus (https://www.notion.so/Introducing-the-Enron-Corpus-52663d33d36b4940b5966f72f6c73a70?pvs=21)
-Related to Literature - Algorithm (1) (Dataset tag relations): Reordering massive sequence views: Enabling temporal and structural analysis of dynamic networks (https://www.notion.so/Reordering-massive-sequence-views-Enabling-temporal-and-structural-analysis-of-dynamic-networks-59101c28c7a54141bfebd74208f0250f?pvs=21), An Efficient Framework for Generating Storyline Visualizations from Streaming Data (https://www.notion.so/An-Efficient-Framework-for-Generating-Storyline-Visualizations-from-Streaming-Data-d06da0be3b5244b791f30c22ff2b7277?pvs=21)
-Related to Literature - Algorithm (Dataset tag relations) 1: An Efficient Framework for Generating Storyline Visualizations from Streaming Data (https://www.notion.so/An-Efficient-Framework-for-Generating-Storyline-Visualizations-from-Streaming-Data-0a3f35ebac3f468cb9c3adee03f62a06?pvs=21), Reordering massive sequence views: Enabling temporal and structural analysis of dynamic networks (https://www.notion.so/Reordering-massive-sequence-views-Enabling-temporal-and-structural-analysis-of-dynamic-networks-f62118d5310d44b099b3ccc71fd5a8aa?pvs=21)
-Related to Literature DOIs: https://doi.org/10.1109/TVCG.2015.2392771,https://doi.org/10.1109/PacificVis.2013.6596125
-Related to Literature DOIs plaintext: https://doi.org/10.1109/TVCG.2015.2392771,https://doi.org/10.1109/PacificVis.2013.6596125
-Related to Literature plaintext: An Efficient Framework for Generating Storyline Visualizations from Streaming Data, Reordering massive sequence views: Enabling temporal and structural analysis of dynamic networks
-Size: 150 enron executives, 500k messages
+Child collections: SNAP (Stanford Network Analysis Platform) (SNAP%20(Stanford%20Network%20Analysis%20Platform)%201cd77eaee57147ce8263b2f9eaa2589c.md)
+Appeared in years: 2
 Type of Collection: Skip
+is it stored properly?: No
+must be analyzed: Yes
+In repo?: No
+Related to Literature - Algorithm (1) (Dataset tag relations): Reordering massive sequence views: Enabling temporal and structural analysis of dynamic networks (https://www.notion.so/Reordering-massive-sequence-views-Enabling-temporal-and-structural-analysis-of-dynamic-networks-59101c28c7a54141bfebd74208f0250f?pvs=21), An Efficient Framework for Generating Storyline Visualizations from Streaming Data (https://www.notion.so/An-Efficient-Framework-for-Generating-Storyline-Visualizations-from-Streaming-Data-d06da0be3b5244b791f30c22ff2b7277?pvs=21)
 cleaned format?: No
 duplicate?: No
-graph features handled: Dynamic - discrete, Generic, Large
-is it stored properly?: No
 link works?: Yes
-must be analyzed: Yes
+Added in paper: Yes
+Origin paper plaintext: Introducing the Enron Corpus
+Page id: ed3c62b92cf14a7b86c691ac3651dab3
 unavailable/skip: Yes
-where to find: https://www.cs.cmu.edu/~enron/
+Cleaned ALL data: No
+Related to Literature - Algorithm (Dataset tag relations) 1: An Efficient Framework for Generating Storyline Visualizations from Streaming Data (../Benchmark%20sets%200cc6b5e454304aec98f3b59b1a720476/Literature%20ad87f14e7097454fb2f784e2c8a2797a/Literature%20-%20Algorithm%2012e01bfc60a84007aa7d2d34293e123d/An%20Efficient%20Framework%20for%20Generating%20Storyline%20Vi%200a3f35ebac3f468cb9c3adee03f62a06.md), Reordering massive sequence views: Enabling temporal and structural analysis of dynamic networks (../Benchmark%20sets%200cc6b5e454304aec98f3b59b1a720476/Literature%20ad87f14e7097454fb2f784e2c8a2797a/Literature%20-%20Algorithm%2012e01bfc60a84007aa7d2d34293e123d/Reordering%20massive%20sequence%20views%20Enabling%20tempora%20f62118d5310d44b099b3ccc71fd5a8aa.md)
+first look: No
 
-From [**An Efficient Framework for Generating Storyline Visualizations from Streaming Data**](https://www.notion.so/An-Efficient-Framework-for-Generating-Storyline-Visualizations-from-Streaming-Data-0a3f35ebac3f468cb9c3adee03f62a06?pvs=21) 
+# Body
+
+### Descriptions from Literature
+
+From [Reordering massive sequence views: Enabling temporal and structural analysis of dynamic networks](https://doi.org/10.1109/PacificVis.2013.6596125):
+
+> We cleaned the data set by removing duplicates, spam and only to contain internal communication between Enron employees annotated with employee function leaving us with 151 nodes (employees) and 21374 edges (emails). Visualization using a node-link diagram enables the identification of stronger connections (see Figure 9(a)). However, temporal patterns and the evolution of the network cannot be analysed. From the standard MSV (Figure 9(b)) it becomes somewhat clear that transaction density increases over time and we can distinguish between different phases. We cannot, however, see features and identify communities due to visual clutter
+> 
+
+### Example Figures
+
+From [An Efficient Framework for Generating Storyline Visualizations from Streaming Data](https://doi.org/10.1109/TVCG.2015.2392771):
 
 ![Untitled](Enron%20ed3c62b92cf14a7b86c691ac3651dab3/Untitled.png)
+
+From [Reordering massive sequence views: Enabling temporal and structural analysis of dynamic networks](https://doi.org/10.1109/PacificVis.2013.6596125):
+
+![Untitled](Enron%20ed3c62b92cf14a7b86c691ac3651dab3/Untitled%201.png)
+
+=== STOP RENDERING ===
 
 [https://www.cs.cmu.edu/~enron/](https://www.cs.cmu.edu/~enron/)
 
@@ -62,17 +76,13 @@ The email dataset was later purchased by [Leslie Kaelbling](http://www.ai.mit.e
 
 Visualizations from [https://www.kaggle.com/jamestollefson/enron-network-analysis](https://www.kaggle.com/jamestollefson/enron-network-analysis):
 
-![Untitled](Enron%20ed3c62b92cf14a7b86c691ac3651dab3/Untitled%201.png)
-
 ![Untitled](Enron%20ed3c62b92cf14a7b86c691ac3651dab3/Untitled%202.png)
-
-This paper definitely uses this as a layered, categorical graph - could even be a hypergraph
-
-From [Reordering massive sequence views: Enabling temporal and structural analysis of dynamic networks](https://www.notion.so/Reordering-massive-sequence-views-Enabling-temporal-and-structural-analysis-of-dynamic-networks-f62118d5310d44b099b3ccc71fd5a8aa?pvs=21) 
 
 ![Untitled](Enron%20ed3c62b92cf14a7b86c691ac3651dab3/Untitled%203.png)
 
-> We cleaned the data set by removing duplicates, spam and only to contain internal communication between Enron employees annotated with employee function leaving us with 151 nodes (employees) and 21374 edges (emails). Visualization using a node-link diagram enables the identification of stronger connections (see Figure 9(a)). However, temporal patterns and the evolution of the network cannot be analysed. From the standard MSV (Figure 9(b)) it becomes somewhat clear that transaction density increases over time and we can distinguish between different phases. We cannot, however, see features and identify communities due to visual clutter
+This paper definitely uses this as a layered, categorical graph - could even be a hypergraph
+
+> 
 > 
 
 → unclear. Layered?

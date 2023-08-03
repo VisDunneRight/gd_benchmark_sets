@@ -15,7 +15,7 @@ author = {Giuseppe Di Battista and Ashim Garg and Giuseppe Liotta and Roberto Ta
 title = {An experimental comparison of four graph drawing algorithms},
 journal = {Computational Geometry}
 }
-DOI: https://doi.org/https://doi.org/10.1016/S0925-7721(96)00005-3
+DOI: https://doi.org/10.1016/S0925-7721(96)00005-3
 year: 1997
 Conference: Computational Geometry
 Notes: Origin of Rome-Lib

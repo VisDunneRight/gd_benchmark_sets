@@ -1,26 +1,24 @@
 # Debates
 
-Added in paper: No
-Appeared in years: 1
-Cleaned ALL data: No
-Graph features in papers: 3
-In repo?: No
 Origin Notes: Created by researchers at the University of Konstanz for the LingVis framework (https://lingvis.io/) and VisArgue project (http://www.visargue.uni-konstanz.de/en/). First appeared in “NEREx: Named-Entity Relationship Exploration in Multi-Party Conversations”.
-Page id: 54eb2cd4ba2c48eb945bd49e5f4bbf4f
-Related to Literature - Algorithm (Dataset tag relations) 1: NEREx: Named-Entity Relationship Exploration in Multi-Party Conversations (https://www.notion.so/NEREx-Named-Entity-Relationship-Exploration-in-Multi-Party-Conversations-0c839bcf912a474595a556b7791ff4c2?pvs=21)
-Related to Literature DOIs: https://doi.org/10.1111/cgf.13181
-
-Related to Literature DOIs plaintext: https://doi.org/10.1111/cgf.13181
-
-Related to Literature plaintext: NEREx: Named-Entity Relationship Exploration in Multi-Party Conversations
+graph features handled: categorical nodes, directed edges, edge weighted
+Graph features in papers: 3
+Appeared in years: 1
 Type of Collection: Lost/Unavailable
+is it stored properly?: No
+must be analyzed: No
+In repo?: No
 cleaned format?: No
 duplicate?: No
-graph features handled: Categorical Nodes, Directed Edges, edge weighted, node weighted
-is it stored properly?: No
 link works?: No
-must be analyzed: No
+Added in paper: No
+Page id: 54eb2cd4ba2c48eb945bd49e5f4bbf4f
 unavailable/skip: Yes
+Cleaned ALL data: No
+Related to Literature - Algorithm (Dataset tag relations) 1: NEREx: Named-Entity Relationship Exploration in Multi-Party Conversations (../Benchmark%20sets%200cc6b5e454304aec98f3b59b1a720476/Literature%20ad87f14e7097454fb2f784e2c8a2797a/Literature%20-%20Algorithm%2012e01bfc60a84007aa7d2d34293e123d/NEREx%20Named-Entity%20Relationship%20Exploration%20in%20Mul%200c839bcf912a474595a556b7791ff4c2.md)
+first look: Yes
+
+# Body
 
 ### Description from Literature
 

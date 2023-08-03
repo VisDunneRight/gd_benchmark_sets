@@ -26,7 +26,7 @@ Graph feature: Clusters (pre-existing), Dynamic - discrete, Layered graphs, N-la
 Dataset tag clean: Padia stories
 Dataset used: Witcher 2 and Friends (very small)
 dataset size: 5
-Dataset tag relations: Padia stories (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Padia%20stories%20c02a38b9ea5e40bfb682ae77e2ac23af.md)
+Dataset tag relations: Padia Stories (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Padia%20Stories%20c02a38b9ea5e40bfb682ae77e2ac23af.md)
 Type of edit to the dataset: NA
 Size of graphs (Clean up): 6 - 15
 Size of graphs: [6, 15]

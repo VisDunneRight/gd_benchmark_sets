@@ -22,7 +22,7 @@ Graph feature: Generic, Large
 Dataset tag clean: Custom (Non Replicable), Social Networks, Trade Data, Transportation Network/Map
 Dataset used: facebook100 network: https://epubs.siam.org/doi/10.1137/080734315
 dataset size: 52
-Dataset tag relations: Trade data (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Trade%20data%20e6e54a00bc574c639cfa165458c71232.md), social network (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/social%20network%2090888b3285d042d49072985b05f95203.md)
+Dataset tag relations: World Bank Trade Data (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/World%20Bank%20Trade%20Data%20e6e54a00bc574c639cfa165458c71232.md), Social Networks (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Social%20Networks%2090888b3285d042d49072985b05f95203.md)
 Type of edit to the dataset: NA
 Size of graphs (Clean up): 500 - 4083
 Easy to find info about graphs?: NO

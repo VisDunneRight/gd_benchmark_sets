@@ -29,7 +29,7 @@ Dataset used: Note: the datasets they used weren’t dynamic! They had to edit i
 [35] T.M. Newcomb, The Acquaintance Process. Holt, Rinehart, and
 Winston, 1961.
 dataset size: 4
-Dataset tag relations: Blogposts, Tweets and Forum posts (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Blogposts,%20Tweets%20and%20Forum%20posts%20e315a82238dc40c5a3559c81ef7c57c8.md), C. Walshaw (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/C%20Walshaw%20e40b37a1147942d89ff1d8dfad285256.md)
+Dataset tag relations: Blogposts, Tweets, and Forums (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Blogposts,%20Tweets,%20and%20Forums%20e315a82238dc40c5a3559c81ef7c57c8.md), Walshaw (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Walshaw%20e40b37a1147942d89ff1d8dfad285256.md)
 Type of edit to the dataset: dynamic property added, generated
 Size of graphs (Clean up): 4097 - 32715
 Size of graphs: [4097, 32715]

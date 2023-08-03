@@ -25,7 +25,7 @@ Technique: force-directed
 Graph feature: Categorical Nodes, Generic, Topological, Trees, Weighted Edges
 Dataset tag clean: Genealogy, Transportation Network/Map
 dataset size: 4
-Dataset tag relations: transportation network (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/transportation%20network%20720a658bb1914b51910c480d86943e80.md)
+Dataset tag relations: Transportation Networks (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Transportation%20Networks%20720a658bb1914b51910c480d86943e80.md)
 Type of edit to the dataset: NA
 Size of graphs (Clean up): 426 - 5295
 Easy to find info about graphs?: NO

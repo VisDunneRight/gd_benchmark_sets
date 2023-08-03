@@ -19,7 +19,7 @@ Technique: force-directed
 Graph feature: Generic, Large
 Dataset tag clean: AT&T, AT&T*, C. Walshaw's graph collection, Custom (Non Replicable)
 dataset size: 71 + 46
-Dataset tag relations: C. Walshaw (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/C%20Walshaw%20e40b37a1147942d89ff1d8dfad285256.md), AT&T (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/AT&T%20e86f130c42344169a9d75a61abc7e487.md)
+Dataset tag relations: Walshaw (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Walshaw%20e40b37a1147942d89ff1d8dfad285256.md), AT&T (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/AT&T%20e86f130c42344169a9d75a61abc7e487.md)
 Type of edit to the dataset: truncated
 Size of graphs (Clean up): 50 - 200000
 Size of graphs: [50, 200000]

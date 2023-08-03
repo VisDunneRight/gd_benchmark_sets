@@ -20,7 +20,7 @@ Technique: force-directed
 Graph feature: Clusters (pre-existing)
 Dataset tag clean: Social Networks, Transportation Network/Map
 dataset size: 5
-Dataset tag relations: social network (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/social%20network%2090888b3285d042d49072985b05f95203.md), transportation network (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/transportation%20network%20720a658bb1914b51910c480d86943e80.md)
+Dataset tag relations: Social Networks (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Social%20Networks%2090888b3285d042d49072985b05f95203.md), Transportation Networks (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Transportation%20Networks%20720a658bb1914b51910c480d86943e80.md)
 Type of edit to the dataset: NA
 Size of graphs (Clean up): 1138-14318
 Easy to find info about graphs?: In Table

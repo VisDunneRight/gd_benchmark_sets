@@ -21,7 +21,7 @@ Dataset tag clean: Collaboration Networks
 Dataset used: KDVIz - no source
 CBR + ILP + IR etc - they don’t say what those datasets are
 dataset size: 4
-Dataset tag relations: Assorted collaboration network (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Assorted%20collaboration%20network%206062ff126f474a50b5f3dc9b945d43da.md)
+Dataset tag relations: Assorted Collaboration Network (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Assorted%20Collaboration%20Network%206062ff126f474a50b5f3dc9b945d43da.md)
 Type of edit to the dataset: NA
 Size of graphs (Clean up): 574 - 1624
 Size of graphs: 574 - 1624

@@ -25,7 +25,7 @@ Technique: ILP
 Graph feature: Octilinear, Port Constraints, Terminals
 Dataset tag clean: Transportation Network/Map
 dataset size: 6
-Dataset tag relations: transportation network (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/transportation%20network%20720a658bb1914b51910c480d86943e80.md)
+Dataset tag relations: Transportation Networks (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Transportation%20Networks%20720a658bb1914b51910c480d86943e80.md)
 Type of edit to the dataset: NA
 Size of graphs (Clean up): 76 - 517
 Easy to find info about graphs?: NO

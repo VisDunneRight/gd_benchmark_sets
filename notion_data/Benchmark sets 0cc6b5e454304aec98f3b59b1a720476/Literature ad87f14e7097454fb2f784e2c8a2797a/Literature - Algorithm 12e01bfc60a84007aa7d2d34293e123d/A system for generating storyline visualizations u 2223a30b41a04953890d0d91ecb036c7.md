@@ -24,7 +24,7 @@ Technique: other
 Graph feature: Clusters (pre-existing), Dynamic - discrete, Layered graphs, N-layers
 Dataset tag clean: Padia stories
 dataset size: 11
-Dataset tag relations: Padia stories (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Padia%20stories%20c02a38b9ea5e40bfb682ae77e2ac23af.md)
+Dataset tag relations: Padia Stories (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Padia%20Stories%20c02a38b9ea5e40bfb682ae77e2ac23af.md)
 Type of edit to the dataset: NA
 Size of graphs (Clean up): 6 - 49
 Size of graphs: [6, 49]

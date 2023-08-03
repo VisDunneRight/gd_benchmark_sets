@@ -32,7 +32,7 @@ Graph feature: Generic, Large
 Dataset tag clean: Network Data Repository, SNAP
 dataset size: 52
 dataset size comment: graphs have been modified to remove self-loops, Isolated vertices, and parallel edges 
-Dataset tag relations: SNAP (Stanford Network Analysis Platform) (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/SNAP%20(Stanford%20Network%20Analysis%20Platform)%201cd77eaee57147ce8263b2f9eaa2589c.md), Network repository (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Network%20repository%208d5eb290b4274266986c4d4e98c7dc34.md)
+Dataset tag relations: SNAP (Stanford Network Analysis Platform) (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/SNAP%20(Stanford%20Network%20Analysis%20Platform)%201cd77eaee57147ce8263b2f9eaa2589c.md), Network Repository (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Network%20Repository%208d5eb290b4274266986c4d4e98c7dc34.md)
 Type of edit to the dataset: cherry-picked, isolated vertex removal, parallel edge removal, self-loop removal
 Size of graphs (Clean up): 34 - 6815744
 Size of graphs: 34-16840 and large graphs 121523 - 6815744

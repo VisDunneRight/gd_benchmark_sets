@@ -25,7 +25,7 @@ Technique: Spectral
 Graph feature: Generic
 Dataset tag clean: C. Walshaw's graph collection, Matrix Market
 dataset size: 14
-Dataset tag relations: C. Walshaw (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/C%20Walshaw%20e40b37a1147942d89ff1d8dfad285256.md), Matrix Market (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Matrix%20Market%2080bd4320417342458aefa031cf65db1f.md)
+Dataset tag relations: Walshaw (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Walshaw%20e40b37a1147942d89ff1d8dfad285256.md), Matrix Market (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Matrix%20Market%2080bd4320417342458aefa031cf65db1f.md)
 Type of edit to the dataset: NA
 Size of graphs (Clean up): 516 - 143437
 Size of graphs: 516 - 143437

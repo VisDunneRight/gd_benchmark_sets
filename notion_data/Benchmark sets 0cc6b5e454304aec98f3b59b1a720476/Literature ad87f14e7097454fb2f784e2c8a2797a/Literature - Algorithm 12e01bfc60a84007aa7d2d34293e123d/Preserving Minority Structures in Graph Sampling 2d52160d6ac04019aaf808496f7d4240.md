@@ -34,7 +34,7 @@ cpan-explorer.org/, 2009. Produced by RTGI Labs and Gephi.
 
 
 dataset size: 34 + 3
-Dataset tag relations: Assorted collaboration network (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Assorted%20collaboration%20network%206062ff126f474a50b5f3dc9b945d43da.md), social network (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/social%20network%2090888b3285d042d49072985b05f95203.md), Autonomous System Network (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Autonomous%20System%20Network%2096d24eb9c7f94ab6a6b38e6a3af816ae.md)
+Dataset tag relations: Assorted Collaboration Network (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Assorted%20Collaboration%20Network%206062ff126f474a50b5f3dc9b945d43da.md), Social Networks (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Social%20Networks%2090888b3285d042d49072985b05f95203.md), Autonomous System Network (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Autonomous%20System%20Network%2096d24eb9c7f94ab6a6b38e6a3af816ae.md)
 Type of edit to the dataset: NA
 Size of graphs (Clean up): 775 - 6474
 Size of graphs: [775, 6474]

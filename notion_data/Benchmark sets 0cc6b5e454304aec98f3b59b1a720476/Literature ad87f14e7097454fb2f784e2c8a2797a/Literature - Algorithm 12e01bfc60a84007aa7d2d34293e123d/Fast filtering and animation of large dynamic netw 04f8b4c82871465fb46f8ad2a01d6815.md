@@ -25,7 +25,7 @@ Graph feature: Dynamic, Dynamic - continuous, Large
 Dataset tag clean: Blogposts/Tweets/Forum Posts, Collaboration Networks, IMDB
 Dataset used: their own (contains description of how they were made) - they’re patents, twitter and IMDB but there’s not enough information to recreate them
 dataset size: 4
-Dataset tag relations: Blogposts, Tweets and Forum posts (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Blogposts,%20Tweets%20and%20Forum%20posts%20e315a82238dc40c5a3559c81ef7c57c8.md), Assorted collaboration network (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Assorted%20collaboration%20network%206062ff126f474a50b5f3dc9b945d43da.md)
+Dataset tag relations: Blogposts, Tweets, and Forums (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Blogposts,%20Tweets,%20and%20Forums%20e315a82238dc40c5a3559c81ef7c57c8.md), Assorted Collaboration Network (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Assorted%20Collaboration%20Network%206062ff126f474a50b5f3dc9b945d43da.md)
 Type of edit to the dataset: cherry-picked
 Size of graphs (Clean up): 1000 - 414000
 Size of graphs: 1k-414k

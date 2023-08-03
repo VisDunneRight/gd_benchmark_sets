@@ -22,7 +22,7 @@ Graph feature: Clusters (pre-existing), Dynamic - discrete, Layered graphs, N-la
 Dataset tag clean: Collaboration Networks
 Dataset used: commits in python repository (no link)
 dataset size: 6
-Dataset tag relations: Assorted collaboration network (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Assorted%20collaboration%20network%206062ff126f474a50b5f3dc9b945d43da.md)
+Dataset tag relations: Assorted Collaboration Network (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Assorted%20Collaboration%20Network%206062ff126f474a50b5f3dc9b945d43da.md)
 Type of edit to the dataset: rank assignment, truncated
 Size of graphs (Clean up): NA
 Size of graphs: only mentioned that size of projects were medium or large, no numbers

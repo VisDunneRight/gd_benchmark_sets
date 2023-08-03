@@ -37,7 +37,7 @@ html
 https://tradingeconomics.com/kosovo/forest-area-percent-of-land-area-wb-data.
 html
 dataset size: 9
-Dataset tag relations: World M (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/World%20M%2099689f52cc854daba9c25be42de1cbe3.md)
+Dataset tag relations: World Maps (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/World%20Maps%2099689f52cc854daba9c25be42de1cbe3.md)
 Type of edit to the dataset: NA
 Size of graphs (Clean up): NA
 Size of graphs: N/A

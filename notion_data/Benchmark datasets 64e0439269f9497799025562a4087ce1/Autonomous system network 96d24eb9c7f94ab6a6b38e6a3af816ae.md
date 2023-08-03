@@ -1,29 +1,30 @@
 # Autonomous System Network
 
-Added in paper: No
-Appeared in years: 1
-Cleaned ALL data: No
+Note: The 733-AS netowork is a subset of SNAP. We provide the link containing the original project, https://www.routeviews.org/routeviews/, and redirect to SNAP, https://snap.stanford.edu/data/as-733.html. 
 Graph features in papers: 1
-In repo?: Yes
-Note: We provide the adjency information graph from Preserving Minority Structures in Graph Sampling. We also redirect to the link containing the original project, https://www.routeviews.org/routeviews/, and SNAP, https://snap.stanford.edu/data/as-733.html. 
-Origin paper plaintext: Preserving Minority Structures in Graph Sampling
-Page id: 96d24eb9c7f94ab6a6b38e6a3af816ae
-References: Preserving Minority Structures in Graph Sampling (https://www.notion.so/Preserving-Minority-Structures-in-Graph-Sampling-d0f9e612663d434e85599c402c9b700c?pvs=21)
-Related to Literature - Algorithm (1) (Dataset tag relations): Preserving Minority Structures in Graph Sampling (https://www.notion.so/Preserving-Minority-Structures-in-Graph-Sampling-cf062d6fa8f5484ab1190edd125f739f?pvs=21)
-Related to Literature - Algorithm (Dataset tag relations) 1: Preserving Minority Structures in Graph Sampling (https://www.notion.so/Preserving-Minority-Structures-in-Graph-Sampling-2d52160d6ac04019aaf808496f7d4240?pvs=21)
-Related to Literature DOIs: https://doi.org/10.1109/TVCG.2020.3030428
-Related to Literature DOIs plaintext: https://doi.org/10.1109/TVCG.2020.3030428
-Related to Literature plaintext: Preserving Minority Structures in Graph Sampling
-Type of Collection: Uniform Benchmark
-cleaned format?: No
-duplicate?: No
-is it stored properly?: No
-link works?: Yes
-must be analyzed: No
-unavailable/skip: No
-where to find: https://www.routeviews.org/routeviews/
+Originally found at: https://www.routeviews.org/routeviews/
 https://snap.stanford.edu/data/as-733.html
 https://github.com/csuvis/MCGS/blob/master/dataset/AS-733_edge.csv
+Number of Graphs: 733
+References: Preserving Minority Structures in Graph Sampling (https://www.notion.so/Preserving-Minority-Structures-in-Graph-Sampling-d0f9e612663d434e85599c402c9b700c?pvs=21), Graphs over Time: Densification Laws, Shrinking Diameters and Possible Explanations (https://www.notion.so/Graphs-over-Time-Densification-Laws-Shrinking-Diameters-and-Possible-Explanations-9b33c460755241c591e462c7326db101?pvs=21)
+Appeared in years: 1
+Type of Collection: Subset of other collection
+is it stored properly?: No
+must be analyzed: No
+In repo?: Yes
+Related to Literature - Algorithm (1) (Dataset tag relations): Preserving Minority Structures in Graph Sampling (https://www.notion.so/Preserving-Minority-Structures-in-Graph-Sampling-cf062d6fa8f5484ab1190edd125f739f?pvs=21)
+cleaned format?: No
+duplicate?: No
+link works?: Yes
+Added in paper: No
+Origin paper plaintext: Preserving Minority Structures in Graph Sampling, Graphs over Time: Densification Laws, Shrinking Diameters and Possible Explanations
+Page id: 96d24eb9c7f94ab6a6b38e6a3af816ae
+unavailable/skip: Yes
+Cleaned ALL data: No
+Related to Literature - Algorithm (Dataset tag relations) 1: Preserving Minority Structures in Graph Sampling (../Benchmark%20sets%200cc6b5e454304aec98f3b59b1a720476/Literature%20ad87f14e7097454fb2f784e2c8a2797a/Literature%20-%20Algorithm%2012e01bfc60a84007aa7d2d34293e123d/Preserving%20Minority%20Structures%20in%20Graph%20Sampling%202d52160d6ac04019aaf808496f7d4240.md)
+first look: Yes
+
+# Body
 
 ## Descriptions from Literature
 

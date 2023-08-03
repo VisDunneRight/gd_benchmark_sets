@@ -122,7 +122,7 @@
         else return ("https://doi.org/" + text);
     }
 
-    function getTextAfterSecondEmptyLine(input) {
+    function getTextAfterBody(input) {
         const lines = input.split('\n');
         let emptyLineCount = 0;
         let text = '';
@@ -130,14 +130,8 @@
         for (let i = 0; i < lines.length; i++) {
             const line = lines[i].trim();
             
-            if (line === '') {
-                emptyLineCount++;
-                
-                if (emptyLineCount === 2) {
-                    // Collect text after the second empty line
-                    text = lines.slice(i + 1).join('\n');
-                    break;
-                }
+            if (line === '# Body') {
+                text = lines.slice(i + 1).join('\n');
             } 
         }
         
@@ -146,6 +140,95 @@
 
     function name_cleanup(name){
         return name.replace("(", "").replace(")", "").replace(" ", "_").replace(".", "").replace("'", "").replace("&", "").replaceAll(" ", "")
+    }
+
+    function make_sparkline_visualization(entry, row){
+        if (entry["sparkline data"] == "" || entry["sparkline data"] == undefined) {
+            row.append("div")
+                .attr("class", "col")
+            return;
+        };
+
+        // parse json
+        let parsed = JSON.parse(entry["sparkline data"].replaceAll("'", '"'))
+        console.log(parsed)
+
+        let data, color;
+        if (parsed.num_nodes){
+            data = parsed.num_nodes;
+            color = "#69b3a2"
+        } else {
+            data = parsed.node_degree;
+            color = "#404080"
+        }
+
+        //Sparklines
+        const sparkHeight = 20;
+        const sparkWidth = 100;
+        const step = sparkWidth/data.length;
+        const min = parsed.min;
+        const max = parsed.max;
+
+        let gSpark = row.append("div")
+            .attr("class", "col-4")
+            .attr("style", "display:flex;align-items:center;")
+
+        let svg = gSpark.append("svg")
+        .attr("width", sparkWidth)
+        .attr("height", sparkHeight)
+        // .append("g")
+
+        let minMax = gSpark.append("div")
+        .attr("class", "col")
+        .attr("style","display:flex; align-items:left;");
+
+        minMax.append("img")
+        .attr("src","min.svg" )
+        .attr("width", 20)
+        .attr("height", 20)
+        .style("padding-left", "5px")
+
+        minMax.append("Span")
+        .text(min)
+        .attr("style", "padding-right:5px; padding-left:5px");
+
+        let divmax = gSpark.append("div")
+        .attr("class", "col")
+        .attr("style","display:flex; align-items:left;");
+
+        divmax.append("img")
+        .attr("src","max.svg")
+        .attr("width", 20)
+        .attr("height", 20)
+        .style("padding-left", "5px")
+
+        divmax.append("Span")
+        .text(max)
+        .attr("style", "padding-right:5px; padding-left:5px");
+
+        let y = d3.scaleLinear()
+        .domain([0, d3.max(data)])
+        .range([sparkHeight, 0]);
+        
+        svg.selectAll("bar")
+        .data(data)
+        .enter()
+        .append("rect")
+            .attr("x", function(d,i) { return i*step; })
+            .attr("y", function(d) { return y(d); })
+            .attr("width", step)
+            .attr("height", function(d) { return sparkHeight - y(d); })
+            .attr("fill", color)
+        .append("title")
+        .text(function(d){return d});
+
+        svg.append("line")
+            .attr("x1", 0)
+            .attr("y1", y(0))
+            .attr("x2", sparkWidth)
+            .attr("y2", y(0))
+            .attr("stroke", "#333")
+            .attr("stroke-width", 4);
     }
 
     async function add_entry_row(named_list_dom, db_nav_list, paper_data, entry){
@@ -178,59 +261,7 @@
             .style("color", "black")
             .attr("role", "button")
 
-        let data = [10, 20, 30, 40, 50, 40, 30, 20, 10, 5]
-        //Sparklines
-        const sparkHeight = 20;
-        const sparkWidth = 100;
-        const step = sparkWidth/data.length;
-        const min = 0;
-        const max = 50;
-
-        let gSpark = row.append("div")
-            .attr("class", "col")
-            .attr("style", "display:flex;")
-        let svg = gSpark.append("svg")
-        .attr("width", sparkWidth)
-        .attr("height", sparkHeight)
-        .append("g")
-
-        let minMax = gSpark.append("div")
-        .attr("style","display:flex; align-items:center;");
-
-        minMax.append("img")
-        .attr("src","min.svg" )
-        .attr("width", 20)
-        .attr("height", 20);
-
-        minMax.append("Span")
-        .text(min)
-        .attr("style", "padding-right:5px; padding-left:5px");
-
-        minMax.append("img")
-        .attr("src","max.svg" )
-        .attr("width", 20)
-        .attr("height", 20);
-
-        minMax.append("Span")
-        .text(max)
-        .attr("style", "padding-right:5px; padding-left:5px");
-
-        let y = d3.scaleLinear()
-        .domain([0, d3.max(data)])
-        .range([sparkHeight, 0]);
-        
-        svg.selectAll("bar")
-        .data(data)
-        .enter()
-        .append("rect")
-            .attr("x", function(d,i) { return i*step; })
-            .attr("y", function(d) { return y(d); })
-            .attr("width", step)
-            .attr("height", function(d) { return sparkHeight - y(d); })
-            .attr("fill", "#69b3a2")
-        .append("title")
-        .text(function(d){return d});
-
+        make_sparkline_visualization(entry, row)
 
         //Pills for the type of data it is
         let gfeatures = row.append("div")
@@ -276,26 +307,10 @@
             else inforow.append("div").html(e)
         }
 
-
-        // if("Graph features in papers" in entry){
-        //     inforow.append("div").html("<b>Graph features pointed out by other papers:</b>");
-        //     let gCollection = inforow.append("div").attr("class", "row")
-        //     for (let graph_feature of entry["Graph features in papers"].split(",")){
-        //         if (graph_feature.charAt(0) == ' '){
-        //             graph_feature = graph_feature.substring(1)
-        //         }
-        //         gCollection.append("div")
-        //             .attr("class", "rounded-pill badge")
-        //             .style("margin", "2px")
-        //             .style("background-color", graph_feature_tags_colors[graph_feature_tags.indexOf(graph_feature)%graph_feature_tags_colors.length])
-        //             .text(graph_feature)
-        //     }
-        // }
-
         inforow.append("div").html("<b>Usage examples: </b>")
 
-        for (let i in entry["Related to Literature plaintext"].split(",")){
-            let e = entry["Related to Literature plaintext"].split(",")[i].trim()
+        for (let i in entry["Related to Literature - Algorithm (Dataset tag relations) 1"].split(",")){
+            let e = entry["Related to Literature - Algorithm (Dataset tag relations) 1"].split(",")[i].split("(")[0].trim()
             let entryrow = inforow.append("div").attr("class", "row")
 
             if (e != "") {
@@ -334,7 +349,7 @@
             otherinfo = await otherinfo.text()
             var converter = new showdown.Converter();
             
-            otherinfo = getTextAfterSecondEmptyLine(otherinfo);
+            otherinfo = getTextAfterBody(otherinfo);
             
             for (let line of otherinfo.split("\n")){
                 if (line[0] == "!") {
@@ -343,7 +358,7 @@
                         .style("text-align", "center")
                         .append("img")
                         .attr("src", "notion_data/Benchmark datasets 64e0439269f9497799025562a4087ce1/" + img)
-                        .attr("width", "50%")
+                        .attr("width", "80%")
                 } else if (line.includes("STOP RENDERING")){
                      break;
                 } else inforow.append("div").html(converter.makeHtml(line))

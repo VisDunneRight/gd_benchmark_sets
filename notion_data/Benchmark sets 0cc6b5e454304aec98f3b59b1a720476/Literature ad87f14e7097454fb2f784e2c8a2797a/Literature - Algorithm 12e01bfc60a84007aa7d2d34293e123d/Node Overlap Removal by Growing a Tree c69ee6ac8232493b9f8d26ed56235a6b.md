@@ -24,7 +24,7 @@ Graph feature: Large
 Dataset tag clean: Control Flow graphs, Custom (Reproducible), Graphviz Examples
 Dataset used: source for some of the graphs: https://github.com/Microsoft/automatic-graph-layout/
 dataset size: 10077
-Dataset tag relations: Graphviz examples (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Graphviz%20examples%20e90aec42f02c4e8b8a6b8727fe2f86ae.md), control flow graphs (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/control%20flow%20graphs%20af079f199a2c402d8633f6d41101934b.md)
+Dataset tag relations: Graphviz Examples (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Graphviz%20Examples%20e90aec42f02c4e8b8a6b8727fe2f86ae.md), Control Flow Graphs (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Control%20Flow%20Graphs%20af079f199a2c402d8633f6d41101934b.md)
 Type of edit to the dataset: NA
 Size of graphs (Clean up): 36 - 1463
 Size of graphs: 36-1463 ← Not sure about the top range

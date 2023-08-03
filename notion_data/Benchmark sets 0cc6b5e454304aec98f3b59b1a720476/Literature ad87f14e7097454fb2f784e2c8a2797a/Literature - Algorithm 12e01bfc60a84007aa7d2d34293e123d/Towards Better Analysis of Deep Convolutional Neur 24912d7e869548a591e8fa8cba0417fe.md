@@ -25,7 +25,7 @@ Technique: other
 Graph feature: Bundled edges (generated), Clusters (generated), Directed Edges, Layered graphs, N-layers
 Dataset tag clean: Neural Networks
 dataset size: 7
-Dataset tag relations: neural network (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/neural%20network%20badcd1335be24b1e8acee792794d84a4.md)
+Dataset tag relations: Neural Network (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Neural%20Network%20badcd1335be24b1e8acee792794d84a4.md)
 Type of edit to the dataset: NA
 Size of graphs (Clean up): 210 - 1400
 Size of graphs: ~hundreds  ? big but idk

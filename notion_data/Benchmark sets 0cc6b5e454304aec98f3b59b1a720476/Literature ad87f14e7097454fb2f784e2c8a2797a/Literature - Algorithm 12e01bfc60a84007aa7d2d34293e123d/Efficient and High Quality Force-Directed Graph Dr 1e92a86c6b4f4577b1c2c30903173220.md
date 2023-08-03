@@ -25,7 +25,7 @@ Technique: force-directed
 Graph feature: Generic
 Dataset tag clean: C. Walshaw's graph collection, SuiteSparse Matrix Collection
 dataset size: 14
-Dataset tag relations: C. Walshaw (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/C%20Walshaw%20e40b37a1147942d89ff1d8dfad285256.md)
+Dataset tag relations: Walshaw (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Walshaw%20e40b37a1147942d89ff1d8dfad285256.md)
 Type of edit to the dataset: NA
 Size of graphs (Clean up): 500 - 224843
 Easy to find info about graphs?: In Table

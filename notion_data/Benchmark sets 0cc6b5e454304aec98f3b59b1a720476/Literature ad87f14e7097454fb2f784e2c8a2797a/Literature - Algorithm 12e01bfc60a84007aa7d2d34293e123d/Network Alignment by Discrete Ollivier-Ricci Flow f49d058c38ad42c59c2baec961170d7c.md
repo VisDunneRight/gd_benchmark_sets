@@ -23,7 +23,7 @@ Graph feature: Generic
 Dataset tag clean: Custom (Reproducible), Social Networks
 Dataset used: custom (random)
 dataset size: 11
-Dataset tag relations: social network (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/social%20network%2090888b3285d042d49072985b05f95203.md)
+Dataset tag relations: Social Networks (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Social%20Networks%2090888b3285d042d49072985b05f95203.md)
 Type of edit to the dataset: sliced
 Size of graphs (Clean up): 51 - 1000
 Size of graphs: 51-1000

@@ -29,7 +29,7 @@ Technique: other
 Graph feature: Clusters (generated), Dynamic, Spatial
 Dataset tag clean: Airlines/Migration Routes
 dataset size: 2
-Dataset tag relations: airlines/migration/air traffic (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/airlines%20migration%20air%20traffic%2045ffa6caedd141b082e163d7da6eb895.md)
+Dataset tag relations: Airlines, Migrations, and Air Traffic (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Airlines,%20Migrations,%20and%20Air%20Traffic%2045ffa6caedd141b082e163d7da6eb895.md)
 Type of edit to the dataset: generated
 Size of graphs (Clean up): 386 - 606
 Size of graphs: 386 and 606

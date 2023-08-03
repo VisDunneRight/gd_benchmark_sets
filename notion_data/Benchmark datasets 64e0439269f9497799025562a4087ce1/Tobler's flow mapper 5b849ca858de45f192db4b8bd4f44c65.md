@@ -1,22 +1,22 @@
-# Tobler's flow mapper
+# Tobler's Flow Mapper
 
-Added in paper: No
-Appeared in years: 1
-Cleaned ALL data: No
 Graph features in papers: 2
-In repo?: No
-Page id: 5b849ca858de45f192db4b8bd4f44c65
-Related to Literature - Algorithm (1) (Dataset tag relations): Flow Map Layout via Spiral Trees (https://www.notion.so/Flow-Map-Layout-via-Spiral-Trees-93bf65d7c22f4f2ab5585700ca7d1e5e?pvs=21)
-Related to Literature - Algorithm (Dataset tag relations) 1: Flow Map Layout via Spiral Trees (https://www.notion.so/Flow-Map-Layout-via-Spiral-Trees-49a6b38039174e2bb6706ddb2252c18e?pvs=21)
-Related to Literature DOIs: https://doi.org/10.1109/tvcg.2011.202
-Related to Literature DOIs plaintext: https://doi.org/10.1109/tvcg.2011.202
-Related to Literature plaintext: Flow Map Layout via Spiral Trees
+Appeared in years: 1
 Type of Collection: Uniform Benchmark
+is it stored properly?: No
+must be analyzed: No
+In repo?: No
+Related to Literature - Algorithm (1) (Dataset tag relations): Flow Map Layout via Spiral Trees (https://www.notion.so/Flow-Map-Layout-via-Spiral-Trees-93bf65d7c22f4f2ab5585700ca7d1e5e?pvs=21)
 cleaned format?: No
 duplicate?: No
-is it stored properly?: No
 link works?: No
-must be analyzed: No
+Added in paper: No
+Page id: 5b849ca858de45f192db4b8bd4f44c65
 unavailable/skip: No
+Cleaned ALL data: No
+Related to Literature - Algorithm (Dataset tag relations) 1: Flow Map Layout via Spiral Trees (../Benchmark%20sets%200cc6b5e454304aec98f3b59b1a720476/Literature%20ad87f14e7097454fb2f784e2c8a2797a/Literature%20-%20Algorithm%2012e01bfc60a84007aa7d2d34293e123d/Flow%20Map%20Layout%20via%20Spiral%20Trees%2049a6b38039174e2bb6706ddb2252c18e.md)
+first look: No
+
+# Body
 
 [http://csiss.ncgia.ucsb.edu/clearinghouse/FlowMapper/](http://csiss.ncgia.ucsb.edu/clearinghouse/FlowMapper/)

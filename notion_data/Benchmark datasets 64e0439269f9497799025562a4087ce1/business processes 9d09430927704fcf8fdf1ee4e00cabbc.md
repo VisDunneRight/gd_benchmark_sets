@@ -1,31 +1,49 @@
-# business processes
+# Business Processes
 
-Added in paper: No
-Appeared in years: 1
-Cleaned ALL data: No
+Note: Dataset links in supplemental materials are broken, and graphs not linked are internal and cannot be shared according to the author. 
+Origin Notes: Paper collects various graphs from a collection of sources. A few of these datasets are from international business process intelligence challenges, and others are specific processes from companies in a certain domain (hospital, road traffic management, pay processes, etc.).
+graph features handled: labeled nodes, layered graphs
 Graph features in papers: 3
-In repo?: No
-Note: reached out to author — they mentioned their datasets were internal and could not share them
-Origin Notes: Paper collects various graphs from a colleciton of sources. All links in the supplemental materials from original supplemental materials are broken. A few of these datasets are from interanltional business process intellignece challenges, and others are specific processes from compains in a certain domain (hospital, road traffic management, pay processes, etc.)
-Origin paper plaintext: A Stable Graph Layout Algorithm for Processes
-Page id: 9d09430927704fcf8fdf1ee4e00cabbc
-References: A Stable Graph Layout Algorithm for Processes (https://www.notion.so/A-Stable-Graph-Layout-Algorithm-for-Processes-35d585a25b63442b89c4977095ec923f?pvs=21)
-Related to Literature - Algorithm (Dataset tag relations) 1: A stable graph layout algorithm for processes (https://www.notion.so/A-stable-graph-layout-algorithm-for-processes-c1a2e3baaf814eb7b38e3f4e8a553471?pvs=21)
-Related to Literature DOIs: https://doi.org/10.1111/cgf.13723
-Related to Literature DOIs plaintext: https://doi.org/10.1111/cgf.13723
-Related to Literature plaintext: A stable graph layout algorithm for processes
+Originally found at: https://robinmennens.github.io/Portfolio/stableprocessgraphs.html
 Size: 13 graphs from 11 to 50 nodes and up to 772 edges
+Number of Graphs: 0
+References: A Stable Graph Layout Algorithm for Processes (https://www.notion.so/A-Stable-Graph-Layout-Algorithm-for-Processes-35d585a25b63442b89c4977095ec923f?pvs=21)
+Appeared in years: 1
 Type of Collection: Lost/Unavailable
+is it stored properly?: No
+must be analyzed: No
+In repo?: No
 cleaned format?: No
 duplicate?: No
-is it stored properly?: No
 link works?: No
-must be analyzed: No
+Added in paper: No
+Origin paper plaintext: A Stable Graph Layout Algorithm for Processes
+Page id: 9d09430927704fcf8fdf1ee4e00cabbc
 unavailable/skip: Yes
+Cleaned ALL data: No
+Related to Literature - Algorithm (Dataset tag relations) 1: A stable graph layout algorithm for processes (../Benchmark%20sets%200cc6b5e454304aec98f3b59b1a720476/Literature%20ad87f14e7097454fb2f784e2c8a2797a/Literature%20-%20Algorithm%2012e01bfc60a84007aa7d2d34293e123d/A%20stable%20graph%20layout%20algorithm%20for%20processes%20c1a2e3baaf814eb7b38e3f4e8a553471.md)
+first look: Yes
 
-![Untitled](business%20processes%209d09430927704fcf8fdf1ee4e00cabbc/Untitled.png)
+# Body
 
-![Untitled](business%20processes%209d09430927704fcf8fdf1ee4e00cabbc/Untitled%201.png)
+### Description From Literature
+
+From [A stable graph layout algorithm for processes](https://onlinelibrary.wiley.com/doi/10.1111/cgf.13723):
+
+> We use 13 datasets (see supplementary material), which represent real-world processes. For every dataset, we ran 500 tests on both methods. Each test involved a pair of randomly generated graphs  $G_1, G_2 \subseteq \bar{G}$  , which were obtained by randomly removing a subset of the edges $\bar{E}$ and then removing all nodes $n \in \bar{V}$ that became disconnected. Consequently, $G_1$ and $G_2$ are random sub-graphs of $\bar{G}$ .
+> 
+
+Table from Supplemental Materials:
+
+![Untitled](Business%20Processes%209d09430927704fcf8fdf1ee4e00cabbc/Untitled.png)
+
+### Example Figures
+
+From [A stable graph layout algorithm for processes](https://onlinelibrary.wiley.com/doi/10.1111/cgf.13723):
+
+![Untitled](Business%20Processes%209d09430927704fcf8fdf1ee4e00cabbc/Untitled%201.png)
+
+== STOP RENDERING ==
 
 “Hi! Thanks for reaching out! The dataset used is an internal one that I cannot share unfortunately. Some other datasets were public datasets and I think I did include urls in my references” 
 
