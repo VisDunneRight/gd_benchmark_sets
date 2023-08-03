@@ -3,6 +3,7 @@
 <html>
 <head>
     <title>Graph Benchmark Datasets</title>
+    <link rel="stylesheet" href="sidebar.css">
     <meta name="description" content="Graph Benchmark Datasets">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
@@ -30,6 +31,9 @@
             text-align: center;
             padding-top: 1%;
         }
+        .scroll-offset{
+            scroll-margin-top: 2em;
+        }
 
         blockquote {
             margin-left: 40px;
@@ -38,7 +42,35 @@
     </style>
 </head>
 <body>
-
+    <header class="navbar navbar-expand-lg navbar-dark bd-navbar sticky-top">
+        <nav class="container-xxl bd-gutter flex-wrap flex-lg-nowrap" aria-label="Main navigation">
+          <div class="bd-navbar-toggle">
+            <button class="navbar-toggler p-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#bdSidebar" aria-controls="bdSidebar" aria-label="Toggle docs navigation">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="bi" fill="currentColor" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"></path>
+            </svg>
+              <span class="d-none fs-6 pe-1">Browse Datasets</span>
+            </button>
+          </div>
+        </nav>
+    </header>
+    <div class="container-xxl bd-gutter mt-3 my-md-4 bd-layout">
+        <aside class="bd-sidebar">
+            <div class="offcanvas-lg offcanvas-start" tabindex="-1" id="bdSidebar" aria-labelledby="bdSidebarOffcanvasLabel">
+              <div class="offcanvas-header border-bottom">
+                <h5 class="offcanvas-title" id="bdSidebarOffcanvasLabel">Browse Datasets</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close" data-bs-target="#bdSidebar"></button>
+              </div>
+      
+              <div class="offcanvas-body">
+                <nav class="bd-links w-100" id="bd-docs-nav" aria-label="Docs navigation">
+                    <ul class="bd-links-nav list-unstyled mb-0 pb-3 pb-md-2 pe-lg-2">
+                        <div id="db-nav-list"></div>
+                    </ul>
+                </nav>
+              </div>
+            </div>
+          </aside>
     <div class="container overflow-hidden">
         <h1 class="" style="margin-top: 5%">Graph Benchmark Datasets</h1>
         <div class="row">
@@ -54,20 +86,21 @@
             
             <br>
             <br>
-            <div id="named-list">
+            <div id="named-list" data-bs-spy="scroll"  data-bs-target="db-nav-list" data-bs-offset="20" tabindex="0">
             </div>
           </div>
         </div>
       </div>
-
+    </div>
       <div class="footer">
-        Hello I am footer
+        Hello I am footer 
       </div>
 </body>
 <script>
-    function add_simple_field(entry, field_name, div){
+    function add_simple_field(entry, field_name, div, name = ""){
         if (entry[field_name] != "" && entry[field_name] != undefined){
-            div.append("div").html("<b>" + field_name + ": </b>" + urlify(entry[field_name]))
+            let title = name === "" ? field_name : name;
+            div.append("div").html("<b>" + title + ": </b>" + urlify(entry[field_name]))
         }
     }
 
@@ -110,11 +143,23 @@
         return name.replace("(", "").replace(")", "").replace(" ", "_").replace(".", "").replace("'", "").replace("&", "").replaceAll(" ", "")
     }
 
-    async function add_entry_row(named_list_dom, paper_data, entry){
+    async function add_entry_row(named_list_dom, db_nav_list, paper_data, entry){
         console.log(entry["Type of Collection"])
-        
+
+        console.log(entry)
+        //Fills the navs on the left sid        
+
+        db_nav_list.append("li")
+            .append("a")
+            .attr("href", "#moveTo" + name_cleanup(entry["Name"]))
+            .attr("class", "bd-links-link d-inline-block rounded")
+            .text(entry["Name"])
+
+
+        //Fills the content for each dataset
         let row = named_list_dom.append("div")
-            .attr("class", "row")
+            .attr("class", "row scroll-offset")
+            .attr("id" ,"moveTo" + name_cleanup(entry["Name"]))
 
         row.append("div")
             .attr("class", "col")
@@ -128,6 +173,61 @@
             .style("color", "black")
             .attr("role", "button")
 
+        let data = [10, 20, 30, 40, 50, 40, 30, 20, 10, 5]
+        //Sparklines
+        const sparkHeight = 20;
+        const sparkWidth = 100;
+        const step = sparkWidth/data.length;
+        const min = 0;
+        const max = 50;
+
+        let gSpark = row.append("div")
+            .attr("class", "col")
+            .attr("style", "display:flex;")
+        let svg = gSpark.append("svg")
+        .attr("width", sparkWidth)
+        .attr("height", sparkHeight)
+        .append("g")
+
+        let minMax = gSpark.append("div")
+        .attr("style","display:flex; align-items:center;");
+
+        minMax.append("img")
+        .attr("src","min.svg" )
+        .attr("width", 20)
+        .attr("height", 20);
+
+        minMax.append("Span")
+        .text(min)
+        .attr("style", "padding-right:5px; padding-left:5px");
+
+        minMax.append("img")
+        .attr("src","max.svg" )
+        .attr("width", 20)
+        .attr("height", 20);
+
+        minMax.append("Span")
+        .text(max)
+        .attr("style", "padding-right:5px; padding-left:5px");
+
+        let y = d3.scaleLinear()
+        .domain([0, d3.max(data)])
+        .range([sparkHeight, 0]);
+        
+        svg.selectAll("bar")
+        .data(data)
+        .enter()
+        .append("rect")
+            .attr("x", function(d,i) { return i*step; })
+            .attr("y", function(d) { return y(d); })
+            .attr("width", step)
+            .attr("height", function(d) { return sparkHeight - y(d); })
+            .attr("fill", "#69b3a2")
+        .append("title")
+        .text(function(d){return d});
+
+
+        //Pills for the type of data it is
         let gfeatures = row.append("div")
             .attr("class", "col")
         
@@ -154,6 +254,7 @@
             .attr("class", "col small-text")
 
         add_simple_field(entry, "Originally found at", inforow)
+        add_simple_field(entry, "OSF link", inforow, "Link to Data")
         add_simple_field(entry, "Note", inforow)
         add_simple_field(entry, "Number of Files", inforow)
         add_simple_field(entry, "Size", inforow)
@@ -169,6 +270,23 @@
                 inforow.append("div").html('<a href="' + doify(origindoi) + '">' + "[link]" + '</a> &nbsp;' + e)
             else inforow.append("div").html(e)
         }
+
+
+        if("Graph features in papers" in entry){
+            inforow.append("div").html("<b>Graph features pointed out by other papers:</b>");
+            let gCollection = inforow.append("div").attr("class", "row")
+            for (let graph_feature of entry["Graph features in papers"].split(",")){
+                if (graph_feature.charAt(0) == ' '){
+                    graph_feature = graph_feature.substring(1)
+                }
+                gCollection.append("div")
+                    .attr("class", "rounded-pill badge")
+                    .style("margin", "2px")
+                    .style("background-color", graph_feature_tags_colors[graph_feature_tags.indexOf(graph_feature)%graph_feature_tags_colors.length])
+                    .text(graph_feature)
+            }
+        }
+
 
         inforow.append("div").html("<b>Usage examples: </b>")
         for (let i in entry["Related to Literature plaintext"].split(",")){
@@ -228,6 +346,7 @@
         let data = await d3.csv("notion_data/Benchmark datasets 64e0439269f9497799025562a4087ce1.csv")
         let paper_data = await d3.csv("notion_data/Literature - Algorithm 12e01bfc60a84007aa7d2d34293e123d.csv")
         let named_list_dom = d3.select("#named-list")
+        let db_nav_list = d3.select("#db-nav-list");
 
         for (let entry of data){
             if (entry["graph features handled"] != "" && entry["graph features handled"] != undefined){
@@ -264,9 +383,20 @@
             .text("These are collections of graphs that have been frequently used in graph drawing papers. By clicking on each collection name, you can see additional information. We also provide an analysis of the contents of each collection, and a list of papers that use them, their sources, and various types of information.")
             .style("color", "gray")
         
+        let benchLi = db_nav_list.append("li")
+            .attr("class", "bd-links-group py-2");
+
+        benchLi
+            .append("strong")
+            .attr("class", "bd-links-heading d-flex w-100 align-items-center fw-semibold")
+            .text("Benchmark datasets")
+        let benchul = benchLi
+            .append("ul")
+            .attr("class", "list-unstyled fw-normal pb-2 small")
+        
         for (let entry of data.filter(d => d["Type of Collection"] == "Uniform Benchmark")){
             entry.added = true;
-            await add_entry_row(named_list_dom, paper_data, entry)
+            await add_entry_row(named_list_dom, benchul, paper_data, entry)
         }
 
         named_list_dom.append("div")
@@ -285,9 +415,19 @@
             .text("The following collections are organized, classified and maintained by other people or institutions. We do not claim any ownership over them, and we do not guarantee that they will be maintained in the future. We provide links to them for convenience, as well as information about which papers use them and what features are contained in the graphs in them.")
             .style("color", "gray")
 
+        let netLi = db_nav_list.append("li")
+            .attr("class", "bd-links-group py-2")
+        netLi
+            .append("strong")
+            .attr("class", "bd-links-heading d-flex w-100 align-items-center fw-semibold")
+            .text("Established Network Repositories")
+        let netul = netLi
+            .append("ul")
+            .attr("class", "list-unstyled fw-normal pb-2 small")
+
         for (let entry of data.filter(d => d["Type of Collection"] == "Established Network Repo (No report)")){
             entry.added = true;
-            await add_entry_row(named_list_dom, paper_data, entry)
+            await add_entry_row(named_list_dom, netul, paper_data, entry)
         }
 
         named_list_dom.append("div")
@@ -306,9 +446,19 @@
             .text("The following collections are aggregates: they share similar sources and similar features/purpose, but come from different sources. ")
             .style("color", "gray")
 
+        let aggLi = db_nav_list.append("li")
+            .attr("class", "bd-links-group py-2")
+        aggLi
+            .append("strong")
+            .attr("class", "bd-links-heading d-flex w-100 align-items-center fw-semibold")
+            .text("Aggregate collections")
+        let aggul = aggLi
+            .append("ul")
+            .attr("class", "list-unstyled fw-normal pb-2 small")
+
         for (let entry of data.filter(d => d["Type of Collection"] == "Aggregate collection")){
             entry.added = true;
-            await add_entry_row(named_list_dom, paper_data, entry)
+            await add_entry_row(named_list_dom, aggul, paper_data, entry)
         }
 
         named_list_dom.append("div")
@@ -327,9 +477,20 @@
             .text("The following are not collections, but individual graphs. They are often used as examples in papers, or as test cases for specific features. ")
             .style("color", "gray")
 
+        
+        let singleLi = db_nav_list.append("li")
+            .attr("class", "bd-links-group py-2")
+        singleLi    
+            .append("strong")
+            .attr("class", "bd-links-heading d-flex w-100 align-items-center fw-semibold")
+            .text("Single Graphs")
+        singleUl = singleLi
+            .append("ul")
+            .attr("class", "list-unstyled fw-normal pb-2 small")
+
         for (let entry of data.filter(d => d["Type of Collection"] == "Single Graph")){
             entry.added = true;
-            await add_entry_row(named_list_dom, paper_data, entry)
+            await add_entry_row(named_list_dom, singleUl, paper_data, entry)
         }
 
         named_list_dom.append("div")
@@ -348,9 +509,20 @@
             .text("The following collections are unavailable, often due to link rot or unmaintained websites. We invite whoever might have access to these collections to contact us so that we can add them to the list, or gather more information about them. ")
             .style("color", "gray")
 
+        
+        let lostLi = db_nav_list.append("li")
+            .attr("class", "bd-links-group py-2")
+        lostLi    
+            .append("strong")
+            .attr("class", "bd-links-heading d-flex w-100 align-items-center fw-semibold")
+            .text("Lost or Unavailable")
+        let lostUl = lostLi
+            .append("ul")
+            .attr("class", "list-unstyled fw-normal pb-2 small")
+
         for (let entry of data.filter(d => d["Type of Collection"] == "Lost/Unavailable")){
             entry.added = true;
-            await add_entry_row(named_list_dom, paper_data, entry)
+            await add_entry_row(named_list_dom, lostUl, paper_data, entry)
         }
 
         named_list_dom.append("div")
@@ -361,13 +533,24 @@
             .text("Other")
             .style("margin-top", "10px")
 
+        let otherLi = db_nav_list.append("li")
+            .attr("class", "bd-links-group py-2")
+        otherLi
+            .append("strong")
+            .attr("class", "bd-links-heading d-flex w-100 align-items-center fw-semibold")
+            .text("Other")
+        let otherUl = otherLi 
+            .append("ul")
+            .attr("class", "list-unstyled fw-normal pb-2 small")
+
         for (let entry of data.filter(d => d.added != true)){
             entry.added = true;
-            await add_entry_row(named_list_dom, paper_data, entry)
+            await add_entry_row(named_list_dom, otherUl, paper_data, entry)
         }
 
     }
 
     main()
+   
 </script>
 </html>
