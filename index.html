@@ -27,7 +27,7 @@
             bottom: 0;
             width: 100%;
             height: 2.5rem;
-            background-color: gray;
+            background-color: white;
             text-align: center;
             padding-top: 1%;
         }
@@ -80,12 +80,17 @@
           </div> -->
           <div class="col-lg-10 bg-light">
             The following is a list of benchmark datasets for testing graph layout algorithms. <br>
-            Click on the names of the collections to expand them and access information about their contents and a list of papers using them.<br>
-            If you use any of these datasets in your research, please cite our paper as well as the linked "Origin Paper" for each dataset used.
-            <br>
-            
-            <br>
-            <br>
+            Click on the names of the collections to expand them and access information about their contents and a list of papers using them.<br><br>
+            If you find our work useful for your research, consider citing our paper as well as the linked "Origin Paper" for each dataset used:
+            <br><br>
+
+            <pre style="color: palevioletred;">
+    @article{knuth:1984,
+            title={Literate Programming},
+            author={Donald E. Knuth},
+            journal={The Computer Journal}
+        }
+                </pre>
             <div id="named-list" data-bs-spy="scroll"  data-bs-target="db-nav-list" data-bs-offset="20" tabindex="0">
             </div>
           </div>
@@ -93,7 +98,7 @@
       </div>
     </div>
       <div class="footer">
-        Hello I am footer 
+        
       </div>
 </body>
 <script>
@@ -144,9 +149,9 @@
     }
 
     async function add_entry_row(named_list_dom, db_nav_list, paper_data, entry){
-        console.log(entry["Type of Collection"])
+        // console.log(entry["Type of Collection"])
 
-        console.log(entry)
+        // console.log(entry)
         //Fills the navs on the left sid        
 
         db_nav_list.append("li")
@@ -272,31 +277,51 @@
         }
 
 
-        if("Graph features in papers" in entry){
-            inforow.append("div").html("<b>Graph features pointed out by other papers:</b>");
-            let gCollection = inforow.append("div").attr("class", "row")
-            for (let graph_feature of entry["Graph features in papers"].split(",")){
-                if (graph_feature.charAt(0) == ' '){
-                    graph_feature = graph_feature.substring(1)
-                }
-                gCollection.append("div")
-                    .attr("class", "rounded-pill badge")
-                    .style("margin", "2px")
-                    .style("background-color", graph_feature_tags_colors[graph_feature_tags.indexOf(graph_feature)%graph_feature_tags_colors.length])
-                    .text(graph_feature)
-            }
-        }
-
+        // if("Graph features in papers" in entry){
+        //     inforow.append("div").html("<b>Graph features pointed out by other papers:</b>");
+        //     let gCollection = inforow.append("div").attr("class", "row")
+        //     for (let graph_feature of entry["Graph features in papers"].split(",")){
+        //         if (graph_feature.charAt(0) == ' '){
+        //             graph_feature = graph_feature.substring(1)
+        //         }
+        //         gCollection.append("div")
+        //             .attr("class", "rounded-pill badge")
+        //             .style("margin", "2px")
+        //             .style("background-color", graph_feature_tags_colors[graph_feature_tags.indexOf(graph_feature)%graph_feature_tags_colors.length])
+        //             .text(graph_feature)
+        //     }
+        // }
 
         inforow.append("div").html("<b>Usage examples: </b>")
+
         for (let i in entry["Related to Literature plaintext"].split(",")){
             let e = entry["Related to Literature plaintext"].split(",")[i].trim()
+            let entryrow = inforow.append("div").attr("class", "row")
+
             if (e != "") {
                 let doi = (paper_data.find(a => a.Name == e) || {}).DOI
                 let link;
                 if (doi != undefined && doi != "") link = '<a href="' + doify(doi) + '">[link]</a>'
                 else link = ""
-                inforow.append("div").html(link + " &nbsp; " + urlify(e))
+
+                entryrow.append("div")
+                    .attr("class", "col-8")
+                    .html(link + " &nbsp; " + urlify(e))
+
+                let tagrow = entryrow.append("div").attr("class", "col-4")
+
+                if (paper_data.find(a => a.Name == e)){
+                    let feature_collection = (paper_data.find(a => a.Name == e) || {})["Graph feature"].split(",")
+                    
+                    for (let graph_feature of feature_collection){
+                        graph_feature = graph_feature.trim().toLowerCase()
+                        tagrow.append("div")
+                            .attr("class", "rounded-pill badge")
+                            .style("margin", "2px")
+                            .style("background-color", graph_feature_tags_colors[graph_feature_tags.indexOf(graph_feature)%graph_feature_tags_colors.length])
+                            .text(graph_feature)
+                    }
+                }
             }
         }
 
@@ -353,11 +378,20 @@
                 let tags = entry["graph features handled"].split(",")
                 for (let j = 0; j < tags.length; j++){
                     if (tags[j].charAt(0) == ' '){
-                        tags[j] = tags[j].substring(1)
+                        tags[j] = tags[j].substring(1).toLowerCase()
                     }
                     if (!graph_feature_tags.includes(tags[j])){
                         graph_feature_tags.push(tags[j])
                     }
+                }
+            }
+        }
+        for (let entry of paper_data){
+            let features = (entry["Graph feature"]).split(",")
+            for (let feature of features){
+                feature = feature.trim().toLowerCase()
+                if (!graph_feature_tags.includes(feature)){
+                    graph_feature_tags.push(feature)
                 }
             }
         }
