@@ -27,7 +27,7 @@ Notes: machine learning - uses ml to discriminate between which is the best layo
 Great Example: The github has extensive readme, they also provide all code, reports slides associated with the paper.
 paper type: quality metrics
 Technique: machine learning
-Graph feature: Generic
+Graph feature: generic
 Dataset tag clean: AT&T, Custom (Replicable), Matrix Market, RandDAG, Rome-Lib
 Dataset used: Rome-Lib, North Lib, Random DAG, Matrix Market, custom
 dataset size: 36000

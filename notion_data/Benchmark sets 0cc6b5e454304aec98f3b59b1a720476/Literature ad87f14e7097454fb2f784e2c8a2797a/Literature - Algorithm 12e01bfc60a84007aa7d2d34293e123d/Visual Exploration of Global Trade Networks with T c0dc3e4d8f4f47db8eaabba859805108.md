@@ -22,7 +22,7 @@ Conference: Computer Graphics Forum
 link: https://onlinelibrary.wiley.com/doi/full/10.1111/cgf.13186#
 paper type: algorithm
 Technique: other
-Graph feature: Categorical Nodes, Compound graphs, Dynamic - continuous, Hierarchical, Weighted Edges
+Graph feature: categorical nodes, compound graphs, dynamic (continuous), hierarchical, weighted edges
 Dataset tag clean: Custom (Non Replicable)
 dataset size: 4
 Size of graphs (Clean up): NA

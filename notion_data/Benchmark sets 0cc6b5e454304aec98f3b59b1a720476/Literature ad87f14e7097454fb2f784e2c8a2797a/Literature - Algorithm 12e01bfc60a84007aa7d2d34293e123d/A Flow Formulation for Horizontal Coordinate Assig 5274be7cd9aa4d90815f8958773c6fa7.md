@@ -18,7 +18,7 @@ Conference: GD
 link: https://link.springer.com/content/pdf/10.1007%2F978-3-030-04414-5.pdf
 Notes: 10 to 100 nodes per graph, restricts width of layout, compares against Gansner
 paper type: algorithm, comparison
-Graph feature: DAG, Hierarchical, Layered graphs, N-layers
+Graph feature: DAG, hierarchical, layered graphs, n-layers
 Dataset tag clean: AT&T, AT&T*
 Dataset used: AT&T (subset)
 dataset size: 1277

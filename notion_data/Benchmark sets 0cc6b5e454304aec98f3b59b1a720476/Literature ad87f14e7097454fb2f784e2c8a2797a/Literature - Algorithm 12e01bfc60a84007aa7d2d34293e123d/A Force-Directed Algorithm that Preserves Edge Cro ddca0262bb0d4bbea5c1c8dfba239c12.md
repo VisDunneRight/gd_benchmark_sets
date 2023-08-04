@@ -22,7 +22,7 @@ link: https://link.springer.com/content/pdf/10.1007/3-540-46648-7_36.pdf
 Notes: evaluation by proof
 paper type: algorithm
 Technique: force-directed
-Graph feature: Generic
+Graph feature: generic
 Dataset used: no experiment
 dataset size: NA
 dataset size comment: has illustrations but no mention of data

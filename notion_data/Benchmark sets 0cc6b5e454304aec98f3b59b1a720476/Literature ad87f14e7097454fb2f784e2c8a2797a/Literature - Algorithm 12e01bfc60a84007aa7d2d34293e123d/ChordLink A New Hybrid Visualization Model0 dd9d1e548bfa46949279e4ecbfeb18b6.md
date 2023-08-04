@@ -19,7 +19,7 @@ link: https://link.springer.com/content/pdf/10.1007/978-3-030-35802-0_22.pdf
 Notes: turns very-highly connected regions into chord-link diagrams
 paper type: algorithm
 Technique: force-directed
-Graph feature: Categorical Nodes, High degree, Labeled Nodes
+Graph feature: categorical nodes, high degree, labeled nodes
 Dataset tag clean: Collaboration Networks, Fiscal Network
 Dataset used: DBLP + Italian Revenue Agency
 dataset size: 2

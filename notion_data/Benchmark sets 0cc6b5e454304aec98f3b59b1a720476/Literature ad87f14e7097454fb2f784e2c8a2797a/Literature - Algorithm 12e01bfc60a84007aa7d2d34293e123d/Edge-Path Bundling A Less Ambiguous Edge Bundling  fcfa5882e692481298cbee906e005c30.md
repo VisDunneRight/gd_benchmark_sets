@@ -23,7 +23,7 @@ Notes: Has data available here: https://github.com/mwallinger-tu/edge-path-bundl
 
 Also note: this paper uses larger graphs compared to the rest. Still under 1k nodes.
 paper type: algorithm, comparison
-Graph feature: Bundled edges (generated), Spatial
+Graph feature: bundled edges (generated), spatial
 Dataset tag clean: Airlines/Migration Routes, Amazon, Custom (Reproducible)
 Dataset used: custom-made, US airlines, migrations, air traffic, amazon
 dataset size: 9

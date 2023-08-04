@@ -17,7 +17,7 @@ Conference: TVCG
 link: https://ieeexplore.ieee.org/document/9904492
 paper type: algorithm, comparison
 Technique: force-directed
-Graph feature: Binary Trees, Clusters (pre-existing), Generic
+Graph feature: binary trees, clusters (pre-existing), generic
 Dataset tag clean: Custom (Non Replicable)
 dataset size: 60
 Type of edit to the dataset: generated

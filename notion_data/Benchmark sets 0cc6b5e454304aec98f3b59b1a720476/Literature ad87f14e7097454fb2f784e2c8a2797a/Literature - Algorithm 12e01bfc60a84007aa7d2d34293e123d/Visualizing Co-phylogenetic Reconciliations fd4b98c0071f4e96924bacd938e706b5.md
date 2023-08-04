@@ -18,7 +18,7 @@ Conference: GD
 link: https://link.springer.com/content/pdf/10.1007%2F978-3-319-73915-1.pdf
 paper type: algorithm
 Technique: other
-Graph feature: Binary Trees, Trees
+Graph feature: binary trees, trees
 Dataset tag clean: Evolution
 Dataset used: Eucalypt tool (Donati, B., Baudet, C., Sinaimeri, B., Crescenzi, P., Sagot, M.F.: EUCALYPT:
 efficient tree reconciliation enumerator. Algorithms Mol. Biol. 10(1), 3 (2015)), trees from a bioinfromatics journal (Wieseke, N., Hartmann, T., Bernt, M., Middendorf, M.: Cophylogenetic reconcil-

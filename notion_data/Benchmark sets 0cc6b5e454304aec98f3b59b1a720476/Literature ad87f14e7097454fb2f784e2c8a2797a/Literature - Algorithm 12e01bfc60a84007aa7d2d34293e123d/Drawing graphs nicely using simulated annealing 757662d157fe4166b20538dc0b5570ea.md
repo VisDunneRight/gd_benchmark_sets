@@ -27,7 +27,7 @@ Conference: ACM Transactions on Graphics
 link: https://dl.acm.org/doi/10.1145/234535.234538
 paper type: algorithm, comparison
 Technique: other
-Graph feature: Generic
+Graph feature: generic
 Dataset tag clean: Custom (Non Replicable)
 Dataset used: unclear where these datasets come from?
 dataset size: 13

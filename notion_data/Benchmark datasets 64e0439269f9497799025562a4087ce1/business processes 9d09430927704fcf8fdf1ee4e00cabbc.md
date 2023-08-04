@@ -7,7 +7,7 @@ Graph features in papers: 3
 Originally found at: https://robinmennens.github.io/Portfolio/stableprocessgraphs.html
 Size: 13 graphs from 11 to 50 nodes and up to 772 edges
 Number of Graphs: 0
-References: A Stable Graph Layout Algorithm for Processes (https://www.notion.so/A-Stable-Graph-Layout-Algorithm-for-Processes-35d585a25b63442b89c4977095ec923f?pvs=21)
+Origin Paper: A Stable Graph Layout Algorithm for Processes (https://www.notion.so/A-Stable-Graph-Layout-Algorithm-for-Processes-35d585a25b63442b89c4977095ec923f?pvs=21)
 Appeared in years: 1
 Type of Collection: Lost/Unavailable
 is it stored properly?: No

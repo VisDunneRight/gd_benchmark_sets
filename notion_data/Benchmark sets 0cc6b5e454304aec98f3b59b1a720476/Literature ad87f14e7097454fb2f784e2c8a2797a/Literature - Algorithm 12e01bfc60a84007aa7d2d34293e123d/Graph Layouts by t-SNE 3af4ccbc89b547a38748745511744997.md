@@ -29,7 +29,7 @@ https://dl.acm.org/doi/10.1145/62038.62043
 Some graphs created with the graph tool python library: https://graph-tool.skewed.de/
 paper type: algorithm, comparison
 Technique: multidimensional scaling
-Graph feature: Clusters (generated), Generic, Planar, Spatial
+Graph feature: clusters (generated), generic, planar, spatial
 Dataset tag clean: Collaboration Networks, Stanford GraphBase, SuiteSparse Matrix Collection
 dataset size: 20
 Dataset tag relations: SuiteSparse Matrix Collection (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/SuiteSparse%20Matrix%20Collection%20b8772d6a2cbb456894b4673e32c6f956.md), Stanford GraphBase (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Stanford%20GraphBase%20effff4b40e9d4a79b6f33825ccca7401.md)

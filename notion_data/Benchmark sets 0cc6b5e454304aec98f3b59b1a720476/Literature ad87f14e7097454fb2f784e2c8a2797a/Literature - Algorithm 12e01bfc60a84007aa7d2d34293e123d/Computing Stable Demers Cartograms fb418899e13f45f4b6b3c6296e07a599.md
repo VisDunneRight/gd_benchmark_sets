@@ -18,7 +18,7 @@ Conference: GD
 link: https://arxiv.org/pdf/1908.07291.pdf
 paper type: algorithm
 Technique: ILP, force-directed
-Graph feature: Dynamic, Spatial
+Graph feature: dynamic, spatial
 Dataset tag clean: World Maps
 Dataset used: World bank - bunch of references - all temporal datasets!
 

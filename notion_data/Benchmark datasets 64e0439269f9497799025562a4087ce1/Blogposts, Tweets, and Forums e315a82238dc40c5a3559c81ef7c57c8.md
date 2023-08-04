@@ -13,7 +13,7 @@ https://github.com/CreativeCodingLab/TimeArcs
 https://github.com/WICI/fastviz/tree/master/data
 
 Size: 12-386412 nodes, 3151-556820 edges
-References: Understanding Dropouts in MOOCs (https://www.notion.so/Understanding-Dropouts-in-MOOCs-a97966fe379c49c9a597ac30e7b838a1?pvs=21), TimeArcs: Visualizing Fluctuations in Dynamic Networks (https://www.notion.so/TimeArcs-Visualizing-Fluctuations-in-Dynamic-Networks-e671c46ecfa444efaf28392636402266?pvs=21), Fast filtering and animation of large dynamic networks (https://www.notion.so/Fast-filtering-and-animation-of-large-dynamic-networks-2f5aa0b43a394030865509b15a945847?pvs=21)
+Origin Paper: Understanding Dropouts in MOOCs (https://www.notion.so/Understanding-Dropouts-in-MOOCs-a97966fe379c49c9a597ac30e7b838a1?pvs=21), TimeArcs: Visualizing Fluctuations in Dynamic Networks (https://www.notion.so/TimeArcs-Visualizing-Fluctuations-in-Dynamic-Networks-e671c46ecfa444efaf28392636402266?pvs=21), Fast filtering and animation of large dynamic networks (https://www.notion.so/Fast-filtering-and-animation-of-large-dynamic-networks-2f5aa0b43a394030865509b15a945847?pvs=21)
 Appeared in years: 5
 Type of Collection: Aggregate collection
 is it stored properly?: No

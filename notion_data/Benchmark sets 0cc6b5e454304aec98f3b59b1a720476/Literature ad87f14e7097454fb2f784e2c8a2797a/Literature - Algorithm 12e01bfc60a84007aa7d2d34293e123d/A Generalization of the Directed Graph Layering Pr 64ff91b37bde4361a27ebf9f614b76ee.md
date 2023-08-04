@@ -18,7 +18,7 @@ Conference: GD
 link: https://link.springer.com/content/pdf/10.1007%2F978-3-319-50106-2.pdf
 paper type: algorithm
 Technique: other
-Graph feature: Directed Edges, Layered graphs, N-layers
+Graph feature: directed edges, layered graphs, n-layers
 Dataset tag clean: AT&T, AT&T*, Custom (Non Replicable)
 Dataset used: North Lib but a subset (at least 20 nodes with aspect ratio below .5 ??) - removed plain pats, pairs of nodes connected with 1 edge, and trees
 dataset size: 146 + 160

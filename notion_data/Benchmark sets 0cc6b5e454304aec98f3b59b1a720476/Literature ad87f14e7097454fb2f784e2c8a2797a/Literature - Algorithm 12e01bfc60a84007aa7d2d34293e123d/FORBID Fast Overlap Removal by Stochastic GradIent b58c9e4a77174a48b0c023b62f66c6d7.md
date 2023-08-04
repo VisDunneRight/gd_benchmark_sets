@@ -29,7 +29,7 @@ link: https://link.springer.com/chapter/10.1007/978-3-031-22203-0_6#citeas
 Notes: great example because of how information is presented: links are easy to find, dataset is stored, evaluation is clean and nice
 paper type: algorithm, comparison
 Technique: other
-Graph feature: Generic
+Graph feature: generic
 Dataset tag clean: Custom (Reproducible), Graphviz Examples
 dataset size: 854
 Dataset tag relations: Graphviz Examples (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Graphviz%20Examples%20e90aec42f02c4e8b8a6b8727fe2f86ae.md)

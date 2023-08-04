@@ -22,7 +22,7 @@ link: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6509874
 Notes: user study
 paper type: algorithm
 Technique: other
-Graph feature: Spatial
+Graph feature: spatial
 Dataset tag clean: Transportation Network/Map
 Dataset used: Bing maps - boston - they generated it themselves
 dataset size: 4

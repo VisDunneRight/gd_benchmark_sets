@@ -28,7 +28,7 @@ The GiLA evaluation networks (claimed to be the largest in real-life) are from S
 The other one is still networkrepository.com
 paper type: algorithm
 Technique: force-directed
-Graph feature: Generic, Large
+Graph feature: generic, large
 Dataset tag clean: Network Data Repository, SNAP
 dataset size: 52
 dataset size comment: graphs have been modified to remove self-loops, Isolated vertices, and parallel edges 

@@ -12,7 +12,7 @@ Notes: decent computational evaluation
 
 paper type: algorithm
 Technique: force-directed
-Graph feature: Clusters (pre-existing), Dynamic
+Graph feature: clusters (pre-existing), dynamic
 Dataset tag clean: Undisclosed
 Dataset used: dataset source not disclosed
 dataset size: 1

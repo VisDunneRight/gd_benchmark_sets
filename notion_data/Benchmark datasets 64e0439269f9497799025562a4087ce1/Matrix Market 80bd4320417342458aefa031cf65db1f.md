@@ -4,7 +4,7 @@ Note: A visual repository of test data for use in comparative studies of algorit
 Origin Notes: Compiled by the https://math.nist.gov/mcsd/ of the http://www.itl.nist.gov/ of the http://www.nist.gov/
 Graph features in papers: 3
 Originally found at: https://math.nist.gov/MatrixMarket/index.html
-References: Matrix Market: a web resource for test matrix collections (https://www.notion.so/Matrix-Market-a-web-resource-for-test-matrix-collections-53a2935e0af842bf86971553c4f823dc?pvs=21)
+Origin Paper: Matrix Market: a web resource for test matrix collections (https://www.notion.so/Matrix-Market-a-web-resource-for-test-matrix-collections-53a2935e0af842bf86971553c4f823dc?pvs=21)
 Appeared in years: 4
 Type of Collection: Established Network Repo (No report)
 is it stored properly?: No

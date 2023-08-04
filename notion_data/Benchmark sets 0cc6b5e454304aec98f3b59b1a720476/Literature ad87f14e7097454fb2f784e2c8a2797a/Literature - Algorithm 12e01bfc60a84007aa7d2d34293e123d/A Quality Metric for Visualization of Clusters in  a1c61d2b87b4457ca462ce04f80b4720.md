@@ -19,7 +19,7 @@ link: https://doi.org/10.1007/978-3-030-35802-0_10
 Notes: http://mrvar.fdv.uni-lj.si/pajek/
 paper type: comparison, quality metrics
 Technique: force-directed
-Graph feature: Clusters (generated)
+Graph feature: clusters (generated)
 Dataset tag clean: Custom (Replicable), Pajek, SNAP
 Dataset used: custom made + SNAP + Pajek
 http://mrvar.fdv.uni-lj.si/pajek/

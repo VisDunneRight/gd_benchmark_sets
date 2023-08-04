@@ -25,7 +25,7 @@ Notes: used in dagre. paper has pseudocode.
 be sure to check errors:
 https://arxiv.org/pdf/2008.01252.pdf
 paper type: algorithm, comparison
-Graph feature: Layered graphs, N-layers
+Graph feature: layered graphs, n-layers
 Dataset tag clean: Custom (Non Replicable)
 Dataset used: dataset lost
 dataset size: 1

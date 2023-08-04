@@ -25,8 +25,8 @@ lumbus, Ohio, central business district.
 D. W. Malone, "An introduction to the application of interpretive
 structural modeling," Proc. IEEE, vol. 63, no. 3, pp. 397-404, 1975.
 paper type: algorithm
-Technique: Barycentric
-Graph feature: Hierarchical, Layered graphs, N-layers
+Technique: barycentric
+Graph feature: hierarchical, layered graphs, n-layers
 Dataset tag clean: Investment Interdependence
 Dataset used: check notes 
 dataset size: 13

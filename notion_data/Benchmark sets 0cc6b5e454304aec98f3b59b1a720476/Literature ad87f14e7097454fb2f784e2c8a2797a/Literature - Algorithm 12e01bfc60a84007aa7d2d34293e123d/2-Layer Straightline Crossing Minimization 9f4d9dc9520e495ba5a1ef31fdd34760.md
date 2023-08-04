@@ -30,7 +30,7 @@ link: https://www.researchgate.net/profile/Petra-Mutzel/publication/30508315_2-L
 Notes: used in dagre
 paper type: algorithm
 Technique: ILP
-Graph feature: Bipartite, Layered graphs
+Graph feature: bipartite, layered graphs
 Dataset tag clean: Stanford GraphBase
 Dataset used: random_bigraph from Stanford GraphBase
 dataset size: 220

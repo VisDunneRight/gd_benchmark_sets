@@ -5,7 +5,7 @@ graph features handled: directed edges, hierarchical
 Graph features in papers: 3
 Size: 25 nodes, 30 edges
 Number of Graphs: 1
-References: An introduction to the application of interpretive structural modeling (https://www.notion.so/An-introduction-to-the-application-of-interpretive-structural-modeling-6d2f2dbeecb94b9b833cc24ed98bacc2?pvs=21)
+Origin Paper: An introduction to the application of interpretive structural modeling (https://www.notion.so/An-introduction-to-the-application-of-interpretive-structural-modeling-6d2f2dbeecb94b9b833cc24ed98bacc2?pvs=21)
 Appeared in years: 1
 Type of Collection: Single Graph
 is it stored properly?: No

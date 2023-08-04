@@ -22,7 +22,7 @@ link: https://doi.org/10.1109/TVCG.2008.135
 Notes: case studies, no comparsion
 paper type: algorithm
 Technique: other
-Graph feature: Bundled edges (generated), Generic
+Graph feature: bundled edges (generated), generic
 Dataset tag clean: Airlines/Migration Routes, Custom (Non Replicable)
 Dataset used: gd contest: http://www.research.att.com/conf/gd96/contest.html
 dataset size: 4

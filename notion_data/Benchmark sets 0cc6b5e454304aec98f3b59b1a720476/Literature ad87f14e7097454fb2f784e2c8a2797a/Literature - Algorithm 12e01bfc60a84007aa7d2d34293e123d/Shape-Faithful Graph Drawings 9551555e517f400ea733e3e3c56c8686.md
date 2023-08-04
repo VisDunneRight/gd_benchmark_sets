@@ -26,7 +26,7 @@ Conference: GD
 link: https://link.springer.com/chapter/10.1007/978-3-031-22203-0_8#citeas
 Notes: most of the paper is a comparison
 paper type: algorithm, comparison
-Graph feature: Almost Proximity Drawable Graphs, Mesh graphs, Scale-free graphs, Strong Proximity Drawable Graphs, Weak Proximity Drawable Graphs
+Graph feature: almost proximity drawable graphs, mesh graphs, scale-free graphs, strong proximity drawable graphs, weak proximity drawable graphs
 Dataset tag clean: Custom (Non Replicable), SNAP, SuiteSparse Matrix Collection, bioSNAP
 dataset size: NA
 Dataset tag relations: SuiteSparse Matrix Collection (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/SuiteSparse%20Matrix%20Collection%20b8772d6a2cbb456894b4673e32c6f956.md), SNAP (Stanford Network Analysis Platform) (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/SNAP%20(Stanford%20Network%20Analysis%20Platform)%201cd77eaee57147ce8263b2f9eaa2589c.md)

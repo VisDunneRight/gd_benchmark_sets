@@ -24,7 +24,7 @@ Notes: This paper studies if the number of crossing really influences accuracy -
 
 used dataset from http://json.NET page (but link is broken)
 paper type: algorithm
-Graph feature: Bundled edges (generated), Compound graphs, Labeled Nodes, Layered graphs, N-layers
+Graph feature: bundled edges (generated), compound graphs, labeled nodes, layered graphs, n-layers
 Dataset tag clean: Custom (Non Replicable)
 dataset size: 10
 Size of graphs (Clean up): 7-140

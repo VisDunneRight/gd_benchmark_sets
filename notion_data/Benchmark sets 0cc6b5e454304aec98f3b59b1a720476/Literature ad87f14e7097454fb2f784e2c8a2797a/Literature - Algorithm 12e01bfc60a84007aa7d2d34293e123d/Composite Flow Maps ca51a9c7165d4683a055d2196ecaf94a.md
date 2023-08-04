@@ -21,7 +21,7 @@ Conference: Computer Graphics Forum
 link: https://onlinelibrary.wiley.com/doi/10.1111/cgf.12922
 paper type: algorithm
 Technique: other
-Graph feature: Spatial
+Graph feature: spatial
 Dataset tag clean: Transportation Network/Map
 dataset size: NA
 Size of graphs (Clean up): NA

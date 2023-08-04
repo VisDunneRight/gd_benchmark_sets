@@ -22,7 +22,7 @@ Conference: EuroVis
 link: https://onlinelibrary.wiley.com/doi/10.1111/cgf.13986
 paper type: algorithm
 Technique: ILP
-Graph feature: Octilinear, Port Constraints, Terminals
+Graph feature: octilinear, port constraints, terminals
 Dataset tag clean: Transportation Network/Map
 dataset size: 6
 Dataset tag relations: Transportation Networks (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Transportation%20Networks%20720a658bb1914b51910c480d86943e80.md)

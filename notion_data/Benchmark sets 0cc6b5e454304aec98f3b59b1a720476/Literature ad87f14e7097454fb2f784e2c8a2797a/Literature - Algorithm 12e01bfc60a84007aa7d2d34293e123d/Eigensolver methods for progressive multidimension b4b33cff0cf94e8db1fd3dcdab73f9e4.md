@@ -24,7 +24,7 @@ link: https://dl.acm.org/doi/10.5555/1758612.1758620
 Notes: https://link.springer.com/content/pdf/10.1007/978-3-540-70904-6.pdf?pdf=button
 paper type: algorithm, comparison
 Technique: multidimensional scaling
-Graph feature: Generic, Large
+Graph feature: generic, large
 Dataset tag clean: C. Walshaw's graph collection, Matrix Market
 dataset size: 17
 Dataset tag relations: Matrix Market (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Matrix%20Market%2080bd4320417342458aefa031cf65db1f.md), Walshaw (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Walshaw%20e40b37a1147942d89ff1d8dfad285256.md)

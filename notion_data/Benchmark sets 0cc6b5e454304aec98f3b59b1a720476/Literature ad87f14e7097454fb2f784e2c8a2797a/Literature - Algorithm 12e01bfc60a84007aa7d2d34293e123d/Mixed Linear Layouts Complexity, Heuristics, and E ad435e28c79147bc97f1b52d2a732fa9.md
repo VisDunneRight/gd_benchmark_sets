@@ -17,7 +17,7 @@ year: 2019
 Conference: GD
 Notes: datasets generated according sparse graph classes
 paper type: algorithm, comparison
-Graph feature: Book Embedding, Linear Layout
+Graph feature: book embedding, linear layout
 Dataset tag clean: Complete Graphs, Custom (Non Replicable)
 Dataset used: custom made (random)
 dataset size: 500

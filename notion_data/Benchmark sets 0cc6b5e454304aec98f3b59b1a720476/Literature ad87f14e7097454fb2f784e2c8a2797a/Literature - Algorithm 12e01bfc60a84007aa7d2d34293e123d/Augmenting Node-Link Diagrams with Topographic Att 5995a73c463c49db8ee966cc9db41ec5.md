@@ -22,7 +22,7 @@ Conference: EuroVis
 link: https://onlinelibrary.wiley.com/doi/10.1111/cgf.13987
 paper type: algorithm, technique
 Technique: force-directed
-Graph feature: Categorical Nodes, Generic, Topological, Trees, Weighted Edges
+Graph feature: categorical nodes, generic, topological, trees, weighted edges
 Dataset tag clean: Genealogy, Transportation Network/Map
 dataset size: 4
 Dataset tag relations: Transportation Networks (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Transportation%20Networks%20720a658bb1914b51910c480d86943e80.md)

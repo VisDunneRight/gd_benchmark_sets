@@ -22,7 +22,7 @@ Conference: Computer Graphics Forum
 link: https://onlinelibrary.wiley.com/doi/10.1111/cgf.14497#
 paper type: algorithm
 Technique: other
-Graph feature: Hypergraphs, Spatial
+Graph feature: hypergraphs, spatial
 Dataset tag clean: Custom (Non Replicable)
 dataset size: 5
 Type of edit to the dataset: generated

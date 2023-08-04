@@ -30,7 +30,7 @@ Notes: tree of life: http://tolweb.org/tree/
 mathematics genealogy: https://genealogy.math.ndsu.nodak.edu/
 paper type: algorithm
 Technique: other
-Graph feature: Dynamic, Dynamic - discrete
+Graph feature: dynamic, dynamic (discrete)
 Dataset tag clean: Custom (Non Replicable), Mathematics Generalogy, Tree of Life
 dataset size: 2
 Dataset tag relations: Tree of Life (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Tree%20of%20Life%20cb0493d6b6da4a73a979f06225983011.md), Mathematics Genealogy (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Mathematics%20Genealogy%20081ba4645aac48c19719b16033c637f3.md)

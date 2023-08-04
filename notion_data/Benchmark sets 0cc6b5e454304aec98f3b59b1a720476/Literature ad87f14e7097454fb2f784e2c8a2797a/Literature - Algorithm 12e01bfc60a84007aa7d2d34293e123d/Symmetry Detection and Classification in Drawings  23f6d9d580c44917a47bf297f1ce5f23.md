@@ -26,7 +26,7 @@ Notes: it’s a machine-learning paper so datasets used are for the model not fo
 implementation and dataset: https://github.com/enggiqbal/mlsymmetric
 paper type: evaluation
 Technique: machine learning
-Graph feature: Generic
+Graph feature: generic
 Dataset tag clean: Custom (Non Replicable)
 Dataset used: custom made
 dataset size: 64000

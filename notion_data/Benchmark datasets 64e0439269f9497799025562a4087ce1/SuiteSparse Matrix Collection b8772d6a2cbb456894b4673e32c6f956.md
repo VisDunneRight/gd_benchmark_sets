@@ -1,7 +1,7 @@
 # SuiteSparse Matrix Collection
 
 Origin Notes: Formerly the Univeristy of Florida matrix collection.
-graph features handled: sparse
+graph features handled: bipartite, categorical nodes, dense, directed edges, dynamic, edge weighted, generic, hierarchical, large, multigraph, node weighted, sparse, spatial, temporal
 Graph features in papers: 12
 Originally found at: https://sparse.tamu.edu/
 Size: 2893

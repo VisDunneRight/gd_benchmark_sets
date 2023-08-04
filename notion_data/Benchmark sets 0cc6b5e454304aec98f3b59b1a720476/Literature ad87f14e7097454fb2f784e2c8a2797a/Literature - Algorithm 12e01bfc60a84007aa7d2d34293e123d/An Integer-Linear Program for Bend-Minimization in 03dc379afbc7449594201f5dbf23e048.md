@@ -20,7 +20,7 @@ Conference: GD
 link: https://link.springer.com/content/pdf/10.1007%2F978-3-030-68766-3.pdf
 paper type: algorithm
 Technique: ILP
-Graph feature: Ortho, Ortho-radial
+Graph feature: ortho, ortho-radial
 Dataset tag clean: Metro Maps, Rome-Lib, Rome-Lib*
 Dataset used: Rome-Lib (Rome-Lib < 44 nodes)
 dataset size: 4048 

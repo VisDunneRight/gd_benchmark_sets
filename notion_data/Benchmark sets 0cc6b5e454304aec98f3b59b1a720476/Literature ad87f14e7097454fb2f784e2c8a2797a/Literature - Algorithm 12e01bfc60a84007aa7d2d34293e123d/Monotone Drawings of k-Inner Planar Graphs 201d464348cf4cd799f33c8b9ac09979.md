@@ -17,7 +17,7 @@ year: 2018
 Conference: GD
 link: https://link.springer.com/content/pdf/10.1007%2F978-3-030-04414-5.pdf
 paper type: algorithm, proof
-Graph feature: K-inner Planar
+Graph feature: k-inner planar
 Dataset tag clean: none
 Dataset used: no experiment
 dataset size: 0

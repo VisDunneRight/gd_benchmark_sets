@@ -20,7 +20,7 @@ Notes: link to tool: https://gitlab.uni.lu/pcog/cate
 description of the cluster environment: https://hpc.uni.lu/systems/chaos/
 paper type: algorithm
 Technique: other
-Graph feature: Chaotic Attractor, Trees
+Graph feature: chaotic attractor, trees
 Dataset tag clean: Custom (Reproducible)
 Dataset used: custom
 dataset size: 168

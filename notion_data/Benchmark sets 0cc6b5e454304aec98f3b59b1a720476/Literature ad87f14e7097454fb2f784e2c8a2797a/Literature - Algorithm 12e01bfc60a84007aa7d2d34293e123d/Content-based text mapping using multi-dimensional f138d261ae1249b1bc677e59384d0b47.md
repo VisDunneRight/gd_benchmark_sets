@@ -16,7 +16,7 @@ year: 2006
 Conference: VDA
 link: https://sites.icmc.usp.br/alneu/papers/minghim_etal2006.pdf
 paper type: algorithm
-Graph feature: Generic
+Graph feature: generic
 Dataset tag clean: Collaboration Networks
 Dataset used: KDVIz - no source
 CBR + ILP + IR etc - they don’t say what those datasets are

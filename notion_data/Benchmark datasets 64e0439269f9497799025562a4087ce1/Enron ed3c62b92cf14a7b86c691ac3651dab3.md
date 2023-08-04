@@ -6,7 +6,7 @@ graph features handled: dynamic (discrete), generic, large
 Graph features in papers: 4
 Originally found at: https://www.cs.cmu.edu/~enron/
 Size: The data consists of 150 Enron executives, who sent 500,000 messages between themselves.
-References: Introducing the Enron Corpus (https://www.notion.so/Introducing-the-Enron-Corpus-52663d33d36b4940b5966f72f6c73a70?pvs=21)
+Origin Paper: Introducing the Enron Corpus (https://www.notion.so/Introducing-the-Enron-Corpus-52663d33d36b4940b5966f72f6c73a70?pvs=21)
 Child collections: SNAP (Stanford Network Analysis Platform) (SNAP%20(Stanford%20Network%20Analysis%20Platform)%201cd77eaee57147ce8263b2f9eaa2589c.md)
 Appeared in years: 2
 Type of Collection: Skip

@@ -31,7 +31,7 @@ Conference: GD
 link: https://link.springer.com/content/pdf/10.1007%2F978-3-319-73915-1.pdf
 Notes: user study - we have doubts about the inclusion of this
 paper type: quality metrics
-Graph feature: DAG, Directed Edges
+Graph feature: DAG, directed edges
 Dataset tag clean: Custom (Reproducible)
 Dataset used: custom
 dataset size: 69

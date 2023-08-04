@@ -19,7 +19,7 @@ link: https://link.springer.com/content/pdf/10.1007%2F978-3-030-04414-5.pdf
 Notes: they start from a single graph with 1000 nodes and generate the second one by removing few nodes from the original graph
 paper type: algorithm, comparison
 Technique: other
-Graph feature: Generic
+Graph feature: generic
 Dataset tag clean: Custom (Reproducible), Social Networks
 Dataset used: custom (random)
 dataset size: 11

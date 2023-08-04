@@ -21,7 +21,7 @@ Conference: Software Practice and Experience
 link: http://www.mathe2.uni-bayreuth.de/axel/papers/reingold:graph_drawing_by_force_directed_placement.pdf
 paper type: algorithm, comparison
 Technique: force-directed
-Graph feature: Generic
+Graph feature: generic
 Dataset tag clean: Custom (Reproducible)
 dataset size: 67
 Type of edit to the dataset: NA

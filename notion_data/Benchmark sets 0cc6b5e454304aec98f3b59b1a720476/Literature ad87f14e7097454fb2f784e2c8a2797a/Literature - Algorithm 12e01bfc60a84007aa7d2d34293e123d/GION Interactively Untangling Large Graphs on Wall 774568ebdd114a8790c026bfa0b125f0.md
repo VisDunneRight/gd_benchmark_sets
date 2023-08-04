@@ -18,7 +18,7 @@ Conference: GD
 Notes: technique + user interaction
 presents GION dataset, link broken
 paper type: technique
-Graph feature: Generic, Large
+Graph feature: generic, large
 Dataset tag clean: GION
 dataset size: 8
 Dataset tag relations: GION (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/GION%20fb235f160e504395a884f5a18fca6f17.md)

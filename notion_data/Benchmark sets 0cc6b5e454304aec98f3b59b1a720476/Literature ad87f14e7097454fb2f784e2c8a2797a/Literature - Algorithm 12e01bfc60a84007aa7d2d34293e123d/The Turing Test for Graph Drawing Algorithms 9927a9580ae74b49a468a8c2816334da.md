@@ -17,7 +17,7 @@ year: 2020
 Conference: GD
 Notes: empirical study (turing test)
 paper type: comparison
-Graph feature: Generic
+Graph feature: generic
 Dataset tag clean: Blogposts/Tweets/Forum Posts, Planar Graphs, Social Networks, causes of x
 Dataset used: bunch of references for individual dataset - both synthetic and abstract - they tried to balance between synthetic and natural
 dataset size: 9

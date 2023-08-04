@@ -17,7 +17,7 @@ year: 2009
 Conference: GD
 link: https://i11www.iti.kit.edu/extra/publications/n-iamlc-10.pdf
 paper type: algorithm
-Graph feature: Terminals
+Graph feature: terminals
 Dataset used: no experiment
 dataset size: 0
 Size of graphs (Clean up): NA

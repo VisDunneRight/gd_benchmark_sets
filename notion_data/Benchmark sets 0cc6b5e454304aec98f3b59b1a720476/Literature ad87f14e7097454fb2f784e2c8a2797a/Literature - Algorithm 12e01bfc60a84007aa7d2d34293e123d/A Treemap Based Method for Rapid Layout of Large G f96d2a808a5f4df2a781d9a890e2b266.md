@@ -13,7 +13,7 @@ Notes: “california search results graph” https://www.cs.cornell.edu/courses/
 http://www.diag.uniroma1.it//challenge9/download.shtml
 paper type: algorithm, comparison
 Technique: other
-Graph feature: Clusters (generated), Generic, Large
+Graph feature: clusters (generated), generic, large
 Dataset tag clean: California, Custom (Non Replicable), Transportation Network/Map
 dataset size: 5
 Dataset tag relations: Transportation Networks (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Transportation%20Networks%20720a658bb1914b51910c480d86943e80.md), California (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/California%20e0a841bc57c045b5a8514110cfe85635.md)

@@ -21,7 +21,7 @@ Conference: TVCG
 link: https://osf.io/qdyt9
 paper type: algorithm
 Technique: ILP
-Graph feature: Clusters (pre-existing), Compound graphs, Layered graphs, N-layers
+Graph feature: clusters (pre-existing), compound graphs, layered graphs, n-layers
 Dataset tag clean: Movie Plots, Rome-Lib, Rome-Lib*, SQL queries
 Dataset used: Rome-Lib - layered and with added groups (graphs with too many nodes were left out from Rome-Lib)
 dataset size: 468

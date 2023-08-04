@@ -6,7 +6,7 @@ graph features handled: acyclic, directed edges
 Graph features in papers: 5
 Originally found at: See AT&T
 Size: See AT&T
-References: Drawing Directed Acyclic Graphs: An Experimental Study (https://www.notion.so/Drawing-Directed-Acyclic-Graphs-An-Experimental-Study-7f730ceea4a744e08bf091e8c23e8a95?pvs=21)
+Origin Paper: Drawing Directed Acyclic Graphs: An Experimental Study (https://www.notion.so/Drawing-Directed-Acyclic-Graphs-An-Experimental-Study-7f730ceea4a744e08bf091e8c23e8a95?pvs=21)
 Child collections: AT&T (AT&T%20e86f130c42344169a9d75a61abc7e487.md)
 Appeared in years: 6
 Type of Collection: Uniform Benchmark

@@ -10,7 +10,7 @@ link: https://ialab.it.monash.edu/~dwyer/papers/optimal-sankey-diagrams.pdf
 Notes: This is an interesting example of a case in which the number of nodes in a layer affects performances more than the sheer number of nodes
 paper type: algorithm
 Technique: ILP
-Graph feature: Clusters (pre-existing), Layered graphs, N-layers
+Graph feature: clusters (pre-existing), layered graphs, n-layers
 Dataset tag clean: Custom (Non Replicable), World Greenhouse Gas Emissions
 Dataset used: World Greenhouse Gas Emissions
 dataset size: 21

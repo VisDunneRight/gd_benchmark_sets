@@ -19,7 +19,7 @@ Notes: AT&T: whereof we extracted all non-tree instances with 20 ≤ |V | ≤ 60
 20 ≤ |A| ≤ 168
 paper type: algorithm
 Technique: ILP
-Graph feature: Layered graphs, N-layers
+Graph feature: layered graphs, n-layers
 Dataset tag clean: AT&T, AT&T*, Custom (Replicable)
 Dataset used: AT&T (modified)
 dataset size: 180 + 127

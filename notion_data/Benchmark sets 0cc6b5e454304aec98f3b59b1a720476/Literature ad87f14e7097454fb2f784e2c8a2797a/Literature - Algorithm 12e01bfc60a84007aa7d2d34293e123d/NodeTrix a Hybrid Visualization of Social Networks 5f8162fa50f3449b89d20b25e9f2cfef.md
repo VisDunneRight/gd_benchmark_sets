@@ -24,7 +24,7 @@ Notes: cherrypicked dataset - single case study
 infovis contest used as dataset
 paper type: algorithm
 Technique: force-directed
-Graph feature: Clusters (generated), High degree
+Graph feature: clusters (generated), high degree
 Dataset tag clean: Collaboration Networks
 dataset size: 1
 Dataset tag relations: Assorted Collaboration Network (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Assorted%20Collaboration%20Network%206062ff126f474a50b5f3dc9b945d43da.md)

@@ -20,7 +20,7 @@ Notes: algorithm is done through proof
 
 I like how they reported their results in fig 5
 paper type: algorithm, comparison
-Graph feature: Dynamic - discrete, Hypergraphs, Layered graphs, N-layers
+Graph feature: dynamic (discrete), hypergraphs, layered graphs, n-layers
 Dataset tag clean: Custom (Non Replicable)
 Dataset used: random
 dataset size: 1000

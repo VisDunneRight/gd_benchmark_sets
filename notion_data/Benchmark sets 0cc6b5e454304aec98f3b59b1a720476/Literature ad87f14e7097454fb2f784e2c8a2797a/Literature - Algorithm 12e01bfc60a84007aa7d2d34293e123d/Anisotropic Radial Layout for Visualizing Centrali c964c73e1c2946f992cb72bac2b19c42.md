@@ -19,7 +19,7 @@ link: https://link.springer.com/content/pdf/10.1007%2F978-3-319-73915-1.pdf
 Notes: both evaluations are case studies
 paper type: algorithm, comparison
 Technique: multidimensional scaling, other
-Graph feature: Clusters (generated), Weighted Edges
+Graph feature: clusters (generated), weighted edges
 Dataset tag clean: Social Networks, Stanford GraphBase
 Dataset used: Zachary’s karate club , Terrorist network Rodr ́ıguez, J.A., Rodr ́ıguez, J.A.: The March 11th terrorist network: in its weakness
 lies its strength (2005), Les Miserables (stanford graph base )

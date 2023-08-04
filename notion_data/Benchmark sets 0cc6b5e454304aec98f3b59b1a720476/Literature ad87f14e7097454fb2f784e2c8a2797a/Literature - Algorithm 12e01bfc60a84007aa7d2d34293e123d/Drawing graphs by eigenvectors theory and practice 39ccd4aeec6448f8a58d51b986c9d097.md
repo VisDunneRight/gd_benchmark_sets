@@ -21,8 +21,8 @@ year: 2005
 Conference: Computers & Mathematics with Applications
 link: https://www.sciencedirect.com/science/article/pii/S089812210500204X
 paper type: algorithm
-Technique: Spectral
-Graph feature: Generic
+Technique: spectral
+Graph feature: generic
 Dataset tag clean: C. Walshaw's graph collection, Matrix Market
 dataset size: 14
 Dataset tag relations: Walshaw (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Walshaw%20e40b37a1147942d89ff1d8dfad285256.md), Matrix Market (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Matrix%20Market%2080bd4320417342458aefa031cf65db1f.md)

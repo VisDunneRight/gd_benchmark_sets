@@ -21,7 +21,7 @@ Conference: EuroVis
 link: https://www.cs.uic.edu/~tdang/TimeArcs/EuroVis2016/TimeArcs_Dang_EuroVis2016.pdf
 Notes: just case study as evaluation
 paper type: algorithm
-Graph feature: Dynamic, Dynamic - discrete, Layered graphs, N-layers
+Graph feature: dynamic, dynamic (discrete), layered graphs, n-layers
 Dataset tag clean: Blogposts/Tweets/Forum Posts, Collaboration Networks, IMDB, Protein Interactions
 Dataset used: http://www.pathwaycommons.org/ https://www.imdb.com/interfaces/
 dataset size: 4

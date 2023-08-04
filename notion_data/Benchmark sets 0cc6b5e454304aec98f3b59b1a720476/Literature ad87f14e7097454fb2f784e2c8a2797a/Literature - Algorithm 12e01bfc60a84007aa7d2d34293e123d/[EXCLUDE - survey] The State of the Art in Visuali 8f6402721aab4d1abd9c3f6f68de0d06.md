@@ -18,7 +18,7 @@ Conference: EuroVis
 link: https://www.researchgate.net/publication/261723303_The_State_of_the_Art_in_Visualizing_Dynamic_Graphs
 Notes: Good discussion on possible domains 
 paper type: survey
-Graph feature: Compound graphs, Dynamic
+Graph feature: compound graphs, dynamic
 Dataset used: no experiment (just survey)
 dataset size: NA
 Size of graphs (Clean up): NA

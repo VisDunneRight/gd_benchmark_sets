@@ -27,7 +27,7 @@ THE edge bundling paper - validation is not as necessary because the results are
 It might be the first hierarchical edge bundling paper?
 paper type: algorithm
 Technique: other
-Graph feature: Bundled edges (generated), Compound graphs, Hierarchical
+Graph feature: bundled edges (generated), compound graphs, hierarchical
 Dataset tag clean: Code commits, Custom (Non Replicable)
 dataset size: 1
 Dataset tag relations: Code Dependency Graphs (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Code%20Dependency%20Graphs%203b6beec0413c486184cee398056e6c87.md)

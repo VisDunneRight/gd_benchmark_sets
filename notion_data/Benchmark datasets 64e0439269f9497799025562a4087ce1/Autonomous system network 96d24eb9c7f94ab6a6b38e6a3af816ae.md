@@ -6,7 +6,7 @@ Originally found at: https://www.routeviews.org/routeviews/
 https://snap.stanford.edu/data/as-733.html
 https://github.com/csuvis/MCGS/blob/master/dataset/AS-733_edge.csv
 Number of Graphs: 733
-References: Preserving Minority Structures in Graph Sampling (https://www.notion.so/Preserving-Minority-Structures-in-Graph-Sampling-d0f9e612663d434e85599c402c9b700c?pvs=21), Graphs over Time: Densification Laws, Shrinking Diameters and Possible Explanations (https://www.notion.so/Graphs-over-Time-Densification-Laws-Shrinking-Diameters-and-Possible-Explanations-9b33c460755241c591e462c7326db101?pvs=21)
+Origin Paper: Preserving Minority Structures in Graph Sampling (https://www.notion.so/Preserving-Minority-Structures-in-Graph-Sampling-d0f9e612663d434e85599c402c9b700c?pvs=21), Graphs over Time: Densification Laws, Shrinking Diameters and Possible Explanations (https://www.notion.so/Graphs-over-Time-Densification-Laws-Shrinking-Diameters-and-Possible-Explanations-9b33c460755241c591e462c7326db101?pvs=21)
 Appeared in years: 1
 Type of Collection: Subset of other collection
 is it stored properly?: No

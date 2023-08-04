@@ -20,7 +20,7 @@ year: 2013
 Conference: TVCG
 paper type: algorithm, comparison
 Technique: other
-Graph feature: Generic
+Graph feature: generic
 Dataset tag clean: Collaboration Networks, SuiteSparse Matrix Collection
 dataset size: 9
 Dataset tag relations: SuiteSparse Matrix Collection (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/SuiteSparse%20Matrix%20Collection%20b8772d6a2cbb456894b4673e32c6f956.md), Assorted Collaboration Network (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Assorted%20Collaboration%20Network%206062ff126f474a50b5f3dc9b945d43da.md)

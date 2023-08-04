@@ -21,7 +21,7 @@ Conference: TVCG
 link: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=5473229
 paper type: algorithm, technique
 Technique: ILP
-Graph feature: Labeled Nodes, Spatial
+Graph feature: labeled nodes, spatial
 Dataset tag clean: Transportation Network/Map
 Dataset used: sydney metro map, vienna, london
 dataset size: 3

@@ -22,7 +22,7 @@ link: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9222065
 Notes: check supplemental material for description of the custom graphs used in the experiment:https://github.com/csuvis/MCGS
 paper type: algorithm, comparison
 Technique: other
-Graph feature: Generic
+Graph feature: generic
 Dataset tag clean: Autonomous System Network, Collaboration Networks, Social Networks
 Dataset used: AS-733 autonomous systems: J. Leskovec, J. Kleinberg, and C. Faloutsos. Graphs over time: Densification
 laws, shrinking diameters and possible explanations. In Proceedings of the

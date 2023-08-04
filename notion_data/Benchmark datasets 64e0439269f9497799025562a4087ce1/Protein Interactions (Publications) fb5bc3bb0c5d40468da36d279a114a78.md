@@ -9,7 +9,7 @@ Originally found at: https://github.com/CreativeCodingLab/TimeArcs/tree/master/I
 https://lgl.sourceforge.net/ (download link broken)
 Size: 2961 nodes, 5267 edges
 Number of Graphs: 1
-References: LGL: Creating a Map of Protein Function with an Algorithm for Visualizing Very Large Biological Networks (https://www.notion.so/LGL-Creating-a-Map-of-Protein-Function-with-an-Algorithm-for-Visualizing-Very-Large-Biological-Netw-518c7160f2f24cd08c6bbb7b4f43216c?pvs=21), TimeArcs: Visualizing Fluctuations in Dynamic Networks (https://www.notion.so/TimeArcs-Visualizing-Fluctuations-in-Dynamic-Networks-e671c46ecfa444efaf28392636402266?pvs=21)
+Origin Paper: LGL: Creating a Map of Protein Function with an Algorithm for Visualizing Very Large Biological Networks (https://www.notion.so/LGL-Creating-a-Map-of-Protein-Function-with-an-Algorithm-for-Visualizing-Very-Large-Biological-Netw-518c7160f2f24cd08c6bbb7b4f43216c?pvs=21), TimeArcs: Visualizing Fluctuations in Dynamic Networks (https://www.notion.so/TimeArcs-Visualizing-Fluctuations-in-Dynamic-Networks-e671c46ecfa444efaf28392636402266?pvs=21)
 Appeared in years: 2
 Type of Collection: Aggregate collection
 is it stored properly?: No

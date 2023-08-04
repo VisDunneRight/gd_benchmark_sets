@@ -22,7 +22,7 @@ Conference: EuroVis
 link: https://onlinelibrary.wiley.com/doi/10.1111/cgf.13724
 paper type: algorithm
 Technique: force-directed
-Graph feature: Generic
+Graph feature: generic
 Dataset tag clean: C. Walshaw's graph collection, Collaboration Networks, Custom (Non Replicable), Metro Maps, SNAP, Stanford GraphBase, SuiteSparse Matrix Collection
 dataset size: 109
 Dataset tag relations: Stanford GraphBase (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Stanford%20GraphBase%20effff4b40e9d4a79b6f33825ccca7401.md), Transportation Networks (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Transportation%20Networks%20720a658bb1914b51910c480d86943e80.md), SNAP (Stanford Network Analysis Platform) (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/SNAP%20(Stanford%20Network%20Analysis%20Platform)%201cd77eaee57147ce8263b2f9eaa2589c.md), Walshaw (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Walshaw%20e40b37a1147942d89ff1d8dfad285256.md), Assorted Collaboration Network (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Assorted%20Collaboration%20Network%206062ff126f474a50b5f3dc9b945d43da.md), Social Networks (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Social%20Networks%2090888b3285d042d49072985b05f95203.md)

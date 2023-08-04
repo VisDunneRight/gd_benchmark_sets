@@ -22,7 +22,7 @@ Conference: Computer Graphics Forum
 link: https://onlinelibrary.wiley.com/doi/pdf/10.1111/cgf.14695
 paper type: algorithm
 Technique: other
-Graph feature: Categorical Nodes
+Graph feature: categorical nodes
 Dataset tag clean: Metro Maps
 dataset size: 7
 Dataset tag relations: Transportation Networks (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Transportation%20Networks%20720a658bb1914b51910c480d86943e80.md)

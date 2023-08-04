@@ -20,7 +20,7 @@ year: 2015
 Conference: TVCG
 link: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7015617
 paper type: algorithm
-Graph feature: Dynamic, Dynamic - discrete, Layered graphs, N-layers
+Graph feature: dynamic, dynamic (discrete), layered graphs, n-layers
 Dataset tag clean: Code commits, Enron, Movie Plots
 Dataset used: movie plots (lost), other datasets (all lost excluding https://www.cs.cmu.edu/~enron/) 
 dataset size: 7

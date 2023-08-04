@@ -10,6 +10,9 @@
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.1.0/showdown.min.js"></script>
 
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
     <style>
         #named-list {
             display: flex;
@@ -39,6 +42,13 @@
             margin-left: 40px;
             margin-right: 40px;
         }
+
+        .coltext {
+            font-style: italic;
+            font-size: small;
+            text-align: center;
+            color: #999;
+        }
     </style>
 </head>
 <body>
@@ -64,7 +74,7 @@
       
               <div class="offcanvas-body">
                 <nav class="bd-links w-100" id="bd-docs-nav" aria-label="Docs navigation">
-                    <ul class="bd-links-nav list-unstyled mb-0 pb-3 pb-md-2 pe-lg-2">
+                    <ul class="bd-links-nav list-unstyled mb-0 pb-3 pb-md-2 pe-lg-2" style="display: flex;">
                         <div id="db-nav-list"></div>
                     </ul>
                 </nav>
@@ -72,14 +82,16 @@
             </div>
           </aside>
     <div class="container overflow-hidden">
-        <h1 class="" style="margin-top: 5%">Graph Benchmark Datasets</h1>
+        <h1 class="" style="margin-top: 5%">Graph Layout Benchmark Datasets</h1>
         <div class="row">
           <!-- <div class="col-sm-2">
             navbar navbar navbar menu menu menu <br> <br>
             Usage instructions, cite us at [bibtex]
           </div> -->
           <div class="col-lg-10 bg-light">
-            The following is a list of benchmark datasets for testing graph layout algorithms. <br>
+            The following is a list of benchmark datasets for testing graph layout algorithms. 
+            The list was collected at the <a href="https://vis.khoury.northeastern.edu/">Northeastern University Visualization Lab</a>, and is maintained by the same. Our colleciton methodology targeted layout algorithms specifically - we do acknowledge the existence of other repositories that target other network-related purposes more in detail.<br><br>
+
             Click on the names of the collections to expand them and access information about their contents and a list of papers using them.<br><br>
             If you find our work useful for your research, consider citing our paper as well as the linked "Origin Paper" for each dataset used:
             <br><br>
@@ -102,6 +114,12 @@
       </div>
 </body>
 <script>
+    window.MathJax = {
+        tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']]
+        }
+    };
+
     function add_simple_field(entry, field_name, div, name = ""){
         if (entry[field_name] != "" && entry[field_name] != undefined){
             let title = name === "" ? field_name : name;
@@ -132,6 +150,7 @@
             
             if (line === '# Body') {
                 text = lines.slice(i + 1).join('\n');
+                MathJax.typeset();
             } 
         }
         
@@ -151,7 +170,6 @@
 
         // parse json
         let parsed = JSON.parse(entry["sparkline data"].replaceAll("'", '"'))
-        console.log(parsed)
 
         let data, color;
         if (parsed.num_nodes){
@@ -231,10 +249,15 @@
             .attr("stroke-width", 4);
     }
 
-    async function add_entry_row(named_list_dom, db_nav_list, paper_data, entry){
+    function citation(e){
+        // console.log(window.origin_paper_data[e])
+        var win = window.open("", "Title", "toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=yes,width=780,height=200,top="+(screen.height-400)+",left="+(screen.width-840));
+        win.document.body.innerHTML = window.origin_paper_data[e].bib;
+    }
+
+    async function add_entry_row(named_list_dom, db_nav_list, paper_data, entry, origin_paper_data){
         // console.log(entry["Type of Collection"])
 
-        // console.log(entry)
         //Fills the navs on the left sid        
 
         db_nav_list.append("li")
@@ -302,9 +325,11 @@
             e = e.trim();
             if (e == "") continue;
             let origindoi = (paper_data.find(a => a.Name == e) || {}).DOI
-            if (origindoi != undefined && origindoi != "") 
-                inforow.append("div").html('<a href="' + doify(origindoi) + '">' + "[link]" + '</a> &nbsp;' + e)
-            else inforow.append("div").html(e)
+            let cited_paper = origin_paper_data.find(o => o.Name == e)
+            let cite_index = origin_paper_data.indexOf(cited_paper)
+            if (origindoi != undefined && origindoi != ""){
+                inforow.append("div").html('<a href="' + doify(origindoi) + '">' + "[link]" + '</a> &nbsp; <a style="cursor: pointer; text-decoration: underline; color: rgba(var(--bs-link-color-rgb)" onclick="citation(' + cite_index + ')">' + "[citation]" + '</a> &nbsp;' + e)
+            } else inforow.append("div").html(e)
         }
 
         inforow.append("div").html("<b>Usage examples: </b>")
@@ -379,12 +404,47 @@
             .style("margin-bottom", "5px")
     }
 
+    function add_col_headers(named_list_dom, avoid_middle=false){
+        let dfes = named_list_dom.append("div")
+            .attr("class", "row")
+            .style("padding-bottom", "10px")
+
+        dfes.append("div")
+            .attr("class", "col coltext")
+            .html("Name")
+
+        let d = dfes.append("div")
+            .attr("class", "col")
+            
+        if (!avoid_middle) {
+            let dr = d.append("div").attr("class", "row")
+            
+            dr.append("div")
+                .attr("class", "col coltext")
+                .html("Deg. Distr.")
+
+            dr.append("div")
+                .attr("class", "col coltext")
+                .html("Min deg.")
+
+            dr.append("div")
+                .attr("class", "col coltext")
+                .html("Max deg.")
+        }
+
+        dfes.append("div")
+            .attr("class", "col coltext")
+            .html("Features")
+    }
+
     graph_feature_tags = []
     graph_feature_tags_colors = ["#9B9A97", "#64473A", "#D9730D", "#DFAB01", "#0F7B6C", "#0B6E99", "#6940A5", "#AD1A72", "#E03E3E"]
 
     async function main(){
         let data = await d3.csv("notion_data/Benchmark datasets 64e0439269f9497799025562a4087ce1.csv")
         let paper_data = await d3.csv("notion_data/Literature - Algorithm 12e01bfc60a84007aa7d2d34293e123d.csv")
+        let origin_paper_data = await d3.csv("notion_data/Paper Sources cb3332bc548a49a4a4f1e085486f71f1.csv")
+        window.origin_paper_data = origin_paper_data;
         let named_list_dom = d3.select("#named-list")
         let db_nav_list = d3.select("#db-nav-list");
 
@@ -431,6 +491,8 @@
             .append("p")
             .text("These are collections of graphs that have been frequently used in graph drawing papers. By clicking on each collection name, you can see additional information. We also provide an analysis of the contents of each collection, and a list of papers that use them, their sources, and various types of information.")
             .style("color", "gray")
+
+        add_col_headers(named_list_dom)
         
         let benchLi = db_nav_list.append("li")
             .attr("class", "bd-links-group py-2");
@@ -445,7 +507,7 @@
         
         for (let entry of data.filter(d => d["Type of Collection"] == "Uniform Benchmark")){
             entry.added = true;
-            await add_entry_row(named_list_dom, benchul, paper_data, entry)
+            await add_entry_row(named_list_dom, benchul, paper_data, entry, origin_paper_data)
         }
 
         named_list_dom.append("div")
@@ -464,6 +526,8 @@
             .text("The following collections are organized, classified and maintained by other people or institutions. We do not claim any ownership over them, and we do not guarantee that they will be maintained in the future. We provide links to them for convenience, as well as information about which papers use them and what features are contained in the graphs in them.")
             .style("color", "gray")
 
+        add_col_headers(named_list_dom, true)
+
         let netLi = db_nav_list.append("li")
             .attr("class", "bd-links-group py-2")
         netLi
@@ -476,7 +540,7 @@
 
         for (let entry of data.filter(d => d["Type of Collection"] == "Established Network Repo (No report)")){
             entry.added = true;
-            await add_entry_row(named_list_dom, netul, paper_data, entry)
+            await add_entry_row(named_list_dom, netul, paper_data, entry, origin_paper_data)
         }
 
         named_list_dom.append("div")
@@ -495,6 +559,8 @@
             .text("The following collections are aggregates: they share similar sources and similar features/purpose, but come from different sources. ")
             .style("color", "gray")
 
+        add_col_headers(named_list_dom)
+
         let aggLi = db_nav_list.append("li")
             .attr("class", "bd-links-group py-2")
         aggLi
@@ -507,7 +573,7 @@
 
         for (let entry of data.filter(d => d["Type of Collection"] == "Aggregate collection")){
             entry.added = true;
-            await add_entry_row(named_list_dom, aggul, paper_data, entry)
+            await add_entry_row(named_list_dom, aggul, paper_data, entry, origin_paper_data)
         }
 
         named_list_dom.append("div")
@@ -526,6 +592,7 @@
             .text("The following are not collections, but individual graphs. They are often used as examples in papers, or as test cases for specific features. ")
             .style("color", "gray")
 
+        add_col_headers(named_list_dom)
         
         let singleLi = db_nav_list.append("li")
             .attr("class", "bd-links-group py-2")
@@ -539,7 +606,7 @@
 
         for (let entry of data.filter(d => d["Type of Collection"] == "Single Graph")){
             entry.added = true;
-            await add_entry_row(named_list_dom, singleUl, paper_data, entry)
+            await add_entry_row(named_list_dom, singleUl, paper_data, entry, origin_paper_data)
         }
 
         named_list_dom.append("div")
@@ -558,6 +625,7 @@
             .text("The following collections are unavailable, often due to link rot or unmaintained websites. We invite whoever might have access to these collections to contact us so that we can add them to the list, or gather more information about them. ")
             .style("color", "gray")
 
+        add_col_headers(named_list_dom, true)
         
         let lostLi = db_nav_list.append("li")
             .attr("class", "bd-links-group py-2")
@@ -571,7 +639,7 @@
 
         for (let entry of data.filter(d => d["Type of Collection"] == "Lost/Unavailable")){
             entry.added = true;
-            await add_entry_row(named_list_dom, lostUl, paper_data, entry)
+            await add_entry_row(named_list_dom, lostUl, paper_data, entry, origin_paper_data)
         }
 
         named_list_dom.append("div")
@@ -581,6 +649,8 @@
             .append("h3")
             .text("Other")
             .style("margin-top", "10px")
+
+        add_col_headers(named_list_dom, true)
 
         let otherLi = db_nav_list.append("li")
             .attr("class", "bd-links-group py-2")
@@ -594,7 +664,7 @@
 
         for (let entry of data.filter(d => d.added != true)){
             entry.added = true;
-            await add_entry_row(named_list_dom, otherUl, paper_data, entry)
+            await add_entry_row(named_list_dom, otherUl, paper_data, entry, origin_paper_data)
         }
 
     }

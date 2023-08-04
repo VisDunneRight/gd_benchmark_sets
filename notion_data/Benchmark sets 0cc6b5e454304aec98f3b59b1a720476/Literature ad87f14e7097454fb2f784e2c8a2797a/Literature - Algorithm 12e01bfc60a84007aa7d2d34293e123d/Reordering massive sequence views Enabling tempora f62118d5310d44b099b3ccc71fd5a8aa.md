@@ -19,7 +19,7 @@ link: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6596125
 Notes: not a real evaluation
 paper type: algorithm
 Technique: other
-Graph feature: Dynamic, Dynamic - discrete, Layered graphs, N-layers
+Graph feature: dynamic, dynamic (discrete), layered graphs, n-layers
 Dataset tag clean: Custom (Replicable), Enron
 Dataset used: Enron dataset
 dataset size: 3

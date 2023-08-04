@@ -1,15 +1,14 @@
 # Scotch Graph Collection
 
-Note: The SCOTCH software package is produced by the SCOTCH project whose goal is to study static mapping by the means of graph theory, using a “divide and conquer'' approach.
-The SCOTCH software package for static mapping embodies all the algorithms and graph bipartitioning heuristics developed within the SCOTCH project.
-Author: Francois Pellegrini (mailto:pelegrin@labri.u-bordeaux.fr)
+Note: The https://gitlab.inria.fr/scotch/scotch is produced by the SCOTCH project whose goal is to study static mapping by the means of graph theory, using “divide and conquer'' graph bipartitioning heuristics.
 Origin Notes: Collection consisting of graphs from various sources including topological meshes, meshes related to physical problems (fluid dynamics, structural mechanics, combinatorial optimization), and interprocess communicaiton graphs for a parallel computing implementation of a factorization solver. 
 Collected from Steve Hammond, the Harwell-Boeing Collection, Bruce Hendrickson, and Horst Simon.
-graph features handled: large
+graph features handled: large, mesh, spatial
 Graph features in papers: 2
 Originally found at: https://wotug.org/parallel/libraries/communication/scotch/Graphs/
-Size: The graphs range from 7 to144649 nodes, and 10 to 1074393 edges.
+Size: The graphs range from 7 to 144649 nodes, and 10 to 1074393 edges.
 Number of Graphs: 39
+Origin Paper: Scotch and PT-Scotch Graph Partitioning Software: An Overview (https://www.notion.so/Scotch-and-PT-Scotch-Graph-Partitioning-Software-An-Overview-2845b7c5cbc14fa8a02acfbc1e3a28ef?pvs=21), PT-Scotch: A tool for efficient parallel graph ordering (https://www.notion.so/PT-Scotch-A-tool-for-efficient-parallel-graph-ordering-bb06d1044c6b4029a1216c60eb23de18?pvs=21)
 format: Scotch (.src files) - first line is the number of vertices followed by . number of arcs (2 time |E|). Then each line represents a vertex with the following format:
 id load degree   adjencency list(load to_id)  
 Child collections: Walshaw (Walshaw%20e40b37a1147942d89ff1d8dfad285256.md)
@@ -24,6 +23,7 @@ duplicate?: No
 link works?: Yes
 Added in paper: No
 OSF link: https://osf.io/download/2stjq/
+Origin paper plaintext: Scotch and PT-Scotch Graph Partitioning Software: An Overview, PT-Scotch: A tool for efficient parallel graph ordering
 Page id: cfe6f105da3a4c699fa3e02ca1f6e88a
 unavailable/skip: No
 Cleaned ALL data: No

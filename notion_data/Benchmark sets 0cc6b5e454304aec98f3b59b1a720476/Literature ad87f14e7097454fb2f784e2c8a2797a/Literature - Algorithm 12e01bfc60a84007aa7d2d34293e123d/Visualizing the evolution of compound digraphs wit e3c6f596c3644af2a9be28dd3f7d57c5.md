@@ -22,7 +22,7 @@ Conference: EuroVis
 link: https://dl.acm.org/doi/10.1111/j.1467-8659.2009.01451.x
 Notes: uses german autobahn map
 paper type: algorithm
-Graph feature: Compound graphs, Directed Edges, Hierarchical, Spatial, Weighted Edges
+Graph feature: compound graphs, directed edges, hierarchical, spatial, weighted edges
 Dataset tag clean: Transportation Network/Map
 dataset size: 1
 Dataset tag relations: Transportation Networks (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Transportation%20Networks%20720a658bb1914b51910c480d86943e80.md)

@@ -21,7 +21,7 @@ Conference: TVCG
 link: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7192687
 paper type: technique
 Technique: other
-Graph feature: Labeled Nodes, Spatial
+Graph feature: labeled nodes, spatial
 Dataset tag clean: Transportation Network/Map
 dataset size: 1
 Dataset tag relations: Transportation Networks (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Transportation%20Networks%20720a658bb1914b51910c480d86943e80.md)

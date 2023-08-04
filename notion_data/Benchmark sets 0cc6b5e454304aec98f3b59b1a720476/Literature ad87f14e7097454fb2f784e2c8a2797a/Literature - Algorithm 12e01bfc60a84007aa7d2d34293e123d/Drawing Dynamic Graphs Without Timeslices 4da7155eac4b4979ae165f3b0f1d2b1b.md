@@ -40,7 +40,7 @@ the novel Pride and Prejudice in order [29]. The book has 61 chapters and the
 data set includes over 4,000 interactions between characters.
 paper type: algorithm, comparison
 Technique: force-directed
-Graph feature: Dynamic, Dynamic - continuous
+Graph feature: dynamic, dynamic (continuous)
 Dataset tag clean: Blogposts/Tweets/Forum Posts, Collaboration Networks, Social Networks
 Dataset used: infovis coauthorship, van de bunt, newcomb fraternity data, rugby, pride and prejudice
 dataset size: 5

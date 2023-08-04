@@ -18,7 +18,7 @@ year: 2020
 Conference: GD
 link: https://link.springer.com/content/pdf/10.1007%2F978-3-030-68766-3.pdf
 paper type: algorithm
-Graph feature: Layered graphs, N-layers, Port Constraints
+Graph feature: layered graphs, n-layers, port constraints
 Dataset tag clean: Cable Plans, Custom (Reproducible)
 Dataset used: cable plans of a german company (says dataset is on github)
 dataset size: 380 + 1140

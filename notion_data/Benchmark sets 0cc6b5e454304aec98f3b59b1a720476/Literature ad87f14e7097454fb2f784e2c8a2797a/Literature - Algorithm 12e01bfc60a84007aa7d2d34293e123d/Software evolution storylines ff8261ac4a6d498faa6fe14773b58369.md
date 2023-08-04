@@ -18,7 +18,7 @@ link: https://vis.cs.ucdavis.edu/papers/softvis_storylines.pdf
 Notes: Code: https://code.google.com/archive/p/evolines/downloads
 paper type: algorithm
 Technique: other
-Graph feature: Clusters (pre-existing), Dynamic - discrete, Layered graphs, N-layers
+Graph feature: clusters (pre-existing), dynamic (discrete), layered graphs, n-layers
 Dataset tag clean: Collaboration Networks
 Dataset used: commits in python repository (no link)
 dataset size: 6

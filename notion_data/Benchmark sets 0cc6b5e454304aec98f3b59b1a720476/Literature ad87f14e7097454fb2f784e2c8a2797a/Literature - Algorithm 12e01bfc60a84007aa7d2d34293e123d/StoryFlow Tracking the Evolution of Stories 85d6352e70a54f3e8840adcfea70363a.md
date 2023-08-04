@@ -20,7 +20,7 @@ year: 2013
 Conference: TVCG
 link: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6634164
 paper type: algorithm
-Graph feature: Clusters (pre-existing), Dynamic, Dynamic - discrete, Layered graphs, N-layers
+Graph feature: clusters (pre-existing), dynamic, dynamic (discrete), layered graphs, n-layers
 Dataset tag clean: MID Network data, Movie Plots
 Dataset used: movie plots (lost)
 dataset size: 8

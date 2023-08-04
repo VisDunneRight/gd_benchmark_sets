@@ -27,7 +27,7 @@ Conference: CHI
 link: https://dl.acm.org/doi/abs/10.1145/264645.264657
 paper type: algorithm
 Technique: force-directed
-Graph feature: Generic
+Graph feature: generic
 Dataset tag clean: Custom (Non Replicable)
 dataset size: 153
 Type of edit to the dataset: NA

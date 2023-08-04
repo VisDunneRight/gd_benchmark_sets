@@ -24,7 +24,7 @@ not interesting in terms of what graphs they deal with, but very interesting in 
 
 
 paper type: algorithm
-Graph feature: Directed Edges, Layered graphs, N-layers
+Graph feature: directed edges, layered graphs, n-layers
 Dataset tag clean: AT&T, Pert DAG
 Dataset used: North DAGs, Pert DAGs
 dataset size: 1158 + 813

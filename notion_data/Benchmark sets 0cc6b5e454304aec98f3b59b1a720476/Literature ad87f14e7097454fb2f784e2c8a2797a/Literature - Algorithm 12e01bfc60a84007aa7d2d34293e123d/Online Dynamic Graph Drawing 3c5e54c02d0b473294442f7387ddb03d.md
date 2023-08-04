@@ -21,7 +21,7 @@ Conference: TVCG
 link: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=4433990
 paper type: algorithm
 Technique: other
-Graph feature: Dynamic
+Graph feature: dynamic
 Dataset tag clean: Blogposts/Tweets/Forum Posts, C. Walshaw's graph collection
 Dataset used: Note: the datasets they used weren’t dynamic! They had to edit it!
 

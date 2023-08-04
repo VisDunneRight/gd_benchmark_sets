@@ -19,7 +19,7 @@ Conference: GD
 link: https://link.springer.com/content/pdf/10.1007%2F978-3-030-68766-3.pdf
 paper type: algorithm
 Technique: other
-Graph feature: Generic
+Graph feature: generic
 Dataset tag clean: Custom (Reproducible)
 Dataset used: their own custom chosen set
 dataset size: 10

@@ -36,7 +36,7 @@ as explained above. So we ran a total of 601,220 and 1,146,000 instances of the
 Longest-Path generated layer pairs and the Coffman-Graham generated layer
 pairs, respectively"
 paper type: algorithm
-Graph feature: Bipartite, Layered graphs
+Graph feature: bipartite, layered graphs
 Dataset tag clean: AT&T, AT&T*, Stanford GraphBase
 Dataset used: AT&T
 dataset size: 2000 + 1400 + 2100

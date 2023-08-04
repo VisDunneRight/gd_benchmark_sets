@@ -17,7 +17,7 @@ year: 2019
 Conference: GD
 Notes: implementation: https://github.com/beyond-planarity/complete-graphs
 paper type: algorithm
-Graph feature: K-Planar
+Graph feature: K-planar
 Dataset used: k-planar graphs
 dataset size comment: ?
 Results measured: Running Time

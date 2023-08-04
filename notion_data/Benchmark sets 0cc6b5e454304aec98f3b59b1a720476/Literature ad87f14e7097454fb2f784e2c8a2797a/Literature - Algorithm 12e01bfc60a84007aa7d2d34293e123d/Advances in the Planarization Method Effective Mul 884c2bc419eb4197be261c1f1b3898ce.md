@@ -18,7 +18,7 @@ Conference: GD
 link: https://www.researchgate.net/publication/221557299_Advances_in_the_Planarization_Method_Effective_Multiple_Edge_Insertions
 Notes: Has link to dataset but gives 404
 paper type: algorithm
-Graph feature: Generic
+Graph feature: generic
 Dataset tag clean: AT&T, AT&T*, Custom (Replicable), KnownCR, Rome-Lib, Rome-Lib*
 Dataset used: Rome-Lib, AT&T
 dataset size: 1843 + 311

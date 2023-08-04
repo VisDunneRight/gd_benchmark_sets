@@ -28,7 +28,7 @@ dataset ref 3: Walshaw, C., et al.: A multilevel algorithm for force-directed gr
 Graph Algorithms Appl. 7(3), 253–285 (2003)
 paper type: algorithm, comparison
 Technique: force-directed
-Graph feature: Multilevel
+Graph feature: multilevel
 Dataset tag clean: C. Walshaw's graph collection, SuiteSparse Matrix Collection
 Dataset used: bunch of references
 http://ls11-www.cs.tu-dortmund.de/staff/klein/gdmult10

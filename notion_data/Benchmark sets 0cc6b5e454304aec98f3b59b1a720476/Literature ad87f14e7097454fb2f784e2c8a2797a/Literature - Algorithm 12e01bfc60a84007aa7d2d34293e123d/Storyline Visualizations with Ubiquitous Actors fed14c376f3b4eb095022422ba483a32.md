@@ -17,7 +17,7 @@ year: 2020
 Conference: GD
 link: https://link.springer.com/content/pdf/10.1007%2F978-3-030-68766-3.pdf
 paper type: algorithm, comparison
-Graph feature: Clusters (pre-existing), Dynamic, Dynamic - discrete
+Graph feature: clusters (pre-existing), dynamic, dynamic (discrete)
 Dataset tag clean: Collaboration Networks
 Dataset used: Graph drawing collaboration network
 dataset size: 2

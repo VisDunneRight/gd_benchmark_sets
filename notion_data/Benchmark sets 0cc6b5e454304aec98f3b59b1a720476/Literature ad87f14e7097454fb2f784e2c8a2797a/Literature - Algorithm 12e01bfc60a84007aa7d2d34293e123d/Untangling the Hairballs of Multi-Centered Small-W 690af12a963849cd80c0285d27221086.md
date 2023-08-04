@@ -18,7 +18,7 @@ Conference: JGAA
 link: https://www.emis.de/journals/JGAA/accepted/recent/NocajOrtmannBrandes.pdf
 paper type: algorithm
 Technique: force-directed, multidimensional scaling
-Graph feature: Generic, Large
+Graph feature: generic, large
 Dataset tag clean: Custom (Non Replicable), Social Networks, Trade Data, Transportation Network/Map
 Dataset used: facebook100 network: https://epubs.siam.org/doi/10.1137/080734315
 dataset size: 52

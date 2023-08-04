@@ -21,7 +21,7 @@ Conference: EPJ data science
 link: https://epjdatascience.springeropen.com/track/pdf/10.1140/epjds/s13688-014-0027-8.pdf
 paper type: algorithm, technique
 Technique: force-directed
-Graph feature: Dynamic, Dynamic - continuous, Large
+Graph feature: dynamic, dynamic (continuous), large
 Dataset tag clean: Blogposts/Tweets/Forum Posts, Collaboration Networks, IMDB
 Dataset used: their own (contains description of how they were made) - they’re patents, twitter and IMDB but there’s not enough information to recreate them
 dataset size: 4

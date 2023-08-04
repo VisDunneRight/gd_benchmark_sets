@@ -22,7 +22,7 @@ plementations using a total number of 37,500 random graphs: 150 graphs for
 every combination of the following parameters: |V2|∈{50, 100, 150, 200, 250},
 |E|/|V2|∈{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}, |C|/|V2|∈{0, 0.25, 0.5, 0.75, 1.0}."
 paper type: algorithm, comparison
-Graph feature: Bipartite, Layered graphs
+Graph feature: bipartite, layered graphs
 Dataset tag clean: Custom (Non Replicable)
 Dataset used: randomly generated
 dataset size: 37500

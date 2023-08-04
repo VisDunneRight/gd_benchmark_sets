@@ -17,7 +17,7 @@ year: 2021
 Conference: GD
 link: https://link.springer.com/content/pdf/10.1007%2F978-3-030-92931-2.pdf
 paper type: algorithm
-Graph feature: Directed Edges
+Graph feature: directed edges
 Dataset tag clean: none
 Dataset used: no experiment
 dataset size: 0

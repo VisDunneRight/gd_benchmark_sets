@@ -22,7 +22,7 @@ Conference: GD
 link: https://link.springer.com/content/pdf/10.1007/3-540-36151-0_26.pdf
 Notes: used in dagre
 paper type: algorithm
-Graph feature: Compound graphs, Layered graphs, N-layers
+Graph feature: compound graphs, layered graphs, n-layers
 Dataset tag clean: none
 Dataset used: no dataset
 dataset size: NA

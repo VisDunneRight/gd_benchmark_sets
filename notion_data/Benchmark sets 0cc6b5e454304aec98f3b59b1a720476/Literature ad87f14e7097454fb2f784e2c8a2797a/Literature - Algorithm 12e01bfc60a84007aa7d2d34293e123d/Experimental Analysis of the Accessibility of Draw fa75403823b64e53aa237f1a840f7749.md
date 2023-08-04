@@ -21,7 +21,7 @@ link: https://link.springer.com/content/pdf/10.1007%2F978-3-319-73915-1.pdf
 Notes: It involves a user study!
 paper type: comparison, quality metrics
 Technique: force-directed
-Graph feature: Sparse, Trees
+Graph feature: sparse, trees
 Dataset tag clean: Custom (Non Replicable), Rome-Lib
 Dataset used: Rome-Lib
 dataset size: 92

@@ -22,7 +22,7 @@ Conference: The Mathematica Journal
 link: http://yifanhu.net/PUB/graph_draw.pdf
 paper type: algorithm, comparison
 Technique: force-directed
-Graph feature: Generic
+Graph feature: generic
 Dataset tag clean: C. Walshaw's graph collection, SuiteSparse Matrix Collection
 dataset size: 14
 Dataset tag relations: Walshaw (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Walshaw%20e40b37a1147942d89ff1d8dfad285256.md)

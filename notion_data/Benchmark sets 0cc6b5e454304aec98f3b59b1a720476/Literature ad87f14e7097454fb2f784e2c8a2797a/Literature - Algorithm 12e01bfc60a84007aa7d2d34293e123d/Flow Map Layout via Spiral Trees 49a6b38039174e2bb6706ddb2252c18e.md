@@ -21,7 +21,7 @@ Conference: TVCG
 link: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6065021
 paper type: algorithm
 Technique: other
-Graph feature: Spatial, Weighted Edges
+Graph feature: spatial, weighted edges
 Dataset tag clean: Tobler's flow mapper
 Dataset used: Our data stems from various sources which we summarize
 in the following: Tobler [1], Moran (personal communication),

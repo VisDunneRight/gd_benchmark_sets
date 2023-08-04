@@ -23,7 +23,7 @@ Conference: GD
 link: https://link.springer.com/chapter/10.1007/978-3-642-00219-9_21
 paper type: comparison
 Technique: multidimensional scaling
-Graph feature: Generic
+Graph feature: generic
 Dataset tag clean: matrix market?
 dataset size: 11
 Type of edit to the dataset: NA

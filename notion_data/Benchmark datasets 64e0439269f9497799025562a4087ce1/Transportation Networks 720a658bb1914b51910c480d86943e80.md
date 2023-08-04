@@ -4,7 +4,7 @@ Note: DIMACS USA Road Network source notes that the data has errors, namely miss
 Graph features in papers: 17
 Originally found at: http://www.diag.uniroma1.it//challenge9/download.shtml
 https://osf.io/dcz5h
-References: A Random Sampling O(n) Force-calculation Algorithm for Graph Layouts (https://www.notion.so/A-Random-Sampling-O-n-Force-calculation-Algorithm-for-Graph-Layouts-a0bc2ae6ebdb4e8cbddb924c0484cfad?pvs=21)
+Origin Paper: A Random Sampling O(n) Force-calculation Algorithm for Graph Layouts (https://www.notion.so/A-Random-Sampling-O-n-Force-calculation-Algorithm-for-Graph-Layouts-a0bc2ae6ebdb4e8cbddb924c0484cfad?pvs=21)
 Appeared in years: 10
 Type of Collection: Aggregate collection
 is it stored properly?: No

@@ -21,7 +21,7 @@ Conference: Computer Graphics Forum
 link: https://onlinelibrary.wiley.com/doi/pdf/10.1111/cgf.14003
 paper type: algorithm
 Technique: force-directed
-Graph feature: Large
+Graph feature: large
 Dataset tag clean: SuiteSparse Matrix Collection
 dataset size: 30
 Dataset tag relations: Matrix Market (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Matrix%20Market%2080bd4320417342458aefa031cf65db1f.md)

@@ -21,7 +21,7 @@ Conference: TVCG
 link: https://doi.org/10.1109/TVCG.2013.254
 paper type: algorithm
 Technique: force-directed
-Graph feature: Dynamic
+Graph feature: dynamic
 Dataset tag clean: Collaboration Networks, Custom (Non Replicable)
 dataset size: 1
 Dataset tag relations: Assorted Collaboration Network (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Assorted%20Collaboration%20Network%206062ff126f474a50b5f3dc9b945d43da.md)

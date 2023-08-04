@@ -22,7 +22,7 @@ link: https://jgaa.info/accepted/2007/Noack2007.11.2.pdf
 Notes: presents linlog
 paper type: algorithm, comparison
 Technique: force-directed
-Graph feature: Clusters (generated), Generic
+Graph feature: clusters (generated), generic
 Dataset tag clean: Airlines/Migration Routes, Pajek, Social Networks, Trade Data, Transportation Network/Map
 Dataset used: world bank: http://www.worldbank.org/,
 Freeman [18] performed a meta-analysis of 21 earlier studies that assigned the women to groups

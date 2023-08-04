@@ -18,7 +18,7 @@ year: 2010
 Conference: SIAM
 link: http://shixialiu.com/publications/contextour/paper.pdf
 paper type: algorithm
-Graph feature: Clusters (generated), Dynamic, Dynamic - continuous, Tripartite
+Graph feature: clusters (generated), dynamic, dynamic (continuous), tripartite
 Dataset tag clean: Collaboration Networks, Custom (Non Replicable)
 Dataset used: their own - dblp 1995 to 2008 with cherry-picked conferences
 dataset size: 9

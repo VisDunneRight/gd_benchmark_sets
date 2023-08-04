@@ -18,7 +18,7 @@ Conference: GD
 link: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.129.685&rep=rep1&type=pdf
 Notes: has some discussion on what they did to generate their own graphs. NOTE: This mentions the more famous layout papers, we should make sure they are included in our list
 paper type: comparison
-Graph feature: Generic, Large
+Graph feature: generic, large
 Dataset tag clean: AT&T, C. Walshaw's graph collection, Custom (Replicable), Social Networks
 Dataset used: their own + AT&T + “C. Walshaw’s graph collection”
 dataset size: 29

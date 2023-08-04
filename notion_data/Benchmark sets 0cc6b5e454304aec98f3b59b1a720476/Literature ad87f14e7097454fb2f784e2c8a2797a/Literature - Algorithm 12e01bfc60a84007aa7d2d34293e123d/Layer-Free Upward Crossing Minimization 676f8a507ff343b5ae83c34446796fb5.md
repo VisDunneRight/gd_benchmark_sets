@@ -26,7 +26,7 @@ Conference: WEA
 link: https://www.researchgate.net/publication/221131619_Layer-Free_Upward_Crossing_Minimization
 Notes: used in dagre. experiment sorts by edges with North DAGs and by nodes with Rome-Lib
 paper type: algorithm
-Graph feature: Directed Edges, Layered graphs, N-layers
+Graph feature: directed edges, layered graphs, n-layers
 Dataset tag clean: AT&T, Custom (Replicable), Rome-Lib
 Dataset used: Rome-Lib, North DAGs
 dataset size: 11528 + 1158

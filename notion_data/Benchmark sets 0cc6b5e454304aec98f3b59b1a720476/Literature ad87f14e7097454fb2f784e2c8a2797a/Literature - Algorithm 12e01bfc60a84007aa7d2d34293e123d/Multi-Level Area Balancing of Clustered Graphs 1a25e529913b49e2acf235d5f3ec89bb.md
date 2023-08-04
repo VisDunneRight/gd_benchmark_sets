@@ -18,7 +18,7 @@ Conference: TVCG
 link: http://yun-vis.net/projects/bionet/tvcg2020.pdf
 Notes: this is a difficult dataset to find, so the amount of graphs makes sense in this case
 paper type: algorithm, comparison
-Graph feature: Categorical Nodes, Clusters (pre-existing), Labeled Nodes
+Graph feature: categorical nodes, clusters (pre-existing), labeled nodes
 Dataset tag clean: Biological Pathways
 Dataset used: all datasets linked and are present in their github
 dataset size: 4

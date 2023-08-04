@@ -27,7 +27,7 @@ link: https://link.springer.com/chapter/10.1007/978-3-031-22203-0_7#citeas
 Notes: great example because of how things are presented: evaluation is clean, links are easy to find
 paper type: algorithm
 Technique: multidimensional scaling
-Graph feature: Generic
+Graph feature: generic
 Dataset tag clean: Custom (Reproducible), SuiteSparse Matrix Collection
 dataset size: 40
 Dataset tag relations: SuiteSparse Matrix Collection (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/SuiteSparse%20Matrix%20Collection%20b8772d6a2cbb456894b4673e32c6f956.md)

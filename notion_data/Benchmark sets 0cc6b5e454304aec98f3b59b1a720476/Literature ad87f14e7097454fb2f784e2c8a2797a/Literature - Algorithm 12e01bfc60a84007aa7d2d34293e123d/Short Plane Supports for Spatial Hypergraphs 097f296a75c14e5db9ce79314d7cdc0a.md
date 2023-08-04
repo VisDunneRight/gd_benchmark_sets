@@ -19,7 +19,7 @@ link: https://link.springer.com/content/pdf/10.1007%2F978-3-030-04414-5.pdf
 Notes: compares heuristics vs optimal
 paper type: comparison
 Technique: ILP
-Graph feature: Hypergraphs, Spatial
+Graph feature: hypergraphs, spatial
 Dataset tag clean: Custom (Non Replicable)
 Dataset used: custom (randomly generated)
 dataset size: 1000 * 5 * 6 * 4

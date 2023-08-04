@@ -19,7 +19,7 @@ year: 2019
 Conference: JGAA
 link: https://arxiv.org/pdf/1804.09900.pdf
 paper type: algorithm
-Graph feature: Generic
+Graph feature: generic
 Dataset tag clean: Complete Graphs, KnownCR, Rome-Lib, Rome-Lib*
 Dataset used: KnownCR (can’t find it), Rome-Lib, Complete, Complete-Bip
 dataset size: 140 + 14 + 7 + 7

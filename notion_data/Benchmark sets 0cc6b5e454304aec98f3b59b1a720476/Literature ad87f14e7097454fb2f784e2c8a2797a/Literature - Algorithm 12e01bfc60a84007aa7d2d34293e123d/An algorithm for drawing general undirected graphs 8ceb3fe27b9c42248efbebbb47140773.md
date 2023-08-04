@@ -22,7 +22,7 @@ link: http://vis.pku.edu.cn/course/Visualization_2018F/reading/drawing_general_u
 Notes: graphs are so simple they are reproducible because they can be copied from pictures
 paper type: algorithm
 Technique: force-directed
-Graph feature: Generic
+Graph feature: generic
 Dataset tag clean: Custom (Replicable)
 dataset size: 11
 Type of edit to the dataset: NA

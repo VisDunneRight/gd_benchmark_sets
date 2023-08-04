@@ -18,7 +18,7 @@ Conference: GD
 link: https://link.springer.com/content/pdf/10.1007%2F978-3-030-04414-5.pdf
 Notes: nice evaluation, can use pictures from here
 paper type: algorithm, comparison
-Graph feature: Generic
+Graph feature: generic
 Dataset tag clean: AT&T, Rome-Lib, Rome-Lib*
 Dataset used: Rome-Lib (non-planar), AT&T → in extended paper version
 dataset size: 8100

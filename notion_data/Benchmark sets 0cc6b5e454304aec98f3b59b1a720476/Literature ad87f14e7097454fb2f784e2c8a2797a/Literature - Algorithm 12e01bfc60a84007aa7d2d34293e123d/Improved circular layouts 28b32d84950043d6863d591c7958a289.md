@@ -17,7 +17,7 @@ year: 2006
 Conference: GD
 paper type: algorithm, comparison
 Technique: other
-Graph feature: Circular
+Graph feature: circular
 Dataset tag clean: Custom (Non Replicable), Rome-Lib
 dataset size: 12134
 Dataset tag relations: Rome-Lib (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Rome-Lib%20c2f20984de724f4c89764b0bc494e99e.md)

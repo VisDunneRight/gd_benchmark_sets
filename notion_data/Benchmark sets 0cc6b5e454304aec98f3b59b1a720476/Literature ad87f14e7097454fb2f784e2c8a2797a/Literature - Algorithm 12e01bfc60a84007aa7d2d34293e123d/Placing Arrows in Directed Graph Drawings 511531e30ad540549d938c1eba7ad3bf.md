@@ -22,7 +22,7 @@ Notes: talks about arrow placement
 graphs generated with OGDF
 paper type: algorithm, comparison
 Technique: other
-Graph feature: Directed Edges
+Graph feature: directed edges
 Dataset tag clean: AT&T, Custom (Non Replicable)
 Dataset used: custom (random), AT&T (North graphs)
 dataset size: 1275 + 60

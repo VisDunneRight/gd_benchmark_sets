@@ -24,7 +24,7 @@ Conference: GD
 link: https://link.springer.com/chapter/10.1007/3-540-58950-3_393
 paper type: algorithm, comparison
 Technique: other
-Graph feature: Generic, Large
+Graph feature: generic, large
 Dataset tag clean: Custom (Non Replicable), Custom (Replicable)
 dataset size: 30
 Type of edit to the dataset: NA

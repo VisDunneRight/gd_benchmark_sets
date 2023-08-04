@@ -22,7 +22,7 @@ link: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6065026
 Notes: user study + interview with domain experts
 paper type: algorithm, technique
 Technique: other
-Graph feature: Clusters (pre-existing), Multivariate, Spatial
+Graph feature: clusters (pre-existing), multivariate, spatial
 Dataset tag clean: Car Features, Medical Patient Records
 dataset size: 3
 Dataset tag relations: Medical Patient Records (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Medical%20Patient%20Records%209bb4f4fc1e8242b2905eb286a0e00143.md), Car Features (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Car%20Features%203365100498bc4a1eb77bcadcace2b2fa.md)

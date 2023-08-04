@@ -21,7 +21,7 @@ Notes: Open as page and see picture! This paper has good classification of exist
 
 website with data and crossing number: https://tcs.uos.de/doku.php?id=research/cr
 paper type: algorithm, comparison
-Graph feature: Generic
+Graph feature: generic
 Dataset tag clean: AT&T, AT&T*, Circuitry, Complete Graphs, Custom (Reproducible), KnownCR, Rome-Lib, Rome-Lib*
 Dataset used: Complete, Complete-Bip., or KnownCR, Rome-Lib, [...] (open as page, see picture)
 dataset size: 6192

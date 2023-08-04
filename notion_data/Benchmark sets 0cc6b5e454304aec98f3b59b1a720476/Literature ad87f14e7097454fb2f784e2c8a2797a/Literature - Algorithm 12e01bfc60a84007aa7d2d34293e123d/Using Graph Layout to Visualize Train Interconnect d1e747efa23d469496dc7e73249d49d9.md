@@ -22,7 +22,7 @@ Conference: GD
 link: https://link.springer.com/chapter/10.1007/3-540-37623-2_4
 Notes: this is a good idea for the source for a natural dataset: train stations and their connections
 paper type: algorithm
-Graph feature: Generic, Spatial
+Graph feature: generic, spatial
 Dataset tag clean: Transportation Network/Map
 Dataset used: train data
 dataset size: 5

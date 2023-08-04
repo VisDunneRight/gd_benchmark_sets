@@ -26,7 +26,7 @@ Conference: GD
 link: https://link.springer.com/chapter/10.1007/978-3-031-22203-0_15#citeas
 paper type: algorithm, proof
 Technique: ILP
-Graph feature: Generic
+Graph feature: generic
 Dataset tag clean: Custom (Replicable)
 dataset size: 950
 Type of edit to the dataset: generated

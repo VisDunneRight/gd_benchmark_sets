@@ -50,7 +50,7 @@ new graph and an assessment by expert users of Entity-Relationship and Data-Flow
 similarity to a "real-life" diagram. For obvious reasons, the subjective analysis has been done on a
 randomly selected subset of the graphs.
 paper type: algorithm, comparison
-Graph feature: Generic
+Graph feature: generic
 Dataset tag clean: Custom (Replicable), Rome-Lib
 Dataset used: Rome-Lib
 dataset size: 11582 + 112

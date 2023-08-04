@@ -32,7 +32,7 @@ Probab. Comput. 8(4), 377–396 (1999)
 I like how they described their choice of dataset
 paper type: comparison
 Technique: ILP
-Graph feature: Planar
+Graph feature: planar
 Dataset tag clean: AT&T, AT&T*, Custom (Non Replicable), Rome-Lib, Rome-Lib*, SteinLib
 Dataset used: Rome, North, SteinLib, Baal, Regular (random) - all non-planar
 dataset size: 9558

@@ -20,8 +20,8 @@ year: 2020
 Conference: TVCG
 link: https://par.nsf.gov/servlets/purl/10200661
 paper type: algorithm
-Technique: Barycentric
-Graph feature: Dynamic, Dynamic - discrete, Layered graphs, N-layers
+Technique: barycentric
+Graph feature: dynamic, dynamic (discrete), layered graphs, n-layers
 Dataset tag clean: Chess Games, Custom (Reproducible), Diabetes data, Movie Plots
 Dataset used: chess games
 dataset size: 7

@@ -19,8 +19,8 @@ year: 2018
 Conference: Computer Graphics Forum
 link: https://onlinelibrary.wiley.com/doi/pdf/10.1111/cgf.13433
 paper type: system
-Technique: Barycentric
-Graph feature: Layered graphs, N-layers
+Technique: barycentric
+Graph feature: layered graphs, n-layers
 Dataset tag clean: Code structure
 dataset size: NA
 Dataset tag relations: Code Dependency Graphs (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Code%20Dependency%20Graphs%203b6beec0413c486184cee398056e6c87.md)

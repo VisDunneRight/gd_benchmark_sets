@@ -20,7 +20,7 @@ Notes: dataset link: https://github.com/PhKindermann/chaotic-attractors
 more benchmark set: https://gitlab.uni.lu/PCOG
 paper type: algorithm
 Technique: other
-Graph feature: Wires
+Graph feature: wires
 Dataset tag clean: Custom (Reproducible)
 Dataset used: custom made
 dataset size: 1151

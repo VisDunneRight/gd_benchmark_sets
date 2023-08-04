@@ -24,8 +24,8 @@ drawing research: grid-like graphs and scale-free graphs
 
 Interested in generating graphs that have dense AND sparse parts
 paper type: algorithm, comparison
-Technique: Spectral Sparsification
-Graph feature: Generic, Large
+Technique: spectral sparsification
+Graph feature: generic, large
 Dataset tag clean: C. Walshaw's graph collection, Custom (Non Replicable), GION, Hachul Library, SuiteSparse Matrix Collection, The Network Repository
 Dataset used: Hachul library, Walshaw’s Graph Partitioning Archive (sparse matrices (Davis, T.A., Hu, Y.: The University of Florida sparse matrix collection. ACM
 Trans. Math. Softw. 38(1), 1:1–1:25 (2011)), network repository (http://networkrepository.com/)), GION dataset (https://doi.org/10.1007/978-3-662-45803-7_10), custom

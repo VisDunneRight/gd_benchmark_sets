@@ -28,7 +28,7 @@ link: https://drops.dagstuhl.de/opus/volltexte/2016/6380/pdf/LIPIcs-ESA-2016-29.
 Notes: so much of a computational evaluation that there’s not a single visual example
 paper type: algorithm
 Technique: ILP
-Graph feature: Generic
+Graph feature: generic
 Dataset tag clean: AT&T, AT&T*, Rome-Lib, Rome-Lib*, WebCompute
 Dataset used: Rome-Lib, North Lib and their own
 dataset size: 3110 + 1277 + 145

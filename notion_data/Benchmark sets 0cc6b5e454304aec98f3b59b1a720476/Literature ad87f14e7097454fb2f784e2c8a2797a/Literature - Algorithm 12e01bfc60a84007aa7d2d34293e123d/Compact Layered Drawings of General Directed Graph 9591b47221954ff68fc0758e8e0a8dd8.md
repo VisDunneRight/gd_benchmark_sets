@@ -19,7 +19,7 @@ link: https://link.springer.com/content/pdf/10.1007%2F978-3-319-50106-2.pdf
 Notes: dataset link: https://ls11-www.cs.tu-dortmund.de/mutzel/gdbenchmarks
 paper type: algorithm
 Technique: ILP
-Graph feature: Directed Edges, Layered graphs, N-layers
+Graph feature: directed edges, layered graphs, n-layers
 Dataset tag clean: AT&T, AT&T*, Custom (Reproducible)
 Dataset used: AT&T (subsection)
 dataset size: 486

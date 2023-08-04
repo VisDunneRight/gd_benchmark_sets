@@ -20,7 +20,7 @@ Notes: Presents FM3
 Pretty bad example of evaluation - no details about the graphs used or how the stats were extracted
 paper type: algorithm
 Technique: force-directed
-Graph feature: Generic, Large
+Graph feature: generic, large
 Dataset tag clean: AT&T, C. Walshaw's graph collection, Custom (Non Replicable)
 dataset size: 5
 Dataset tag relations: Walshaw (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Walshaw%20e40b37a1147942d89ff1d8dfad285256.md), AT&T (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/AT&T%20e86f130c42344169a9d75a61abc7e487.md)

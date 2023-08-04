@@ -21,7 +21,7 @@ Conference: TVCG
 link: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=1432691
 paper type: algorithm, technique
 Technique: other
-Graph feature: Generic, High degree, Large
+Graph feature: generic, high degree, large
 Dataset tag clean: C. Walshaw's graph collection, Internet Mapping Project
 Dataset used: [4] W. Cheswick and H. Burch, “Mapping the Internet,” Computer,
 vol. 32, no. 4, pp. 97-98, 102, Apr. 1999

@@ -19,7 +19,7 @@ Conference: ESA
 link: http://tcs.uni-osnabrueck.de/_media/pubs/esa08_preprint_newcrnoilp_pdf.pdf
 paper type: algorithm
 Technique: ILP
-Graph feature: Generic
+Graph feature: generic
 Dataset tag clean: Rome-Lib, Rome-Lib*
 Dataset used: Rome-Lib
 dataset size: 7172

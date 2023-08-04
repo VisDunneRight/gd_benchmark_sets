@@ -18,7 +18,7 @@ Conference: GD
 link: https://link.springer.com/content/pdf/10.1007%2F978-3-030-04414-5.pdf
 Notes: nice evaluation
 paper type: algorithm
-Graph feature: Generic
+Graph feature: generic
 Dataset tag clean: AT&T, AT&T*, Custom (Reproducible), Rome-Lib, Rome-Lib*
 Dataset used: North Lib, Rome-Lib, Community (generated), 1-planar (custom generated), tri+x (randomly generated)
 dataset size: 600

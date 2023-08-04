@@ -21,7 +21,7 @@ Conference: TVCG
 link: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6327274
 Notes: doesn’t really have a quantitative evaluation
 paper type: algorithm, comparison
-Graph feature: Dynamic, Dynamic - discrete, Layered graphs, N-layers
+Graph feature: dynamic, dynamic (discrete), layered graphs, n-layers
 Dataset tag clean: MID Network data, Movie Plots
 Dataset used: movie plots (lost)
 dataset size: 4

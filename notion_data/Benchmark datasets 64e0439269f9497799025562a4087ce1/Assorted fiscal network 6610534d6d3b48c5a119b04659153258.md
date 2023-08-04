@@ -3,7 +3,7 @@
 Note: From the linked pages this is only the Italian Tax Revenue (which has individuals as taxpayes? - haven been able to find)
 Graph features in papers: 3
 Originally found at: cannot find
-References: A visual analytics system to support tax evasion discovery (https://www.notion.so/A-visual-analytics-system-to-support-tax-evasion-discovery-79c482a3ec0f4f329e5af94f2c4def4f?pvs=21)
+Origin Paper: A visual analytics system to support tax evasion discovery (https://www.notion.so/A-visual-analytics-system-to-support-tax-evasion-discovery-79c482a3ec0f4f329e5af94f2c4def4f?pvs=21)
 Appeared in years: 1
 Type of Collection: Aggregate collection
 is it stored properly?: No

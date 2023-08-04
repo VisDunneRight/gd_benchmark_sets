@@ -22,7 +22,7 @@ Conference: EuroVis
 link: https://onlinelibrary.wiley.com/doi/10.1111/cgf.13668
 paper type: algorithm
 Technique: other
-Graph feature: Clusters (pre-existing), Dynamic, Dynamic - discrete
+Graph feature: clusters (pre-existing), dynamic, dynamic (discrete)
 Dataset tag clean: Collaboration Networks
 dataset size: 2
 Dataset tag relations: Assorted Collaboration Network (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Assorted%20Collaboration%20Network%206062ff126f474a50b5f3dc9b945d43da.md)

@@ -7,7 +7,7 @@ Graph features in papers: 5
 Originally found at: https://correlatesofwar.org/data-sets/MIDs/
 Size: The dataset consists of 2 temporal event sequence graphs, one with 199 nodes and 2435 edges, and the other with 156 nodes and 4481 edges.
 Number of Graphs: 2
-References: The MID5 Dataset, 2011–2014: Procedures, coding rules, and description (https://www.notion.so/The-MID5-Dataset-2011-2014-Procedures-coding-rules-and-description-68e2449950584fdeb99e5d016704b585?pvs=21)
+Origin Paper: The MID5 Dataset, 2011–2014: Procedures, coding rules, and description (https://www.notion.so/The-MID5-Dataset-2011-2014-Procedures-coding-rules-and-description-68e2449950584fdeb99e5d016704b585?pvs=21)
 Appeared in years: 2
 Type of Collection: Uniform Benchmark
 is it stored properly?: No

@@ -16,7 +16,7 @@ DOI: https://doi.org/10.1007/978-3-030-35802-0_25
 year: 2019
 Conference: GD
 paper type: algorithm
-Graph feature: K-Planar, Trees
+Graph feature: K-planar, trees
 Dataset tag clean: Custom (Replicable)
 Dataset used: custom made - generated with networkx
 dataset size: 800

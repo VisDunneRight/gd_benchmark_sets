@@ -19,7 +19,7 @@ Conference: GD
 link: https://link.springer.com/content/pdf/10.1007%2F978-3-030-92931-2.pdf
 paper type: algorithm
 Technique: ILP
-Graph feature: Layered graphs, N-layers
+Graph feature: layered graphs, n-layers
 Dataset tag clean: none
 Dataset used: no experiment
 dataset size: 0

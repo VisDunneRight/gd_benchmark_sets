@@ -20,7 +20,7 @@ Notes: validates through proof
 bitonic = sorting algorithm that’s common for networks
 paper type: algorithm
 Technique: other
-Graph feature: Directed Edges, Planar, ST-Graphs
+Graph feature: ST-graphs, directed edges, planar
 Dataset tag clean: none
 Dataset used: no experiment
 dataset size: NA

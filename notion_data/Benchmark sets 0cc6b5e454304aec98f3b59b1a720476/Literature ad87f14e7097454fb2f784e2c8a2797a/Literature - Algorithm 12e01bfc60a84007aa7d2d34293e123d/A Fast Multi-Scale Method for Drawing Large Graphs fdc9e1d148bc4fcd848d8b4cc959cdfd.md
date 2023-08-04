@@ -23,7 +23,7 @@ link: https://www.wisdom.weizmann.ac.il/~harel/papers/ms_jgaa.pdf
 Notes: dataset refers to collection of graphs, can’t find much other than this: https://www.labri.fr/perso/pelegrin/scotch/
 paper type: algorithm
 Technique: force-directed
-Graph feature: Generic, Large
+Graph feature: generic, large
 Dataset tag clean: Scotch Collection
 dataset size: 14
 Dataset tag relations: Scotch Graph Collection (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Scotch%20Graph%20Collection%20cfe6f105da3a4c699fa3e02ca1f6e88a.md)

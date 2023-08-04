@@ -19,7 +19,7 @@ link: https://link.springer.com/content/pdf/10.1007%2F978-3-319-50106-2.pdf
 Notes: good evaluation
 paper type: algorithm, comparison
 Technique: ILP
-Graph feature: Dynamic, Dynamic - discrete, Layered graphs, N-layers
+Graph feature: dynamic, dynamic (discrete), layered graphs, n-layers
 Dataset tag clean: Movie Plots, Stanford GraphBase
 Dataset used: movie plots (lost)
 dataset size: 42

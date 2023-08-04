@@ -19,7 +19,7 @@ Conference: GD
 link: https://link.springer.com/content/pdf/10.1007%2F978-3-030-68766-3.pdf
 Notes: okay evaluation
 paper type: algorithm
-Graph feature: Dynamic, Dynamic - discrete
+Graph feature: dynamic, dynamic (discrete)
 Dataset tag clean: Airlines/Migration Routes, Custom (Replicable), Metro Maps
 Dataset used: some custom sets: flights, tube, hospital, workplace, school + synthetic
 

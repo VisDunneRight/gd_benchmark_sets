@@ -19,7 +19,7 @@ Notes: implementation: https://github.com/devkotasabin/SPX-graph-layout
 data is in the github
 paper type: algorithm, comparison
 Technique: other
-Graph feature: Generic
+Graph feature: generic
 Dataset tag clean: Custom (Reproducible), Graph Drawing Contest
 Dataset used: 2017 and 2018 graph drawing contest + 400 graph from Radermacher et al. + custom made
 dataset size: 400 + 36 + 100

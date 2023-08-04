@@ -7,7 +7,7 @@ Graph features in papers: 1
 Originally found at: http://www.graphdrawing.org/data.html
 Size: 10-100 nodes, 15-167 edges
 Number of Graphs: 909
-References: DAGmar: Library for DAGs (https://www.notion.so/DAGmar-Library-for-DAGs-b0b5183f927e4983b7e9ef0d729674d4?pvs=21)
+Origin Paper: DAGmar: Library for DAGs (https://www.notion.so/DAGmar-Library-for-DAGs-b0b5183f927e4983b7e9ef0d729674d4?pvs=21)
 format: GraphML
 Appeared in years: 1
 Type of Collection: Uniform Benchmark

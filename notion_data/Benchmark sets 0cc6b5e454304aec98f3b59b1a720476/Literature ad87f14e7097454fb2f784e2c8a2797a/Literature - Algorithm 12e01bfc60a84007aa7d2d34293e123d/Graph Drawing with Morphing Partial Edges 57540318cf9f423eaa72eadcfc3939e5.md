@@ -19,7 +19,7 @@ Notes: lacking evaluation
 used Barabasi-Albert model to generate graphs
 paper type: algorithm
 Technique: force-directed
-Graph feature: Dynamic, Generic
+Graph feature: dynamic, generic
 Dataset tag clean: Custom (Replicable)
 Dataset used: custom made
 dataset size: 1

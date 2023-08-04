@@ -20,7 +20,7 @@ Conference: GD
 link: https://jgaa.info/accepted/2017/Nachmanson+2017.21.5.pdf
 paper type: algorithm, comparison
 Technique: other
-Graph feature: Large
+Graph feature: large
 Dataset tag clean: Control Flow graphs, Custom (Reproducible), Graphviz Examples
 Dataset used: source for some of the graphs: https://github.com/Microsoft/automatic-graph-layout/
 dataset size: 10077

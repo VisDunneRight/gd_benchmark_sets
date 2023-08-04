@@ -22,7 +22,7 @@ link: https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1467-8659.2009.01450.x?
 Notes: Edge bundling technique
 paper type: algorithm
 Technique: force-directed
-Graph feature: Spatial
+Graph feature: spatial
 Dataset tag clean: Airlines/Migration Routes
 Dataset used: US airlines (235 nodes, 2101 edges) + US migration graph (1715 nodes, 9780 edges)
 dataset size: 2

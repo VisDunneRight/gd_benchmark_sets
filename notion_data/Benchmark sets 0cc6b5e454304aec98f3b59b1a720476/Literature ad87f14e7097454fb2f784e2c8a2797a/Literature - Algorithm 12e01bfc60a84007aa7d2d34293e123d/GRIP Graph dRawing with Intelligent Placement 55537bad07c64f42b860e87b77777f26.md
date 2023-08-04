@@ -23,7 +23,7 @@ link: https://www2.cs.arizona.edu/~kobourov/grip_demo.pdf
 Notes: Paper has experiment but it is very vague in saying what data has been used - no range, no source, no number of instances.
 paper type: algorithm, tool
 Technique: force-directed
-Graph feature: Generic
+Graph feature: generic
 Dataset tag clean: Custom (Non Replicable)
 dataset size: NA
 Type of edit to the dataset: NA

@@ -22,7 +22,7 @@ To compare speed and effectiveness of the model we ran it on two sets of
 graphs. The first set of graphs are all the hierarchical network diagrams appearing in the GraphViz gallery [3]. The second set of graphs are random graphs of k-levels with n nodes per level and a fixed edge density of 20% (that is each node is connected on average to 20% of the nodes on the next layer). Problem class gk_n is a suite of 10 randomly generated instances with k levels and n nodes per level
 paper type: algorithm
 Technique: ILP
-Graph feature: Layered graphs, N-layers
+Graph feature: layered graphs, n-layers
 Dataset tag clean: Custom (Replicable), Graphviz Examples
 Dataset used: Self-made (randomly generated), graphviz examples
 dataset size: 23 + 9

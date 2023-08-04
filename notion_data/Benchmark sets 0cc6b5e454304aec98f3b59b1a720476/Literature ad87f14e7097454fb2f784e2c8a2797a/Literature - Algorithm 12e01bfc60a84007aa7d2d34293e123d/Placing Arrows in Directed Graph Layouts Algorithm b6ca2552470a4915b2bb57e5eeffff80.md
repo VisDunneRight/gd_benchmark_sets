@@ -23,7 +23,7 @@ link: https://onlinelibrary.wiley.com/action/showCitFormats?doi=10.1111%2Fcgf.14
 Notes: it does not move elements of the graph, it just places arrows
 paper type: algorithm
 Technique: ILP
-Graph feature: Directed Edges
+Graph feature: directed edges
 Dataset tag clean: Custom (Non Replicable), North DAG
 dataset size: 1347
 Dataset tag relations: North DAGs (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/North%20DAGs%20a58f7143ef524c8a8c737df90162d3fb.md)

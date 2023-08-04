@@ -26,7 +26,7 @@ in Abidjan area (Sect. 5.2).
 both dead urls
 paper type: algorithm
 Technique: other
-Graph feature: Clusters (generated), Dynamic, Spatial
+Graph feature: clusters (generated), dynamic, spatial
 Dataset tag clean: Airlines/Migration Routes
 dataset size: 2
 Dataset tag relations: Airlines, Migrations, and Air Traffic (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Airlines,%20Migrations,%20and%20Air%20Traffic%2045ffa6caedd141b082e163d7da6eb895.md)

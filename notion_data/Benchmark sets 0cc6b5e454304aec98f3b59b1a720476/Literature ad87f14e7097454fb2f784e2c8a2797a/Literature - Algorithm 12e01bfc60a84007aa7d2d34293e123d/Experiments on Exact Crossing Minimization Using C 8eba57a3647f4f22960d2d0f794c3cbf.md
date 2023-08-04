@@ -24,7 +24,7 @@ Conference: WEA
 link: https://link.springer.com/chapter/10.1007/11764298_28
 paper type: algorithm
 Technique: ILP
-Graph feature: Generic
+Graph feature: generic
 Dataset tag clean: Rome-Lib, Rome-Lib*
 Dataset used: Rome-Lib under 75 nodes in one case, under 90 in another
 dataset size: 11389

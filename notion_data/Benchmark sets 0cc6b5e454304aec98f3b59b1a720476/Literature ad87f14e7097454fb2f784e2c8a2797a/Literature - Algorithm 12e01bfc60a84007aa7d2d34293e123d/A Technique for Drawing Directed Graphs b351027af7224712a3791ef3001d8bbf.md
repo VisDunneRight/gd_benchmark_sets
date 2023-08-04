@@ -16,8 +16,8 @@ year: 1993
 Conference: IEEE Transactions on Software Engineering
 link: https://www.researchgate.net/profile/Emden-Gansner/publication/3187542_A_Technique_for_Drawing_Directed_Graphs/links/5c0abd024585157ac1b04523/A-Technique-for-Drawing-Directed-Graphs.pdf
 paper type: algorithm
-Technique: Barycentric
-Graph feature: Directed Edges, Layered graphs, N-layers
+Technique: barycentric
+Graph feature: directed edges, layered graphs, n-layers
 Dataset tag clean: Custom (Non Replicable)
 dataset size: 4
 Type of edit to the dataset: generated

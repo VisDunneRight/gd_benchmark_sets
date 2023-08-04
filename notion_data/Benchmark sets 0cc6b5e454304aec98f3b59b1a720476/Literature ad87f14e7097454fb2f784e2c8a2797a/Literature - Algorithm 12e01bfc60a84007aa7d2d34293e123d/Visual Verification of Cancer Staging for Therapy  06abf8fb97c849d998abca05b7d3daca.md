@@ -22,7 +22,7 @@ Conference: Computer Graphics Forum
 link: https://onlinelibrary.wiley.com/doi/epdf/10.1111/cgf.13172
 paper type: system
 Technique: other
-Graph feature: Clusters (pre-existing)
+Graph feature: clusters (pre-existing)
 Dataset tag clean: Custom (Non Replicable)
 dataset size: 21
 Type of edit to the dataset: NA

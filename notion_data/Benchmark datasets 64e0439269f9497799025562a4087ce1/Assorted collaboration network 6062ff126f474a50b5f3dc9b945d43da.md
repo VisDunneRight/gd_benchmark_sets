@@ -9,7 +9,7 @@ https://sites.google.com/site/vispubdata/home?authuser=0
 https://dblp.uni-trier.de/
 https://github.com/csuvis/MCGS/tree/master/dataset
 Size: 3503-7102 nodes, 2112-25677 edges
-References: vispubdata.org: A Metadata Collection about IEEE Visualization VIS Publications (https://www.notion.so/vispubdata-org-A-Metadata-Collection-about-IEEE-Visualization-VIS-Publications-3fddec5436dc45539a82b0274ac17020?pvs=21), CPAN-explorer, an interactive exploration of the Perl Ecosystem (https://www.notion.so/CPAN-explorer-an-interactive-exploration-of-the-Perl-Ecosystem-0d1d0132440c438798a1880a6e200d8d?pvs=21), Preserving Minority Structures in Graph Sampling (https://www.notion.so/Preserving-Minority-Structures-in-Graph-Sampling-d0f9e612663d434e85599c402c9b700c?pvs=21)
+Origin Paper: vispubdata.org: A Metadata Collection about IEEE Visualization VIS Publications (https://www.notion.so/vispubdata-org-A-Metadata-Collection-about-IEEE-Visualization-VIS-Publications-3fddec5436dc45539a82b0274ac17020?pvs=21), CPAN-explorer, an interactive exploration of the Perl Ecosystem (https://www.notion.so/CPAN-explorer-an-interactive-exploration-of-the-Perl-Ecosystem-0d1d0132440c438798a1880a6e200d8d?pvs=21), Preserving Minority Structures in Graph Sampling (https://www.notion.so/Preserving-Minority-Structures-in-Graph-Sampling-d0f9e612663d434e85599c402c9b700c?pvs=21)
 format: Vis Pub Data text file: year range at top (1995 - 2015)
 then each entry is a paper
 

@@ -25,7 +25,7 @@ source for dataset: http://www.cise.ufl.edu/research/sparse/matrices
 use this paper as an example in discussion section
 paper type: algorithm
 Technique: force-directed
-Graph feature: Large, Weighted Edges
+Graph feature: large, weighted edges
 Dataset tag clean: SuiteSparse Matrix Collection
 Dataset used: sparse matrix collection
 dataset size: 13

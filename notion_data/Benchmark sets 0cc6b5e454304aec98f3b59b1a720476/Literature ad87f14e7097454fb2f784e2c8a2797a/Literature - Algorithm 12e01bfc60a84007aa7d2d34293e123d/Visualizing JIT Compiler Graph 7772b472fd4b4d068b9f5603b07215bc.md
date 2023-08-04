@@ -17,7 +17,7 @@ year: 2021
 Conference: GD
 link: https://link.springer.com/content/pdf/10.1007%2F978-3-030-92931-2.pdf
 paper type: algorithm
-Graph feature: Hypergraphs
+Graph feature: hypergraphs
 Dataset tag clean: Custom (Reproducible)
 Dataset used:  mentions Chromium bug reports
 

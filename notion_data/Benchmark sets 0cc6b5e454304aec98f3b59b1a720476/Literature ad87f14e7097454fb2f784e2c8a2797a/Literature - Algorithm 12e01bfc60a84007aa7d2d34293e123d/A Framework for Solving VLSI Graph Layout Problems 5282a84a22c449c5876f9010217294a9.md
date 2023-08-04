@@ -20,7 +20,7 @@ year: 1984
 Conference: Journal of Computer and System Sciences
 link: https://www.sciencedirect.com/science/article/pii/0022000084900710
 paper type: proof
-Graph feature: Generic
+Graph feature: generic
 Dataset tag clean: none
 Dataset used: no experiment
 dataset size: 0

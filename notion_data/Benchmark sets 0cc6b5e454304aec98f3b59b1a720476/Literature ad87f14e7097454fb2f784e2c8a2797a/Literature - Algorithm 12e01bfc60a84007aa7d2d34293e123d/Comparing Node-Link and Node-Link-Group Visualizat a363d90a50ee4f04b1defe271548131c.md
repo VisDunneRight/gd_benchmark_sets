@@ -20,7 +20,7 @@ Conference: Computer Graphics Forum
 link: https://onlinelibrary.wiley.com/doi/10.1111/cgf.12880
 paper type: evaluation
 Technique: other
-Graph feature: Clusters (pre-existing)
+Graph feature: clusters (pre-existing)
 Dataset tag clean: Collaboration Networks
 dataset size: 7
 Dataset tag relations: Assorted Collaboration Network (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Assorted%20Collaboration%20Network%206062ff126f474a50b5f3dc9b945d43da.md)

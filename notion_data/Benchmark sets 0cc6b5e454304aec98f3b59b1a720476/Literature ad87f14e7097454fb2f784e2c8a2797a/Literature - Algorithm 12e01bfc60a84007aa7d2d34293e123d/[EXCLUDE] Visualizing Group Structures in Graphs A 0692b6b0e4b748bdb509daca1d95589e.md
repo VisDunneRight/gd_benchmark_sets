@@ -23,7 +23,7 @@ Conference: Congressus Numerantium
 link: https://onlinelibrary.wiley.com/doi/epdf/10.1111/cgf.12872?saml_referrer
 Notes: focuses on design space. still useful
 paper type: survey
-Graph feature: Clusters (pre-existing)
+Graph feature: clusters (pre-existing)
 Dataset used: no experiment
 dataset size: NA
 Size of graphs (Clean up): NA

@@ -10,7 +10,7 @@ link: https://ieeexplore.ieee.org/document/4658143
 Notes: visual and visual comparison to other layouts
 paper type: algorithm
 Technique: other
-Graph feature: Generic, Large
+Graph feature: generic, large
 Dataset tag clean: Protein Interactions, Transportation Network/Map
 Dataset used: http://data.marcottelab.org/MSdata/OPD/, http://www.diag.uniroma1.it//challenge9/download.shtml
 dataset size: 4

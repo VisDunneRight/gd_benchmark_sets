@@ -20,7 +20,7 @@ link: https://link.springer.com/content/pdf/10.1007%2F978-3-030-92931-2.pdf
 Notes: has a visual evaluation of the results
 paper type: algorithm
 Technique: machine learning
-Graph feature: Generic
+Graph feature: generic
 Dataset tag clean: Custom (Non Replicable), Rome-Lib
 Dataset used: Rome-Lib, random graphs
 dataset size: 163931

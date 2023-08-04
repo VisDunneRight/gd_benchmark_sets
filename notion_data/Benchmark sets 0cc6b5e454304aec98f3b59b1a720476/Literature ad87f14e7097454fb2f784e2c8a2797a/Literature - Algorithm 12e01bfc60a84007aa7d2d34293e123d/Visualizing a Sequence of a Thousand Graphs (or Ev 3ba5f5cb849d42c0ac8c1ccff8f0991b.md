@@ -22,7 +22,7 @@ Conference: Computer Graphics Forum
 link: https://onlinelibrary.wiley.com/doi/epdf/10.1111/cgf.13185
 paper type: algorithm
 Technique: other
-Graph feature: Clusters (pre-existing), Dynamic - discrete, Layered graphs, N-layers
+Graph feature: clusters (pre-existing), dynamic (discrete), layered graphs, n-layers
 Dataset tag clean: Code commits
 dataset size: 2
 Size of graphs (Clean up): 296 - 982

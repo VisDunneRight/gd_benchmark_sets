@@ -18,7 +18,7 @@ Conference: GD
 link: https://link.springer.com/content/pdf/10.1007%2F978-3-319-50106-2.pdf
 Notes: proof by theorem
 paper type: algorithm
-Graph feature: Dynamic, Trees
+Graph feature: dynamic, trees
 Dataset tag clean: none
 Dataset used: no experiment
 dataset size: NA

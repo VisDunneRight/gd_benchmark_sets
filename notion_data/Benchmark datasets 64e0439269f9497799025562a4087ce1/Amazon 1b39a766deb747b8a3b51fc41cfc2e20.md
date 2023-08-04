@@ -7,7 +7,7 @@ Graph features in papers: 2
 Originally found at:  http://snap.stanford.edu/data/#amazon
 Size: 1 graph, 192k vertices and 269k edges
 Number of Graphs: 0
-References: SNAP Datasets: Stanford Large Network Dataset Collection (https://www.notion.so/SNAP-Datasets-Stanford-Large-Network-Dataset-Collection-b5f4bd2e98834a638a5c4ab563047d28?pvs=21), The dynamics of viral marketing (https://www.notion.so/The-dynamics-of-viral-marketing-f45ebdd22e5f4a95a1456bc1ae1b0fdb?pvs=21)
+Origin Paper: SNAP Datasets: Stanford Large Network Dataset Collection (https://www.notion.so/SNAP-Datasets-Stanford-Large-Network-Dataset-Collection-b5f4bd2e98834a638a5c4ab563047d28?pvs=21), The dynamics of viral marketing (https://www.notion.so/The-dynamics-of-viral-marketing-f45ebdd22e5f4a95a1456bc1ae1b0fdb?pvs=21)
 Child collections: SNAP (Stanford Network Analysis Platform) (SNAP%20(Stanford%20Network%20Analysis%20Platform)%201cd77eaee57147ce8263b2f9eaa2589c.md)
 Appeared in years: 1
 Type of Collection: Subset of other collection

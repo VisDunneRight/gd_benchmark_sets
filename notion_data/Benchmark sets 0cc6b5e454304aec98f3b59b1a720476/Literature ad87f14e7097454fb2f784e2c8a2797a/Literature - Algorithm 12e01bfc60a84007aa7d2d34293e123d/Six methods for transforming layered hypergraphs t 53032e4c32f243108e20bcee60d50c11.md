@@ -21,8 +21,8 @@ year: 2022
 Conference: EuroVis
 link: https://files.osf.io/v1/resources/grvwu/providers/osfstorage/61a91f310db65903c183461f?action=download&direct&version=1
 paper type: algorithm
-Technique: Barycentric
-Graph feature: Dynamic, Dynamic - discrete, Hypergraphs, Layered graphs, N-layers
+Technique: barycentric
+Graph feature: dynamic, dynamic (discrete), hypergraphs, layered graphs, n-layers
 Dataset tag clean: Collaboration Networks
 Dataset used: VIS collaboration network, INRIA collaboration network, sliced
 dataset size: 1300

@@ -21,7 +21,7 @@ Conference: Computer Graphics Forum
 link: https://onlinelibrary.wiley.com/doi/epdf/10.1111/cgf.13192
 paper type: comparison
 Technique: other
-Graph feature: Generic
+Graph feature: generic
 Dataset tag clean: AT&T
 dataset size: 25
 Dataset tag relations: AT&T (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/AT&T%20e86f130c42344169a9d75a61abc7e487.md)

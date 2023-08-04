@@ -24,7 +24,7 @@ Notes: edge bundling algorithm
 thoughts: maybe the enron dataset would be fitting for edge bundling techniques too
 paper type: algorithm
 Technique: other
-Graph feature: Bundled edges (generated), Spatial
+Graph feature: bundled edges (generated), spatial
 Dataset tag clean: Airlines/Migration Routes
 Dataset used: Airlines - US airlines, US migrations, France airlines, large US migrations
 dataset size: 4

@@ -7,7 +7,7 @@ Originally found at: https://data.worldbank.org/indicator
 https://github.com/loizuf/StableDemersLP/tree/main/code/StableDemers_TVCG/data
 Size: 48-514 nodes, 205-2428 edges
 Number of Graphs: 14
-References: Computing Stable Demers Cartograms (https://www.notion.so/Computing-Stable-Demers-Cartograms-73ed6431833d49bba5807b76ca3b0fd4?pvs=21)
+Origin Paper: Computing Stable Demers Cartograms (https://www.notion.so/Computing-Stable-Demers-Cartograms-73ed6431833d49bba5807b76ca3b0fd4?pvs=21)
 Appeared in years: 1
 Type of Collection: Uniform Benchmark
 is it stored properly?: No

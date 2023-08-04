@@ -17,7 +17,7 @@ Conference: TVCG
 link: https://ieeexplore.ieee.org/document/8419285
 paper type: algorithm
 Technique: machine learning
-Graph feature: Generic
+Graph feature: generic
 Dataset tag clean: SuiteSparse Matrix Collection, Transportation Network/Map
 dataset size: 10
 Dataset tag relations: Transportation Networks (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Transportation%20Networks%20720a658bb1914b51910c480d86943e80.md), SuiteSparse Matrix Collection (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/SuiteSparse%20Matrix%20Collection%20b8772d6a2cbb456894b4673e32c6f956.md)

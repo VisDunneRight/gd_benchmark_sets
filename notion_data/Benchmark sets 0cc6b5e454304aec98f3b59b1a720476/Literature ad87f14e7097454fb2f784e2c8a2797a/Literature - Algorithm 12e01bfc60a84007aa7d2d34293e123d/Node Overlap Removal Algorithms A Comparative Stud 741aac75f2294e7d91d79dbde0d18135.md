@@ -17,7 +17,7 @@ year: 2019
 Conference: GD
 link: https://jgaa.info/accepted/recent/532.pdf
 paper type: comparison
-Graph feature: Generic, Trees
+Graph feature: generic, trees
 Dataset tag clean: Custom (Non Replicable), Graphviz Examples
 Dataset used: custom made with OGDF + graphviz’s test graphs
 dataset size: 854

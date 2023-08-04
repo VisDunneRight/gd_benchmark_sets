@@ -22,7 +22,7 @@ link: https://www.sciencedirect.com/science/article/pii/S1572528607000497
 Notes: Uses ILP. Chapter 5 contains their experiment, and it has some mention of the challenges of running computational experiments (e.g. when to stop, timeout) - contains a comparison against a heuristic.
 paper type: algorithm, comparison
 Technique: ILP
-Graph feature: Generic
+Graph feature: generic
 Dataset tag clean: Rome-Lib, Rome-Lib*
 Dataset used: Rome-Lib
 dataset size: 11389

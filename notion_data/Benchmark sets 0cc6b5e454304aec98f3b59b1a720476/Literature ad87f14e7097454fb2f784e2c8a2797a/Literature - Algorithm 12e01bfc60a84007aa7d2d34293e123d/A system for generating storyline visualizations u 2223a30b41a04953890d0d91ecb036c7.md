@@ -21,7 +21,7 @@ link: https://www.csc2.ncsu.edu/faculty/healey/download/cg.19.pdf
 Notes: Check Padia2018, this just the journal version of that one
 paper type: algorithm, system
 Technique: other
-Graph feature: Clusters (pre-existing), Dynamic - discrete, Layered graphs, N-layers
+Graph feature: clusters (pre-existing), dynamic (discrete), layered graphs, n-layers
 Dataset tag clean: Padia stories
 dataset size: 11
 Dataset tag relations: Padia Stories (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Padia%20Stories%20c02a38b9ea5e40bfb682ae77e2ac23af.md)

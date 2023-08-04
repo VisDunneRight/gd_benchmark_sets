@@ -18,7 +18,7 @@ Conference: GD
 link: https://link.springer.com/content/pdf/10.1007%2F978-3-319-73915-1.pdf
 Notes: FM3 data from https://link.springer.com/chapter/10.1007/978-3-319-53925-6_11
 paper type: comparison, tool
-Graph feature: Generic
+Graph feature: generic
 Dataset tag clean: Custom (Non Replicable), FM3, Rome-Lib, Rome-Lib*
 Dataset used: Rome-Lib (subset), custom (random), FM3data (from another paper)
 dataset size: 1094 + 100 + 100

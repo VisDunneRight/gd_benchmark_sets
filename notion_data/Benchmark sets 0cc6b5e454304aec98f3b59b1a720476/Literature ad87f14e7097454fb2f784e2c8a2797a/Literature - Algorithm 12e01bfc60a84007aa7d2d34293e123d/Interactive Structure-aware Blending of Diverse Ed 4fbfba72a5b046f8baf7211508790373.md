@@ -17,7 +17,7 @@ Conference: Information Visualization
 link: https://ieeexplore.ieee.org/document/8807234
 paper type: algorithm
 Technique: other
-Graph feature: Bundled edges (generated), Spatial
+Graph feature: bundled edges (generated), spatial
 Dataset tag clean: Airlines/Migration Routes
 dataset size: 3
 Dataset tag relations: Airlines, Migrations, and Air Traffic (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Airlines,%20Migrations,%20and%20Air%20Traffic%2045ffa6caedd141b082e163d7da6eb895.md)

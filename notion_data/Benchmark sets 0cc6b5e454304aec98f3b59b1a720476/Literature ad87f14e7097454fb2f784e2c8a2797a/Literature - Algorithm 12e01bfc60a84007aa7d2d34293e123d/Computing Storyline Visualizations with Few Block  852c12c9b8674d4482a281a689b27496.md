@@ -32,7 +32,7 @@ until there are n meetings. We let all characters be alive at all times, so we c
 run all three algorithms.
 paper type: algorithm, comparison
 Technique: ILP
-Graph feature: Clusters (pre-existing), Dynamic - discrete, Layered graphs, N-layers
+Graph feature: clusters (pre-existing), dynamic (discrete), layered graphs, n-layers
 Dataset tag clean: Custom (Replicable), Movie Plots
 Dataset used: movie plots
 dataset size: 103

@@ -18,7 +18,7 @@ Conference: GD
 link: https://link.springer.com/content/pdf/10.1007%2F978-3-319-73915-1.pdf
 Notes: bunch of features in benchmark graphs described in section 3 - not proper graph features though
 paper type: comparison
-Graph feature: Book Embedding
+Graph feature: book embedding
 Dataset tag clean: Custom (Reproducible)
 Dataset used: custom
 dataset size: 1800

@@ -21,8 +21,8 @@ year: 2019
 Conference: EuroVis
 link: https://onlinelibrary.wiley.com/doi/10.1111/cgf.13723
 paper type: algorithm
-Technique: Barycentric
-Graph feature: Labeled Nodes, Layered graphs, N-layers
+Technique: barycentric
+Graph feature: labeled nodes, layered graphs, n-layers
 Dataset tag clean: Business processes
 dataset size: 13
 Dataset tag relations: Business Processes (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Business%20Processes%209d09430927704fcf8fdf1ee4e00cabbc.md)

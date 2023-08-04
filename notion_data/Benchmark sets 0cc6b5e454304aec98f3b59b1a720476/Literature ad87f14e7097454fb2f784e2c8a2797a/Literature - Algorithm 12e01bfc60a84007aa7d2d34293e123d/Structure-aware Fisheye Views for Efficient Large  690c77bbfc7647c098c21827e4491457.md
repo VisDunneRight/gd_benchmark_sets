@@ -17,7 +17,7 @@ Conference: Information Visualization
 link: https://ieeexplore.ieee.org/document/8440835
 paper type: algorithm, comparison
 Technique: other
-Graph feature: Clusters (pre-existing), Generic, Large, Spatial
+Graph feature: clusters (pre-existing), generic, large, spatial
 Dataset tag clean: Social Networks, Transportation Network/Map
 dataset size: 5
 Dataset tag relations: Social Networks (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Social%20Networks%2090888b3285d042d49072985b05f95203.md), Transportation Networks (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Transportation%20Networks%20720a658bb1914b51910c480d86943e80.md)

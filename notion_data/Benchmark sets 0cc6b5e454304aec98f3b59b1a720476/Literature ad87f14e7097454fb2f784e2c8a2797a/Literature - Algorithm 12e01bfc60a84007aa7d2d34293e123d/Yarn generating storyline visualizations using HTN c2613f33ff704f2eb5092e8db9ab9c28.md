@@ -22,7 +22,7 @@ Conference: Graphics Interface
 Notes: this paper is terrible
 paper type: algorithm, system
 Technique: other
-Graph feature: Clusters (pre-existing), Dynamic - discrete, Layered graphs, N-layers
+Graph feature: clusters (pre-existing), dynamic (discrete), layered graphs, n-layers
 Dataset tag clean: Padia stories
 Dataset used: Witcher 2 and Friends (very small)
 dataset size: 5

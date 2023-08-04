@@ -17,7 +17,7 @@ year: 2005
 Conference: GD
 paper type: algorithm
 Technique: multidimensional scaling
-Graph feature: Generic, Weighted Edges
+Graph feature: generic, weighted edges
 Dataset tag clean: Matrix Market
 dataset size: 6
 Dataset tag relations: Matrix Market (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Matrix%20Market%2080bd4320417342458aefa031cf65db1f.md)

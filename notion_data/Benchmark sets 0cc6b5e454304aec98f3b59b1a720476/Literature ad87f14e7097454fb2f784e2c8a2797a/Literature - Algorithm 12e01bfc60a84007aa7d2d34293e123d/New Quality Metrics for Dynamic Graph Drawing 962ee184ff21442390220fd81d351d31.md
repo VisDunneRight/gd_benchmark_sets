@@ -24,7 +24,7 @@ Conference: GD
 Notes: second dataset from: Madan, A., Cebrian, M., Moturu, S., Farrahi, K., et al.: Sensing the “health state”
 of a community. IEEE Pervasive Comput. 11(4), 36–45 (2011)
 paper type: comparison, quality metrics
-Graph feature: Dynamic
+Graph feature: dynamic
 Dataset tag clean: Custom (Non Replicable), Social Evolution Set
 Dataset used: custom made + Social Evolution set
 

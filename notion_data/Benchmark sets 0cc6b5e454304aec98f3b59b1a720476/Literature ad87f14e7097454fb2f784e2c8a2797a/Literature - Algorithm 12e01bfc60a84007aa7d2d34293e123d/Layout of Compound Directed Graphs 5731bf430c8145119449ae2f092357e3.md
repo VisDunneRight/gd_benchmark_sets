@@ -13,7 +13,7 @@ Conference: Technical Report
 link: https://publikationen.sulb.uni-saarland.de/bitstream/20.500.11880/25862/1/tr-A03-96.pdf
 Notes: used in dagre
 paper type: algorithm
-Graph feature: Compound graphs, Directed Edges
+Graph feature: compound graphs, directed edges
 Dataset tag clean: none
 Dataset used: no dataset
 dataset size: 4

@@ -22,7 +22,7 @@ Conference: EuroVis
 link: https://onlinelibrary.wiley.com/doi/10.1111/cgf.13440
 paper type: algorithm
 Technique: other
-Graph feature: Clusters (pre-existing), Generic, Labeled Nodes, Layered graphs, N-layers
+Graph feature: clusters (pre-existing), generic, labeled nodes, layered graphs, n-layers
 Dataset tag clean: Biological Pathways, Social Networks
 dataset size: 3
 Dataset tag relations: Social Networks (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Social%20Networks%2090888b3285d042d49072985b05f95203.md)

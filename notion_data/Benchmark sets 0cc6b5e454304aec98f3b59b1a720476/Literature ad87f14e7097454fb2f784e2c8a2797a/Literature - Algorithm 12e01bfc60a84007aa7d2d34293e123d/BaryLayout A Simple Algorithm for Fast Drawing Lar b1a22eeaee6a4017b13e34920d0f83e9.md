@@ -26,7 +26,7 @@ measurement, we judge the quality of output intuitively based on
 how much it can reveal an input graph’s specific structure.”
 paper type: algorithm, comparison
 Technique: other
-Graph feature: Generic, Large
+Graph feature: generic, large
 Dataset tag clean: matrix market?
 Dataset used: same as An Experimental Comparison of Fast Algorithms for Drawing General Large Graphs (An%20Experimental%20Comparison%20of%20Fast%20Algorithms%20for%20%20190e5036cf974a879b50614cfff525f1.md) 
 dataset size: 5

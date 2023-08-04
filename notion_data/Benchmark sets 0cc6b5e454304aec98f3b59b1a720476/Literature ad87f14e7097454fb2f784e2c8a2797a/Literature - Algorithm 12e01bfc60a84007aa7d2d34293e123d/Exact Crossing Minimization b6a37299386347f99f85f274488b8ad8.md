@@ -27,7 +27,7 @@ Conference: GD
 link: https://link.springer.com/content/pdf/10.1007/11618058_4.pdf
 paper type: algorithm
 Technique: ILP
-Graph feature: Generic
+Graph feature: generic
 Dataset tag clean: Rome-Lib
 Dataset used: Rome-Lib
 dataset size: 11389

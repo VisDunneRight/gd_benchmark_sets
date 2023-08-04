@@ -23,8 +23,8 @@ year: 2006
 Conference: GD
 link: http://www.cs.rpi.edu/~magdon/ps/journal/SDE_IJFCS05.pdf
 paper type: algorithm, comparison
-Technique: Spectral
-Graph feature: Generic
+Technique: spectral
+Graph feature: generic
 Dataset tag clean: C. Walshaw's graph collection
 dataset size: 22
 Dataset tag relations: Walshaw (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Walshaw%20e40b37a1147942d89ff1d8dfad285256.md)

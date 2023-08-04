@@ -21,8 +21,8 @@ year: 2017
 Conference: Computer Graphics Forum
 link: https://onlinelibrary.wiley.com/doi/epdf/10.1111/cgf.13164
 paper type: algorithm
-Technique: Barycentric
-Graph feature: Categorical Nodes, Dynamic - discrete, N-layers
+Technique: barycentric
+Graph feature: categorical nodes, dynamic (discrete), n-layers
 Dataset tag clean: Custom (Non Replicable)
 dataset size: 3
 Size of graphs (Clean up): NA

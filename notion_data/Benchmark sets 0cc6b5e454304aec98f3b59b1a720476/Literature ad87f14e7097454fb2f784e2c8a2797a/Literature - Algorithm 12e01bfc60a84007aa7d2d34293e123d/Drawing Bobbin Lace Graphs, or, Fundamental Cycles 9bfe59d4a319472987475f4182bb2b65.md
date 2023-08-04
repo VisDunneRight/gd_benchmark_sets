@@ -17,7 +17,7 @@ year: 2017
 Conference: GD
 link: https://link.springer.com/content/pdf/10.1007%2F978-3-319-73915-1.pdf
 paper type: algorithm, proof
-Graph feature: Bobbin lace graphs
+Graph feature: bobbin lace graphs
 Dataset tag clean: none
 Dataset used: no experiment
 dataset size: 0

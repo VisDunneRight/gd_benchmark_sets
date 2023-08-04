@@ -17,7 +17,7 @@ year: 2007
 Conference: GD
 link: https://link.springer.com/content/pdf/10.1007/978-3-540-77537-9_24.pdf
 paper type: algorithm
-Graph feature: Terminals
+Graph feature: terminals
 Dataset used: no experiment
 dataset size: NA
 Size of graphs (Clean up): NA

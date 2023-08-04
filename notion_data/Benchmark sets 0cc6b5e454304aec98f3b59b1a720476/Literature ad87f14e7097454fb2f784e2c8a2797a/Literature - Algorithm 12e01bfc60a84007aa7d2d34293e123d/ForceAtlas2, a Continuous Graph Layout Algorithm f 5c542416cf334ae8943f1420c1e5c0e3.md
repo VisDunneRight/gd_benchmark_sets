@@ -29,7 +29,7 @@ this paper has been updated in the last 4 years and has a jupyter notebook
 more github: https://github.com/medialab/benchmarkForceAtlas2/blob/master/dataset_readme.md
 paper type: algorithm
 Technique: force-directed
-Graph feature: Generic
+Graph feature: generic
 Dataset tag clean: Custom (Reproducible), SNAP
 Dataset used: dataset here: https://github.com/medialab/benchmarkForceAtlas2
 dataset size: 68

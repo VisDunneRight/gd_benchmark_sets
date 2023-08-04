@@ -18,7 +18,7 @@ year: 2003
 Conference: GD
 link: https://link.springer.com/content/pdf/10.1007%2F978-3-540-24595-7_2.pdf
 paper type: comparison
-Graph feature: Generic
+Graph feature: generic
 Dataset tag clean: Rome-Lib
 Dataset used: Rome Lib
 dataset size: 11389

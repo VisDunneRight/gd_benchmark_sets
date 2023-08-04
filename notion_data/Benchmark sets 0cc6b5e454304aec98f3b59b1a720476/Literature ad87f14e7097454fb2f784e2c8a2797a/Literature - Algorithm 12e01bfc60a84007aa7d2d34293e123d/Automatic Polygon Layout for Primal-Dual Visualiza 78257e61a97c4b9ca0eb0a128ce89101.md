@@ -20,7 +20,7 @@ year: 2021
 Conference: TVCG
 link: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9552233
 paper type: algorithm
-Graph feature: Clusters (generated)
+Graph feature: clusters (generated)
 Dataset tag clean: Collaboration Networks, Custom (Replicable), Social Networks
 Dataset used: DBLP, source for second dataset: https://arxiv.org/pdf/1006.1260.pdf
 dataset size: 8
