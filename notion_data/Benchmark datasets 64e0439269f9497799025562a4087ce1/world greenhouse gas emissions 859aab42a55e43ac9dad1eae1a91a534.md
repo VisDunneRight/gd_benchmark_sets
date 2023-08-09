@@ -1,5 +1,6 @@
 # World Greenhouse Gas Emissions
 
+Note: Linked data is from a different year than the data used by https://doi.org/10.1109/PacificVis.2018.00025, for which data could not be found.
 Origin Notes: Data collected by the https://www.wri.org/
 graph features handled: categorical nodes, edge weighted, layered graphs, node weighted
 Graph features in papers: clusters (pre-existing),layered graphs,n-layers

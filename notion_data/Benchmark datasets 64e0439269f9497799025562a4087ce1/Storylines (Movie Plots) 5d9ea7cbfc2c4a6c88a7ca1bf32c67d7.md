@@ -1,4 +1,4 @@
-# Storylines/Movie Plots
+# Storylines (Movie Plots)
 
 Origin Notes: This dataset was initially collected by Yuzuru Tanahashi, then stored on his homepage at UC Davis. The homepage unfortunately went down and became unreachable after a few years, making the dataset unavailable, and the visualizations / experiments contained in the papers that used the data very hard to replicate. It was, unfortunately, not stored in any form as supplemental material of the papers. 
 Through the help of personal connections at UC Davis, we were luckily able to recover the dataset.
@@ -33,7 +33,7 @@ sparkline data: {'min': 698, 'max': 24056, 'step_size': 5000, 'num_bins': 5, 'bi
 
 ### Statistics
 
-![four_in_one.svg](Storylines%20Movie%20Plots%205d9ea7cbfc2c4a6c88a7ca1bf32c67d7/four_in_one.svg)
+![four_in_one.svg](Storylines%20(Movie%20Plots)%205d9ea7cbfc2c4a6c88a7ca1bf32c67d7/four_in_one.svg)
 
 ### Descriptions from Literature
 
@@ -56,12 +56,12 @@ Initiation time corresponds to the time when the interaction session begins. Dur
 
 From [An Efficient Framework for Generating Storyline Visualizations from Streaming Data](https://doi.org/10.1109/TVCG.2015.2392771):
 
-![Untitled](Storylines%20Movie%20Plots%205d9ea7cbfc2c4a6c88a7ca1bf32c67d7/Untitled.png)
+![Untitled](Storylines%20(Movie%20Plots)%205d9ea7cbfc2c4a6c88a7ca1bf32c67d7/Untitled.png)
 
 From [StoryFlow: Tracking the Evolution of Stories](https://doi.org/10.1109/TVCG.2013.196):
 
-![Untitled](Storylines%20Movie%20Plots%205d9ea7cbfc2c4a6c88a7ca1bf32c67d7/Untitled%201.png)
+![Untitled](Storylines%20(Movie%20Plots)%205d9ea7cbfc2c4a6c88a7ca1bf32c67d7/Untitled%201.png)
 
 From [Crossing Minimization in Storyline Visualizations](https://doi.org/10.1007/978-3-319-50106-2_29):
 
-![Untitled](Storylines%20Movie%20Plots%205d9ea7cbfc2c4a6c88a7ca1bf32c67d7/Untitled%202.png)
+![Untitled](Storylines%20(Movie%20Plots)%205d9ea7cbfc2c4a6c88a7ca1bf32c67d7/Untitled%202.png)

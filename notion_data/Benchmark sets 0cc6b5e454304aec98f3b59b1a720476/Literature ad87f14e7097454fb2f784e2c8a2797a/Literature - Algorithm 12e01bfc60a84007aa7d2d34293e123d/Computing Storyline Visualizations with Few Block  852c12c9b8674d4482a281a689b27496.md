@@ -37,7 +37,7 @@ Dataset tag clean: Custom (Replicable), Movie Plots
 Dataset used: movie plots
 dataset size: 103
 dataset size comment: 10 - 100
-Dataset tag relations: Storylines/Movie Plots (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Storylines%20Movie%20Plots%205d9ea7cbfc2c4a6c88a7ca1bf32c67d7.md)
+Dataset tag relations: Storylines (Movie Plots) (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Storylines%20(Movie%20Plots)%205d9ea7cbfc2c4a6c88a7ca1bf32c67d7.md)
 Type of edit to the dataset: NA, generated
 Size of graphs (Clean up): 10 - 100
 Size of graphs: few hundred nodes? see movie plots

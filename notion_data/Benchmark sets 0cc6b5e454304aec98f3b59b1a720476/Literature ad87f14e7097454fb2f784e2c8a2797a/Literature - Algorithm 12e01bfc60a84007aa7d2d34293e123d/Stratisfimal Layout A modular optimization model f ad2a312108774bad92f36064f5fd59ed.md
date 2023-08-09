@@ -25,7 +25,7 @@ Graph feature: clusters (pre-existing), compound graphs, layered graphs, n-layer
 Dataset tag clean: Movie Plots, Rome-Lib, Rome-Lib*, SQL queries
 Dataset used: Rome-Lib - layered and with added groups (graphs with too many nodes were left out from Rome-Lib)
 dataset size: 468
-Dataset tag relations: Rome-Lib (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Rome-Lib%20c2f20984de724f4c89764b0bc494e99e.md), Storylines/Movie Plots (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Storylines%20Movie%20Plots%205d9ea7cbfc2c4a6c88a7ca1bf32c67d7.md)
+Dataset tag relations: Rome-Lib (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Rome-Lib%20c2f20984de724f4c89764b0bc494e99e.md), Storylines (Movie Plots) (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Storylines%20(Movie%20Plots)%205d9ea7cbfc2c4a6c88a7ca1bf32c67d7.md)
 Type of edit to the dataset: Clusterization, rank assignment
 Size of graphs (Clean up): 10 - 95
 Size of graphs: 10-95

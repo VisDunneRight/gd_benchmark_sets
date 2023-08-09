@@ -97,10 +97,10 @@
             <br><br>
 
             <pre style="color: palevioletred;">
-    @article{knuth:1984,
-            title={Literate Programming},
-            author={Donald E. Knuth},
-            journal={The Computer Journal}
+@article{benchmarksets2023,
+        title={A collection of benchmark datasets for evaluating graph layout algorithms},
+        author={Sara Di Bartolomeo, Eduardo Puerta, Connor Wilson, Tarik Cronvrsanin, and Cody Dunne},
+        venue={GD Posters}
         }
                 </pre>
             <div id="named-list" data-bs-spy="scroll"  data-bs-target="db-nav-list" data-bs-offset="20" tabindex="0">
@@ -378,7 +378,16 @@
             
             for (let line of otherinfo.split("\n")){
                 if (line[0] == "!") {
-                    let img = line.split("(")[1].slice(0, -1)
+                    // get everything after the first (, concat the rest
+                    let img = line.split("(")
+                    // concat all the entries after the first
+                    for (let i = 2; i < img.length; i++){
+                        img[1] += "(" + img[i]
+                    }
+                    // remove the last )
+                    img[1] = img[1].substring(0, img[1].length - 1)
+                    img = img[1]
+
                     inforow.append("div")
                         .style("text-align", "center")
                         .append("img")
@@ -404,13 +413,14 @@
             .style("margin-bottom", "5px")
     }
 
-    function add_col_headers(named_list_dom, avoid_middle=false){
+    function add_col_headers(named_list_dom, avoid_middle=false, single_graph=false){
         let dfes = named_list_dom.append("div")
             .attr("class", "row")
             .style("padding-bottom", "10px")
 
         dfes.append("div")
             .attr("class", "col coltext")
+            .style("text-align", "left")
             .html("Name")
 
         let d = dfes.append("div")
@@ -418,22 +428,38 @@
             
         if (!avoid_middle) {
             let dr = d.append("div").attr("class", "row")
-            
+
             dr.append("div")
                 .attr("class", "col coltext")
+                .style("text-align", "left")
                 .html("Deg. Distr.")
+            
+            if (!single_graph){
+                dr.append("div")
+                    .attr("class", "col coltext")
+                    .style("text-align", "left")
+                    .html("Min nodes")
 
-            dr.append("div")
-                .attr("class", "col coltext")
-                .html("Min deg.")
+                dr.append("div")
+                    .attr("class", "col coltext")
+                    .style("text-align", "left")
+                    .html("Max nodes")
+            } else {
+                dr.append("div")
+                    .attr("class", "col coltext")
+                    .style("text-align", "left")
+                    .html("Min deg.")
 
-            dr.append("div")
-                .attr("class", "col coltext")
-                .html("Max deg.")
+                dr.append("div")
+                    .attr("class", "col coltext")
+                    .style("text-align", "left")
+                    .html("Max deg.")
+            }
         }
 
         dfes.append("div")
             .attr("class", "col coltext")
+            .style("text-align", "left")
             .html("Features")
     }
 
@@ -592,7 +618,7 @@
             .text("The following are not collections, but individual graphs. They are often used as examples in papers, or as test cases for specific features. ")
             .style("color", "gray")
 
-        add_col_headers(named_list_dom)
+        add_col_headers(named_list_dom, false, true)
         
         let singleLi = db_nav_list.append("li")
             .attr("class", "bd-links-group py-2")

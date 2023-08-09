@@ -24,7 +24,7 @@ Graph feature: clusters (pre-existing), dynamic, dynamic (discrete), layered gra
 Dataset tag clean: MID Network data, Movie Plots
 Dataset used: movie plots (lost)
 dataset size: 8
-Dataset tag relations: Storylines/Movie Plots (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Storylines%20Movie%20Plots%205d9ea7cbfc2c4a6c88a7ca1bf32c67d7.md), Militarized Interstate Disputes (MID) (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Militarized%20Interstate%20Disputes%20(MID)%2027d9df7d11e44a9596267bb930bc6f03.md)
+Dataset tag relations: Storylines (Movie Plots) (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Storylines%20(Movie%20Plots)%205d9ea7cbfc2c4a6c88a7ca1bf32c67d7.md), Militarized Interstate Disputes (MID) (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Militarized%20Interstate%20Disputes%20(MID)%2027d9df7d11e44a9596267bb930bc6f03.md)
 Type of edit to the dataset: NA
 Size of graphs (Clean up): 568 - 41317
 Size of graphs: 568 - 41317

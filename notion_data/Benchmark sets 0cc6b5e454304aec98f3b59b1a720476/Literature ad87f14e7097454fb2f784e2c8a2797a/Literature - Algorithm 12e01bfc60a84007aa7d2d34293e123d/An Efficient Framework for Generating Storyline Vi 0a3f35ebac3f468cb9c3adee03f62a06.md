@@ -24,7 +24,7 @@ Graph feature: dynamic, dynamic (discrete), layered graphs, n-layers
 Dataset tag clean: Code commits, Enron, Movie Plots
 Dataset used: movie plots (lost), other datasets (all lost excluding https://www.cs.cmu.edu/~enron/) 
 dataset size: 7
-Dataset tag relations: Enron (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Enron%20ed3c62b92cf14a7b86c691ac3651dab3.md), Storylines/Movie Plots (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Storylines%20Movie%20Plots%205d9ea7cbfc2c4a6c88a7ca1bf32c67d7.md), Code Dependency Graphs (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Code%20Dependency%20Graphs%203b6beec0413c486184cee398056e6c87.md)
+Dataset tag relations: Enron (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Enron%20ed3c62b92cf14a7b86c691ac3651dab3.md), Storylines (Movie Plots) (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Storylines%20(Movie%20Plots)%205d9ea7cbfc2c4a6c88a7ca1bf32c67d7.md), Code Dependency Graphs (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Code%20Dependency%20Graphs%203b6beec0413c486184cee398056e6c87.md)
 Type of edit to the dataset: NA, truncated
 Size of graphs (Clean up): 84 - 1264
 Size of graphs: 140 - 1554720 Entities 84-1264
