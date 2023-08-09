@@ -106,7 +106,7 @@
     }
                 </pre>
 
-            <div><b>Contributing:</b> reach out to <a href="mailto:dibartolomeo.sara@gmail.com">dibartolomeo.sara@gmail.com</a></div><br>
+            <div><b>Contributing:</b> Please open an issue here: <a href="https://github.com/VisDunneRight/gd_benckmark_sets">https://github.com/VisDunneRight/gd_benckmark_sets</a>. <br> Alternatively, reach out to <a href="mailto:dibartolomeo.sara@gmail.com">dibartolomeo.sara@gmail.com</a></div><br>
             <div id="named-list" data-bs-spy="scroll"  data-bs-target="db-nav-list" data-bs-offset="20" tabindex="0">
             </div>
           </div>
@@ -275,6 +275,19 @@
         let row = named_list_dom.append("div")
             .attr("class", "row scroll-offset")
             .attr("id" ,"moveTo" + name_cleanup(entry["Name"]))
+
+
+        // row.append("div")
+        //     .style("width", "50%")
+        //     .style("height", "10%")
+        //     .attr("aria-controls", "inforow_" + name_cleanup(entry["Name"]))
+        //     .attr("data-bs-toggle", "collapse")
+        //     .attr("aria-expanded", "false")
+        //     .attr("role", "button")
+        //     .attr("href", "#inforow_" + name_cleanup(entry["Name"]))
+        //     .style("background-color", "red")
+        //     .style("position", "absolute")
+        //     // .html("aaaaaaaa")
 
         row.append("div")
             .attr("class", "col")
