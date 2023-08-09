@@ -97,12 +97,16 @@
             <br><br>
 
             <pre style="color: palevioletred;">
-@article{benchmarksets2023,
-        title={A collection of benchmark datasets for evaluating graph layout algorithms},
-        author={Sara Di Bartolomeo, Eduardo Puerta, Connor Wilson, Tarik Cronvrsanin, and Cody Dunne},
-        venue={GD Posters}
-        }
+    @Misc{DiBartolomeo2023CollectionBenchmarkDatasets,
+        author       = {Di~Bartolomeo, Sara and Puerta, Eduardo and Wilson, Connor and Crnovrsanin, Tarik and Dunne, Cody},
+        howpublished = {Under submission to Graph Drawing Posters},
+        title        = {A collection of benchmark datasets for evaluating graph layout algorithms},
+        year         = {2023},
+        url          = {https://visdunneright.github.io/gd_benchmark_sets/},
+    }
                 </pre>
+
+            <div><b>Contributing:</b> reach out to <a href="mailto:dibartolomeo.sara@gmail.com">dibartolomeo.sara@gmail.com</a></div><br>
             <div id="named-list" data-bs-spy="scroll"  data-bs-target="db-nav-list" data-bs-offset="20" tabindex="0">
             </div>
           </div>
@@ -640,6 +644,39 @@
             .append("div")
             .attr("class", "col")
             .append("h3")
+            .text("Other")
+            .style("margin-top", "10px")
+
+        named_list_dom.append("div")
+            .attr("class", "row")
+            .append("div")
+            .attr("class", "col")
+            .append("p")
+            .text("A few more datasets that did not fit in the preivous categories. ")
+            .style("color", "gray")
+
+        add_col_headers(named_list_dom, true)
+
+        let otherLi = db_nav_list.append("li")
+            .attr("class", "bd-links-group py-2")
+        otherLi
+            .append("strong")
+            .attr("class", "bd-links-heading d-flex w-100 align-items-center fw-semibold")
+            .text("Other")
+        let otherUl = otherLi 
+            .append("ul")
+            .attr("class", "list-unstyled fw-normal pb-2 small")
+
+        for (let entry of data.filter(d => d.added != true)){
+            entry.added = true;
+            await add_entry_row(named_list_dom, otherUl, paper_data, entry, origin_paper_data)
+        }
+
+        named_list_dom.append("div")
+            .attr("class", "row")
+            .append("div")
+            .attr("class", "col")
+            .append("h3")
             .text("Lost or Unavailable")
             .style("margin-top", "10px")
 
@@ -667,32 +704,6 @@
             entry.added = true;
             await add_entry_row(named_list_dom, lostUl, paper_data, entry, origin_paper_data)
         }
-
-        named_list_dom.append("div")
-            .attr("class", "row")
-            .append("div")
-            .attr("class", "col")
-            .append("h3")
-            .text("Other")
-            .style("margin-top", "10px")
-
-        add_col_headers(named_list_dom, true)
-
-        let otherLi = db_nav_list.append("li")
-            .attr("class", "bd-links-group py-2")
-        otherLi
-            .append("strong")
-            .attr("class", "bd-links-heading d-flex w-100 align-items-center fw-semibold")
-            .text("Other")
-        let otherUl = otherLi 
-            .append("ul")
-            .attr("class", "list-unstyled fw-normal pb-2 small")
-
-        for (let entry of data.filter(d => d.added != true)){
-            entry.added = true;
-            await add_entry_row(named_list_dom, otherUl, paper_data, entry, origin_paper_data)
-        }
-
     }
 
     main()
