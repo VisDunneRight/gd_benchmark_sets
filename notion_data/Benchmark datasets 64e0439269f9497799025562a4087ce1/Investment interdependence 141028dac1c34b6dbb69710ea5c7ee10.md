@@ -2,11 +2,11 @@
 
 Origin Notes: Data collected in a survey of Ohio State University students by D. W. Malone. Students were presented with two potential obstacles to investment in Columbus, Ohio’s business district and asked, “does obstacle A aggravate or intensify obstacle B?”
 graph features handled: directed edges, hierarchical
-Graph features in papers: 3
+Graph features in papers: hierarchical,layered graphs,n-layers
 Size: 25 nodes, 30 edges
 Number of Graphs: 1
 Origin Paper: An introduction to the application of interpretive structural modeling (https://www.notion.so/An-introduction-to-the-application-of-interpretive-structural-modeling-6d2f2dbeecb94b9b833cc24ed98bacc2?pvs=21)
-Appeared in years: 1
+Appeared in years: 1981
 Type of Collection: Single Graph
 is it stored properly?: No
 must be analyzed: No

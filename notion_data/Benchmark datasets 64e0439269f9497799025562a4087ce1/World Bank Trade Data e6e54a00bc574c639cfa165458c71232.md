@@ -1,7 +1,7 @@
 # World Bank Trade Data
 
-Graph features in papers: 3
-Appeared in years: 2
+Graph features in papers: clusters (generated),generic,generic,large
+Appeared in years: 2006,2015
 Type of Collection: Single Graph
 is it stored properly?: No
 must be analyzed: No

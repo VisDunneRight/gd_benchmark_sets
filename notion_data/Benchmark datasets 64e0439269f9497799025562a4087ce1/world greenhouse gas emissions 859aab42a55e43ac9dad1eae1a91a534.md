@@ -1,14 +1,14 @@
 # World Greenhouse Gas Emissions
 
-Origin Notes: Data collected by the World Resources Institute
+Origin Notes: Data collected by the https://www.wri.org/
 graph features handled: categorical nodes, edge weighted, layered graphs, node weighted
-Graph features in papers: 3
+Graph features in papers: clusters (pre-existing),layered graphs,n-layers
 Originally found at: https://www.wri.org/data/world-greenhouse-gas-emissions-2005
 https://www.wri.org/search?keys=world%20greenhouse%20gas%20emissions&f%5B0%5D=content_type%3Adata
 https://github.com/lhc70000/sankey/tree/master
 Size: 40 nodes, 85 edges
 Number of Graphs: 1
-Appeared in years: 1
+Appeared in years: 2018
 Type of Collection: Single Graph
 is it stored properly?: No
 must be analyzed: No

@@ -3,12 +3,12 @@
 Note: See AT&T
 Origin Notes: See AT&T
 graph features handled: acyclic, directed edges
-Graph features in papers: 5
+Graph features in papers: directed edges,layered graphs,n-layers,planar,generic,directed edges
 Originally found at: See AT&T
 Size: See AT&T
 Origin Paper: Drawing Directed Acyclic Graphs: An Experimental Study (https://www.notion.so/Drawing-Directed-Acyclic-Graphs-An-Experimental-Study-7f730ceea4a744e08bf091e8c23e8a95?pvs=21)
 Child collections: AT&T (AT&T%20e86f130c42344169a9d75a61abc7e487.md)
-Appeared in years: 6
+Appeared in years: 2008,2016,2018,2021,1996,2022
 Type of Collection: Uniform Benchmark
 is it stored properly?: No
 must be analyzed: Yes

@@ -1,8 +1,8 @@
 # Car Features
 
 Note: Dataset not available—emailed author
-Graph features in papers: 3
-Appeared in years: 1
+Graph features in papers: clusters (pre-existing),multivariate,spatial
+Appeared in years: 2011
 Type of Collection: Lost/Unavailable
 is it stored properly?: No
 must be analyzed: No

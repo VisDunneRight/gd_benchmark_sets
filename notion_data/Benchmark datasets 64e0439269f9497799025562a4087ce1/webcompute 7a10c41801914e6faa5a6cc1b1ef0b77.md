@@ -3,11 +3,11 @@
 Note: Newest version of database specifes non-planar graphs, but older versions do have some planar graphs
 Origin Notes: Instances of graphs uploaded to Crossing Number Web Compute, attributed to  M. Chimani, T. Wiedera. http://crossings.uos.de/cr-proof-system-paper.
 graph features handled: known crossing number, nonplanar
-Graph features in papers: 1
+Graph features in papers: generic
 Originally found at: https://tcs.uos.de/doku.php?id=research/cr
 Size: 3-112 nodes, 3-366 edges
 Number of Graphs: 507
-Appeared in years: 1
+Appeared in years: 2016
 Type of Collection: Uniform Benchmark
 is it stored properly?: No
 must be analyzed: No

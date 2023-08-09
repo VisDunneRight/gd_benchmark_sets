@@ -3,12 +3,12 @@
 Note: Example graphs used to generate images with the https://www.graphviz.org for their https://www.graphviz.org/gallery/.
 Origin Notes: The graphs have various origins, most of which are described on the https://www.graphviz.org/gallery/.
 graph features handled: clusters, directed edges, layered graphs
-Graph features in papers: 4
+Graph features in papers: layered graphs,n-layers,large,generic
 Originally found at: https://gitlab.com/graphviz/graphviz/-/tree/main/tests/graphs
 Size: 1-1464 nodes, 0-5806 edges
 Number of Graphs: 195
 Child collections: Control Flow Graphs (Control%20Flow%20Graphs%20af079f199a2c402d8633f6d41101934b.md)
-Appeared in years: 3
+Appeared in years: 2010,2016,2023
 Type of Collection: Uniform Benchmark
 is it stored properly?: No
 must be analyzed: No

@@ -1,13 +1,13 @@
 # Autonomous System Network
 
 Note: The 733-AS netowork is a subset of SNAP. We provide the link containing the original project, https://www.routeviews.org/routeviews/, and redirect to SNAP, https://snap.stanford.edu/data/as-733.html. 
-Graph features in papers: 1
+Graph features in papers: generic
 Originally found at: https://www.routeviews.org/routeviews/
 https://snap.stanford.edu/data/as-733.html
 https://github.com/csuvis/MCGS/blob/master/dataset/AS-733_edge.csv
 Number of Graphs: 733
 Origin Paper: Preserving Minority Structures in Graph Sampling (https://www.notion.so/Preserving-Minority-Structures-in-Graph-Sampling-d0f9e612663d434e85599c402c9b700c?pvs=21), Graphs over Time: Densification Laws, Shrinking Diameters and Possible Explanations (https://www.notion.so/Graphs-over-Time-Densification-Laws-Shrinking-Diameters-and-Possible-Explanations-9b33c460755241c591e462c7326db101?pvs=21)
-Appeared in years: 1
+Appeared in years: 2021
 Type of Collection: Subset of other collection
 is it stored properly?: No
 must be analyzed: No

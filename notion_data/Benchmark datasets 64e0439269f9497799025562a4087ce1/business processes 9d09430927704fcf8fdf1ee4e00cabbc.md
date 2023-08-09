@@ -3,12 +3,12 @@
 Note: Dataset links in supplemental materials are broken, and graphs not linked are internal and cannot be shared according to the author. 
 Origin Notes: Paper collects various graphs from a collection of sources. A few of these datasets are from international business process intelligence challenges, and others are specific processes from companies in a certain domain (hospital, road traffic management, pay processes, etc.).
 graph features handled: labeled nodes, layered graphs
-Graph features in papers: 3
+Graph features in papers: labeled nodes,layered graphs,n-layers
 Originally found at: https://robinmennens.github.io/Portfolio/stableprocessgraphs.html
 Size: 13 graphs from 11 to 50 nodes and up to 772 edges
 Number of Graphs: 0
 Origin Paper: A Stable Graph Layout Algorithm for Processes (https://www.notion.so/A-Stable-Graph-Layout-Algorithm-for-Processes-35d585a25b63442b89c4977095ec923f?pvs=21)
-Appeared in years: 1
+Appeared in years: 2019
 Type of Collection: Lost/Unavailable
 is it stored properly?: No
 must be analyzed: No

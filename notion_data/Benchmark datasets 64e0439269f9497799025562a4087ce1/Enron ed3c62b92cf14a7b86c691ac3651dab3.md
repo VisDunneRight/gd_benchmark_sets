@@ -3,12 +3,12 @@
 Note: Very high variance in node degrees . Data can be considered threaded and directed, however SNAP provides a version of network data that is explicitly undirected.
 Origin Notes: Data made public by the Federal Energy Regulatory Commission when investigating Enron. It has had a few changes over time documented in the link. The data is currently hosted by William W. Cohen from CMU on a webiste, and it is also hosted on SNAP. SNAP asks to cite the paper linked in Origin paper, although this is not the original source of the data.
 graph features handled: dynamic (discrete), generic, large
-Graph features in papers: 4
+Graph features in papers: dynamic,dynamic (discrete),layered graphs,n-layers
 Originally found at: https://www.cs.cmu.edu/~enron/
 Size: The data consists of 150 Enron executives, who sent 500,000 messages between themselves.
 Origin Paper: Introducing the Enron Corpus (https://www.notion.so/Introducing-the-Enron-Corpus-52663d33d36b4940b5966f72f6c73a70?pvs=21)
 Child collections: SNAP (Stanford Network Analysis Platform) (SNAP%20(Stanford%20Network%20Analysis%20Platform)%201cd77eaee57147ce8263b2f9eaa2589c.md)
-Appeared in years: 2
+Appeared in years: 2015,2013
 Type of Collection: Skip
 is it stored properly?: No
 must be analyzed: Yes

@@ -1,11 +1,11 @@
 # Code Dependency Graphs
 
 Note: python, JUnit, Eclipse commit history used in papers. Parallel edge splatting used https://depfind.sourceforge.io/ to extract the history. + Phillips Medical System Eindhoven medical scanner software call graph
-Graph features in papers: 8
+Graph features in papers: dynamic,layered graphs,n-layers,weighted edges,bundled edges (generated),compound graphs,hierarchical,dynamic,dynamic (discrete),layered graphs,n-layers,layered graphs,n-layers
 Originally found at: python link was broken, ucdavis link 
 Size: 128-2956 nodes, 310-10845 edges
 Number of Graphs: 11
-Appeared in years: 4
+Appeared in years: 2011,2006,2015,2018
 Type of Collection: Aggregate collection
 is it stored properly?: No
 must be analyzed: No

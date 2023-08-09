@@ -1,11 +1,11 @@
 # Pajek
 
 Note: There is another link to data not mentioned in their repo. (Also part of SuiteSpase Matrix Collection)
-Graph features in papers: 2
+Graph features in papers: clusters (generated),generic,clusters (generated)
 Originally found at: http://vlado.fmf.uni-lj.si/pub/networks/data/
 Size: 43 Graphs on the `Where to find link`, 76 on the SuiteSpase MAtrix Collection
 Child collections: SuiteSparse Matrix Collection (SuiteSparse%20Matrix%20Collection%20b8772d6a2cbb456894b4673e32c6f956.md)
-Appeared in years: 2
+Appeared in years: 2006,2019
 Type of Collection: Established Network Repo (No report)
 is it stored properly?: No
 must be analyzed: No

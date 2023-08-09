@@ -1,8 +1,8 @@
 # Neural Network
 
 Note: Datasets used in papers are trained ML network architectures
-Graph features in papers: 10
-Appeared in years: 2
+Graph features in papers: bundled edges (generated),clusters (generated),directed edges,hierarchical,high degree,labeled edges,labeled nodes,layered graphs,multivariate,n-layers,bundled edges (generated),clusters (generated),directed edges,layered graphs,n-layers
+Appeared in years: 2018,2017
 Type of Collection: Skip
 is it stored properly?: No
 must be analyzed: No

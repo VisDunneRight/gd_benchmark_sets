@@ -1,7 +1,7 @@
 # Padia Stories
 
-Graph features in papers: 4
-Appeared in years: 2
+Graph features in papers: clusters (pre-existing),dynamic (discrete),layered graphs,n-layers
+Appeared in years: 2018,2019
 Type of Collection: Skip
 is it stored properly?: No
 must be analyzed: No

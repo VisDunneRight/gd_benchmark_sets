@@ -3,12 +3,12 @@
 Origin Notes: This dataset was initially collected by Yuzuru Tanahashi, then stored on his homepage at UC Davis. The homepage unfortunately went down and became unreachable after a few years, making the dataset unavailable, and the visualizations / experiments contained in the papers that used the data very hard to replicate. It was, unfortunately, not stored in any form as supplemental material of the papers. 
 Through the help of personal connections at UC Davis, we were luckily able to recover the dataset.
 graph features handled: clusters, dynamic, layered graphs, many layers, temporal event sequence
-Graph features in papers: 6
+Graph features in papers: dynamic,dynamic (discrete),layered graphs,n-layers,clusters (pre-existing),dynamic,dynamic (discrete),layered graphs,n-layers,clusters (pre-existing),dynamic (discrete),layered graphs,n-layers,clusters (pre-existing),compound graphs,layered graphs,n-layers
 Originally found at: UC Davis’ website, personal page 
 Size: 698-24056 nodes, 357-23088 edges
 Number of Graphs: 6
 format: NA
-Appeared in years: 7
+Appeared in years: 2015,2013,2012,2016,2017,2020,2022
 Type of Collection: Uniform Benchmark
 is it stored properly?: No
 must be analyzed: Yes

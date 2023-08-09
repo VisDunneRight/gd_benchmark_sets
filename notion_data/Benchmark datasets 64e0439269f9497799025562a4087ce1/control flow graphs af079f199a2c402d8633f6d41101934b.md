@@ -3,10 +3,10 @@
 Note: This is just a subset of graphviz, and it is found on a single dataset. I suggest we record this in GraphViz but do not report more on this .
 Origin Notes: 14 graphs from the GraphViz test suite collected by Gansner and Hu to evaluate their PRISM algorithm.
 ”Efficient, Proximity-Preserving Node Overlap Removal doi:https://dx.doi.org/10.7155/jgaa.00198”
-Graph features in papers: 1
+Graph features in papers: large
 Size: 14 graphs, from 36 to 1463 nodes
 Child collections: Graphviz Examples (Graphviz%20Examples%20e90aec42f02c4e8b8a6b8727fe2f86ae.md)
-Appeared in years: 1
+Appeared in years: 2016
 Type of Collection: Subset of other collection
 is it stored properly?: No
 must be analyzed: No

@@ -3,10 +3,10 @@
 Note: Each element of the data set is two binary co-phylogentic trees
 Origin Notes: Collected by the authors of EUCALYPT: efficient tree reconciliation enumerator, https://almob.biomedcentral.com/articles/10.1186/s13015-014-0031-3
 graph features handled: trees
-Graph features in papers: 2
+Graph features in papers: binary trees,trees
 Originally found at: https://gitlab.inria.fr/erable/eucalypt/-/blob/master/html/PaperDatasets.zip
 Size: 13-773 nodes, 12-772 edges
-Appeared in years: 1
+Appeared in years: 2017
 Type of Collection: Uniform Benchmark
 is it stored properly?: No
 must be analyzed: No

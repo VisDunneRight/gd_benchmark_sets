@@ -3,12 +3,12 @@
 Note: Refer to the https://mathgenealogy.org/contact.php for the data, which consists of doctoral graduates in mathematics and some adjacent fields, alongside properties like the degree granting institution and tittle of thesis. Entries also have relations based on advisors. 
 Origin Notes: Database from a project started by Harry Coonce and now supported by the North Dakota State University. 
 graph features handled: dynamic, nonplanar, temporal, tree-like
-Graph features in papers: 2
+Graph features in papers: dynamic,dynamic (discrete)
 Originally found at: https://genealogy.math.ndsu.nodak.edu/
 Size: 291014 records as of May 2023. In 2016 the graph consisted of 200037 nodes with 3.8% percent of them being isolated, and 1962 components of size two. The largest component contained 180094 nodes.
 Number of Graphs: 0
 Origin Paper: The Mathematics Genealogy Project (https://www.notion.so/The-Mathematics-Genealogy-Project-c75a9e7eb263423c9d8ad1be3e898095?pvs=21)
-Appeared in years: 1
+Appeared in years: 2023
 Type of Collection: Lost/Unavailable
 is it stored properly?: No
 must be analyzed: No

@@ -7,14 +7,14 @@ Fast filtering uses the Twitter gardenhouse streaming API to collect data on the
 
 Event-based Dynamic Graph Drawing without the Agonizing Pain uses the rugby tweet dataset (pro12_mentions) consisting of mentions among the members of the GuinessPro12 competition, and the MOOC dataset from the http://moocdata.cn/challenges/kdd-cup-2015 (A data challenge).
 graph features handled: dynamic, hypergraph
-Graph features in papers: 7
+Graph features in papers: dynamic,generic,dynamic,dynamic (continuous),large,dynamic,dynamic (discrete),layered graphs,n-layers,dynamic (discrete)
 Originally found at: http://moocdata.cn/data/user-activity
 https://github.com/CreativeCodingLab/TimeArcs
 https://github.com/WICI/fastviz/tree/master/data
 
 Size: 12-386412 nodes, 3151-556820 edges
 Origin Paper: Understanding Dropouts in MOOCs (https://www.notion.so/Understanding-Dropouts-in-MOOCs-a97966fe379c49c9a597ac30e7b838a1?pvs=21), TimeArcs: Visualizing Fluctuations in Dynamic Networks (https://www.notion.so/TimeArcs-Visualizing-Fluctuations-in-Dynamic-Networks-e671c46ecfa444efaf28392636402266?pvs=21), Fast filtering and animation of large dynamic networks (https://www.notion.so/Fast-filtering-and-animation-of-large-dynamic-networks-2f5aa0b43a394030865509b15a945847?pvs=21)
-Appeared in years: 5
+Appeared in years: 2008,2020,2014,2016,2022
 Type of Collection: Aggregate collection
 is it stored properly?: No
 must be analyzed: No

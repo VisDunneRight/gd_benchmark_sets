@@ -2,8 +2,8 @@
 
 Origin Notes: Created by researchers at the University of Konstanz for the LingVis framework (https://lingvis.io/) and VisArgue project (http://www.visargue.uni-konstanz.de/en/). First appeared in “NEREx: Named-Entity Relationship Exploration in Multi-Party Conversations”.
 graph features handled: categorical nodes, directed edges, edge weighted
-Graph features in papers: 3
-Appeared in years: 1
+Graph features in papers: categorical nodes,directed edges,labeled nodes
+Appeared in years: 2017
 Type of Collection: Lost/Unavailable
 is it stored properly?: No
 must be analyzed: No

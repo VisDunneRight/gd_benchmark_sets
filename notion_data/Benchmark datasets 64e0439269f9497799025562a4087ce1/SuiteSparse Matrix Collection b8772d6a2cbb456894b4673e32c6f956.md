@@ -1,12 +1,14 @@
 # SuiteSparse Matrix Collection
 
-Origin Notes: Formerly the Univeristy of Florida matrix collection.
-graph features handled: bipartite, categorical nodes, dense, directed edges, dynamic, edge weighted, generic, hierarchical, large, multigraph, node weighted, sparse, spatial, temporal
-Graph features in papers: 12
+Note: All graphs in SuitSparse belong to groups which will have more information about the graphs and the sub-collections they belong to. In our Descriptions from the Literature section we also highlight a few tables with the specific graphs used in a couple of papers. 
+Origin Notes: From “The university of Florida Sparse Matrix Collection”, Davis and Hu describe the origin of this network repository. Namely they cite the Harwell-Boeing collection as the starting point for SuiteSparse, then called the University of Florida (UF) Sparse matrix collection, back in 1991. Other groups, or collections, have then been added to SuitseSparse through the years, mainly focusing on real-world matrices and other relevant problems related to them. 
+graph features handled: bipartite, categorical nodes, dense, directed edges, dynamic, edge weighted, generic, hierarchical, large, mesh, multigraph, node weighted, sparse, spatial, temporal
+Graph features in papers: generic,large,weighted edges,generic,large,multilevel,clusters (generated),generic,planar,spatial,almost proximity drawable graphs,mesh graphs,scale-free graphs,strong proximity drawable graphs,weak proximity drawable graphs
 Originally found at: https://sparse.tamu.edu/
 Size: 2893
+Origin Paper: The University of Florida Sparse Matrix Collection (https://www.notion.so/The-University-of-Florida-Sparse-Matrix-Collection-b861824a77d94175af99b7b367768cb3?pvs=21)
 Child collections: Walshaw (Walshaw%20e40b37a1147942d89ff1d8dfad285256.md), Pajek (Pajek%20e323e05a735d4151a0bccfec08aa3bd6.md)
-Appeared in years: 7
+Appeared in years: 2013,2016,2017,2019,2020,2021,2023
 Type of Collection: Established Network Repo (No report)
 is it stored properly?: No
 must be analyzed: Yes
@@ -17,6 +19,7 @@ cleaned format?: No
 duplicate?: No
 link works?: No
 Added in paper: No
+Origin paper plaintext: The University of Florida Sparse Matrix Collection
 Page id: b8772d6a2cbb456894b4673e32c6f956
 unavailable/skip: Yes
 Cleaned ALL data: No
@@ -25,6 +28,48 @@ Sparsification (../Benchmark%20sets%200cc6b5e454304aec98f3b59b1a720476/Literatur
 first look: No
 
 # Body
+
+### Descriptions From Literature
+
+From “[A Sparse Stress Model](https://dx.doi.org/10.7155/jgaa.00440)”:
+
+> We conducted our experiments on a series of different graphs, see Tab. 1, most of them taken from the sparse matrix collection [9]. We selected these graphs as they differ in their structure and size, and are large enough to compare the results of different techniques. Two of the graphs, LeHavre and commanche, have predefined edge lengths that were derived from the node coordinates. We did not modify the graphs in any way, except for those that were disconnected, in which case we only kept the largest component.
+> 
+
+![Untitled](SuiteSparse%20Matrix%20Collection%20b8772d6a2cbb456894b4673e32c6f956/Untitled.png)
+
+From “[A Maxent-Stress Model for Graph Layout](https://doi.org/10.1109/TVCG.2012.299)”:
+
+> With the exception of graph gd, which is an author collaboration graph of the International Symposium on Graph Drawing between 1994 and 2007, the graphs used are from the University of Florida Sparse Matrix Collection [9]. Our selection covers a range of graph sizes, and includes mesh-like and other nonmesh graphs, and graphs from Brandes and Pich's experimental study of distance scaling [5].
+> 
+
+![Untitled](SuiteSparse%20Matrix%20Collection%20b8772d6a2cbb456894b4673e32c6f956/Untitled%201.png)
+
+******************Table 2.****************** Test Graphs
+
+From “[DRGraph: An Efficient Graph Layout Algorithm for Large-scale Graphs by Dimensionality Reduction](https://doi.org/10.1109/TVCG.2020.3030447)”:
+
+> We perform experiments on a broad range of datasets selected from the University of Florida Sparse Matrix Collection [10] and tsNET [34] (Table 1).
+> 
+
+![Untitled](SuiteSparse%20Matrix%20Collection%20b8772d6a2cbb456894b4673e32c6f956/Untitled%202.png)
+
+**************Table 1.************** Test Datasets
+
+### Example Figures
+
+From “[The university of Florida sparse matrix collection](https://doi.org/10.1145/2049662.2049663)****”:****
+
+![Untitled](SuiteSparse%20Matrix%20Collection%20b8772d6a2cbb456894b4673e32c6f956/Untitled%203.png)
+
+**Fig. 13.** A sample of matrices from the Collection, for the purpose of illustrating the complexity and diversity
+of matrices arising in real applications
+
+From “[DRGraph: An Efficient Graph Layout Algorithm for Large-scale Graphs by Dimensionality Reduction](https://doi.org/10.1109/TVCG.2020.3030447)”:
+
+![Untitled](SuiteSparse%20Matrix%20Collection%20b8772d6a2cbb456894b4673e32c6f956/Untitled%204.png)
+
+**Fig. 8.** Visualizations of selected graph datasets using FR, KK, S.M., FM3, SFDP, PMDS, tsNET and DRGraph.
 
 === STOP RENDERING ===
 

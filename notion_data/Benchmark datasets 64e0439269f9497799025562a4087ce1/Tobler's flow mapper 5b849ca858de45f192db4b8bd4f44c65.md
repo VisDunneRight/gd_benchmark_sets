@@ -1,7 +1,7 @@
 # Tobler's Flow Mapper
 
-Graph features in papers: 2
-Appeared in years: 1
+Graph features in papers: spatial,weighted edges
+Appeared in years: 2011
 Type of Collection: Uniform Benchmark
 is it stored properly?: No
 must be analyzed: No

@@ -1,9 +1,9 @@
 # Stanford GraphBase
 
 Note: Same as SNAP
-Graph features in papers: 10
+Graph features in papers: clusters (generated),generic,planar,spatial,clusters (generated),weighted edges,dynamic,dynamic (discrete),layered graphs,n-layers,bipartite,layered graphs,generic
 Originally found at: https://www-cs-faculty.stanford.edu/~knuth/sgb.html
-Appeared in years: 5
+Appeared in years: 2017,2016,1997,2004,2019
 Type of Collection: Subset of other collection
 is it stored properly?: No
 must be analyzed: No

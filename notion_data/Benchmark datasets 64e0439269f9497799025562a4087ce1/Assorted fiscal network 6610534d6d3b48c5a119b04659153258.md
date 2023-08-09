@@ -1,10 +1,10 @@
 # Assorted Fiscal Network
 
 Note: From the linked pages this is only the Italian Tax Revenue (which has individuals as taxpayes? - haven been able to find)
-Graph features in papers: 3
+Graph features in papers: categorical nodes,high degree,labeled nodes
 Originally found at: cannot find
 Origin Paper: A visual analytics system to support tax evasion discovery (https://www.notion.so/A-visual-analytics-system-to-support-tax-evasion-discovery-79c482a3ec0f4f329e5af94f2c4def4f?pvs=21)
-Appeared in years: 1
+Appeared in years: 2019
 Type of Collection: Aggregate collection
 is it stored properly?: No
 must be analyzed: No

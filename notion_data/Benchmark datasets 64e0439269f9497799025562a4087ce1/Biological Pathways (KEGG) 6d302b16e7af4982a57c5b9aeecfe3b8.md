@@ -3,11 +3,11 @@
 Note: The pathway data is separated by module, but the individual modules can be combined into a large graph as visualized at https://www.kegg.jp/kegg-bin/show_pathway?map01100
 Origin Notes: According to https://www.kegg.jp/kegg-bin/show_pathway?map01100, “the KEGG PATHWAY database is a collection of manually drawn graphical diagrams, called KEGG pathway maps, for metabolic pathways, signaling pathways, pathways involved in various cellular processes and organismal systems, and perturbed pathways associated with human diseases.”
 graph features handled: clusters, directed edges, large, partition
-Graph features in papers: 3
+Graph features in papers: categorical nodes,clusters (pre-existing),labeled nodes
 Originally found at: https://github.com/yun-vis/bionetdata/tree/master/kegg/xml/ko01100/full
 Size: 47-292 nodes, 41-327 edges
 Number of Graphs: 13
-Appeared in years: 1
+Appeared in years: 2020
 Type of Collection: Uniform Benchmark
 is it stored properly?: No
 must be analyzed: No

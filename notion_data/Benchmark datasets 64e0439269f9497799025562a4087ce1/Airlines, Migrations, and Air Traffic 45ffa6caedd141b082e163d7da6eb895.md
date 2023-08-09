@@ -2,13 +2,13 @@
 
 Origin Notes: Data collected from the Edge-Path bundling paper by Markus Wallinger et al. They cite the Airlines dataset to Force Directed Edge Bundling for Graph Visualization and the migrations dataset to Geometry-Based Edge Clustering for Graph Visualization.
 graph features handled: bundled edges (generated), directed edges, generic, spatial
-Graph features in papers: 7
+Graph features in papers: generic,spatial,spatial,clusters (generated),dynamic,spatial,bundled edges (generated),generic,bundled edges (generated),spatial,dynamic,dynamic (discrete),bundled edges (generated),directed edges,spatial
 Originally found at: https://github.com/mwallinger-tu/edge-path-bundling/tree/master/data
 Size: 235-1702 nodes, 2101-16494 edges
 Number of Graphs: 3
 Origin Paper: Force-Directed Edge Bundling for Graph Visualization (https://www.notion.so/Force-Directed-Edge-Bundling-for-Graph-Visualization-597d0c38c51e433090a7706cdc9bd6a3?pvs=21), Geometry-Based Edge Clustering for Graph Visualization (https://www.notion.so/Geometry-Based-Edge-Clustering-for-Graph-Visualization-72e7c5d193e34645a3cbca78df6fd1c8?pvs=21), Edge-Path Bundling: A Less Ambiguous Edge Bundling Approach (https://www.notion.so/Edge-Path-Bundling-A-Less-Ambiguous-Edge-Bundling-Approach-be7daf7cd0ce4a73b1ad00bb25af472c?pvs=21)
 format: JSON file but with spcific attributes for their tool so needs to be parsed
-Appeared in years: 8
+Appeared in years: 2011,2009,2016,2008,2017,2020,2022,2023
 Type of Collection: Aggregate collection
 is it stored properly?: No
 must be analyzed: No

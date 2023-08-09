@@ -3,12 +3,12 @@
 Origin Notes: Part of the Correlates of War project.
 
 graph features handled: dynamic, temporal event sequence
-Graph features in papers: 5
+Graph features in papers: dynamic,dynamic (discrete),layered graphs,n-layers,clusters (pre-existing),dynamic,dynamic (discrete),layered graphs,n-layers
 Originally found at: https://correlatesofwar.org/data-sets/MIDs/
 Size: The dataset consists of 2 temporal event sequence graphs, one with 199 nodes and 2435 edges, and the other with 156 nodes and 4481 edges.
 Number of Graphs: 2
 Origin Paper: The MID5 Dataset, 2011–2014: Procedures, coding rules, and description (https://www.notion.so/The-MID5-Dataset-2011-2014-Procedures-coding-rules-and-description-68e2449950584fdeb99e5d016704b585?pvs=21)
-Appeared in years: 2
+Appeared in years: 2012,2013
 Type of Collection: Uniform Benchmark
 is it stored properly?: No
 must be analyzed: No
@@ -52,7 +52,7 @@ From [StoryFlow: Tracking the Evolution of Stories](https://ieeexplore.ieee.org/
 
 ### Example Figures
 
-From [Design Considerations for Optimizing Storyline Visualization](https://ieeexplore.ieee.org/document/6327274)
+From [Design Considerations for Optimizing Storyline Visualization](https://ieeexplore.ieee.org/document/6327274):
 
 ![Screen Shot 2023-01-21 at 2.41.34 PM.png](Militarized%20Interstate%20Disputes%20(MID)%2027d9df7d11e44a9596267bb930bc6f03/Screen_Shot_2023-01-21_at_2.41.34_PM.png)
 

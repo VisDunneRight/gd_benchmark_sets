@@ -2,13 +2,13 @@
 
 Note: emailed them for the actual graph data as opposed to the feature data. 
 Origin Notes: World Bank country information transformed  into a weight-vectors dataset. 
-Graph features in papers: 2
+Graph features in papers: dynamic,spatial
 Originally found at: https://data.worldbank.org/indicator
 https://github.com/loizuf/StableDemersLP/tree/main/code/StableDemers_TVCG/data
 Size: 48-514 nodes, 205-2428 edges
 Number of Graphs: 14
 Origin Paper: Computing Stable Demers Cartograms (https://www.notion.so/Computing-Stable-Demers-Cartograms-73ed6431833d49bba5807b76ca3b0fd4?pvs=21)
-Appeared in years: 1
+Appeared in years: 2019
 Type of Collection: Uniform Benchmark
 is it stored properly?: No
 must be analyzed: No

@@ -1,10 +1,9 @@
 # Scotch Graph Collection
 
-Note: The https://gitlab.inria.fr/scotch/scotch is produced by the SCOTCH project whose goal is to study static mapping by the means of graph theory, using “divide and conquer'' graph bipartitioning heuristics.
-Origin Notes: Collection consisting of graphs from various sources including topological meshes, meshes related to physical problems (fluid dynamics, structural mechanics, combinatorial optimization), and interprocess communicaiton graphs for a parallel computing implementation of a factorization solver. 
-Collected from Steve Hammond, the Harwell-Boeing Collection, Bruce Hendrickson, and Horst Simon.
-graph features handled: large, mesh, spatial
-Graph features in papers: 2
+Note: Collection consisting of graphs from various sources including topological meshes, meshes related to physical problems (fluid dynamics, structural mechanics, combinatorial optimization), and interprocess communication graphs for a parallel computing implementation of a factorization solver. 
+Origin Notes: The https://gitlab.inria.fr/scotch/scotch is produced by the https://www.labri.fr/perso/pelegrin/scotch/ whose goal is to study static mapping by the means of graph theory, using “divide and conquer'' graph bipartitioning heuristics. The original link to the data http://www.labri.u-bordeaux.fr/Equipe/PARADIS/Member/pelegrin/graph is broken.
+graph features handled: large, mesh
+Graph features in papers: generic,large
 Originally found at: https://wotug.org/parallel/libraries/communication/scotch/Graphs/
 Size: The graphs range from 7 to 144649 nodes, and 10 to 1074393 edges.
 Number of Graphs: 39
@@ -12,7 +11,7 @@ Origin Paper: Scotch and PT-Scotch Graph Partitioning Software: An Overview (htt
 format: Scotch (.src files) - first line is the number of vertices followed by . number of arcs (2 time |E|). Then each line represents a vertex with the following format:
 id load degree   adjencency list(load to_id)  
 Child collections: Walshaw (Walshaw%20e40b37a1147942d89ff1d8dfad285256.md)
-Appeared in years: 1
+Appeared in years: 2002
 Type of Collection: Uniform Benchmark
 is it stored properly?: No
 must be analyzed: No
@@ -37,6 +36,25 @@ sparkline data: {'min': 7, 'max': 144649, 'step_size': 10000, 'num_bins': 15, 'b
 ### Statistics
 
 ![four_in_one.svg](Scotch%20Graph%20Collection%20cfe6f105da3a4c699fa3e02ca1f6e88a/four_in_one.svg)
+
+### Descriptions from Literature
+
+From [ACE: A Fast Multiscale Eigenvectors Computation for Drawing Huge Graphs](https://doi.org/10.1109/INFVIS.2002.1173159):
+
+> Figure 10c, the 4elt graph, is yet another example of a graph with inherent diversity of distance scales.
+> 
+
+### Example Figures
+
+From [A Fast Multi-Scale Method for Drawing Large Graphs](https://doi.org/10.1007/3-540-44541-2_18):
+
+![Screen Shot 2023-08-04 at 8.14.10 AM.png](Scotch%20Graph%20Collection%20cfe6f105da3a4c699fa3e02ca1f6e88a/Screen_Shot_2023-08-04_at_8.14.10_AM.png)
+
+![Screen Shot 2023-08-04 at 8.14.29 AM.png](Scotch%20Graph%20Collection%20cfe6f105da3a4c699fa3e02ca1f6e88a/Screen_Shot_2023-08-04_at_8.14.29_AM.png)
+
+From [ACE: A Fast Multiscale Eigenvectors Computation for Drawing Huge Graphs](https://doi.org/10.1109/INFVIS.2002.1173159):
+
+![Screen Shot 2023-08-04 at 8.30.54 AM.png](Scotch%20Graph%20Collection%20cfe6f105da3a4c699fa3e02ca1f6e88a/Screen_Shot_2023-08-04_at_8.30.54_AM.png)
 
 ===  STOP RENDERING ===
 

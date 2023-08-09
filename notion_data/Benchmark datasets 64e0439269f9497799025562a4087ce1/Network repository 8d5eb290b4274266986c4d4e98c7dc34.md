@@ -3,9 +3,9 @@
 Note: https://networkrepository.com/pubs/aaai15-nr.pdf ← paper about this
 
 5158 individual graphs, tagged with a variety of real-life sources, offers in-depth analysis and even a preview visualization of each individual graph. Also offers sources for every single graph.
-Graph features in papers: 2
+Graph features in papers: generic,large
 Originally found at: https://networkrepository.com/
-Appeared in years: 2
+Appeared in years: 2017,2016
 Type of Collection: Established Network Repo (No report)
 is it stored properly?: No
 must be analyzed: No

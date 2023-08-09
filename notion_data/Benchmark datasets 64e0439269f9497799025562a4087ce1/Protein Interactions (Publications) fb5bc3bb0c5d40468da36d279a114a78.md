@@ -3,14 +3,14 @@
 Note: Various types of protein interaction graphs are recorded in other network collections. We highlight two of them from the surveyed papers. First, we have the temporal Protein Interaction Publications, showing the history of how protein interactions were described in the literature. Second, the Protein Homology graph was provided by the Large Graph Layout project, their links are now broken and the dataset lost.  Nonetheless, http://snap.stanford.edu/biodata/index.html and http://konect.cc/networks/ both also have various dataset of human/other species protein interactions. 
 Origin Notes: Protein Interaction Publications were collected from the biological Pathway Commons Database: http://www.pathwaycommons.org/.
 graph features handled: large, multigraph, temporal event sequence
-Graph features in papers: 6
+Graph features in papers: generic,large,dynamic,dynamic (discrete),layered graphs,n-layers
 Originally found at: https://github.com/CreativeCodingLab/TimeArcs/tree/master/IndexCards
 
 https://lgl.sourceforge.net/ (download link broken)
 Size: 2961 nodes, 5267 edges
 Number of Graphs: 1
 Origin Paper: LGL: Creating a Map of Protein Function with an Algorithm for Visualizing Very Large Biological Networks (https://www.notion.so/LGL-Creating-a-Map-of-Protein-Function-with-an-Algorithm-for-Visualizing-Very-Large-Biological-Netw-518c7160f2f24cd08c6bbb7b4f43216c?pvs=21), TimeArcs: Visualizing Fluctuations in Dynamic Networks (https://www.notion.so/TimeArcs-Visualizing-Fluctuations-in-Dynamic-Networks-e671c46ecfa444efaf28392636402266?pvs=21)
-Appeared in years: 2
+Appeared in years: 2008,2016
 Type of Collection: Aggregate collection
 is it stored properly?: No
 must be analyzed: No

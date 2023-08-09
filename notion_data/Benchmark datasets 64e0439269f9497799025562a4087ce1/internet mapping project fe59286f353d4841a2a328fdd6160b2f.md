@@ -1,8 +1,8 @@
 # Internet Mapping Project
 
-Graph features in papers: 3
+Graph features in papers: generic,high degree,large
 Originally found at: http://www.cheswick.com/ches/map/
-Appeared in years: 1
+Appeared in years: 2005
 Type of Collection: Lost/Unavailable
 is it stored properly?: No
 must be analyzed: No

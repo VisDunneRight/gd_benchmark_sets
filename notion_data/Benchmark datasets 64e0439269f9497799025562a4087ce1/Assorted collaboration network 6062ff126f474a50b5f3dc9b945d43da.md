@@ -3,7 +3,7 @@
 Note: Contains IEEEVis Publication Data, DBLP collaborations, and 
 Origin Notes: VIS Pub Data: Can find in https://sites.google.com/site/vispubdata, where an updated version of the google spreadsheet data is available. We downloaded the text file from CiteVis since it comes formatted more closely to a network, and the 1995-2015 version of the data has appeared frequently
 graph features handled: categorical nodes, directed edges, dynamic
-Graph features in papers: 15
+Graph features in papers: categorical nodes,high degree,labeled nodes,generic,clusters (pre-existing),dynamic (discrete),layered graphs,n-layers,dynamic,dynamic,dynamic (continuous),clusters (generated),high degree,clusters (pre-existing),dynamic,dynamic (discrete),dynamic,dynamic (discrete),layered graphs,n-layers,clusters (generated),dynamic,dynamic (discrete),hypergraphs,layered graphs,n-layers,dynamic,dynamic (continuous),large,dynamic (discrete),dynamic,layered graphs,n-layers,weighted edges,clusters (generated),dynamic,dynamic (continuous),tripartite,clusters (pre-existing)
 Originally found at: https://www.cc.gatech.edu/gvu/ii/citevis/
 https://sites.google.com/site/vispubdata/home?authuser=0
 https://dblp.uni-trier.de/
@@ -22,7 +22,7 @@ article
 citations:
 {list of line separated citations (to articles within the document) via nodeID}
 
-Appeared in years: 12
+Appeared in years: 2019,2006,2010,2014,2017,2007,2020,2016,2021,2022,2013,2011
 Type of Collection: Aggregate collection
 is it stored properly?: No
 must be analyzed: No

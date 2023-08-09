@@ -2,10 +2,10 @@
 
 Note: A visual repository of test data for use in comparative studies of algorithms for numerical linear algebra, featuring nearly 500 sparse matrices from a variety of applications, as well as matrix generation tools and services.
 Origin Notes: Compiled by the https://math.nist.gov/mcsd/ of the http://www.itl.nist.gov/ of the http://www.nist.gov/
-Graph features in papers: 3
+Graph features in papers: generic,generic,large,generic,weighted edges,large
 Originally found at: https://math.nist.gov/MatrixMarket/index.html
 Origin Paper: Matrix Market: a web resource for test matrix collections (https://www.notion.so/Matrix-Market-a-web-resource-for-test-matrix-collections-53a2935e0af842bf86971553c4f823dc?pvs=21)
-Appeared in years: 4
+Appeared in years: 2018,2005,2006,2020
 Type of Collection: Established Network Repo (No report)
 is it stored properly?: No
 must be analyzed: No
