@@ -42,6 +42,14 @@
             margin-left: 40px;
             margin-right: 40px;
         }
+        .skinny-button {
+            margin-left: .2rem;
+            margin-right: .2rem;
+            --bs-btn-padding-y: .15rem;
+            --bs-btn-font-size: .7rem;
+            padding-top: 0.05rem;
+            padding-bottom:0.05rem;
+        }
 
         .coltext {
             font-style: italic;
@@ -129,6 +137,21 @@
             let title = name === "" ? field_name : name;
             div.append("div").html("<b>" + title + ": </b>" + urlify(entry[field_name]))
         }
+    }
+
+    function add_download_field(entry, div){
+        let divSection = div.append("div").html("<b>" + "Download formatted data: " + "</b>");
+        const list = ['OSF link gexf', 'OSF link gml', 'OSF link graphml', 'OSF link json']
+
+        list.forEach((item)=>{
+            if(entry[item] != "" && entry[item] != undefined){
+                divSection.append("a")
+                .attr('type', 'button')
+                .attr('href', entry[item])
+                .attr('class', 'btn btn-secondary btn-sm skinny-button')
+                .text(item.split("OSF link").pop().toUpperCase())
+            }   
+        })
     }
 
     function urlify(text) {
@@ -302,7 +325,7 @@
             .attr("role", "button")
 
         make_sparkline_visualization(entry, row)
-
+        
         //Pills for the type of data it is
         let gfeatures = row.append("div")
             .attr("class", "col")
@@ -330,7 +353,9 @@
             .attr("class", "col small-text")
 
         add_simple_field(entry, "Originally found at", inforow)
-        add_simple_field(entry, "OSF link", inforow, "Link to Data")
+        //add buttons
+        add_download_field(entry, inforow);
+        // add_simple_field(entry, "OSF link", inforow, "Link to Data")
         add_simple_field(entry, "Note", inforow)
         add_simple_field(entry, "Number of Files", inforow)
         add_simple_field(entry, "Size", inforow)
