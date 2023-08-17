@@ -2,6 +2,7 @@
 
 Note: A visual repository of test data for use in comparative studies of algorithms for numerical linear algebra, featuring nearly 500 sparse matrices from a variety of applications, as well as matrix generation tools and services.
 Origin Notes: Compiled by the https://math.nist.gov/mcsd/ of the http://www.itl.nist.gov/ of the http://www.nist.gov/
+graph features handled: dense, edge weighted, large, sparse
 Graph features in papers: generic,generic,large,generic,weighted edges,large
 Originally found at: https://math.nist.gov/MatrixMarket/index.html
 Origin Paper: Matrix Market: a web resource for test matrix collections (https://www.notion.so/Matrix-Market-a-web-resource-for-test-matrix-collections-53a2935e0af842bf86971553c4f823dc?pvs=21)
@@ -24,4 +25,10 @@ first look: No
 
 # Body
 
-probably comes from [An Experimental Comparison of Fast Algorithms for Drawing General Large Graphs](../Benchmark%20sets%200cc6b5e454304aec98f3b59b1a720476/Literature%20ad87f14e7097454fb2f784e2c8a2797a/Literature%20-%20Algorithm%2012e01bfc60a84007aa7d2d34293e123d/An%20Experimental%20Comparison%20of%20Fast%20Algorithms%20for%20%20190e5036cf974a879b50614cfff525f1.md)
+### Descriptions from Literature
+
+### Example Figures
+
+From “[Drawing graphs by eigenvectors: theory and practice](https://doi.org/10.1016/j.camwa.2004.08.015)” (top two layouts are from Matrix Market):
+
+![Screen Shot 2023-08-17 at 9.59.19 AM.png](Matrix%20Market%2080bd4320417342458aefa031cf65db1f/Screen_Shot_2023-08-17_at_9.59.19_AM.png)

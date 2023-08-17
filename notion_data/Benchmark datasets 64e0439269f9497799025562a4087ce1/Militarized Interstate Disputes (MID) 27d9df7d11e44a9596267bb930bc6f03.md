@@ -1,7 +1,6 @@
 # Militarized Interstate Disputes (MID)
 
-Origin Notes: Part of the Correlates of War project.
-
+Origin Notes: Collected for the https://correlatesofwar.org/data-sets/MIDs/ project.
 graph features handled: dynamic, temporal event sequence
 Graph features in papers: dynamic,dynamic (discrete),layered graphs,n-layers,clusters (pre-existing),dynamic,dynamic (discrete),layered graphs,n-layers
 Originally found at: https://correlatesofwar.org/data-sets/MIDs/
@@ -18,12 +17,15 @@ cleaned format?: Yes
 duplicate?: No
 link works?: Yes
 Added in paper: No
-OSF link: https://osf.io/download/w2ya3/
+OSF link json: https://files.osf.io/v1/resources/j7ucv/providers/osfstorage/64d90e8f0c2b4d0d2e38626d
 Origin paper plaintext: The MID5 Dataset, 2011–2014: Procedures, coding rules, and description
 Page id: 27d9df7d11e44a9596267bb930bc6f03
 unavailable/skip: No
 Cleaned ALL data: No
 Related to Literature - Algorithm (Dataset tag relations) 1: Design Considerations for Optimizing Storyline Visualizations (../Benchmark%20sets%200cc6b5e454304aec98f3b59b1a720476/Literature%20ad87f14e7097454fb2f784e2c8a2797a/Literature%20-%20Algorithm%2012e01bfc60a84007aa7d2d34293e123d/Design%20Considerations%20for%20Optimizing%20Storyline%20Vis%200a518ed402154bdcb136759d50e09b1b.md), StoryFlow: Tracking the Evolution of Stories (../Benchmark%20sets%200cc6b5e454304aec98f3b59b1a720476/Literature%20ad87f14e7097454fb2f784e2c8a2797a/Literature%20-%20Algorithm%2012e01bfc60a84007aa7d2d34293e123d/StoryFlow%20Tracking%20the%20Evolution%20of%20Stories%2085d6352e70a54f3e8840adcfea70363a.md)
+OSF link gexf: https://files.osf.io/v1/resources/j7ucv/providers/osfstorage/64d9481e4cf7481059055704
+OSF link gml: https://files.osf.io/v1/resources/j7ucv/providers/osfstorage/64d96e2a1101aa0e9f6a0bd5
+OSF link graphml: https://files.osf.io/v1/resources/j7ucv/providers/osfstorage/64d971de0c2b4d0f6438644d
 first look: Yes
 sparkline data: {'min': 156, 'max': 199, 'step_size': 50, 'num_bins': 4, 'bins': [0, 50, 100, 150], 'num_nodes': [0, 0, 0, 2]}
 

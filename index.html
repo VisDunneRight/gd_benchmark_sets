@@ -98,7 +98,7 @@
           </div> -->
           <div class="col-lg-10 bg-light">
             The following is a list of benchmark datasets for testing graph layout algorithms. 
-            The list was collected at the <a href="https://vis.khoury.northeastern.edu/">Northeastern University Visualization Lab</a>, and is maintained by the same. Our colleciton methodology targeted layout algorithms specifically - we do acknowledge the existence of other repositories that target other network-related purposes more in detail.<br><br>
+            The list was collected at the <a href="https://vis.khoury.northeastern.edu/">Northeastern University Visualization Lab</a>, and is maintained by the same. Our colleciton methodology targeted layout algorithms specifically - we do acknowledge the existence of other repositories that target other network-related purposes more in detail. The collection and supplemental material is also accessible at <a href="https://osf.io/j7ucv/">https://osf.io/j7ucv/</a><br><br>
 
             Click on the names of the collections to expand them and access information about their contents and a list of papers using them.<br><br>
             If you find our work useful for your research, consider citing our paper as well as the linked "Origin Paper" for each dataset used:
@@ -114,7 +114,7 @@
     }
                 </pre>
 
-            <div><b>Contributing:</b> Please open an issue here: <a href="https://github.com/VisDunneRight/gd_benckmark_sets">https://github.com/VisDunneRight/gd_benckmark_sets</a>. <br> Alternatively, reach out to <a href="mailto:dibartolomeo.sara@gmail.com">dibartolomeo.sara@gmail.com</a></div><br>
+            <div><b>Contributing:</b> Please open an issue here: <a href="https://github.com/VisDunneRight/gd_benchmark_sets">https://github.com/VisDunneRight/gd_benchmark_sets</a>. <br> Alternatively, reach out to <a href="mailto:dibartolomeo.sara@gmail.com">dibartolomeo.sara@gmail.com</a></div><br>
             <div id="named-list" data-bs-spy="scroll"  data-bs-target="db-nav-list" data-bs-offset="20" tabindex="0">
             </div>
           </div>
@@ -146,7 +146,7 @@
         list.forEach((item)=>{
             if(entry[item] != "" && entry[item] != undefined){
                 divSection.append("a")
-                .attr('type', 'button')
+                // .attr('type', 'button')
                 .attr('href', entry[item])
                 .attr('class', 'btn btn-secondary btn-sm skinny-button')
                 .text(item.split("OSF link").pop().toUpperCase())
@@ -474,7 +474,7 @@
             dr.append("div")
                 .attr("class", "col coltext")
                 .style("text-align", "left")
-                .html("Deg. Distr.")
+                .html("Node Distr.")
             
             if (!single_graph){
                 dr.append("div")

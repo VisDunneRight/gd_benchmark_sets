@@ -1,8 +1,10 @@
 # Debates
 
-Origin Notes: Created by researchers at the University of Konstanz for the LingVis framework (https://lingvis.io/) and VisArgue project (http://www.visargue.uni-konstanz.de/en/). First appeared in “NEREx: Named-Entity Relationship Exploration in Multi-Party Conversations”.
-graph features handled: categorical nodes, directed edges, edge weighted
-Graph features in papers: categorical nodes,directed edges,labeled nodes
+Note: The authors did not respond to requests to make this dataset available. While the debate transcripts are publicly available, the entity relationship data generated in “https://doi.org/10.1111/cgf.13181” is not.
+Origin Notes: Created by researchers at the University of Konstanz for the LingVis framework (https://lingvis.io/) and VisArgue project (http://www.visargue.uni-konstanz.de/en/). First appeared in “https://doi.org/10.1111/cgf.13181”.
+graph features handled: categorical nodes, directed edges, edge weighted, labeled nodes, multigraph
+Graph features in papers: categorical nodes,directed edges,labeled nodes,weighted edges
+Origin Paper: NEREx: Named-Entity Relationship Exploration in Multi-Party Conversations (https://www.notion.so/NEREx-Named-Entity-Relationship-Exploration-in-Multi-Party-Conversations-12a40012aece4cec81a8a2714c38d6cf?pvs=21)
 Appeared in years: 2017
 Type of Collection: Lost/Unavailable
 is it stored properly?: No
@@ -12,6 +14,7 @@ cleaned format?: No
 duplicate?: No
 link works?: No
 Added in paper: No
+Origin paper plaintext: NEREx: Named-Entity Relationship Exploration in Multi-Party Conversations
 Page id: 54eb2cd4ba2c48eb945bd49e5f4bbf4f
 unavailable/skip: Yes
 Cleaned ALL data: No
@@ -22,7 +25,7 @@ first look: Yes
 
 ### Description from Literature
 
-From “NEREx: Named-Entity Relationship Exploration in Multi-Party Conversations”,
+From “[NEREx: Named-Entity Relationship Exploration in Multi-Party Conversations](https://doi.org/10.1111/cgf.13181)”:
 
 > In order to explore the relations between entities, we use a distance-restricted model for creating entity-pairs. As described in Section 2, prior work considers relations between entities either as semantic relations based on linguistic knowledge or regards two entities as related due to their presence in the same document. The often ungrammatical structure of utterances in verbatim text transcripts (including non-standard lexical items, syntactic patterns, interruptions, repetitions, and crosstalk) requires a simple extralinguistic model. To overcome these limitations, we introduce a model that bounds the scope in which we consider two entities to be related, using a distance threshold (*maxDist*). Our method creates a pair of entities if the entities appear in the same sentences within *maxDist* words of one another.
 > 
@@ -32,10 +35,12 @@ From “NEREx: Named-Entity Relationship Exploration in Multi-Party Conversation
 
 ### Example Figures
 
-From “NEREx: Named-Entity Relationship Exploration in Multi-Party Conversations”, entity graph of the first first presidential debate between Trump and Clinton:
+From “[NEREx: Named-Entity Relationship Exploration in Multi-Party Conversations](https://doi.org/10.1111/cgf.13181)”:
 
 ![cgf13181-fig-0004-m.jpg](Debates%2054eb2cd4ba2c48eb945bd49e5f4bbf4f/cgf13181-fig-0004-m.jpg)
 
-From “NEREx: Named-Entity Relationship Exploration in Multi-Party Conversations”, entity graph of the same debate, focusing on the concept of taxes:
+Entity graph of the first first presidential debate between Trump and Clinton
 
 ![cgf13181-fig-0006-m.jpg](Debates%2054eb2cd4ba2c48eb945bd49e5f4bbf4f/cgf13181-fig-0006-m.jpg)
+
+Entity graph of the same debate, focusing on the concept of taxes

@@ -1,8 +1,9 @@
 # Control Flow Graphs
 
-Note: This is just a subset of graphviz, and it is found on a single dataset. I suggest we record this in GraphViz but do not report more on this .
-Origin Notes: 14 graphs from the GraphViz test suite collected by Gansner and Hu to evaluate their PRISM algorithm.
-”Efficient, Proximity-Preserving Node Overlap Removal doi:https://dx.doi.org/10.7155/jgaa.00198”
+Note: This is just a subset of GraphViz, so we link to that dataset instead. 
+Origin Notes: 14 graphs from the GraphViz test suite collected by Gansner and Hu to evaluate their PRISM algorithm in
+”https://dx.doi.org/10.7155/jgaa.00198”.
+graph features handled: large
 Graph features in papers: large
 Size: 14 graphs, from 36 to 1463 nodes
 Child collections: Graphviz Examples (Graphviz%20Examples%20e90aec42f02c4e8b8a6b8727fe2f86ae.md)
@@ -24,8 +25,25 @@ first look: No
 
 # Body
 
+### Descriptions from Literature
+
+From “[Node Overlap Removal by Growing a Tree](https://dx.doi.org/10.7155/jgaa.00442)”:
+
+> Our data includes the same set of graphs that was used by the authors of
+PRISM to compare it with other algorithms [6]. The set is available in the
+Graphviz open source package.
+> 
+
+### Example Figures
+
+From “[Node Overlap Removal by Growing a Tree](https://dx.doi.org/10.7155/jgaa.00442)”:
+
 ![Untitled](Control%20Flow%20Graphs%20af079f199a2c402d8633f6d41101934b/Untitled.png)
+
+=== Stop Rendering===
 
 ![Untitled](Control%20Flow%20Graphs%20af079f199a2c402d8633f6d41101934b/Untitled%201.png)
 
 ![Untitled](Control%20Flow%20Graphs%20af079f199a2c402d8633f6d41101934b/Untitled%202.png)
+
+![Untitled](Control%20Flow%20Graphs%20af079f199a2c402d8633f6d41101934b/Untitled%203.png)

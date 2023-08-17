@@ -1,8 +1,9 @@
 # Tobler's Flow Mapper
 
+Note: We are unable to provide this dataset at this time.
 Graph features in papers: spatial,weighted edges
 Appeared in years: 2011
-Type of Collection: Uniform Benchmark
+Type of Collection: Skip
 is it stored properly?: No
 must be analyzed: No
 In repo?: No

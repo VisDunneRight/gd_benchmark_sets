@@ -19,7 +19,7 @@ link works?: Yes
 Added in paper: No
 Origin paper plaintext: The Mathematics Genealogy Project
 Page id: 081ba4645aac48c19719b16033c637f3
-unavailable/skip: Yes
+unavailable/skip: No
 Cleaned ALL data: No
 Related to Literature - Algorithm (Dataset tag relations) 1: Visualizing Evolving Trees (../Benchmark%20sets%200cc6b5e454304aec98f3b59b1a720476/Literature%20ad87f14e7097454fb2f784e2c8a2797a/Literature%20-%20Algorithm%2012e01bfc60a84007aa7d2d34293e123d/Visualizing%20Evolving%20Trees%203596f84acbbe46799f4f093af2f28aae.md)
 first look: Yes
@@ -28,18 +28,18 @@ first look: Yes
 
 ### Description from Literature
 
-From [**Visualizing Evolving Trees](https://www.notion.so/Visualizing-Evolving-Trees-95d3552ad36746f4a3e3614cd1c1f561?pvs=21):**
+From “[Visualizing Evolving Trees](https://link.springer.com/chapter/10.1007/978-3-031-22203-0_23)”:
 
 > **The Mathematics Genealogy:** shows advisor-advisee relationships in the world of mathematics, stretching back to the middle ages [[36](https://link.springer.com/chapter/10.1007/978-3-031-22203-0_23#ref-CR36)]. The dataset includes the thesis titles, students, advisors, dates, and number of descendants. The total number of nodes is around 260,000 and is continuously updated. While this data is not quite a tree (or even connected, or planar), we extract a subset to create a tree with 500 nodes. The maximum node degree of this tree is 5 and the radius is 14.
 > 
 
 ### Example Figures
 
-From The Mathematics Genealogy Project, the data source at [https://genealogy.math.ndsu.nodak.edu/](https://genealogy.math.ndsu.nodak.edu/):
+From [The Mathematics Genealogy Project](https://genealogy.math.ndsu.nodak.edu/):
 
 ![Untitled](Mathematics%20Genealogy%20081ba4645aac48c19719b16033c637f3/Untitled.png)
 
-From [**Visualizing Evolving Trees](https://www.notion.so/Visualizing-Evolving-Trees-95d3552ad36746f4a3e3614cd1c1f561?pvs=21):**
+From “[Visualizing Evolving Trees](https://link.springer.com/chapter/10.1007/978-3-031-22203-0_23)”:
 
 ![Untitled](Mathematics%20Genealogy%20081ba4645aac48c19719b16033c637f3/Untitled%201.png)
 

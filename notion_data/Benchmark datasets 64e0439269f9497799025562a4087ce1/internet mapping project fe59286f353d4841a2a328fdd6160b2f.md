@@ -1,7 +1,11 @@
 # Internet Mapping Project
 
+Origin Notes: The original Internet Mapping Project started at Bell lab in 1998. It was then transferred to the Lumeta Corporation, however, links to this corporation are broken.  A gallery of images still remains publicly available, hosted by Bill Cheswick on this personal website. 
+graph features handled: dynamic, large, trees
 Graph features in papers: generic,high degree,large
 Originally found at: http://www.cheswick.com/ches/map/
+http://www.lumeta.com/company/mapping.html (broken)
+Origin Paper: Mapping the Internet (https://www.notion.so/Mapping-the-Internet-33d6bcbd3fee4c879758f276ce38c107?pvs=21)
 Appeared in years: 2005
 Type of Collection: Lost/Unavailable
 is it stored properly?: No
@@ -12,6 +16,7 @@ cleaned format?: No
 duplicate?: No
 link works?: No
 Added in paper: No
+Origin paper plaintext: Mapping the Internet
 Page id: fe59286f353d4841a2a328fdd6160b2f
 unavailable/skip: Yes
 Cleaned ALL data: No
@@ -20,4 +25,25 @@ first look: No
 
 # Body
 
+### Description from Literature
+
+From “[Topological fisheye views for visualizing large graphs](https://doi.org/10.1109/TVCG.2005.66)”:
+
+> Fig. 7 shows two topological fisheye views of a published Internet map [4]. It is a large tree (|V|=87,931, |E|=87,930) made by tracing connections from a central probe to all reachable IP subnets. The full layout of this graph in Fig. 7a is too dense to read. In contrast, our approach, seen in Fig. 7b and Fig. 7c, yields useful views by focusing on different portions of the graph.
+> 
+
+### Example Figures
+
+From “[Internet Mapping Project: Map Gallery](http://www.cheswick.com/ches/map/gallery/index.html)”:
+
 ![isp-ss.gif](Internet%20Mapping%20Project%20fe59286f353d4841a2a328fdd6160b2f/isp-ss.gif)
+
+Layout showing the major ISPs.
+
+![Untitled](Internet%20Mapping%20Project%20fe59286f353d4841a2a328fdd6160b2f/Untitled.png)
+
+From “[Topological fisheye views for visualizing large graphs](https://doi.org/10.1109/TVCG.2005.66)”:
+
+![Untitled](Internet%20Mapping%20Project%20fe59286f353d4841a2a328fdd6160b2f/Untitled%201.png)
+
+**Fig. 7.** This Internet map ((|V|=87,931, |E|=87,930)) is too large to visualize as a flat structure. Two topological fisheye views are shown. The focused sections in orange are the original graph. Peripheral areas, in blue, are simplified.

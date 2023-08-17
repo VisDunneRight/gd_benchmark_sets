@@ -15,13 +15,12 @@ eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1111/cgf.13181},
 year = {2017}
 }
 DOI: https://doi.org/10.1111/cgf.13181
-
 year: 2017
 Conference: EuroVis
 link: https://onlinelibrary.wiley.com/doi/epdf/10.1111/cgf.13181
 paper type: system
 Technique: force-directed
-Graph feature: categorical nodes, directed edges, labeled nodes
+Graph feature: categorical nodes, directed edges, labeled nodes, weighted edges
 Dataset tag clean: Debates
 dataset size: 3
 Dataset tag relations: Debates (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Debates%2054eb2cd4ba2c48eb945bd49e5f4bbf4f.md)

@@ -20,6 +20,7 @@ cleaned format?: Yes
 duplicate?: Yes
 link works?: Yes
 Added in paper: Yes
+OSF link json: https://files.osf.io/v1/resources/j7ucv/providers/osfstorage/64d90e87803e0c0b04558c1f
 Origin paper plaintext: Drawing Directed Acyclic Graphs: An Experimental Study
 Page id: a58f7143ef524c8a8c737df90162d3fb
 unavailable/skip: No
@@ -27,6 +28,9 @@ Cleaned ALL data: No
 Related to Literature - Algorithm (Dataset tag relations) 1: Layer-Free Upward Crossing Minimization (../Benchmark%20sets%200cc6b5e454304aec98f3b59b1a720476/Literature%20ad87f14e7097454fb2f784e2c8a2797a/Literature%20-%20Algorithm%2012e01bfc60a84007aa7d2d34293e123d/Layer-Free%20Upward%20Crossing%20Minimization%20676f8a507ff343b5ae83c34446796fb5.md), A Note on the Practicality of Maximal Planar Subgraph Algorithms (../Benchmark%20sets%200cc6b5e454304aec98f3b59b1a720476/Literature%20ad87f14e7097454fb2f784e2c8a2797a/Literature%20-%20Algorithm%2012e01bfc60a84007aa7d2d34293e123d/A%20Note%20on%20the%20Practicality%20of%20Maximal%20Planar%20Subgr%203b027747aec54f60a35f138958faff21.md), A Generalization of the Directed Graph Layering Problem (../Benchmark%20sets%200cc6b5e454304aec98f3b59b1a720476/Literature%20ad87f14e7097454fb2f784e2c8a2797a/Literature%20-%20Algorithm%2012e01bfc60a84007aa7d2d34293e123d/A%20Generalization%20of%20the%20Directed%20Graph%20Layering%20Pr%2064ff91b37bde4361a27ebf9f614b76ee.md), A Greedy Heuristic for Crossing-Angle Maximization (../Benchmark%20sets%200cc6b5e454304aec98f3b59b1a720476/Literature%20ad87f14e7097454fb2f784e2c8a2797a/Literature%20-%20Algorithm%2012e01bfc60a84007aa7d2d34293e123d/A%20Greedy%20Heuristic%20for%20Crossing-Angle%20Maximization%202261d227fc2c49b294182a9d923ed4ce.md), Star-Struck by Fixed Embeddings:
 Modern Crossing Number Heuristics (../Benchmark%20sets%200cc6b5e454304aec98f3b59b1a720476/Literature%20ad87f14e7097454fb2f784e2c8a2797a/Literature%20-%20Algorithm%2012e01bfc60a84007aa7d2d34293e123d/Star-Struck%20by%20Fixed%20Embeddings%20Modern%20Crossing%20Nu%20f31c2a6c7b8d4683a1820d8101f89448.md), An ILP-based Proof System for the Crossing
 Number Problem (../Benchmark%20sets%200cc6b5e454304aec98f3b59b1a720476/Literature%20ad87f14e7097454fb2f784e2c8a2797a/Literature%20-%20Algorithm%2012e01bfc60a84007aa7d2d34293e123d/An%20ILP-based%20Proof%20System%20for%20the%20Crossing%20Number%20%20e172212e85b74e12bcf2d0320d2b1eb6.md), Drawing Directed Acyclic Graphs: An Experimental Study (../Benchmark%20sets%200cc6b5e454304aec98f3b59b1a720476/Literature%20ad87f14e7097454fb2f784e2c8a2797a/Literature%20-%20Algorithm%2012e01bfc60a84007aa7d2d34293e123d/Drawing%20Directed%20Acyclic%20Graphs%20An%20Experimental%20St%201677531652194663b7fdf25025c61cc6.md), Placing Arrows in Directed Graph Drawings (../Benchmark%20sets%200cc6b5e454304aec98f3b59b1a720476/Literature%20ad87f14e7097454fb2f784e2c8a2797a/Literature%20-%20Algorithm%2012e01bfc60a84007aa7d2d34293e123d/Placing%20Arrows%20in%20Directed%20Graph%20Drawings%20511531e30ad540549d938c1eba7ad3bf.md), Aesthetic Discrimination of Graph Layouts (../Benchmark%20sets%200cc6b5e454304aec98f3b59b1a720476/Literature%20ad87f14e7097454fb2f784e2c8a2797a/Literature%20-%20Algorithm%2012e01bfc60a84007aa7d2d34293e123d/Aesthetic%20Discrimination%20of%20Graph%20Layouts%2025f75d8fd4b44bd99006e2316d28f6cd.md), Placing Arrows in Directed Graph Layouts: Algorithms and Experiments (../Benchmark%20sets%200cc6b5e454304aec98f3b59b1a720476/Literature%20ad87f14e7097454fb2f784e2c8a2797a/Literature%20-%20Algorithm%2012e01bfc60a84007aa7d2d34293e123d/Placing%20Arrows%20in%20Directed%20Graph%20Layouts%20Algorithm%20b6ca2552470a4915b2bb57e5eeffff80.md)
+OSF link gexf: https://files.osf.io/v1/resources/j7ucv/providers/osfstorage/64d949574cf748107605564e
+OSF link gml: https://files.osf.io/v1/resources/j7ucv/providers/osfstorage/64d96e3b1101aa0ea66a0c45
+OSF link graphml: https://files.osf.io/v1/resources/j7ucv/providers/osfstorage/64d970d31101aa0ea36a0cb0
 first look: No
 sparkline data: {'min': 10, 'max': 100, 'step_size': 5, 'num_bins': 21, 'bins': [0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100], 'num_nodes': [0, 0, 282, 169, 191, 103, 81, 81, 81, 58, 24, 49, 41, 17, 12, 24, 16, 18, 14, 13, 3]}
 
@@ -34,9 +38,9 @@ sparkline data: {'min': 10, 'max': 100, 'step_size': 5, 'num_bins': 21, 'bins': 
 
 ### Descriptions from Literature
 
-From [Layer-Free Upward Crossing Minimization](https://doi.org/10.1145/1671970.1671975):
+From “[Layer-Free Upward Crossing Minimization](https://doi.org/10.1145/1671970.1671975)”:
 
-> North DAGs. The North DAGs have been introduced in an experimental comparison of algorithms for drawing DAGs [Di Battista et al. 2000]. The benchmark set contains 1,158 DAGs collected by Stephen North, which were slightly modified by Di Battista et al. The graphs are grouped into nine sets, where set $i$ contains graphs with $10 i$ to $10 i+9$ arcs for $i=1, \ldots, 9$.
+> **North DAGs.** The North DAGs have been introduced in an experimental comparison of algorithms for drawing DAGs [Di Battista et al. 2000]. The benchmark set contains 1,158 DAGs collected by Stephen North, which were slightly modified by Di Battista et al. The graphs are grouped into nine sets, where set $i$ contains graphs with $10 i$ to $10 i+9$ arcs for $i=1, \ldots, 9$.
 > 
 
 === STOP RENDERING ===

@@ -21,13 +21,15 @@ cleaned format?: Yes
 duplicate?: No
 link works?: Yes
 Added in paper: No
-OSF link: https://osf.io/download/2stjq/
+OSF link json: https://files.osf.io/v1/resources/j7ucv/providers/osfstorage/64d90eda803e0c0b00558bc8
 Origin paper plaintext: Scotch and PT-Scotch Graph Partitioning Software: An Overview, PT-Scotch: A tool for efficient parallel graph ordering
 Page id: cfe6f105da3a4c699fa3e02ca1f6e88a
 unavailable/skip: No
 Cleaned ALL data: No
-OSF link for node-link format: https://osf.io/download/2rnzb/
 Related to Literature - Algorithm (Dataset tag relations) 1: A Fast Multi-Scale Method for Drawing Large Graphs (../Benchmark%20sets%200cc6b5e454304aec98f3b59b1a720476/Literature%20ad87f14e7097454fb2f784e2c8a2797a/Literature%20-%20Algorithm%2012e01bfc60a84007aa7d2d34293e123d/A%20Fast%20Multi-Scale%20Method%20for%20Drawing%20Large%20Graphs%20fdc9e1d148bc4fcd848d8b4cc959cdfd.md), ACE: A Fast Multiscale Eigenvectors Computation for Drawing Huge Graphs (../Benchmark%20sets%200cc6b5e454304aec98f3b59b1a720476/Literature%20ad87f14e7097454fb2f784e2c8a2797a/Literature%20-%20Algorithm%2012e01bfc60a84007aa7d2d34293e123d/ACE%20A%20Fast%20Multiscale%20Eigenvectors%20Computation%20for%205e8de72ea8d0436babf760ca379cc457.md)
+OSF link gexf: https://files.osf.io/v1/resources/j7ucv/providers/osfstorage/64d94897803e0c0bfb558d06
+OSF link gml: https://osf.io/download/w37bv/
+OSF link graphml: https://files.osf.io/v1/resources/j7ucv/providers/osfstorage/64d971ca94a6be112a12ea97
 first look: No
 sparkline data: {'min': 7, 'max': 144649, 'step_size': 10000, 'num_bins': 15, 'bins': [0, 10000, 20000, 30000, 40000, 50000, 60000, 70000, 80000, 90000, 100000, 110000, 120000, 130000, 140000], 'num_nodes': [24, 4, 1, 2, 2, 0, 1, 1, 0, 1, 0, 1, 0, 0, 2]}
 

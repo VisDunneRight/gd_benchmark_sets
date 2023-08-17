@@ -3,7 +3,7 @@
 Note: Dataset not available—emailed author
 Graph features in papers: clusters (pre-existing),multivariate,spatial
 Appeared in years: 2011
-Type of Collection: Single Graph
+Type of Collection: Lost/Unavailable
 is it stored properly?: No
 must be analyzed: No
 In repo?: No

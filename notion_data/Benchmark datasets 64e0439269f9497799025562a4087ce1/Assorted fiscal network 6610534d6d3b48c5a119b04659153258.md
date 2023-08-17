@@ -1,11 +1,12 @@
 # Assorted Fiscal Network
 
-Note: From the linked pages this is only the Italian Tax Revenue (which has individuals as taxpayes? - haven been able to find)
+Note: The dataset is implied to be internal, with nodes corresponding to individual tax payers and the authors mentioning anonymizing data themselves for security reasons. 
+Origin Notes: The dataset is cited as being from an evaluation of TaxNet from Didimo et al. The authors claim how this system was adopted by the Italian Revenue Agency on a pilot program in Tuscany, where all the evaluations happened. 
 Graph features in papers: categorical nodes,high degree,labeled nodes
 Originally found at: cannot find
 Origin Paper: A visual analytics system to support tax evasion discovery (https://www.notion.so/A-visual-analytics-system-to-support-tax-evasion-discovery-79c482a3ec0f4f329e5af94f2c4def4f?pvs=21)
 Appeared in years: 2019
-Type of Collection: Aggregate collection
+Type of Collection: Lost/Unavailable
 is it stored properly?: No
 must be analyzed: No
 In repo?: No
@@ -25,12 +26,12 @@ first look: No
 
 ## Descriptions from the Literature
 
-From [CHORDLINK: A New Hybrid Visualization Model](https://link.springer.com/chapter/10.1007/978-3-030-35802-0_22)
+From “[CHORDLINK: A New Hybrid Visualization Model](https://link.springer.com/chapter/10.1007/978-3-030-35802-0_22)”:
 
 > We considered a real network of taxpayers and their economic transactions. The network is provided by the IRV (Italian Revenue Agency) and refers to a portion of data for the fiscal year 2014, consisting of 174 subjects with high fiscal risk and 200 economic transactions between them [[11](https://link.springer.com/chapter/10.1007/978-3-030-35802-0_22#ref-CR11)].
 > 
 
-From **[**A visual analytics system to support tax evasion discovery](https://www.sciencedirect.com/science/article/pii/S0167923618300563?via%3Dihub#s0015)
+From “[A visual analytics system to support tax evasion discovery](https://www.sciencedirect.com/science/article/pii/S0167923618300563?via%3Dihub#s0015)”:
 
 > The data sources queried by the IRV officers are modeled in TaxNet as a unified network *G*. Each node *v* of *G* is a single taxpayer, which can be either an individual or a legal person, like a private company or a public institution. Many attributes are associated with *v*, including the type of economic activity, the geographic location and territorial scope, the declared income, the amount of VAT credits/debts and of VAT refunded/paid, and the amount of economic exchange within the European Union. The edges of *G* are directed edges. An edge (*u*,*v*) can model different types of relationships between *u* and *v*.
 > 

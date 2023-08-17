@@ -18,13 +18,15 @@ cleaned format?: Yes
 duplicate?: No
 link works?: No
 Added in paper: No
-OSF link: https://osf.io/download/647a673a3c3a380757a04565/
+OSF link json:  https://files.osf.io/v1/resources/j7ucv/providers/osfstorage/64d90ea01101aa0c9e6a0c74
 Page id: 7a10c41801914e6faa5a6cc1b1ef0b77
 unavailable/skip: No
 Cleaned ALL data: No
-OSF link for node-link format: https://osf.io/download/647a618ebf3d0f08b4d87729/
 Related to Literature - Algorithm (Dataset tag relations) 1: An ILP-based Proof System for the Crossing
 Number Problem (../Benchmark%20sets%200cc6b5e454304aec98f3b59b1a720476/Literature%20ad87f14e7097454fb2f784e2c8a2797a/Literature%20-%20Algorithm%2012e01bfc60a84007aa7d2d34293e123d/An%20ILP-based%20Proof%20System%20for%20the%20Crossing%20Number%20%20e172212e85b74e12bcf2d0320d2b1eb6.md)
+OSF link gexf: https://files.osf.io/v1/resources/j7ucv/providers/osfstorage/64d94828803e0c0bf5558bab
+OSF link gml: https://files.osf.io/v1/resources/j7ucv/providers/osfstorage/64d94d7d803e0c0c1f558c9c
+OSF link graphml: https://files.osf.io/v1/resources/j7ucv/providers/osfstorage/64d9709994a6be112912e9ec
 first look: No
 sparkline data: {'min': 3, 'max': 112, 'step_size': 5, 'num_bins': 23, 'bins': [0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100, 105, 110], 'num_nodes': [5, 168, 70, 114, 65, 17, 23, 11, 7, 2, 3, 4, 3, 1, 2, 1, 1, 0, 0, 2, 7, 0, 1]}
 

@@ -1,6 +1,8 @@
 # Autonomous System Network
 
-Note: The 733-AS netowork is a subset of SNAP. We provide the link containing the original project, https://www.routeviews.org/routeviews/, and redirect to SNAP, https://snap.stanford.edu/data/as-733.html. 
+Note: The 733-AS network is a subset of SNAP. We provide the link containing the original project, https://www.routeviews.org/routeviews/, and redirect to SNAP, https://snap.stanford.edu/data/as-733.html for the network data. In the dataset description they highlight how the graphs exhibit node and edge addition and deletion over time. 
+Origin Notes: The data was originally part of the University of Oregon’s RouteViews project. It was then used by Jure Leskovec et al. and eventually stored in SNAP.
+graph features handled: dynamic, generic
 Graph features in papers: generic
 Originally found at: https://www.routeviews.org/routeviews/
 https://snap.stanford.edu/data/as-733.html
@@ -26,7 +28,7 @@ first look: Yes
 
 # Body
 
-## Descriptions from Literature
+### Descriptions from Literature
 
 From “[Preserving Minority Structures in Graph Sampling](https://ieeexplore.ieee.org/document/9222065)”
 
@@ -39,7 +41,7 @@ From “[Graphs over time: densification laws, shrinking diameters and possible 
 We can construct a communication network of who-talks-towhom from the BGP (Border Gateway Protocol) logs. We use the the Autonomous Systems (AS) dataset from [26]. The dataset contains 735 daily instances which span an interval of 785 days from November 8 1997 to January 2 2000.In contrast to citation networks, where nodes and edges only get added (not deleted) over time, the AS dataset also exhibits both the addition and deletion of the nodes and edges over time.
 > 
 
-## Example Figures
+### Example Figures
 
 From “[Preserving Minority Structures in Graph Sampling](https://ieeexplore.ieee.org/document/9222065)”
 

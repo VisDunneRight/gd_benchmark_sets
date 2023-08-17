@@ -1,7 +1,7 @@
 # Business Processes
 
-Note: Dataset links in supplemental materials are broken, and graphs not linked are internal and cannot be shared according to the author. 
-Origin Notes: Paper collects various graphs from a collection of sources. A few of these datasets are from international business process intelligence challenges, and others are specific processes from companies in a certain domain (hospital, road traffic management, pay processes, etc.).
+Note: Dataset links in supplemental materials are broken. After contacting the author, they mentioned that the other datasets were internal and could not be shared. 
+Origin Notes: The Origin Paper collects various graphs from a few of sources. Some of these datasets are from international business process intelligence challenges, and others are specific processes from companies in a certain domain (hospital, road traffic management, pay processes, etc.).
 graph features handled: labeled nodes, layered graphs
 Graph features in papers: labeled nodes,layered graphs,n-layers
 Originally found at: https://robinmennens.github.io/Portfolio/stableprocessgraphs.html
@@ -33,7 +33,7 @@ From [A stable graph layout algorithm for processes](https://onlinelibrary.wiley
 > We use 13 datasets (see supplementary material), which represent real-world processes. For every dataset, we ran 500 tests on both methods. Each test involved a pair of randomly generated graphs  $G_1, G_2 \subseteq \bar{G}$  , which were obtained by randomly removing a subset of the edges $\bar{E}$ and then removing all nodes $n \in \bar{V}$ that became disconnected. Consequently, $G_1$ and $G_2$ are random sub-graphs of $\bar{G}$ .
 > 
 
-Table from Supplemental Materials:
+Table from Supplementary Materials:
 
 ![Untitled](Business%20Processes%209d09430927704fcf8fdf1ee4e00cabbc/Untitled.png)
 

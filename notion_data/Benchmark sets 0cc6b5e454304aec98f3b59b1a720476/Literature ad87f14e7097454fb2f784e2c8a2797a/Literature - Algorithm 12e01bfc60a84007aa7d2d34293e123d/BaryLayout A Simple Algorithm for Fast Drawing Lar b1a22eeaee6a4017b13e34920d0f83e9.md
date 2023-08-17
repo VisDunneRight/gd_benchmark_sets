@@ -31,7 +31,6 @@ Dataset tag clean: matrix market?
 Dataset used: same as An Experimental Comparison of Fast Algorithms for Drawing General Large Graphs (An%20Experimental%20Comparison%20of%20Fast%20Algorithms%20for%20%20190e5036cf974a879b50614cfff525f1.md) 
 dataset size: 5
 dataset size comment: 29?
-Dataset tag relations: Hachul (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Hachul%20e1132008411b4e748f43418928c988ad.md)
 Type of edit to the dataset: NA
 Size of graphs (Clean up): 4960 - 143437
 Size of graphs: [4900, 140000]

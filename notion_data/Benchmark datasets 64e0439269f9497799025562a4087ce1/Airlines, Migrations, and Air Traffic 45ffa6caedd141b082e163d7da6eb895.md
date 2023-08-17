@@ -20,15 +20,17 @@ cleaned format?: Yes
 duplicate?: No
 link works?: Yes
 Added in paper: No
-OSF link: https://osf.io/download/6f7va/
+OSF link json: https://files.osf.io/v1/resources/j7ucv/providers/osfstorage/64d90e774cf7480ef0055631
 Origin paper plaintext: Force-Directed Edge Bundling for Graph Visualization, Geometry-Based Edge Clustering for Graph Visualization, Edge-Path Bundling: A Less Ambiguous Edge Bundling Approach
 Page id: 45ffa6caedd141b082e163d7da6eb895
 unavailable/skip: No
 Cleaned ALL data: No
-OSF link for node-link format: https://osf.io/download/54ku2/
 Related to Literature - Algorithm (Dataset tag relations) 1: Skeleton-Based Edge Bundling for Graph Visualization (../Benchmark%20sets%200cc6b5e454304aec98f3b59b1a720476/Literature%20ad87f14e7097454fb2f784e2c8a2797a/Literature%20-%20Algorithm%2012e01bfc60a84007aa7d2d34293e123d/Skeleton-Based%20Edge%20Bundling%20for%20Graph%20Visualizati%206dd78ad2473945c99d670dea9546af1c.md), Force-directed edge bundling for graph visualization (../Benchmark%20sets%200cc6b5e454304aec98f3b59b1a720476/Literature%20ad87f14e7097454fb2f784e2c8a2797a/Literature%20-%20Algorithm%2012e01bfc60a84007aa7d2d34293e123d/Force-directed%20edge%20bundling%20for%20graph%20visualizati%201a6dc388a0f4443ca2d3693f8bff3f74.md), MobilityGraphs: Visual Analysis of Mass Mobility Dynamics via Spatio-Temporal Graphs and Clustering (../Benchmark%20sets%200cc6b5e454304aec98f3b59b1a720476/Literature%20ad87f14e7097454fb2f784e2c8a2797a/Literature%20-%20Algorithm%2012e01bfc60a84007aa7d2d34293e123d/MobilityGraphs%20Visual%20Analysis%20of%20Mass%20Mobility%20Dy%2003cbcaf73d9b4c0784e8e44b38185eb6.md), Geometry-Based Edge Clustering for Graph Visualization (../Benchmark%20sets%200cc6b5e454304aec98f3b59b1a720476/Literature%20ad87f14e7097454fb2f784e2c8a2797a/Literature%20-%20Algorithm%2012e01bfc60a84007aa7d2d34293e123d/Geometry-Based%20Edge%20Clustering%20for%20Graph%20Visualiza%204266d74d6ae1420a970d2b1a74a38fc7.md), MLSEB: Edge Bundling Using Moving Least
 Squares Approximation (../Benchmark%20sets%200cc6b5e454304aec98f3b59b1a720476/Literature%20ad87f14e7097454fb2f784e2c8a2797a/Literature%20-%20Algorithm%2012e01bfc60a84007aa7d2d34293e123d/MLSEB%20Edge%20Bundling%20Using%20Moving%20Least%20Squares%20App%20bf3edb74a4cd4476838fdcc3d531f9b5.md), HOTVis: Higher-Order Time-Aware
 Visualisation of Dynamic Graphs (../Benchmark%20sets%200cc6b5e454304aec98f3b59b1a720476/Literature%20ad87f14e7097454fb2f784e2c8a2797a/Literature%20-%20Algorithm%2012e01bfc60a84007aa7d2d34293e123d/HOTVis%20Higher-Order%20Time-Aware%20Visualisation%20of%20Dy%20bd698d90a24a4b8e9527007489d139b5.md), Edge-Path Bundling: A Less Ambiguous Edge Bundling Approach (../Benchmark%20sets%200cc6b5e454304aec98f3b59b1a720476/Literature%20ad87f14e7097454fb2f784e2c8a2797a/Literature%20-%20Algorithm%2012e01bfc60a84007aa7d2d34293e123d/Edge-Path%20Bundling%20A%20Less%20Ambiguous%20Edge%20Bundling%20%20fcfa5882e692481298cbee906e005c30.md), Interactive Structure-aware Blending of Diverse Edge Bundling Visualizations (../Benchmark%20sets%200cc6b5e454304aec98f3b59b1a720476/Literature%20ad87f14e7097454fb2f784e2c8a2797a/Literature%20-%20Algorithm%2012e01bfc60a84007aa7d2d34293e123d/Interactive%20Structure-aware%20Blending%20of%20Diverse%20Ed%204fbfba72a5b046f8baf7211508790373.md), Faster Edge-Path Bundling through Graph Spanners (../Benchmark%20sets%200cc6b5e454304aec98f3b59b1a720476/Literature%20ad87f14e7097454fb2f784e2c8a2797a/Literature%20-%20Algorithm%2012e01bfc60a84007aa7d2d34293e123d/Faster%20Edge-Path%20Bundling%20through%20Graph%20Spanners%2064dc9f75adc942ffb7dd7259a8357cf8.md)
+OSF link gexf: https://files.osf.io/v1/resources/j7ucv/providers/osfstorage/64d9490a1101aa0dcf6a0ba5
+OSF link gml: https://files.osf.io/v1/resources/j7ucv/providers/osfstorage/64d96d8c0c2b4d0f64386243
+OSF link graphml: https://files.osf.io/v1/resources/j7ucv/providers/osfstorage/64d971241101aa0e9f6a0c0b
 first look: No
 sparkline data: {'min': 235, 'max': 1702, 'step_size': 1500, 'num_bins': 2, 'bins': [0, 1500], 'num_nodes': [1, 2]}
 
@@ -38,9 +40,16 @@ sparkline data: {'min': 235, 'max': 1702, 'step_size': 1500, 'num_bins': 2, 'bin
 
 ![four_in_one.svg](Airlines,%20Migrations,%20and%20Air%20Traffic%2045ffa6caedd141b082e163d7da6eb895/four_in_one.svg)
 
+### Descriptions from Literature
+
+From “[Skeleton-Based Edge Bundling for Graph Visualization](https://doi.org/10.1109/TVCG.2011.233)”:
+
+> Figure 7 illustrates the SBEB and compares it with several existing bundling methods. Note that in all images here generated with our method, we used simple additive edge blending only, as our focus here is the layout, not the rendering. Images (a,b) show an air traffic graph (nodes are city locations, edges are interconnecting flights)… Images (e-h) show the US migrations graph bundled with the WR, GBEB, FDEB, and our method (SBEB) respectively. Overall, SBEB produces stronger bundling, due to the many iterations I = 10 being used), and emphasizes the structure of connections between groups of close cities (due to the skeleton layout cues). If less bundling is desired, fewer iterations can be used (Fig. 4). Adjusting the postprocessing smoothing and relaxation parameters, SBEB can create bundling styles similar to either GBEB (higher bundle curvatures, more emphasis on the graph structure) or FDEB (smoother bundles). Finally, images (i,j) show the US airlines graph bundled with the FDEB and SBEB respectively. SBEB generates stronger bundling (more overdraw) but arguably less clutter. Note also that SBEB generates treelike bundle structures which is useful when the exploration task at hand has an inherent (local) hierarchical nature, e.g. see how traffic connections merge into and/or split from main traffic routes.
+> 
+
 ### Example Figures
 
-From [Edge-Path Bundling: A Less Ambiguous Edge Bundling Approach](https://ieeexplore.ieee.org/document/9552919)
+From “[Edge-Path Bundling: A Less Ambiguous Edge Bundling Approach](https://ieeexplore.ieee.org/document/9552919)”:
 
 ![Untitled](Airlines,%20Migrations,%20and%20Air%20Traffic%2045ffa6caedd141b082e163d7da6eb895/Untitled.png)
 
@@ -53,6 +62,10 @@ From [Edge-Path Bundling: A Less Ambiguous Edge Bundling Approach](https://ieeex
 ![Untitled](Airlines,%20Migrations,%20and%20Air%20Traffic%2045ffa6caedd141b082e163d7da6eb895/Untitled%202.png)
 
 **Fig. 10.** Results of four algorithms on the air traffic network. (a) Force-directed bundling is able to recover the major trajectories but does not strongly bundle the network. (b) Cubu strongly bundles the main flows of airtraffic, but can suffer from overaggregation. (c) Winding roads divides the traffic into many smaller bundles, but this may not be reflective of underlying graph structure. (d) With edge-path bundling, each bundle necessarily reflects a path in the network. There are separate flows across the atlantic and asia that correspond to paths through the network.
+
+From “[Skeleton-Based Edge Bundling for Graph Visualization](https://doi.org/10.1109/TVCG.2011.233)”:
+
+![Screen Shot 2023-08-14 at 3.42.37 PM.png](Airlines,%20Migrations,%20and%20Air%20Traffic%2045ffa6caedd141b082e163d7da6eb895/Screen_Shot_2023-08-14_at_3.42.37_PM.png)
 
 == STOP RENDERING ==
 

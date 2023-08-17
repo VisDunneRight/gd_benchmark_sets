@@ -1,15 +1,16 @@
 # Enron
 
-Note: Very high variance in node degrees . Data can be considered threaded and directed, however SNAP provides a version of network data that is explicitly undirected.
-Origin Notes: Data made public by the Federal Energy Regulatory Commission when investigating Enron. It has had a few changes over time documented in the link. The data is currently hosted by William W. Cohen from CMU on a webiste, and it is also hosted on SNAP. SNAP asks to cite the paper linked in Origin paper, although this is not the original source of the data.
+Note: Very high variance in node degrees. Data can be considered threaded and directed, although http://snap.stanford.edu/data/email-Enron.html provides a version of the network that is explicitly undirected.
+Origin Notes: Data made public by the Federal Energy Regulatory Commission when investigating Enron. It has had a few changes over time documented in the link. The data is currently hosted by William W. Cohen from CMU on a webiste, and it is also hosted on SNAP. SNAP asks to cite the paper linked in Origin paper.
 graph features handled: dynamic (discrete), generic, large
 Graph features in papers: dynamic,dynamic (discrete),layered graphs,n-layers
 Originally found at: https://www.cs.cmu.edu/~enron/
 Size: The data consists of 150 Enron executives, who sent 500,000 messages between themselves.
+Number of Graphs: 1
 Origin Paper: Introducing the Enron Corpus (https://www.notion.so/Introducing-the-Enron-Corpus-52663d33d36b4940b5966f72f6c73a70?pvs=21)
 Child collections: SNAP (Stanford Network Analysis Platform) (SNAP%20(Stanford%20Network%20Analysis%20Platform)%201cd77eaee57147ce8263b2f9eaa2589c.md)
 Appeared in years: 2015,2013
-Type of Collection: Skip
+Type of Collection: Subset of other collection
 is it stored properly?: No
 must be analyzed: Yes
 In repo?: No
@@ -29,18 +30,18 @@ first look: No
 
 ### Descriptions from Literature
 
-From [Reordering massive sequence views: Enabling temporal and structural analysis of dynamic networks](https://doi.org/10.1109/PacificVis.2013.6596125):
+From “[Reordering massive sequence views: Enabling temporal and structural analysis of dynamic networks](https://doi.org/10.1109/PacificVis.2013.6596125)”:
 
 > We cleaned the data set by removing duplicates, spam and only to contain internal communication between Enron employees annotated with employee function leaving us with 151 nodes (employees) and 21374 edges (emails). Visualization using a node-link diagram enables the identification of stronger connections (see Figure 9(a)). However, temporal patterns and the evolution of the network cannot be analysed. From the standard MSV (Figure 9(b)) it becomes somewhat clear that transaction density increases over time and we can distinguish between different phases. We cannot, however, see features and identify communities due to visual clutter
 > 
 
 ### Example Figures
 
-From [An Efficient Framework for Generating Storyline Visualizations from Streaming Data](https://doi.org/10.1109/TVCG.2015.2392771):
+From “[An Efficient Framework for Generating Storyline Visualizations from Streaming Data](https://doi.org/10.1109/TVCG.2015.2392771)”:
 
 ![Untitled](Enron%20ed3c62b92cf14a7b86c691ac3651dab3/Untitled.png)
 
-From [Reordering massive sequence views: Enabling temporal and structural analysis of dynamic networks](https://doi.org/10.1109/PacificVis.2013.6596125):
+From “[Reordering massive sequence views: Enabling temporal and structural analysis of dynamic networks](https://doi.org/10.1109/PacificVis.2013.6596125)”:
 
 ![Untitled](Enron%20ed3c62b92cf14a7b86c691ac3651dab3/Untitled%201.png)
 

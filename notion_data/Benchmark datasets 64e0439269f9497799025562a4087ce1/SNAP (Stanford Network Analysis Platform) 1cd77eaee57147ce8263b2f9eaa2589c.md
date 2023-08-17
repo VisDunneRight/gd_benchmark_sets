@@ -3,7 +3,7 @@
 graph features handled: bipartite, categorical nodes, dense, directed edges, edge weighted, hierarchical, large, node weighted, signed, sparse, temporal
 Graph features in papers: generic,large,clusters (generated),generic,almost proximity drawable graphs,mesh graphs,scale-free graphs,strong proximity drawable graphs,weak proximity drawable graphs
 Originally found at: http://snap.stanford.edu/data/index.html
-Size: 1008 unique graphs (exclusing graph classification tasks consisting of 352536 graphs)
+Size: 1008 unique graphs (excluding graph classification tasks consisting of 352,536 graphs)
 Origin Paper: SNAP Datasets: Stanford Large Network Dataset Collection (https://www.notion.so/SNAP-Datasets-Stanford-Large-Network-Dataset-Collection-b5f4bd2e98834a638a5c4ab563047d28?pvs=21)
 Child collections: Amazon (Amazon%201b39a766deb747b8a3b51fc41cfc2e20.md), Enron (Enron%20ed3c62b92cf14a7b86c691ac3651dab3.md)
 Appeared in years: 2016,2019,2014,2023

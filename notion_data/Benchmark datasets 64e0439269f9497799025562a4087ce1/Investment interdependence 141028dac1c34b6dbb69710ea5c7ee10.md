@@ -16,13 +16,15 @@ cleaned format?: Yes
 duplicate?: No
 link works?: No
 Added in paper: No
-OSF link: https://osf.io/download/9d4ne/
+OSF link json: https://files.osf.io/v1/resources/j7ucv/providers/osfstorage/64d90e6794a6be0ebd12e705
 Origin paper plaintext: An introduction to the application of interpretive structural modeling
 Page id: 141028dac1c34b6dbb69710ea5c7ee10
 unavailable/skip: No
 Cleaned ALL data: No
-OSF link for node-link format: https://osf.io/download/3jsr7/
 Related to Literature - Algorithm (Dataset tag relations) 1: Methods for Visual Understanding of Hierarchical System Structures (../Benchmark%20sets%200cc6b5e454304aec98f3b59b1a720476/Literature%20ad87f14e7097454fb2f784e2c8a2797a/Literature%20-%20Algorithm%2012e01bfc60a84007aa7d2d34293e123d/Methods%20for%20Visual%20Understanding%20of%20Hierarchical%20S%208a4e07b400c5404f977451abad2f296d.md)
+OSF link gexf: https://files.osf.io/v1/resources/j7ucv/providers/osfstorage/64d949164cf7481076055631
+OSF link gml: https://files.osf.io/v1/resources/j7ucv/providers/osfstorage/64d96e4d803e0c0caf558b9f
+OSF link graphml: https://files.osf.io/v1/resources/j7ucv/providers/osfstorage/64d97042803e0c0cb3558c35
 first look: Yes
 sparkline data: {'min': 0, 'max': 6, 'step_size': 1, 'num_bins': 7, 'bins': [0, 1, 2, 3, 4, 5, 6], 'node_degree': [3, 3, 5, 11, 2, 0, 1]}
 

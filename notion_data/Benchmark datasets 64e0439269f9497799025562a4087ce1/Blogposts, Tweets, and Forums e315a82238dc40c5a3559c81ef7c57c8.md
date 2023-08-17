@@ -6,7 +6,7 @@ Origin Notes: Time Arcs uses AMERICAblog, Huffington Post, and other sources (co
 Fast filtering uses the Twitter gardenhouse streaming API to collect data on the 2013 Super Bowl and the announcement of Osama Bin Laden’s death, both can be found https://github.com/WICI/fastviz/tree/master/data (shared hashtags).
 
 Event-based Dynamic Graph Drawing without the Agonizing Pain uses the rugby tweet dataset (pro12_mentions) consisting of mentions among the members of the GuinessPro12 competition, and the MOOC dataset from the http://moocdata.cn/challenges/kdd-cup-2015 (A data challenge).
-graph features handled: dynamic, hypergraph
+graph features handled: dynamic, hypergraph, layered graphs
 Graph features in papers: dynamic,generic,dynamic,dynamic (continuous),large,dynamic,dynamic (discrete),layered graphs,n-layers,dynamic (discrete)
 Originally found at: http://moocdata.cn/data/user-activity
 https://github.com/CreativeCodingLab/TimeArcs
@@ -25,12 +25,16 @@ cleaned format?: Yes
 duplicate?: No
 link works?: Yes
 Added in paper: No
+OSF link json: https://files.osf.io/v1/resources/j7ucv/providers/osfstorage/64d94add4cf7481071055619
 Origin paper plaintext: Understanding Dropouts in MOOCs, TimeArcs: Visualizing Fluctuations in Dynamic Networks, Fast filtering and animation of large dynamic networks
 Page id: e315a82238dc40c5a3559c81ef7c57c8
 unavailable/skip: No
 Cleaned ALL data: No
 Related to Literature - Algorithm (Dataset tag relations) 1: Online Dynamic Graph Drawing (../Benchmark%20sets%200cc6b5e454304aec98f3b59b1a720476/Literature%20ad87f14e7097454fb2f784e2c8a2797a/Literature%20-%20Algorithm%2012e01bfc60a84007aa7d2d34293e123d/Online%20Dynamic%20Graph%20Drawing%203c5e54c02d0b473294442f7387ddb03d.md), The Turing Test for Graph Drawing Algorithms (../Benchmark%20sets%200cc6b5e454304aec98f3b59b1a720476/Literature%20ad87f14e7097454fb2f784e2c8a2797a/Literature%20-%20Algorithm%2012e01bfc60a84007aa7d2d34293e123d/The%20Turing%20Test%20for%20Graph%20Drawing%20Algorithms%209927a9580ae74b49a468a8c2816334da.md), Fast filtering and animation of large dynamic
 networks (../Benchmark%20sets%200cc6b5e454304aec98f3b59b1a720476/Literature%20ad87f14e7097454fb2f784e2c8a2797a/Literature%20-%20Algorithm%2012e01bfc60a84007aa7d2d34293e123d/Fast%20filtering%20and%20animation%20of%20large%20dynamic%20netw%2004f8b4c82871465fb46f8ad2a01d6815.md), TimeArcs: Visualizing Fluctuations in Dynamic Networks (../Benchmark%20sets%200cc6b5e454304aec98f3b59b1a720476/Literature%20ad87f14e7097454fb2f784e2c8a2797a/Literature%20-%20Algorithm%2012e01bfc60a84007aa7d2d34293e123d/TimeArcs%20Visualizing%20Fluctuations%20in%20Dynamic%20Netwo%209d27b7e02aec4b80bc15447255eb4f4c.md), Event-based Dynamic Graph Drawing without the Agonizing Pain (../Benchmark%20sets%200cc6b5e454304aec98f3b59b1a720476/Literature%20ad87f14e7097454fb2f784e2c8a2797a/Literature%20-%20Algorithm%2012e01bfc60a84007aa7d2d34293e123d/Event-based%20Dynamic%20Graph%20Drawing%20without%20the%20Agon%20e67037f1481b48fab8cbd0c2802fcbe5.md)
+OSF link gexf: https://files.osf.io/v1/resources/j7ucv/providers/osfstorage/64d9497a0c2b4d0e8c386228
+OSF link gml: https://files.osf.io/v1/resources/j7ucv/providers/osfstorage/64d96da194a6be112a12e740
+OSF link graphml: https://files.osf.io/v1/resources/j7ucv/providers/osfstorage/64d971111101aa0ea36a0cb6
 first look: Yes
 sparkline data: {'min': 12, 'max': 386412, 'step_size': 200000, 'num_bins': 2, 'bins': [0, 200000], 'num_nodes': [5, 2]}
 
