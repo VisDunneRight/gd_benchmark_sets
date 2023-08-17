@@ -705,7 +705,7 @@
             .append("ul")
             .attr("class", "list-unstyled fw-normal pb-2 small")
 
-        for (let entry of data.filter(d => d.added != true)){
+        for (let entry of data.filter(d => d.added != true &&  d["Type of Collection"] != "Lost/Unavailable")){
             entry.added = true;
             await add_entry_row(named_list_dom, otherUl, paper_data, entry, origin_paper_data)
         }
