@@ -677,38 +677,7 @@
             await add_entry_row(named_list_dom, singleUl, paper_data, entry, origin_paper_data)
         }
 
-        named_list_dom.append("div")
-            .attr("class", "row")
-            .append("div")
-            .attr("class", "col")
-            .append("h3")
-            .text("Other")
-            .style("margin-top", "10px")
-
-        named_list_dom.append("div")
-            .attr("class", "row")
-            .append("div")
-            .attr("class", "col")
-            .append("p")
-            .text("A few more datasets that did not fit in the preivous categories. ")
-            .style("color", "gray")
-
-        add_col_headers(named_list_dom, true)
-
-        let otherLi = db_nav_list.append("li")
-            .attr("class", "bd-links-group py-2")
-        otherLi
-            .append("strong")
-            .attr("class", "bd-links-heading d-flex w-100 align-items-center fw-semibold")
-            .text("Other")
-        let otherUl = otherLi 
-            .append("ul")
-            .attr("class", "list-unstyled fw-normal pb-2 small")
-
-        for (let entry of data.filter(d => d.added != true)){
-            entry.added = true;
-            await add_entry_row(named_list_dom, otherUl, paper_data, entry, origin_paper_data)
-        }
+        // LOST OR UNAVAILABLE
 
         named_list_dom.append("div")
             .attr("class", "row")
@@ -741,6 +710,41 @@
         for (let entry of data.filter(d => d["Type of Collection"] == "Lost/Unavailable")){
             entry.added = true;
             await add_entry_row(named_list_dom, lostUl, paper_data, entry, origin_paper_data)
+        }
+
+        // OTHER
+
+        named_list_dom.append("div")
+            .attr("class", "row")
+            .append("div")
+            .attr("class", "col")
+            .append("h3")
+            .text("Other")
+            .style("margin-top", "10px")
+
+        named_list_dom.append("div")
+            .attr("class", "row")
+            .append("div")
+            .attr("class", "col")
+            .append("p")
+            .text("A few more datasets that did not fit in the preivous categories. ")
+            .style("color", "gray")
+
+        add_col_headers(named_list_dom, true)
+
+        let otherLi = db_nav_list.append("li")
+            .attr("class", "bd-links-group py-2")
+        otherLi
+            .append("strong")
+            .attr("class", "bd-links-heading d-flex w-100 align-items-center fw-semibold")
+            .text("Other")
+        let otherUl = otherLi 
+            .append("ul")
+            .attr("class", "list-unstyled fw-normal pb-2 small")
+
+        for (let entry of data.filter(d => d.added != true && d.Name != "")){
+            entry.added = true;
+            await add_entry_row(named_list_dom, otherUl, paper_data, entry, origin_paper_data)
         }
     }
 

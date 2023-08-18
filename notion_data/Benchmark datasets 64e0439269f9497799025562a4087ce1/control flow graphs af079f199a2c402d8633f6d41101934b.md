@@ -32,7 +32,6 @@ From “[Node Overlap Removal by Growing a Tree](https://dx.doi.org/10.7155/jgaa
 > Our data includes the same set of graphs that was used by the authors of
 PRISM to compare it with other algorithms [6]. The set is available in the
 Graphviz open source package.
-> 
 
 ### Example Figures
 
