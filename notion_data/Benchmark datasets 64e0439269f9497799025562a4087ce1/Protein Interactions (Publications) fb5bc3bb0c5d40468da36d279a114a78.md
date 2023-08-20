@@ -4,12 +4,12 @@ Note: Various types of protein interaction graphs are recorded in other network 
 Origin Notes: Protein Interaction Publications were collected from the biological Pathway Commons Database: http://www.pathwaycommons.org/.
 graph features handled: dynamic (discrete), large, multigraph, temporal event sequence
 Graph features in papers: generic,large,dynamic,dynamic (discrete),layered graphs,n-layers
+Origin Paper: LGL: Creating a Map of Protein Function with an Algorithm for Visualizing Very Large Biological Networks (https://www.notion.so/LGL-Creating-a-Map-of-Protein-Function-with-an-Algorithm-for-Visualizing-Very-Large-Biological-Netw-518c7160f2f24cd08c6bbb7b4f43216c?pvs=21), TimeArcs: Visualizing Fluctuations in Dynamic Networks (https://www.notion.so/TimeArcs-Visualizing-Fluctuations-in-Dynamic-Networks-e671c46ecfa444efaf28392636402266?pvs=21)
 Originally found at: https://github.com/CreativeCodingLab/TimeArcs/tree/master/IndexCards
 
 https://lgl.sourceforge.net/ (download link broken)
 Size: 2961 nodes, 5267 edges
 Number of Graphs: 1
-Origin Paper: LGL: Creating a Map of Protein Function with an Algorithm for Visualizing Very Large Biological Networks (https://www.notion.so/LGL-Creating-a-Map-of-Protein-Function-with-an-Algorithm-for-Visualizing-Very-Large-Biological-Netw-518c7160f2f24cd08c6bbb7b4f43216c?pvs=21), TimeArcs: Visualizing Fluctuations in Dynamic Networks (https://www.notion.so/TimeArcs-Visualizing-Fluctuations-in-Dynamic-Networks-e671c46ecfa444efaf28392636402266?pvs=21)
 Appeared in years: 2008,2016
 Type of Collection: Single Graph
 is it stored properly?: No
@@ -25,12 +25,12 @@ Origin paper plaintext: LGL: Creating a Map of Protein Function with an Algorith
 Page id: fb5bc3bb0c5d40468da36d279a114a78
 unavailable/skip: No
 Cleaned ALL data: No
-Related to Literature - Algorithm (Dataset tag relations) 1: Rapid Graph Layout Using Space Filling Curves (../Benchmark%20sets%200cc6b5e454304aec98f3b59b1a720476/Literature%20ad87f14e7097454fb2f784e2c8a2797a/Literature%20-%20Algorithm%2012e01bfc60a84007aa7d2d34293e123d/Rapid%20Graph%20Layout%20Using%20Space%20Filling%20Curves%2010601cd6078a4ea18b17c7d40eda0041.md), TimeArcs: Visualizing Fluctuations in Dynamic Networks (../Benchmark%20sets%200cc6b5e454304aec98f3b59b1a720476/Literature%20ad87f14e7097454fb2f784e2c8a2797a/Literature%20-%20Algorithm%2012e01bfc60a84007aa7d2d34293e123d/TimeArcs%20Visualizing%20Fluctuations%20in%20Dynamic%20Netwo%209d27b7e02aec4b80bc15447255eb4f4c.md)
 OSF link gexf: https://files.osf.io/v1/resources/j7ucv/providers/osfstorage/64d9487494a6be101c12e7a5
 OSF link gml: https://files.osf.io/v1/resources/j7ucv/providers/osfstorage/64d96cd4803e0c0ca9558d2b
 OSF link graphml: https://files.osf.io/v1/resources/j7ucv/providers/osfstorage/64d971704cf748115a055882
 first look: Yes
 sparkline data: {'min': 1, 'max': 227, 'step_size': 10, 'num_bins': 23, 'bins': [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150, 160, 170, 180, 190, 200, 210, 220], 'node_degree': [2768, 106, 38, 17, 12, 7, 3, 2, 3, 1, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1]}
+Related to Literature - Algorithm (Dataset tag relations) 1: Rapid Graph Layout Using Space Filling Curves (../Benchmark%20sets%200cc6b5e454304aec98f3b59b1a720476/Literature%20ad87f14e7097454fb2f784e2c8a2797a/Literature%20-%20Algorithm%2012e01bfc60a84007aa7d2d34293e123d/Rapid%20Graph%20Layout%20Using%20Space%20Filling%20Curves%2010601cd6078a4ea18b17c7d40eda0041.md), TimeArcs: Visualizing Fluctuations in Dynamic Networks (../Benchmark%20sets%200cc6b5e454304aec98f3b59b1a720476/Literature%20ad87f14e7097454fb2f784e2c8a2797a/Literature%20-%20Algorithm%2012e01bfc60a84007aa7d2d34293e123d/TimeArcs%20Visualizing%20Fluctuations%20in%20Dynamic%20Netwo%209d27b7e02aec4b80bc15447255eb4f4c.md)
 
 # Body
 

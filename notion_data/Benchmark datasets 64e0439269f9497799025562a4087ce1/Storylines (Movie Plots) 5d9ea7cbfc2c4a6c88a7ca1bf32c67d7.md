@@ -1,9 +1,10 @@
 # Storylines (Movie Plots)
 
-Origin Notes: This dataset was initially collected by Yuzuru Tanahashi, then stored on his homepage at UC Davis. The homepage unfortunately went down and became unreachable after a few years, making the dataset unavailable, and the visualizations / experiments contained in the papers that used the data very hard to replicate. It was, unfortunately, not stored in any form as supplemental material of the papers. 
+Origin Notes: This dataset was initially collected by Yuzuru Tanahashi, then stored on his homepage at UC Davis which was lost. 
 Through the help of personal connections at UC Davis, we were luckily able to recover the dataset.
 graph features handled: clusters, dynamic, layered graphs, many layers, temporal event sequence
 Graph features in papers: dynamic,dynamic (discrete),layered graphs,n-layers,clusters (pre-existing),dynamic,dynamic (discrete),layered graphs,n-layers,clusters (pre-existing),dynamic (discrete),layered graphs,n-layers,clusters (pre-existing),compound graphs,layered graphs,n-layers
+Origin Paper: Design Considerations for Optimizing Storyline Visualizations (https://www.notion.so/Design-Considerations-for-Optimizing-Storyline-Visualizations-8a8056ac18c748dd9cdbcd1766addd3f?pvs=21)
 Originally found at: UC Davis’ website, personal page 
 Size: 698-24056 nodes, 357-23088 edges
 Number of Graphs: 6
@@ -20,16 +21,17 @@ duplicate?: No
 link works?: No
 Added in paper: Yes
 OSF link json: https://files.osf.io/v1/resources/j7ucv/providers/osfstorage/64d90e9794a6be0ec012e7cb
+Origin paper plaintext: Design Considerations for Optimizing Storyline Visualizations
 Page id: 5d9ea7cbfc2c4a6c88a7ca1bf32c67d7
 unavailable/skip: Yes
 Cleaned ALL data: No
-Related to Literature - Algorithm (Dataset tag relations) 1: An Efficient Framework for Generating Storyline Visualizations from Streaming Data (../Benchmark%20sets%200cc6b5e454304aec98f3b59b1a720476/Literature%20ad87f14e7097454fb2f784e2c8a2797a/Literature%20-%20Algorithm%2012e01bfc60a84007aa7d2d34293e123d/An%20Efficient%20Framework%20for%20Generating%20Storyline%20Vi%200a3f35ebac3f468cb9c3adee03f62a06.md), StoryFlow: Tracking the Evolution of Stories (../Benchmark%20sets%200cc6b5e454304aec98f3b59b1a720476/Literature%20ad87f14e7097454fb2f784e2c8a2797a/Literature%20-%20Algorithm%2012e01bfc60a84007aa7d2d34293e123d/StoryFlow%20Tracking%20the%20Evolution%20of%20Stories%2085d6352e70a54f3e8840adcfea70363a.md), Design Considerations for Optimizing Storyline Visualizations (../Benchmark%20sets%200cc6b5e454304aec98f3b59b1a720476/Literature%20ad87f14e7097454fb2f784e2c8a2797a/Literature%20-%20Algorithm%2012e01bfc60a84007aa7d2d34293e123d/Design%20Considerations%20for%20Optimizing%20Storyline%20Vis%200a518ed402154bdcb136759d50e09b1b.md), Crossing Minimization in Storyline Visualization (../Benchmark%20sets%200cc6b5e454304aec98f3b59b1a720476/Literature%20ad87f14e7097454fb2f784e2c8a2797a/Literature%20-%20Algorithm%2012e01bfc60a84007aa7d2d34293e123d/Crossing%20Minimization%20in%20Storyline%20Visualization%20adc579d114c9412e8dad9e068e18d960.md), Computing Storyline Visualizations
-with Few Block Crossings (../Benchmark%20sets%200cc6b5e454304aec98f3b59b1a720476/Literature%20ad87f14e7097454fb2f784e2c8a2797a/Literature%20-%20Algorithm%2012e01bfc60a84007aa7d2d34293e123d/Computing%20Storyline%20Visualizations%20with%20Few%20Block%20%20852c12c9b8674d4482a281a689b27496.md), Sequence Braiding: Visual Overviews of Temporal Event Sequences and Attributes (../Benchmark%20sets%200cc6b5e454304aec98f3b59b1a720476/Literature%20ad87f14e7097454fb2f784e2c8a2797a/Literature%20-%20Algorithm%2012e01bfc60a84007aa7d2d34293e123d/Sequence%20Braiding%20Visual%20Overviews%20of%20Temporal%20Eve%204dfe62dc294b4ef1b453ecf09be2ea0f.md), Stratisfimal Layout: A modular optimization model for laying out layered node-link network visualizations (../Benchmark%20sets%200cc6b5e454304aec98f3b59b1a720476/Literature%20ad87f14e7097454fb2f784e2c8a2797a/Literature%20-%20Algorithm%2012e01bfc60a84007aa7d2d34293e123d/Stratisfimal%20Layout%20A%20modular%20optimization%20model%20f%20ad2a312108774bad92f36064f5fd59ed.md)
 OSF link gexf: https://files.osf.io/v1/resources/j7ucv/providers/osfstorage/64d948c6803e0c0bf6558be7
 OSF link gml: https://files.osf.io/v1/resources/j7ucv/providers/osfstorage/64d96e0b1101aa0ea36a0bd4
 OSF link graphml: https://files.osf.io/v1/resources/j7ucv/providers/osfstorage/64d971960c2b4d0f64386417
 first look: No
 sparkline data: {'min': 698, 'max': 24056, 'step_size': 5000, 'num_bins': 5, 'bins': [0, 5000, 10000, 15000, 20000], 'num_nodes': [4, 0, 0, 0, 1]}
+Related to Literature - Algorithm (Dataset tag relations) 1: An Efficient Framework for Generating Storyline Visualizations from Streaming Data (../Benchmark%20sets%200cc6b5e454304aec98f3b59b1a720476/Literature%20ad87f14e7097454fb2f784e2c8a2797a/Literature%20-%20Algorithm%2012e01bfc60a84007aa7d2d34293e123d/An%20Efficient%20Framework%20for%20Generating%20Storyline%20Vi%200a3f35ebac3f468cb9c3adee03f62a06.md), StoryFlow: Tracking the Evolution of Stories (../Benchmark%20sets%200cc6b5e454304aec98f3b59b1a720476/Literature%20ad87f14e7097454fb2f784e2c8a2797a/Literature%20-%20Algorithm%2012e01bfc60a84007aa7d2d34293e123d/StoryFlow%20Tracking%20the%20Evolution%20of%20Stories%2085d6352e70a54f3e8840adcfea70363a.md), Design Considerations for Optimizing Storyline Visualizations (../Benchmark%20sets%200cc6b5e454304aec98f3b59b1a720476/Literature%20ad87f14e7097454fb2f784e2c8a2797a/Literature%20-%20Algorithm%2012e01bfc60a84007aa7d2d34293e123d/Design%20Considerations%20for%20Optimizing%20Storyline%20Vis%200a518ed402154bdcb136759d50e09b1b.md), Crossing Minimization in Storyline Visualization (../Benchmark%20sets%200cc6b5e454304aec98f3b59b1a720476/Literature%20ad87f14e7097454fb2f784e2c8a2797a/Literature%20-%20Algorithm%2012e01bfc60a84007aa7d2d34293e123d/Crossing%20Minimization%20in%20Storyline%20Visualization%20adc579d114c9412e8dad9e068e18d960.md), Computing Storyline Visualizations
+with Few Block Crossings (../Benchmark%20sets%200cc6b5e454304aec98f3b59b1a720476/Literature%20ad87f14e7097454fb2f784e2c8a2797a/Literature%20-%20Algorithm%2012e01bfc60a84007aa7d2d34293e123d/Computing%20Storyline%20Visualizations%20with%20Few%20Block%20%20852c12c9b8674d4482a281a689b27496.md), Sequence Braiding: Visual Overviews of Temporal Event Sequences and Attributes (../Benchmark%20sets%200cc6b5e454304aec98f3b59b1a720476/Literature%20ad87f14e7097454fb2f784e2c8a2797a/Literature%20-%20Algorithm%2012e01bfc60a84007aa7d2d34293e123d/Sequence%20Braiding%20Visual%20Overviews%20of%20Temporal%20Eve%204dfe62dc294b4ef1b453ecf09be2ea0f.md), Stratisfimal Layout: A modular optimization model for laying out layered node-link network visualizations (../Benchmark%20sets%200cc6b5e454304aec98f3b59b1a720476/Literature%20ad87f14e7097454fb2f784e2c8a2797a/Literature%20-%20Algorithm%2012e01bfc60a84007aa7d2d34293e123d/Stratisfimal%20Layout%20A%20modular%20optimization%20model%20f%20ad2a312108774bad92f36064f5fd59ed.md)
 
 # Body
 
@@ -56,14 +58,14 @@ Initiation time corresponds to the time when the interaction session begins. Dur
 
 ### Example Figures
 
-From [An Efficient Framework for Generating Storyline Visualizations from Streaming Data](https://doi.org/10.1109/TVCG.2015.2392771):
+From “[An Efficient Framework for Generating Storyline Visualizations from Streaming Data](https://doi.org/10.1109/TVCG.2015.2392771)”:
 
 ![Untitled](Storylines%20(Movie%20Plots)%205d9ea7cbfc2c4a6c88a7ca1bf32c67d7/Untitled.png)
 
-From [StoryFlow: Tracking the Evolution of Stories](https://doi.org/10.1109/TVCG.2013.196):
+From “[StoryFlow: Tracking the Evolution of Stories](https://doi.org/10.1109/TVCG.2013.196)”:
 
 ![Untitled](Storylines%20(Movie%20Plots)%205d9ea7cbfc2c4a6c88a7ca1bf32c67d7/Untitled%201.png)
 
-From [Crossing Minimization in Storyline Visualizations](https://doi.org/10.1007/978-3-319-50106-2_29):
+From “[Crossing Minimization in Storyline Visualizations](https://doi.org/10.1007/978-3-319-50106-2_29)”:
 
 ![Untitled](Storylines%20(Movie%20Plots)%205d9ea7cbfc2c4a6c88a7ca1bf32c67d7/Untitled%202.png)

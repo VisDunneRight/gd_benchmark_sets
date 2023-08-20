@@ -24,7 +24,7 @@ Technique: force-directed
 Graph feature: large
 Dataset tag clean: SuiteSparse Matrix Collection
 dataset size: 30
-Dataset tag relations: Matrix Market (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Matrix%20Market%2080bd4320417342458aefa031cf65db1f.md)
+Dataset tag relations: Walshaw (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Walshaw%20e40b37a1147942d89ff1d8dfad285256.md), Matrix Market (../../../Benchmark%20datasets%2064e0439269f9497799025562a4087ce1/Matrix%20Market%2080bd4320417342458aefa031cf65db1f.md)
 Type of edit to the dataset: cherry-picked
 Size of graphs (Clean up): 379 - 17903
 Easy to find info about graphs?: In Table

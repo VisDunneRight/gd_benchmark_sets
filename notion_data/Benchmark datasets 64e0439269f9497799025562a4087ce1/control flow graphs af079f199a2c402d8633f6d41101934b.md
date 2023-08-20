@@ -20,8 +20,8 @@ Added in paper: No
 Page id: af079f199a2c402d8633f6d41101934b
 unavailable/skip: No
 Cleaned ALL data: No
-Related to Literature - Algorithm (Dataset tag relations) 1: Node Overlap Removal by Growing a Tree (../Benchmark%20sets%200cc6b5e454304aec98f3b59b1a720476/Literature%20ad87f14e7097454fb2f784e2c8a2797a/Literature%20-%20Algorithm%2012e01bfc60a84007aa7d2d34293e123d/Node%20Overlap%20Removal%20by%20Growing%20a%20Tree%20c69ee6ac8232493b9f8d26ed56235a6b.md)
 first look: No
+Related to Literature - Algorithm (Dataset tag relations) 1: Node Overlap Removal by Growing a Tree (../Benchmark%20sets%200cc6b5e454304aec98f3b59b1a720476/Literature%20ad87f14e7097454fb2f784e2c8a2797a/Literature%20-%20Algorithm%2012e01bfc60a84007aa7d2d34293e123d/Node%20Overlap%20Removal%20by%20Growing%20a%20Tree%20c69ee6ac8232493b9f8d26ed56235a6b.md)
 
 # Body
 
@@ -32,6 +32,7 @@ From “[Node Overlap Removal by Growing a Tree](https://dx.doi.org/10.7155/jgaa
 > Our data includes the same set of graphs that was used by the authors of
 PRISM to compare it with other algorithms [6]. The set is available in the
 Graphviz open source package.
+> 
 
 ### Example Figures
 

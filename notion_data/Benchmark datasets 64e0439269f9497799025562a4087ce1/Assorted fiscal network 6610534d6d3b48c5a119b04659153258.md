@@ -3,8 +3,8 @@
 Note: The dataset is implied to be internal, with nodes corresponding to individual tax payers and the authors mentioning anonymizing data themselves for security reasons. 
 Origin Notes: The dataset is cited as being from an evaluation of TaxNet from Didimo et al. The authors claim how this system was adopted by the Italian Revenue Agency on a pilot program in Tuscany, where all the evaluations happened. 
 Graph features in papers: categorical nodes,high degree,labeled nodes
-Originally found at: cannot find
 Origin Paper: A visual analytics system to support tax evasion discovery (https://www.notion.so/A-visual-analytics-system-to-support-tax-evasion-discovery-79c482a3ec0f4f329e5af94f2c4def4f?pvs=21)
+Originally found at: cannot find
 Appeared in years: 2019
 Type of Collection: Lost/Unavailable
 is it stored properly?: No
@@ -19,8 +19,8 @@ Origin paper plaintext: A visual analytics system to support tax evasion discove
 Page id: 6610534d6d3b48c5a119b04659153258
 unavailable/skip: Yes
 Cleaned ALL data: No
-Related to Literature - Algorithm (Dataset tag relations) 1: ChordLink: A New Hybrid Visualization Model0 (../Benchmark%20sets%200cc6b5e454304aec98f3b59b1a720476/Literature%20ad87f14e7097454fb2f784e2c8a2797a/Literature%20-%20Algorithm%2012e01bfc60a84007aa7d2d34293e123d/ChordLink%20A%20New%20Hybrid%20Visualization%20Model0%20dd9d1e548bfa46949279e4ecbfeb18b6.md)
 first look: No
+Related to Literature - Algorithm (Dataset tag relations) 1: ChordLink: A New Hybrid Visualization Model0 (../Benchmark%20sets%200cc6b5e454304aec98f3b59b1a720476/Literature%20ad87f14e7097454fb2f784e2c8a2797a/Literature%20-%20Algorithm%2012e01bfc60a84007aa7d2d34293e123d/ChordLink%20A%20New%20Hybrid%20Visualization%20Model0%20dd9d1e548bfa46949279e4ecbfeb18b6.md)
 
 # Body
 

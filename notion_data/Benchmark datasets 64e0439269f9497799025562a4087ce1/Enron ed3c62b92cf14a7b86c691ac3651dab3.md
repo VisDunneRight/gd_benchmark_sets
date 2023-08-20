@@ -4,10 +4,10 @@ Note: Very high variance in node degrees. Data can be considered threaded and di
 Origin Notes: Data made public by the Federal Energy Regulatory Commission when investigating Enron. It has had a few changes over time documented in the link. The data is currently hosted by William W. Cohen from CMU on a webiste, and it is also hosted on SNAP. SNAP asks to cite the paper linked in Origin paper.
 graph features handled: dynamic (discrete), generic, large
 Graph features in papers: dynamic,dynamic (discrete),layered graphs,n-layers
+Origin Paper: Introducing the Enron Corpus (https://www.notion.so/Introducing-the-Enron-Corpus-52663d33d36b4940b5966f72f6c73a70?pvs=21)
 Originally found at: https://www.cs.cmu.edu/~enron/
 Size: The data consists of 150 Enron executives, who sent 500,000 messages between themselves.
 Number of Graphs: 1
-Origin Paper: Introducing the Enron Corpus (https://www.notion.so/Introducing-the-Enron-Corpus-52663d33d36b4940b5966f72f6c73a70?pvs=21)
 Child collections: SNAP (Stanford Network Analysis Platform) (SNAP%20(Stanford%20Network%20Analysis%20Platform)%201cd77eaee57147ce8263b2f9eaa2589c.md)
 Appeared in years: 2015,2013
 Type of Collection: Subset of other collection
@@ -23,8 +23,8 @@ Origin paper plaintext: Introducing the Enron Corpus
 Page id: ed3c62b92cf14a7b86c691ac3651dab3
 unavailable/skip: Yes
 Cleaned ALL data: No
-Related to Literature - Algorithm (Dataset tag relations) 1: An Efficient Framework for Generating Storyline Visualizations from Streaming Data (../Benchmark%20sets%200cc6b5e454304aec98f3b59b1a720476/Literature%20ad87f14e7097454fb2f784e2c8a2797a/Literature%20-%20Algorithm%2012e01bfc60a84007aa7d2d34293e123d/An%20Efficient%20Framework%20for%20Generating%20Storyline%20Vi%200a3f35ebac3f468cb9c3adee03f62a06.md), Reordering massive sequence views: Enabling temporal and structural analysis of dynamic networks (../Benchmark%20sets%200cc6b5e454304aec98f3b59b1a720476/Literature%20ad87f14e7097454fb2f784e2c8a2797a/Literature%20-%20Algorithm%2012e01bfc60a84007aa7d2d34293e123d/Reordering%20massive%20sequence%20views%20Enabling%20tempora%20f62118d5310d44b099b3ccc71fd5a8aa.md)
 first look: No
+Related to Literature - Algorithm (Dataset tag relations) 1: An Efficient Framework for Generating Storyline Visualizations from Streaming Data (../Benchmark%20sets%200cc6b5e454304aec98f3b59b1a720476/Literature%20ad87f14e7097454fb2f784e2c8a2797a/Literature%20-%20Algorithm%2012e01bfc60a84007aa7d2d34293e123d/An%20Efficient%20Framework%20for%20Generating%20Storyline%20Vi%200a3f35ebac3f468cb9c3adee03f62a06.md), Reordering massive sequence views: Enabling temporal and structural analysis of dynamic networks (../Benchmark%20sets%200cc6b5e454304aec98f3b59b1a720476/Literature%20ad87f14e7097454fb2f784e2c8a2797a/Literature%20-%20Algorithm%2012e01bfc60a84007aa7d2d34293e123d/Reordering%20massive%20sequence%20views%20Enabling%20tempora%20f62118d5310d44b099b3ccc71fd5a8aa.md)
 
 # Body
 

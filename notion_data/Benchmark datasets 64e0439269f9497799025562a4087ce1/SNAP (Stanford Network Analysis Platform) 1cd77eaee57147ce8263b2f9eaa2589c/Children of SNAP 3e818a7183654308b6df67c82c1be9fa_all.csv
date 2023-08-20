@@ -1,15 +1,13 @@
 ﻿Name,Features,Number of Graphs,Description
-Graph classification datasets,"Unattributed, undirected",352536,disjoint graphs from different classes
-Autonomous systems,"Directed, undirected",874,graphs of the internet
 "Wikipedia networks, articles, and metadata","Bipartite, Directed, Edits, Navigation paths, Signed, Wiki markup, undirected",8,"talk, editing, voting, and article data from Wikipedia"
 Online communities,"Images, Reddit Embeddings, Reddit requests, Reddit submissions, Subreddit hyperlinks",5,data from online communities such as Reddit and Flickr
-Web graphs,Directed,4,nodes represent webpages and edges are hyperlinks
 Face-to-face communication networks,"Directed, Temporal, Weighted",1,networks of face-to-face (non-online) interactions
+Web graphs,Directed,4,nodes represent webpages and edges are hyperlinks
 Temporal networks,"Attributed, Bipartite, Directed, Signed, Temporal, Weighted",12,networks where edges have timestamps
+Graph classification datasets,"Unattributed, undirected",352536,disjoint graphs from different classes
 Internet peer-to-peer networks,Directed,9,nodes represent computers and edges communication
-Citation networks,"Directed, Labeled, Temporal",3,"nodes represent papers, edges represent citation"
 Online reviews,"Amazon reviews (all categories), Beer reviews, Food reviews, Movie reviews, Wine reviews",6,data from online review systems such as BeerAdvocate and Amazon
-User actions,"Attributed, Bipartite, Directed, Temporal",1,actions of users on social platforms.
+Citation networks,"Directed, Labeled, Temporal",3,"nodes represent papers, edges represent citation"
 Communication networks,"Directed, Temporal, Weighted, undirected",4,email communication networks with edges representing communication
 Twitter and Memetracker,"Memes, Time Series, Tweets",4,"memetracker phrases, links and 467 million Tweets"
 Location-based online social networks,"Geo-Location, Unirected, undirected",2,social networks with geographic check-ins
@@ -17,6 +15,8 @@ Social networks,"Attributed, Bipartite, Directed, Signed, Temporal, Weighted, un
 Road networks,undirected,3,nodes represent intersections and edges roads connecting the intersections
 Signed networks,"Attributed, Bipartite, Directed, Signed, Temporal, Weighted",9,"networks with positive and negative edges (friend/foe, trust/distrust)"
 Collaboration networks,undirected,5,"nodes represent scientists, edges represent collaborations (co-authoring a paper)"
-Computer Communication Networks,"Attributed, Directed",22,communications among computers running distributed applications
 Amazon Product Co-purchasing networks,"Directed, Metadata",5,nodes represent products and edges link commonly co-purchased products
+Computer Communication Networks,"Attributed, Directed",22,communications among computers running distributed applications
+User actions,"Attributed, Bipartite, Directed, Temporal",1,actions of users on social platforms.
 Networks with ground-truth communities,"Communities, Directed, undirected",8,: ground-truth network communities in social and information networks
+Autonomous systems,"Directed, undirected",874,graphs of the internet

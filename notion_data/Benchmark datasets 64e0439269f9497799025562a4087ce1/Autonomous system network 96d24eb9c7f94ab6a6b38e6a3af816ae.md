@@ -4,11 +4,11 @@ Note: The 733-AS network is a subset of SNAP. We provide the link containing the
 Origin Notes: The data was originally part of the University of Oregon’s RouteViews project. It was then used by Jure Leskovec et al. and eventually stored in SNAP.
 graph features handled: dynamic, generic
 Graph features in papers: generic
+Origin Paper: Preserving Minority Structures in Graph Sampling (https://www.notion.so/Preserving-Minority-Structures-in-Graph-Sampling-d0f9e612663d434e85599c402c9b700c?pvs=21), Graphs over Time: Densification Laws, Shrinking Diameters and Possible Explanations (https://www.notion.so/Graphs-over-Time-Densification-Laws-Shrinking-Diameters-and-Possible-Explanations-9b33c460755241c591e462c7326db101?pvs=21)
 Originally found at: https://www.routeviews.org/routeviews/
 https://snap.stanford.edu/data/as-733.html
 https://github.com/csuvis/MCGS/blob/master/dataset/AS-733_edge.csv
 Number of Graphs: 733
-Origin Paper: Preserving Minority Structures in Graph Sampling (https://www.notion.so/Preserving-Minority-Structures-in-Graph-Sampling-d0f9e612663d434e85599c402c9b700c?pvs=21), Graphs over Time: Densification Laws, Shrinking Diameters and Possible Explanations (https://www.notion.so/Graphs-over-Time-Densification-Laws-Shrinking-Diameters-and-Possible-Explanations-9b33c460755241c591e462c7326db101?pvs=21)
 Appeared in years: 2021
 Type of Collection: Subset of other collection
 is it stored properly?: No
@@ -23,8 +23,8 @@ Origin paper plaintext: Preserving Minority Structures in Graph Sampling, Graphs
 Page id: 96d24eb9c7f94ab6a6b38e6a3af816ae
 unavailable/skip: Yes
 Cleaned ALL data: No
-Related to Literature - Algorithm (Dataset tag relations) 1: Preserving Minority Structures in Graph Sampling (../Benchmark%20sets%200cc6b5e454304aec98f3b59b1a720476/Literature%20ad87f14e7097454fb2f784e2c8a2797a/Literature%20-%20Algorithm%2012e01bfc60a84007aa7d2d34293e123d/Preserving%20Minority%20Structures%20in%20Graph%20Sampling%202d52160d6ac04019aaf808496f7d4240.md)
 first look: Yes
+Related to Literature - Algorithm (Dataset tag relations) 1: Preserving Minority Structures in Graph Sampling (../Benchmark%20sets%200cc6b5e454304aec98f3b59b1a720476/Literature%20ad87f14e7097454fb2f784e2c8a2797a/Literature%20-%20Algorithm%2012e01bfc60a84007aa7d2d34293e123d/Preserving%20Minority%20Structures%20in%20Graph%20Sampling%202d52160d6ac04019aaf808496f7d4240.md)
 
 # Body
 

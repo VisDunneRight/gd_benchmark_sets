@@ -3,9 +3,9 @@
 Origin Notes: The original Internet Mapping Project started at Bell lab in 1998. It was then transferred to the Lumeta Corporation, however, links to this corporation are broken.  A gallery of images still remains publicly available, hosted by Bill Cheswick on this personal website. 
 graph features handled: dynamic, large, trees
 Graph features in papers: generic,high degree,large
+Origin Paper: Mapping the Internet (https://www.notion.so/Mapping-the-Internet-33d6bcbd3fee4c879758f276ce38c107?pvs=21)
 Originally found at: http://www.cheswick.com/ches/map/
 http://www.lumeta.com/company/mapping.html (broken)
-Origin Paper: Mapping the Internet (https://www.notion.so/Mapping-the-Internet-33d6bcbd3fee4c879758f276ce38c107?pvs=21)
 Appeared in years: 2005
 Type of Collection: Lost/Unavailable
 is it stored properly?: No
@@ -20,8 +20,8 @@ Origin paper plaintext: Mapping the Internet
 Page id: fe59286f353d4841a2a328fdd6160b2f
 unavailable/skip: Yes
 Cleaned ALL data: No
-Related to Literature - Algorithm (Dataset tag relations) 1: Topological fisheye views for visualizing large graphs (../Benchmark%20sets%200cc6b5e454304aec98f3b59b1a720476/Literature%20ad87f14e7097454fb2f784e2c8a2797a/Literature%20-%20Algorithm%2012e01bfc60a84007aa7d2d34293e123d/Topological%20fisheye%20views%20for%20visualizing%20large%20gr%2094f9c1efaeed4304bd4c6686d2962159.md)
 first look: No
+Related to Literature - Algorithm (Dataset tag relations) 1: Topological fisheye views for visualizing large graphs (../Benchmark%20sets%200cc6b5e454304aec98f3b59b1a720476/Literature%20ad87f14e7097454fb2f784e2c8a2797a/Literature%20-%20Algorithm%2012e01bfc60a84007aa7d2d34293e123d/Topological%20fisheye%20views%20for%20visualizing%20large%20gr%2094f9c1efaeed4304bd4c6686d2962159.md)
 
 # Body
 

@@ -4,10 +4,10 @@ Note: Refer to the https://mathgenealogy.org/contact.php for the data, which con
 Origin Notes: Database from a project started by Harry Coonce and now supported by the North Dakota State University. 
 graph features handled: dynamic, nonplanar, temporal, tree-like
 Graph features in papers: dynamic,dynamic (discrete)
+Origin Paper: The Mathematics Genealogy Project (https://www.notion.so/The-Mathematics-Genealogy-Project-c75a9e7eb263423c9d8ad1be3e898095?pvs=21)
 Originally found at: https://genealogy.math.ndsu.nodak.edu/
 Size: 291014 records as of May 2023. In 2016 the graph consisted of 200037 nodes with 3.8% percent of them being isolated, and 1962 components of size two. The largest component contained 180094 nodes.
 Number of Graphs: 0
-Origin Paper: The Mathematics Genealogy Project (https://www.notion.so/The-Mathematics-Genealogy-Project-c75a9e7eb263423c9d8ad1be3e898095?pvs=21)
 Appeared in years: 2023
 Type of Collection: Lost/Unavailable
 is it stored properly?: No
@@ -21,8 +21,8 @@ Origin paper plaintext: The Mathematics Genealogy Project
 Page id: 081ba4645aac48c19719b16033c637f3
 unavailable/skip: No
 Cleaned ALL data: No
-Related to Literature - Algorithm (Dataset tag relations) 1: Visualizing Evolving Trees (../Benchmark%20sets%200cc6b5e454304aec98f3b59b1a720476/Literature%20ad87f14e7097454fb2f784e2c8a2797a/Literature%20-%20Algorithm%2012e01bfc60a84007aa7d2d34293e123d/Visualizing%20Evolving%20Trees%203596f84acbbe46799f4f093af2f28aae.md)
 first look: Yes
+Related to Literature - Algorithm (Dataset tag relations) 1: Visualizing Evolving Trees (../Benchmark%20sets%200cc6b5e454304aec98f3b59b1a720476/Literature%20ad87f14e7097454fb2f784e2c8a2797a/Literature%20-%20Algorithm%2012e01bfc60a84007aa7d2d34293e123d/Visualizing%20Evolving%20Trees%203596f84acbbe46799f4f093af2f28aae.md)
 
 # Body
 

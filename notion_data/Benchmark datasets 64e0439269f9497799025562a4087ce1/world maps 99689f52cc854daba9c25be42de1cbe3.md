@@ -4,11 +4,11 @@ Note: Datasets contain various attributes for a few locations and their geograph
 Origin Notes: World Bank country information transformed  into a weight-vectors dataset. Some of the incomplete data was filled from disparate sources mentioned in the paper’s supplemental materials: https://doi.org/10.48550/arXiv.1908.07291.
 graph features handled: categorical nodes, dynamic, node weighted, spatial
 Graph features in papers: dynamic,spatial
+Origin Paper: Computing Stable Demers Cartograms (https://www.notion.so/Computing-Stable-Demers-Cartograms-73ed6431833d49bba5807b76ca3b0fd4?pvs=21)
 Originally found at: https://data.worldbank.org/indicator
 https://github.com/loizuf/StableDemersLP/tree/main/code/StableDemers_TVCG/data
 Size: 48-514 nodes, 205-2428 edges
 Number of Graphs: 14
-Origin Paper: Computing Stable Demers Cartograms (https://www.notion.so/Computing-Stable-Demers-Cartograms-73ed6431833d49bba5807b76ca3b0fd4?pvs=21)
 Appeared in years: 2019
 Type of Collection: Uniform Benchmark
 is it stored properly?: No
@@ -24,12 +24,12 @@ Origin paper plaintext: Computing Stable Demers Cartograms
 Page id: 99689f52cc854daba9c25be42de1cbe3
 unavailable/skip: No
 Cleaned ALL data: No
-Related to Literature - Algorithm (Dataset tag relations) 1: Computing Stable Demers Cartograms (../Benchmark%20sets%200cc6b5e454304aec98f3b59b1a720476/Literature%20ad87f14e7097454fb2f784e2c8a2797a/Literature%20-%20Algorithm%2012e01bfc60a84007aa7d2d34293e123d/Computing%20Stable%20Demers%20Cartograms%20fb418899e13f45f4b6b3c6296e07a599.md)
 OSF link gexf: https://files.osf.io/v1/resources/j7ucv/providers/osfstorage/64d948f10c2b4d0e8d386217
 OSF link gml: https://files.osf.io/v1/resources/j7ucv/providers/osfstorage/64d96dde0c2b4d0f653862e3
 OSF link graphml: https://files.osf.io/v1/resources/j7ucv/providers/osfstorage/64d971f194a6be112a12eaaa
 first look: No
 sparkline data: {'min': 48, 'max': 514, 'step_size': 100, 'num_bins': 6, 'bins': [0, 100, 200, 300, 400, 500], 'num_nodes': [4, 4, 0, 0, 0, 6]}
+Related to Literature - Algorithm (Dataset tag relations) 1: Computing Stable Demers Cartograms (../Benchmark%20sets%200cc6b5e454304aec98f3b59b1a720476/Literature%20ad87f14e7097454fb2f784e2c8a2797a/Literature%20-%20Algorithm%2012e01bfc60a84007aa7d2d34293e123d/Computing%20Stable%20Demers%20Cartograms%20fb418899e13f45f4b6b3c6296e07a599.md)
 
 # Body
 

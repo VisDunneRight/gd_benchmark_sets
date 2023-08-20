@@ -4,10 +4,10 @@ Note: Each element of the data set is two binary co-phylogentic trees. “Caryop
 Origin Notes: Collected by the authors of “https://almob.biomedcentral.com/articles/10.1186/s13015-014-0031-3”.
 graph features handled: trees
 Graph features in papers: binary trees,trees
+Origin Paper: EUCALYPT: efficient tree reconciliation enumerator (https://www.notion.so/EUCALYPT-efficient-tree-reconciliation-enumerator-fb8986c3955845d6b05b5df381305502?pvs=21)
 Originally found at: https://gitlab.inria.fr/erable/eucalypt/-/blob/master/html/PaperDatasets.zip
 Size: 13-773 nodes, 12-772 edges
 Number of Graphs: 30
-Origin Paper: EUCALYPT: efficient tree reconciliation enumerator (https://www.notion.so/EUCALYPT-efficient-tree-reconciliation-enumerator-fb8986c3955845d6b05b5df381305502?pvs=21)
 Appeared in years: 2017
 Type of Collection: Uniform Benchmark
 is it stored properly?: No
@@ -23,12 +23,12 @@ Origin paper plaintext: EUCALYPT: efficient tree reconciliation enumerator
 Page id: 2440f3927d254148abd93168c1399b43
 unavailable/skip: No
 Cleaned ALL data: No
-Related to Literature - Algorithm (Dataset tag relations) 1: Visualizing Co-phylogenetic Reconciliations (../Benchmark%20sets%200cc6b5e454304aec98f3b59b1a720476/Literature%20ad87f14e7097454fb2f784e2c8a2797a/Literature%20-%20Algorithm%2012e01bfc60a84007aa7d2d34293e123d/Visualizing%20Co-phylogenetic%20Reconciliations%20fd4b98c0071f4e96924bacd938e706b5.md)
 OSF link gexf: https://files.osf.io/v1/resources/j7ucv/providers/osfstorage/64d948a24cf748105905574b
 OSF link gml: https://osf.io/download/m9wf2/
 OSF link graphml: https://files.osf.io/v1/resources/j7ucv/providers/osfstorage/64d970c00c2b4d0f5d3862a4
 first look: No
 sparkline data: {'min': 13, 'max': 773, 'step_size': 100, 'num_bins': 8, 'bins': [0, 100, 200, 300, 400, 500, 600, 700], 'num_nodes': [23, 5, 0, 0, 0, 0, 0, 2]}
+Related to Literature - Algorithm (Dataset tag relations) 1: Visualizing Co-phylogenetic Reconciliations (../Benchmark%20sets%200cc6b5e454304aec98f3b59b1a720476/Literature%20ad87f14e7097454fb2f784e2c8a2797a/Literature%20-%20Algorithm%2012e01bfc60a84007aa7d2d34293e123d/Visualizing%20Co-phylogenetic%20Reconciliations%20fd4b98c0071f4e96924bacd938e706b5.md)
 
 # Body
 
