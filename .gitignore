@@ -9,3 +9,5 @@ __pycache__/
 # data/
 survey/notion_key
 .DS_Store
+.vscode
+.github
