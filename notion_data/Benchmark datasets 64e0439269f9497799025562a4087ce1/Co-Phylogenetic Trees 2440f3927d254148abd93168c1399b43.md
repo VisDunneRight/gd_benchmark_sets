@@ -2,7 +2,7 @@
 
 Note: Each element of the data set is two binary co-phylogentic trees. “Caryophyllaceae & Microbotryum” and “Stinkbugs & Bacteria” are missing but our dataset includes all other files from “https://doi.org/10.1007/978-3-319-73915-1_27”. An additional dataset from “https://almob.biomedcentral.com/articles/10.1186/s13015-014-0031-3”, called “Wolbachia”, is included.
 Origin Notes: Collected by the authors of “https://almob.biomedcentral.com/articles/10.1186/s13015-014-0031-3”.
-graph features handled: trees
+graph features handled: Trees
 Graph features in papers: binary trees,trees
 Origin Paper: EUCALYPT: efficient tree reconciliation enumerator (https://www.notion.so/EUCALYPT-efficient-tree-reconciliation-enumerator-fb8986c3955845d6b05b5df381305502?pvs=21)
 Originally found at: https://gitlab.inria.fr/erable/eucalypt/-/blob/master/html/PaperDatasets.zip

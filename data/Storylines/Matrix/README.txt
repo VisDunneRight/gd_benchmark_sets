@@ -1,1 +1,0 @@
-This dataset is taken from the storyline-web project. The layout is based on the streaming layout renderer using data from the "thematrix.txt" file.

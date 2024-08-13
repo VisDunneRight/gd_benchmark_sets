@@ -6,7 +6,7 @@ Origin Notes: Time Arcs uses AMERICAblog, Huffington Post, and other sources (co
 Fast filtering uses the Twitter gardenhouse streaming API to collect data on the 2013 Super Bowl and the announcement of Osama Bin Laden’s death, both can be found https://github.com/WICI/fastviz/tree/master/data (shared hashtags).
 
 Event-based Dynamic Graph Drawing without the Agonizing Pain uses the rugby tweet dataset (pro12_mentions) consisting of mentions among the members of the GuinessPro12 competition, and the MOOC dataset from the http://moocdata.cn/challenges/kdd-cup-2015 (A data challenge).
-graph features handled: dynamic, hypergraph, layered graphs
+graph features handled: Dynamic, Hypergraphs, N-layers
 Graph features in papers: dynamic,generic,dynamic,dynamic (continuous),large,dynamic,dynamic (discrete),layered graphs,n-layers,dynamic (discrete)
 Origin Paper: Understanding Dropouts in MOOCs (https://www.notion.so/Understanding-Dropouts-in-MOOCs-a97966fe379c49c9a597ac30e7b838a1?pvs=21), TimeArcs: Visualizing Fluctuations in Dynamic Networks (https://www.notion.so/TimeArcs-Visualizing-Fluctuations-in-Dynamic-Networks-e671c46ecfa444efaf28392636402266?pvs=21), Fast filtering and animation of large dynamic networks (https://www.notion.so/Fast-filtering-and-animation-of-large-dynamic-networks-2f5aa0b43a394030865509b15a945847?pvs=21)
 Originally found at: http://moocdata.cn/data/user-activity
@@ -64,7 +64,7 @@ From [TimeArcs: Visualizing Fluctuations in Dynamic Networks](https://doi.org/10
 
 ![Untitled](Blogposts,%20Tweets,%20and%20Forums%20e315a82238dc40c5a3559c81ef7c57c8/Untitled.png)
 
-****************Fig. 7.**************** Overview of political events in the past 10 years using TimeArcs. The top 100 terms were selected based on their sudden attention and degree centrality. Terms are color-coded by category: green for person, red for location, blue for organization, yellow for miscellaneous category.
+**Fig. 7.** Overview of political events in the past 10 years using TimeArcs. The top 100 terms were selected based on their sudden attention and degree centrality. Terms are color-coded by category: green for person, red for location, blue for organization, yellow for miscellaneous category.
 
 From [Event-based Dynamic Graph Drawing without the Agonizing Pain](https://onlinelibrary.wiley.com/doi/full/10.1111/cgf.14615):
 
@@ -94,6 +94,6 @@ From  [Fast filtering and animation of large dynamic networks](https://epjdatasc
 
 == STOP RENDERING ==
 
-****************************************************************************************************************************************************************************************Online dynamic -****************************************************************************************************************************************************************************************  cannot find code online, paper shows two links of where they collected the data. Both broken [http://www.dailytech.com](http://www.dailytech.com/), [http://www.rimzu.com](http://www.rimzu.com/) - paper says to look in [https://www.computer.org/csdl/journal/tg/2008/04/ttg2008040727/13rRUxBJhvo](https://www.computer.org/csdl/journal/tg/2008/04/ttg2008040727/13rRUxBJhvo) but it is asking me to pay
+**Online dynamic -**  cannot find code online, paper shows two links of where they collected the data. Both broken [http://www.dailytech.com](http://www.dailytech.com/), [http://www.rimzu.com](http://www.rimzu.com/) - paper says to look in [https://www.computer.org/csdl/journal/tg/2008/04/ttg2008040727/13rRUxBJhvo](https://www.computer.org/csdl/journal/tg/2008/04/ttg2008040727/13rRUxBJhvo) but it is asking me to pay
 
-**********************************************************Turing Test -********************************************************** Uses the Zachary Karate dataset (they link to the suiteSparse Matrix collection, but I also know it is in sparse, and one of the Pajek subcollections). Also uses a timeslice of the same dataset used by Online dynamic (we could reconstruct this from their images since it is also only 85 nodes, but we really loose all the info we want)
+**Turing Test -** Uses the Zachary Karate dataset (they link to the suiteSparse Matrix collection, but I also know it is in sparse, and one of the Pajek subcollections). Also uses a timeslice of the same dataset used by Online dynamic (we could reconstruct this from their images since it is also only 85 nodes, but we really loose all the info we want)

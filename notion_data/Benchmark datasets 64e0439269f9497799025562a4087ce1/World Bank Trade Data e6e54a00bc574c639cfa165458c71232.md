@@ -1,7 +1,7 @@
 # World Bank Trade Data
 
 Origin Notes: Bilateral trade value in 1999 (total imports+exports), from https://wits.worldbank.org/module/ALL/sub-module/ALL/reporter/ALL/year/ALL/tradeflow/ALL/pagesize/50/page/1.
-graph features handled: categorical nodes, dense
+graph features handled: Categorical nodes, Dense
 Graph features in papers: clusters (generated),generic,generic,large
 Origin Paper: The WTO promotes trade, strongly but unevenly (https://www.notion.so/The-WTO-promotes-trade-strongly-but-unevenly-96eaeaa0225747b98768579410b99ee5?pvs=21)
 Originally found at: https://wits.worldbank.org/module/ALL/sub-module/ALL/reporter/ALL/year/ALL/tradeflow/ALL/pagesize/50/page/1

@@ -2,7 +2,7 @@
 
 Note: This dataset is a proper subset of SNAP%20(Stanford%20Network%20Analysis%20Platform)%201cd77eaee57147ce8263b2f9eaa2589c.md and can be found there.
 Origin Notes: Wallinger et al. randomly filter data from the original dataset collected by Leskovec et al. in The dynamics of viral marketing. Leskovec et al. collected 15 million recommendations made from June 2001, to May 2003 by looking at the “Customers who Bought This Item Also Bought” feature in the Amazon online shopping platform.
-graph features handled: directed edges, large
+graph features handled: Directed edges, Large
 Graph features in papers: bundled edges (generated),spatial
 Origin Paper: SNAP Datasets: Stanford Large Network Dataset Collection (https://www.notion.so/SNAP-Datasets-Stanford-Large-Network-Dataset-Collection-b5f4bd2e98834a638a5c4ab563047d28?pvs=21), The dynamics of viral marketing (https://www.notion.so/The-dynamics-of-viral-marketing-f45ebdd22e5f4a95a1456bc1ae1b0fdb?pvs=21)
 Originally found at:  http://snap.stanford.edu/data/#amazon

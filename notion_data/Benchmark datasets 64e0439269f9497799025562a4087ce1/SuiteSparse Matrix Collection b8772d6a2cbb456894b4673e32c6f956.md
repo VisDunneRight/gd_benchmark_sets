@@ -2,7 +2,7 @@
 
 Note: All graphs in SuitSparse belong to groups which will have more information about the graphs and the sub-collections they belong to. In our Descriptions from the Literature section we also highlight a few tables with the specific graphs used in a couple of papers. 
 Origin Notes: From “The university of Florida Sparse Matrix Collection”, Davis and Hu describe the origin of this network repository. Namely they cite the Harwell-Boeing collection as the starting point for SuiteSparse, then called the University of Florida (UF) Sparse matrix collection, back in 1991. Other groups, or collections, have then been added to SuitseSparse through the years, mainly focusing on real-world matrices and other relevant problems related to them. 
-graph features handled: bipartite, categorical nodes, dense, directed edges, dynamic, edge weighted, generic, hierarchical, large, mesh, multigraph, node weighted, sparse, spatial, temporal
+graph features handled: Bipartite, Categorical nodes, Dense, Directed edges, Dynamic, Generic, Hierarchical, Large, Mesh, Multigraph, Sparse, Spatial, Weighted edges, Weighted nodes, temporal
 Graph features in papers: generic,large,weighted edges,generic,large,multilevel,clusters (generated),generic,planar,spatial,almost proximity drawable graphs,mesh graphs,scale-free graphs,strong proximity drawable graphs,weak proximity drawable graphs
 Origin Paper: The University of Florida Sparse Matrix Collection (https://www.notion.so/The-University-of-Florida-Sparse-Matrix-Collection-b861824a77d94175af99b7b367768cb3?pvs=21)
 Originally found at: https://sparse.tamu.edu/
@@ -45,7 +45,7 @@ From “[A Maxent-Stress Model for Graph Layout](https://doi.org/10.1109/TVCG.20
 
 ![Untitled](SuiteSparse%20Matrix%20Collection%20b8772d6a2cbb456894b4673e32c6f956/Untitled%201.png)
 
-******************Table 2.****************** Test Graphs
+**Table 2.** Test Graphs
 
 From “[DRGraph: An Efficient Graph Layout Algorithm for Large-scale Graphs by Dimensionality Reduction](https://doi.org/10.1109/TVCG.2020.3030447)”:
 
@@ -54,11 +54,11 @@ From “[DRGraph: An Efficient Graph Layout Algorithm for Large-scale Graphs by 
 
 ![Untitled](SuiteSparse%20Matrix%20Collection%20b8772d6a2cbb456894b4673e32c6f956/Untitled%202.png)
 
-**************Table 1.************** Test Datasets
+**Table 1.** Test Datasets
 
 ### Example Figures
 
-From “[The university of Florida sparse matrix collection](https://doi.org/10.1145/2049662.2049663)****”:****
+From “[The university of Florida sparse matrix collection](https://doi.org/10.1145/2049662.2049663)**”:**
 
 ![Untitled](SuiteSparse%20Matrix%20Collection%20b8772d6a2cbb456894b4673e32c6f956/Untitled%203.png)
 

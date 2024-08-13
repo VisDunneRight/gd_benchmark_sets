@@ -1,11 +1,11 @@
 # Padia Stories
 
 Origin Notes: These consist of fabricated narratives for characters of popular culture franchises, namely “The Witcher” and “Friends”. They were proposed by Kapesh Padia et al. as case studies for “https://doi.org/10.20380/GI2018.05”.
-graph features handled: layered graphs, temporal event sequence
+graph features handled: Dynamic, Dynamic (discrete), N-layers
 Graph features in papers: clusters (pre-existing),dynamic (discrete),layered graphs,n-layers
 Origin Paper: Yarn: Generating Storyline Visualizations Using HTN Planning (https://www.notion.so/Yarn-Generating-Storyline-Visualizations-Using-HTN-Planning-f5cd3d96b99046ecb2936a12fc1ad0d8?pvs=21)
 Appeared in years: 2018,2019
-Type of Collection: Skip
+Type of Collection: Lost/Unavailable
 is it stored properly?: No
 must be analyzed: No
 In repo?: No

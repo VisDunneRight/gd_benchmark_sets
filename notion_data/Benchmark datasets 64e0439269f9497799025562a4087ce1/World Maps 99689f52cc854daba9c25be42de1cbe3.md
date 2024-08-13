@@ -2,7 +2,7 @@
 
 Note: Datasets contain various attributes for a few locations and their geographical adjacency, namely neighboring states, countries, and municipalities. 
 Origin Notes: World Bank country information transformed  into a weight-vectors dataset. Some of the incomplete data was filled from disparate sources mentioned in the paper’s supplemental materials: https://doi.org/10.48550/arXiv.1908.07291.
-graph features handled: categorical nodes, dynamic, node weighted, spatial
+graph features handled: Categorical nodes, Dynamic, Spatial, Weighted nodes
 Graph features in papers: dynamic,spatial
 Origin Paper: Computing Stable Demers Cartograms (https://www.notion.so/Computing-Stable-Demers-Cartograms-73ed6431833d49bba5807b76ca3b0fd4?pvs=21)
 Originally found at: https://data.worldbank.org/indicator
@@ -44,7 +44,7 @@ From  [Computing Stable Demers Cartograms](https://link.springer.com/chapter/10.
 > We run experiments on real-world datasets. For time-series data, we expect a gradual change and strong correlation between the different values. For weight-vectors data, we expect more erratic changes and less correlation. We use two maps with rather different geographic structures: the first (**World**) is a map of world countries, having mixed region (country) sizes in a rather unstructured manner; the second (**US**) is a map of the 48 contiguous US states, having relatively high structure in sizes of its states, with large states in the middle and along the west coast and many smaller states along the east coast.
 > 
 
-From Supplemental Materials, Appendix C of *[“Computing Stable Demers Cartograms*”:](https://doi.org/10.48550/arXiv.1908.07291)
+From Supplemental Materials, Appendix C of [*“Computing Stable Demers Cartograms*”:](https://doi.org/10.48550/arXiv.1908.07291)
 
 ![Untitled](World%20Maps%2099689f52cc854daba9c25be42de1cbe3/Untitled.png)
 

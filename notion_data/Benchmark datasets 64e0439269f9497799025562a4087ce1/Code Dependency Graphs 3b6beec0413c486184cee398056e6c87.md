@@ -3,7 +3,7 @@
 Note: Various software call dependency graphs have been used in the literature. We provide the benchmarks used in ““https://onlinelibrary.wiley.com/doi/full/10.1111/cgf.13724”, as these posed the most comprehensive and available collection. 
  “https://ieeexplore.ieee.org/document/6065001” used a software call graph from a device called a “Phillips Medical System Eindhoven medical scanner”, which is lost. Python and Eclipse subversion control logs are also currently lost.
 Origin Notes: The authors of “https://ieeexplore.ieee.org/document/6065001” used https://depfind.sourceforge.io/ to extract the commit history.
-graph features handled: directed edges
+graph features handled: Directed edges
 Graph features in papers: dynamic,layered graphs,n-layers,weighted edges,bundled edges (generated),compound graphs,hierarchical,dynamic,dynamic (discrete),layered graphs,n-layers,layered graphs,n-layers
 Origin Paper: A Random Sampling O(n) Force-calculation Algorithm for Graph Layouts (https://www.notion.so/A-Random-Sampling-O-n-Force-calculation-Algorithm-for-Graph-Layouts-a0bc2ae6ebdb4e8cbddb924c0484cfad?pvs=21)
 Originally found at: http://vis.cs.ucdavis.edu/~ogawa/datasets/ (broken)
@@ -44,7 +44,7 @@ Related to Literature - Algorithm (Dataset tag relations) 1: Parallel Edge Splat
 
 From “[A Random Sampling O(n) Force-calculation Algorithm for Graph Layouts](https://onlinelibrary.wiley.com/doi/full/10.1111/cgf.13724)”:
 
-> The software graphs show dependencies in several software packages [**[vB11](https://onlinelibrary.wiley.com/doi/full/10.1111/cgf.13724#cgf13724-bib-0076)**, **[vB02](https://onlinelibrary.wiley.com/doi/full/10.1111/cgf.13724#cgf13724-bib-0075)**, **[vB12](https://onlinelibrary.wiley.com/doi/full/10.1111/cgf.13724#cgf13724-bib-0077)**, **[vBB13](https://onlinelibrary.wiley.com/doi/full/10.1111/cgf.13724#cgf13724-bib-0078)**, **[vvBB14](https://onlinelibrary.wiley.com/doi/full/10.1111/cgf.13724#cgf13724-bib-0082)**].
+> The software graphs show dependencies in several software packages [[**vB11**](https://onlinelibrary.wiley.com/doi/full/10.1111/cgf.13724#cgf13724-bib-0076), [**vB02**](https://onlinelibrary.wiley.com/doi/full/10.1111/cgf.13724#cgf13724-bib-0075), [**vB12**](https://onlinelibrary.wiley.com/doi/full/10.1111/cgf.13724#cgf13724-bib-0077), [**vBB13**](https://onlinelibrary.wiley.com/doi/full/10.1111/cgf.13724#cgf13724-bib-0078), [**vvBB14**](https://onlinelibrary.wiley.com/doi/full/10.1111/cgf.13724#cgf13724-bib-0082)].
 > 
 
 From “[Parallel Edge Splatting for Scalable Dynamic Graph Visualization](https://ieeexplore.ieee.org/document/6065001)”:
@@ -75,7 +75,7 @@ From “[Hierarchical Edge Bundles: Visualization of Adjacency Relations in Hier
 
 ![Untitled](Code%20Dependency%20Graphs%203b6beec0413c486184cee398056e6c87/Untitled%201.png)
 
-******************Fig. 13.****************** A software system and its associated call graph (caller = green, callee = red). (a) and (b) show the system with bundling strength β = 0.85 using a balloon layout (node labels disabled) and a radial layout, respectively. Bundling reduces visual clutter, making it easier to perceive the actual connections than when compared to the non-bundled versions (figures 2a and 11a). Bundled visualizations also show relations between sparsely connected systems more clearly (encircled regions); these are almost completely obscured in the non-bundled versions. The encircled regions highlight identical parts of the system for (a), (b), and figure 15.
+**Fig. 13.** A software system and its associated call graph (caller = green, callee = red). (a) and (b) show the system with bundling strength β = 0.85 using a balloon layout (node labels disabled) and a radial layout, respectively. Bundling reduces visual clutter, making it easier to perceive the actual connections than when compared to the non-bundled versions (figures 2a and 11a). Bundled visualizations also show relations between sparsely connected systems more clearly (encircled regions); these are almost completely obscured in the non-bundled versions. The encircled regions highlight identical parts of the system for (a), (b), and figure 15.
 
 ### Subversion Control Logs (Lost)
 

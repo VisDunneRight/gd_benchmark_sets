@@ -42,7 +42,7 @@ From [CHORDLINK: A New Hybrid Visualization Model](https://link.springer.com/cha
 
 ![Untitled](Assorted%20Fiscal%20Network%206610534d6d3b48c5a119b04659153258/Untitled.png)
 
-****************Fig. 4.**************** A visualization obtained by selecting some communities in a node-link diagram.
+**Fig. 4.** A visualization obtained by selecting some communities in a node-link diagram.
 
 == STOP RENDERING ==
 

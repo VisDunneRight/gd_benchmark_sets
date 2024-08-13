@@ -2,7 +2,7 @@
 
 Note: Uniformly sampled from set of level graphs with certain graph parameters, such as number of nodes and number of edges. 
 Origin Notes: http://graphdrawing.org highlights the DAGmar graph generator, and provides a benchmark set of randomly generated directed acyclic graphs. While not explicit, it is implied this benchmark comes from the DAGmar generator. 
-graph features handled: acyclic, directed edges
+graph features handled: Acyclic, Directed edges
 Graph features in papers: generic
 Origin Paper: DAGmar: Library for DAGs (https://www.notion.so/DAGmar-Library-for-DAGs-b0b5183f927e4983b7e9ef0d729674d4?pvs=21)
 Originally found at: http://www.graphdrawing.org/data.html

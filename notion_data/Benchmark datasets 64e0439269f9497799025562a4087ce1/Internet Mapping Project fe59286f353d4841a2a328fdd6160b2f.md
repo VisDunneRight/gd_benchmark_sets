@@ -1,7 +1,7 @@
 # Internet Mapping Project
 
 Origin Notes: The original Internet Mapping Project started at Bell lab in 1998. It was then transferred to the Lumeta Corporation, however, links to this corporation are broken.  A gallery of images still remains publicly available, hosted by Bill Cheswick on this personal website. 
-graph features handled: dynamic, large, trees
+graph features handled: Dynamic, Large, Trees
 Graph features in papers: generic,high degree,large
 Origin Paper: Mapping the Internet (https://www.notion.so/Mapping-the-Internet-33d6bcbd3fee4c879758f276ce38c107?pvs=21)
 Originally found at: http://www.cheswick.com/ches/map/

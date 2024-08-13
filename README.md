@@ -1,17 +1,7 @@
-# Benchmark sets
+# Graph Layout Benchmark Datasets
 
-Before running the tests, please unzip datasets from `data/Archive.zip` into the `data` directory.
-Make sure the folder structure looks like this:
-```
-data/
-    chess/
-    maildir/
-    north/
-    rome/
-    walshaw/
-```
+This repository contains the website for a website hosting information on a collection of benchmark datasets. 
 
-### Requirements
-Install requirements from requirements.txt
+The website is available at
 
-Some parts of the code require a notion API key to run, which can be obtained from the [notion.so](https://notion.so) website. The key should be stored in a file called `notion_key` in the `survey` directory.
+[https://visdunneright.github.io/gd_benchmark_sets/](https://visdunneright.github.io/gd_benchmark_sets/)

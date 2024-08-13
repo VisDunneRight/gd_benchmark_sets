@@ -3,7 +3,7 @@
 Note: Well-known, widely used graph repository.
 Note that BioSNAP, which consists of similar datasets for medical applications, exists under the same umbrella project. While BioSNAP was not as relevant in the literature, it may still prove useful for future researchers.
 Origin Notes: The SNAP library is the collection of datasets assembled as part of the Stanford Network Analysis Platform, which started in 2004 and launched their website in 2009. The group attributes the dataset preparation to Ana Pavlisic. 
-graph features handled: bipartite, categorical nodes, dense, directed edges, edge weighted, hierarchical, large, node weighted, signed, sparse, temporal
+graph features handled: Bipartite, Categorical nodes, Dense, Directed edges, Dynamic, Hierarchical, Large, Signed, Sparse, Weighted edges, Weighted nodes, temporal
 Graph features in papers: generic,large,clusters (generated),generic,almost proximity drawable graphs,mesh graphs,scale-free graphs,strong proximity drawable graphs,weak proximity drawable graphs
 Origin Paper: SNAP Datasets: Stanford Large Network Dataset Collection (https://www.notion.so/SNAP-Datasets-Stanford-Large-Network-Dataset-Collection-b5f4bd2e98834a638a5c4ab563047d28?pvs=21)
 Originally found at: http://snap.stanford.edu/data/index.html

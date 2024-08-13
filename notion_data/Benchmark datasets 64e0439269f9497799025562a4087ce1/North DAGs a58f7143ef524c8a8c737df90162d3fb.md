@@ -2,7 +2,7 @@
 
 Note: See AT&T
 Origin Notes: See AT&T
-graph features handled: acyclic, directed edges
+graph features handled: Acyclic, Directed edges
 Graph features in papers: directed edges,layered graphs,n-layers,planar,generic,directed edges
 Origin Paper: Drawing Directed Acyclic Graphs: An Experimental Study (https://www.notion.so/Drawing-Directed-Acyclic-Graphs-An-Experimental-Study-7f730ceea4a744e08bf091e8c23e8a95?pvs=21)
 Originally found at: See AT&T

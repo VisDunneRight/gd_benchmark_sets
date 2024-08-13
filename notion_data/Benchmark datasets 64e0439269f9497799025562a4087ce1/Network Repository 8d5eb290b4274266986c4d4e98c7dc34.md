@@ -2,7 +2,7 @@
 
 Note: Graphs in this repository are tagged with their real-world source, have in-depth analysis, and even a preview visualization of each individual graph. Types of graphs include social networks, infrastructure networks, biological networks, and many others. The repository also offers sources for individual graphs. It contains many graphs from other benchmark sets described here.
 Origin Notes: This repository was proposed in 2015 by Rossi and Ahmed of Purdue University as a visually interactive real world graph tool and database.
-graph features handled: categorical nodes, directed edges, dynamic, edge weighted, generic, labeled nodes, large, sparse, spatial, temporal
+graph features handled: Categorical nodes, Directed edges, Dynamic, Generic, Labeled nodes, Large, Sparse, Spatial, Weighted edges, temporal
 Graph features in papers: generic,large
 Origin Paper: The Network Data Repository with Interactive Graph Analytics and Visualization (https://www.notion.so/The-Network-Data-Repository-with-Interactive-Graph-Analytics-and-Visualization-0f75154d4bf64f4b8a3c13dbddd671d4?pvs=21)
 Originally found at: https://networkrepository.com/

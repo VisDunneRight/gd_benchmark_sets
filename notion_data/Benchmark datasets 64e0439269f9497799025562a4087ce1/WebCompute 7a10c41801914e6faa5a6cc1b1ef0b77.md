@@ -2,7 +2,7 @@
 
 Note: Their website also features proofs of the crossing numbers of many of the Rome-Lib graphs. Newest version of database specifies non-planar graphs, but older versions do have some planar graphs.
 Origin Notes: The dataset is comprised of instances of graphs uploaded to Crossing Number WebCompute, attributed to  M. Chimani, T. Wiedera. http://crossings.uos.de/cr-proof-system-paper.
-graph features handled: known crossing number, nonplanar
+graph features handled: Known crossing number, Nonplanar
 Graph features in papers: generic
 Origin Paper: An ILP-based Proof System for the Crossing Number Problem (https://www.notion.so/An-ILP-based-Proof-System-for-the-Crossing-Number-Problem-c71817d4f3a44de4943b8ad3980da063?pvs=21)
 Originally found at: https://tcs.uos.de/doku.php?id=research/cr

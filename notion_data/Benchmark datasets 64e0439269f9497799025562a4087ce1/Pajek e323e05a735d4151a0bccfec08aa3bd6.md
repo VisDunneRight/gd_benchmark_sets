@@ -2,7 +2,7 @@
 
 Note: Pajek means spider in Slovenian.
 Origin Notes: The Pajek Program for Large Network Analysis is a tool developed and hosted by Andrej Vlado and some of their colleges. As part of this program, they later compiled relevant graphs and links to other datasets, which we call today the Pajek collection.
-graph features handled: directed edges, generic, large
+graph features handled: Directed edges, Generic, Large
 Graph features in papers: clusters (generated),generic,clusters (generated)
 Origin Paper: Pajek datasets (https://www.notion.so/Pajek-datasets-f5e6157fc711492f921234be368dd865?pvs=21)
 Originally found at: http://vlado.fmf.uni-lj.si/pub/networks/data/

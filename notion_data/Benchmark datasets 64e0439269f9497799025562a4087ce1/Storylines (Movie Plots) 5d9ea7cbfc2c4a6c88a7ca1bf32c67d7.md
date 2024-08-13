@@ -2,7 +2,7 @@
 
 Origin Notes: This dataset was initially collected by Yuzuru Tanahashi, then stored on his homepage at UC Davis which was lost. 
 Through the help of personal connections at UC Davis, we were luckily able to recover the dataset.
-graph features handled: clusters, dynamic, layered graphs, many layers, temporal event sequence
+graph features handled: Clusters (pre-existing), Dynamic, Dynamic (discrete), N-layers
 Graph features in papers: dynamic,dynamic (discrete),layered graphs,n-layers,clusters (pre-existing),dynamic,dynamic (discrete),layered graphs,n-layers,clusters (pre-existing),dynamic (discrete),layered graphs,n-layers,clusters (pre-existing),compound graphs,layered graphs,n-layers
 Origin Paper: Design Considerations for Optimizing Storyline Visualizations (https://www.notion.so/Design-Considerations-for-Optimizing-Storyline-Visualizations-8a8056ac18c748dd9cdbcd1766addd3f?pvs=21)
 Originally found at: UC Davis’ website, personal page 

@@ -1,7 +1,7 @@
 # Militarized Interstate Disputes (MID)
 
 Origin Notes: Collected as part of the https://correlatesofwar.org/data-sets/MIDs/ project.
-graph features handled: dynamic, temporal event sequence
+graph features handled: Dynamic, Dynamic (discrete)
 Graph features in papers: dynamic,dynamic (discrete),layered graphs,n-layers,clusters (pre-existing),dynamic,dynamic (discrete),layered graphs,n-layers
 Origin Paper: The MID5 Dataset, 2011–2014: Procedures, coding rules, and description (https://www.notion.so/The-MID5-Dataset-2011-2014-Procedures-coding-rules-and-description-68e2449950584fdeb99e5d016704b585?pvs=21)
 Originally found at: https://correlatesofwar.org/data-sets/MIDs/

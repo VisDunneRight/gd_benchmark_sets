@@ -1,8 +1,8 @@
 # Stanford GraphBase
 
 Note: We do not currently provide this dataset for download.
-Origin Notes: Compiled by (the) Donald Knuth, the https://www-cs-faculty.stanford.edu/~knuth/sgb.html consists of programs and datasets for network analysis. The datasets accompany a textbook, “The Stanford GraphBase: A Platform for Combinatorial Computing”.
-graph features handled: labeled nodes, temporal event sequence
+Origin Notes: Compiled by Donald Knuth, the https://www-cs-faculty.stanford.edu/~knuth/sgb.html consists of programs and datasets for network analysis. The datasets accompany a textbook, “The Stanford GraphBase: A Platform for Combinatorial Computing”. Perhaps the first mention we found of the very popular “Les Miserables” network of character interactions.
+graph features handled: Dynamic, Dynamic (discrete), Labeled nodes
 Graph features in papers: clusters (generated),generic,planar,spatial,clusters (generated),weighted edges,dynamic,dynamic (discrete),layered graphs,n-layers,bipartite,layered graphs,generic
 Origin Paper: The Stanford GraphBase: A Platform for Combinatorial Computing (https://www.notion.so/The-Stanford-GraphBase-A-Platform-for-Combinatorial-Computing-f28a00500d684add8b0de06339dfd128?pvs=21)
 Originally found at: https://www-cs-faculty.stanford.edu/~knuth/sgb.html

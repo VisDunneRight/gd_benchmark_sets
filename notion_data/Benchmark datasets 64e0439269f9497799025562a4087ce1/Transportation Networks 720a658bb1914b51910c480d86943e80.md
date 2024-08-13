@@ -1,7 +1,7 @@
 # Transportation Networks
 
 Note: DIMACS USA Road Network source notes that the data has errors, namely missing major highways and bridges. We currently include only the subway layout networks in our files.
-graph features handled: directed edges, spatial
+graph features handled: Directed edges, Spatial
 Graph features in papers: clusters (generated),generic,large,generic,large,spatial,labeled nodes,spatial,compound graphs,directed edges,hierarchical,spatial,weighted edges,generic,spatial,bundled edges (generated),spatial,generic,categorical nodes,generic,topological,trees,weighted edges,octilinear,port constraints,terminals,clusters (pre-existing),generic,large,spatial,clusters (pre-existing),categorical nodes
 Origin Paper: A Random Sampling O(n) Force-calculation Algorithm for Graph Layouts (https://www.notion.so/A-Random-Sampling-O-n-Force-calculation-Algorithm-for-Graph-Layouts-a0bc2ae6ebdb4e8cbddb924c0484cfad?pvs=21)
 Originally found at: http://www.diag.uniroma1.it//challenge9/download.shtml
@@ -51,7 +51,7 @@ From “[Drawing and Labeling High-Quality Metro Maps by Mixed-Integer Programmi
 
 ![Untitled](Transportation%20Networks%20720a658bb1914b51910c480d86943e80/Untitled%201.png)
 
-******************Fig. 16.****************** Unlabeled layout of the London Underground network produced by our method.
+**Fig. 16.** Unlabeled layout of the London Underground network produced by our method.
 
 ## DIMACS USA Road Networks
 

@@ -1,1 +1,0 @@
-This dataset is a random sampling of 50 random persons from an EpiSims simulation run. EpiSimS is an agent-based simulation model for disease and pandemic spread within the United States. This particular simulation looks at the spread of chickungunya in Washington DC with a "base case" version of the disease.

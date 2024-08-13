@@ -2,7 +2,7 @@
 
 Note: Refer to the https://mathgenealogy.org/contact.php for the data, which consists of doctoral graduates in mathematics and some adjacent fields, alongside properties like the degree granting institution and tittle of thesis. Entries also have relations based on advisors. 
 Origin Notes: Database from a project started by Harry Coonce and now supported by the North Dakota State University. 
-graph features handled: dynamic, nonplanar, temporal, tree-like
+graph features handled: Dynamic, Nonplanar, Trees, temporal
 Graph features in papers: dynamic,dynamic (discrete)
 Origin Paper: The Mathematics Genealogy Project (https://www.notion.so/The-Mathematics-Genealogy-Project-c75a9e7eb263423c9d8ad1be3e898095?pvs=21)
 Originally found at: https://genealogy.math.ndsu.nodak.edu/

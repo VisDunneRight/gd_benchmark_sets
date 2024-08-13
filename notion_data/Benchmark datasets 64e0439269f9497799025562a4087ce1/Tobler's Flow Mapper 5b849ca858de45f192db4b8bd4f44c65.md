@@ -2,7 +2,7 @@
 
 Note: This dataset contains migration and trade data between various countries and states. We do not currently provide this dataset for download.
 Origin Notes: Data comes packaged with the http://csiss.ncgia.ucsb.edu/clearinghouse/FlowMapper/, a program designed by Waldo Tobler in 1987. This software was rereleased for Windows in 2003 by the Center for Spatially Integrated Social Science.
-graph features handled: edge weighted, spatial
+graph features handled: Spatial, Weighted edges
 Graph features in papers: spatial,weighted edges
 Origin Paper: A geographic flow mapping program (https://www.notion.so/A-geographic-flow-mapping-program-c72fb2ce215848aeb498bf2ddade27f5?pvs=21)
 Originally found at: http://csiss.ncgia.ucsb.edu/clearinghouse/FlowMapper/

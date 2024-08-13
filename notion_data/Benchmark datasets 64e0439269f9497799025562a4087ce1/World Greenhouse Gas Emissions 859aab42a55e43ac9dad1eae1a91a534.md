@@ -2,7 +2,7 @@
 
 Note: Linked data is from a different year than the data used by https://doi.org/10.1109/PacificVis.2018.00025, for which data could not be found.
 Origin Notes: Data collected by the https://www.wri.org/.
-graph features handled: categorical nodes, edge weighted, layered graphs, node weighted
+graph features handled: Categorical nodes, N-layers, Weighted edges, Weighted nodes
 Graph features in papers: clusters (pre-existing),layered graphs,n-layers
 Origin Paper: Navigating the Numbers: Greenhouse Gas Data and International Climate Policy (https://www.notion.so/Navigating-the-Numbers-Greenhouse-Gas-Data-and-International-Climate-Policy-83d48a003c25483ea04e4c49c64553f0?pvs=21)
 Originally found at: https://www.wri.org/data/world-greenhouse-gas-emissions-2005

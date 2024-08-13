@@ -2,7 +2,7 @@
 
 Note: Collection consisting of graphs from various sources including topological meshes, meshes related to physical problems (fluid dynamics, structural mechanics, combinatorial optimization), and interprocess communication graphs for a parallel computing implementation of a factorization solver.
 Origin Notes: The https://gitlab.inria.fr/scotch/scotch is produced by the https://www.labri.fr/perso/pelegrin/scotch/ whose goal is to study static mapping by the means of graph theory, using “divide and conquer'' graph bipartitioning heuristics. The original link to the data http://www.labri.u-bordeaux.fr/Equipe/PARADIS/Member/pelegrin/graph is broken.
-graph features handled: large, mesh
+graph features handled: Large, Mesh
 Graph features in papers: generic,large
 Origin Paper: Scotch and PT-Scotch Graph Partitioning Software: An Overview (https://www.notion.so/Scotch-and-PT-Scotch-Graph-Partitioning-Software-An-Overview-2845b7c5cbc14fa8a02acfbc1e3a28ef?pvs=21), PT-Scotch: A tool for efficient parallel graph ordering (https://www.notion.so/PT-Scotch-A-tool-for-efficient-parallel-graph-ordering-bb06d1044c6b4029a1216c60eb23de18?pvs=21)
 Originally found at: https://wotug.org/parallel/libraries/communication/scotch/Graphs/
@@ -92,4 +92,4 @@ nd_*		: Valuated interprocess communication graphs issued from a
 		  respectively.
 ```
 
-Author: Francois Pellegrini (*[pelegrin@labri.u-bordeaux.fr](mailto:pelegrin@labri.u-bordeaux.fr)*)
+Author: Francois Pellegrini ([*pelegrin@labri.u-bordeaux.fr*](mailto:pelegrin@labri.u-bordeaux.fr))

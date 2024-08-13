@@ -57,6 +57,39 @@
             text-align: center;
             color: #999;
         }
+
+        .pill_color_bipartite, .pill_color_Bipartite { background-color: #e6c229; }
+        .pill_color_many_layers, .pill_color_N-layers, .pill_color_layered_graphs, .pill_color_Layered_graphs { background-color: #c9a818; }
+
+        .pill_color_trees, .pill_color_Trees, .pill_color_tree-like { background-color: #f17105; }
+        .pill_color_hierarchical, .pill_color_Hierarchical { background-color: #c85c04; }
+
+        .pill_color_dynamic, .pill_color_Dynamic, .pill_color_dynamic_discrete, .pill_color_Dynamic_discrete, .pill_color_temporal, .pill_color_temporal_event_sequence { background-color: #d11149; }
+        .pill_color_edge_weighted, .pill_color_Weighted_edges { background-color: #bd0f40; }
+        .pill_color_node_weighted, .pill_color_Weighted_nodes { background-color: #aa0e3a; }
+        .pill_color_labeled_nodes, .pill_color_Labeled_nodes { background-color: #970c34; }
+        .pill_color_categorical_nodes, .pill_color_Categorical_nodes { background-color: #840b2d; }
+        .pill_color_signed, .pill_color_Signed { background-color: #710927; }
+        .pill_color_spatial, .pill_color_Spatial { background-color: #5E0820; }
+
+        .pill_color_clusters, .pill_color_Clusters_pre-existing { background-color: #6610F2; }
+        .pill_color_clusters_generated, .pill_color_Clusters_generated { background-color: #610CE9; }
+        .pill_color_directed_edges, .pill_color_Directed_edges { background-color: #590BD5; }
+        .pill_color_hypergraph, .pill_color_Hypergraphs { background-color: #510AC2; }
+        .pill_color_bundled_edges_generated, .pill_color_Bundled_edges_generated { background-color: #4909AE; }
+        .pill_color_partition, .pill_color_Partition { background-color: #40089B; }
+        .pill_color_multigraph, .pill_color_Multigraph { background-color: #380788; }
+        .pill_color_acyclic, .pill_color_Acyclic { background-color: #300674; }
+        .pill_color_mesh, .pill_color_Mesh { background-color: #280561; }
+        .pill_color_generic, .pill_color_Generic { background-color: #20044E; }
+
+        .pill_color_planar, .pill_color_Planar { background-color: #1A8FE3; }
+        .pill_color_nonplanar, .pill_color_Nonplanar { background-color: #187FC9; }
+        .pill_color_known_crossing_number, .pill_color_Known_crossing_number { background-color: #1368A4; }
+        .pill_color_large, .pill_color_Large { background-color: #0F5180; }
+        .pill_color_dense, .pill_color_Dense { background-color: #0B3A5B; }
+        .pill_color_sparse, .pill_color_Sparse { background-color: #072336; }
+
     </style>
 </head>
 <body>
@@ -228,7 +261,7 @@
         .attr("style","display:flex; align-items:left;");
 
         minMax.append("img")
-        .attr("src","min.svg" )
+        .attr("src","images/min.svg" )
         .attr("width", 20)
         .attr("height", 20)
         .style("padding-left", "5px")
@@ -242,7 +275,7 @@
         .attr("style","display:flex; align-items:left;");
 
         divmax.append("img")
-        .attr("src","max.svg")
+        .attr("src","images/max.svg")
         .attr("width", 20)
         .attr("height", 20)
         .style("padding-left", "5px")
@@ -335,9 +368,9 @@
                 graph_feature = graph_feature.substring(1)
             }
             gfeatures.append("div")
-                .attr("class", "rounded-pill badge")
+                .attr("class", "rounded-pill badge pill_color_" + graph_feature.replaceAll(" ", "_").replaceAll("(", "").replaceAll(")", ""))
                 .style("margin", "2px")
-                .style("background-color", graph_feature_tags_colors[graph_feature_tags.indexOf(graph_feature)%graph_feature_tags_colors.length])
+                // .style("background-color", graph_feature_tags_colors[graph_feature_tags.indexOf(graph_feature)%graph_feature_tags_colors.length])
                 .text(graph_feature)
         }
 
@@ -509,7 +542,7 @@
     graph_feature_tags_colors = ["#9B9A97", "#64473A", "#D9730D", "#DFAB01", "#0F7B6C", "#0B6E99", "#6940A5", "#AD1A72", "#E03E3E"]
 
     async function main(){
-        let data = await d3.csv("notion_data/Benchmark datasets 64e0439269f9497799025562a4087ce1.csv")
+        let data = await d3.csv("notion_data/Benchmark_datasets.csv")
         let paper_data = await d3.csv("notion_data/Literature - Algorithm 12e01bfc60a84007aa7d2d34293e123d.csv")
         let origin_paper_data = await d3.csv("notion_data/Paper Sources cb3332bc548a49a4a4f1e085486f71f1.csv")
         window.origin_paper_data = origin_paper_data;
@@ -549,7 +582,7 @@
             .append("div")
             .attr("class", "col")
             .append("h3")
-            .text("Benchmark datasets")
+            .text("Uniform Benchmark datasets")
             .style("margin-top", "10px")
 
         named_list_dom.append("div")
@@ -568,7 +601,7 @@
         benchLi
             .append("strong")
             .attr("class", "bd-links-heading d-flex w-100 align-items-center fw-semibold")
-            .text("Benchmark datasets")
+            .text("Uniform Benchmark datasets")
         let benchul = benchLi
             .append("ul")
             .attr("class", "list-unstyled fw-normal pb-2 small")
@@ -719,7 +752,7 @@
             .append("div")
             .attr("class", "col")
             .append("h3")
-            .text("Other")
+            .text("Subsets of other collections")
             .style("margin-top", "10px")
 
         named_list_dom.append("div")
@@ -737,7 +770,7 @@
         otherLi
             .append("strong")
             .attr("class", "bd-links-heading d-flex w-100 align-items-center fw-semibold")
-            .text("Other")
+            .text("Subsets of other collections")
         let otherUl = otherLi 
             .append("ul")
             .attr("class", "list-unstyled fw-normal pb-2 small")

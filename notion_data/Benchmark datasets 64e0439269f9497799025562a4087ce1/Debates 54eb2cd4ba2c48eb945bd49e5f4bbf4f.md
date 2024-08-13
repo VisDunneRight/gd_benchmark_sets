@@ -2,7 +2,7 @@
 
 Note: The authors did not respond to requests to make this dataset available. While the debate transcripts are publicly available, the entity relationship data generated in “https://doi.org/10.1111/cgf.13181” is not.
 Origin Notes: Created by researchers at the University of Konstanz for the LingVis framework (https://lingvis.io/) and VisArgue project (http://www.visargue.uni-konstanz.de/en/). First appeared in “https://doi.org/10.1111/cgf.13181”.
-graph features handled: categorical nodes, directed edges, edge weighted, labeled nodes, multigraph
+graph features handled: Categorical nodes, Directed edges, Labeled nodes, Multigraph, Weighted edges
 Graph features in papers: categorical nodes,directed edges,labeled nodes,weighted edges
 Origin Paper: NEREx: Named-Entity Relationship Exploration in Multi-Party Conversations (https://www.notion.so/NEREx-Named-Entity-Relationship-Exploration-in-Multi-Party-Conversations-12a40012aece4cec81a8a2714c38d6cf?pvs=21)
 Appeared in years: 2017

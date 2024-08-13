@@ -2,7 +2,7 @@
 
 Note: Example graphs used to generate images with the https://www.graphviz.org for their https://www.graphviz.org/gallery/.
 Origin Notes: The graphs have various origins, most of which are described on the Graphviz https://www.graphviz.org/gallery/.
-graph features handled: clusters, directed edges, labeled nodes, layered graphs
+graph features handled: Clusters (pre-existing), Directed edges, Labeled nodes, N-layers
 Graph features in papers: layered graphs,n-layers,large,generic
 Origin Paper: An open graph visualization system and its applications to software engineering (https://www.notion.so/An-open-graph-visualization-system-and-its-applications-to-software-engineering-f85328b544b744969aedaf56b21d25a5?pvs=21)
 Originally found at: https://gitlab.com/graphviz/graphviz/-/tree/main/tests/graphs

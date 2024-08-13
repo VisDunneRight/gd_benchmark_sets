@@ -2,7 +2,7 @@
 
 Note: Dataset links in supplemental materials are broken. After contacting the author, they mentioned that the other datasets were internal and could not be shared. 
 Origin Notes: The Origin Paper collects various graphs from a few of sources. Some of these datasets are from international business process intelligence challenges, and others are specific processes from companies in a certain domain (hospital, road traffic management, pay processes, etc.).
-graph features handled: labeled nodes, layered graphs
+graph features handled: Labeled nodes, N-layers
 Graph features in papers: labeled nodes,layered graphs,n-layers
 Origin Paper: A Stable Graph Layout Algorithm for Processes (https://www.notion.so/A-Stable-Graph-Layout-Algorithm-for-Processes-35d585a25b63442b89c4977095ec923f?pvs=21)
 Originally found at: https://robinmennens.github.io/Portfolio/stableprocessgraphs.html
