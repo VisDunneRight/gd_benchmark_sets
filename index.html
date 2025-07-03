@@ -59,6 +59,41 @@
             color: #999;
         }
 
+        hr.dashed {
+            border-top: 2px dashed #999;
+        }
+
+        hr.dotted {
+            border-top: 2px dotted #999;
+        }
+
+        hr.solid {
+            border-top: 2px solid #999;
+        }
+
+
+        hr.hr-text {
+        position: relative;
+            border: none;
+            height: 1px;
+            background: #999;
+        }
+
+        hr.hr-text::before {
+            content: attr(data-content);
+            display: inline-block;
+            background: #fff;
+            font-weight: bold;
+            font-size: 0.85rem;
+            color: #999;
+            border-radius: 30rem;
+            padding: 0.2rem 2rem;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
         .pill_color_bipartite, .pill_color_Bipartite { background-color: #e6c229; }
         .pill_color_many_layers, .pill_color_N-layers, .pill_color_layered_graphs, .pill_color_Layered_graphs { background-color: #c9a818; }
 
@@ -130,51 +165,19 @@
             navbar navbar navbar menu menu menu <br> <br>
             Usage instructions, cite us at [bibtex]
           </div> -->
-          <div class="col-lg-10 bg-light">
+          <div class="col-lg-10 bg-light" style="padding-top: 20px">
             The following is a list of benchmark datasets for testing graph layout algorithms. 
-            The list was collected at the <a href="https://vis.khoury.northeastern.edu/">Northeastern University Visualization Lab</a>, and is maintained by the same. Our colleciton methodology targeted layout algorithms specifically—we do acknowledge the existence of other repositories that target other network-related purposes more in detail. The collection and supplemental material is also accessible at <a href="https://osf.io/j7ucv/">https://osf.io/j7ucv/</a><br><br>
-
             Click on the names of the collections to expand them and access information about their contents and a list of papers using them.<br><br>
-            If you find our work useful for your research, consider citing our paper as well as the linked "Origin Paper" for each dataset used:
-            <br><br>
 
-            <pre style="color: palevioletred;">
-
-
-    @Misc{DiBartolomeo2024BenchmarkDatasetsGraph,
-        author       = {Di~Bartolomeo, Sara and Wilson, Connor and Puerta, Eduardo and Crnovrsanin, Tarik and Frings, Alexander and Dunne, Cody},
-        howpublished = {Under submission to JoVI (\url{https://www.journalovi.org/})},
-        note         = {Supplemental material at \url{osf.io/j7ucv/}.},
-        title        = {Benchmark datasets for graph layout algorithms},
-        year         = {2024},
-        url          = {https://visdunneright.github.io/gd_benchmark_sets/},
-    }
-
-                </pre>
-
-                We also have a poster for an earlier version of this work:
-
-            <pre style="color: palevioletred;">
-
-
-    @Misc{DiBartolomeo2023CollectionBenchmarkDatasets,
-        author       = {Di~Bartolomeo, Sara and Puerta, Eduardo and Wilson, Connor and Crnovrsanin, Tarik and Dunne, Cody},
-        howpublished = {Poster at Graph Drawing and Network Visualization '23},
-        note         = {GD 2023 Best Poster Honorable Mention! Preprint at \url{https://osf.io/yftju/}. Supplemental material at \url{osf.io/j7ucv/}.},
-        title        = {A collection of benchmark datasets for evaluating graph layout algorithms},
-        year         = {2023},
-        series       = {GD Posters},
-        url          = {https://visdunneright.github.io/gd_benchmark_sets/}
-      }
-
-                </pre>
-
-            <div><b>Contributing:</b> Please open an issue here: <a href="https://github.com/VisDunneRight/gd_benchmark_sets">https://github.com/VisDunneRight/gd_benchmark_sets</a>. <br> Alternatively, reach out to <a href="mailto:dibartolomeo.sara@gmail.com">dibartolomeo.sara@gmail.com</a></div><br>
-            
-            <div id="search-bar"></div>
-            <div id="search-bar-results">
-
+            <div style="text-align: center;"><a href="about.html" class="btn btn-secondary" style="margin-bottom: 20px; width: 80%; color: white;">About this website, how to contribute, information about sources and citations.</a>
             </div>
+
+            <hr class="dashed">
+
+            <div id="search-bar"></div>
+            <div id="search-bar-results"></div>
+
+            <hr class="dashed">
 
             <div id="named-list" data-bs-spy="scroll"  data-bs-target="db-nav-list" data-bs-offset="20" tabindex="0">
             </div>
@@ -238,7 +241,7 @@
             
             if (line === '# Body') {
                 text = lines.slice(i + 1).join('\n');
-                MathJax.typeset();
+                // MathJax.typeset();
             } 
         }
         

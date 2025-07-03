@@ -1,0 +1,878 @@
+
+<!doctype html>
+<html>
+<head>
+    <title>Graph Benchmark Datasets</title>
+    <link rel="stylesheet" href="sidebar.css">
+    <meta name="description" content="Graph Benchmark Datasets">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.1.0/showdown.min.js"></script>
+
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+
+    <style>
+        #named-list {
+            display: flex;
+            flex-direction: column;
+            font-size: small;
+            padding-bottom: 5%;
+        }
+
+        .small-text {
+            font-size: small;
+        }
+
+        .footer{
+            /* position: fixed; */
+            bottom: 0;
+            width: 100%;
+            height: 2.5rem;
+            background-color: white;
+            text-align: center;
+            padding-top: 1%;
+        }
+        .scroll-offset{
+            scroll-margin-top: 2em;
+        }
+
+        blockquote {
+            margin-left: 40px;
+            margin-right: 40px;
+        }
+        .skinny-button {
+            margin-left: .2rem;
+            margin-right: .2rem;
+            --bs-btn-padding-y: .15rem;
+            --bs-btn-font-size: .7rem;
+            padding-top: 0.05rem;
+            padding-bottom:0.05rem;
+        }
+
+        .coltext {
+            font-style: italic;
+            font-size: small;
+            text-align: center;
+            color: #999;
+        }
+
+        .pill_color_bipartite, .pill_color_Bipartite { background-color: #e6c229; }
+        .pill_color_many_layers, .pill_color_N-layers, .pill_color_layered_graphs, .pill_color_Layered_graphs { background-color: #c9a818; }
+
+        .pill_color_trees, .pill_color_Trees, .pill_color_tree-like { background-color: #f17105; }
+        .pill_color_hierarchical, .pill_color_Hierarchical { background-color: #c85c04; }
+
+        .pill_color_dynamic, .pill_color_Dynamic, .pill_color_dynamic_discrete, .pill_color_Dynamic_discrete, .pill_color_temporal, .pill_color_temporal_event_sequence { background-color: #d11149; }
+        .pill_color_edge_weighted, .pill_color_Weighted_edges { background-color: #bd0f40; }
+        .pill_color_node_weighted, .pill_color_Weighted_nodes { background-color: #aa0e3a; }
+        .pill_color_labeled_nodes, .pill_color_Labeled_nodes { background-color: #970c34; }
+        .pill_color_categorical_nodes, .pill_color_Categorical_nodes { background-color: #840b2d; }
+        .pill_color_signed, .pill_color_Signed { background-color: #710927; }
+        .pill_color_spatial, .pill_color_Spatial { background-color: #5E0820; }
+
+        .pill_color_clusters, .pill_color_Clusters_pre-existing { background-color: #6610F2; }
+        .pill_color_clusters_generated, .pill_color_Clusters_generated { background-color: #610CE9; }
+        .pill_color_directed_edges, .pill_color_Directed_edges { background-color: #590BD5; }
+        .pill_color_hypergraph, .pill_color_Hypergraphs { background-color: #510AC2; }
+        .pill_color_bundled_edges_generated, .pill_color_Bundled_edges_generated { background-color: #4909AE; }
+        .pill_color_partition, .pill_color_Partition { background-color: #40089B; }
+        .pill_color_multigraph, .pill_color_Multigraph { background-color: #380788; }
+        .pill_color_acyclic, .pill_color_Acyclic { background-color: #300674; }
+        .pill_color_mesh, .pill_color_Mesh { background-color: #280561; }
+        .pill_color_generic, .pill_color_Generic { background-color: #20044E; }
+
+        .pill_color_planar, .pill_color_Planar { background-color: #1A8FE3; }
+        .pill_color_nonplanar, .pill_color_Nonplanar { background-color: #187FC9; }
+        .pill_color_known_crossing_number, .pill_color_Known_crossing_number { background-color: #1368A4; }
+        .pill_color_large, .pill_color_Large { background-color: #0F5180; }
+        .pill_color_dense, .pill_color_Dense { background-color: #0B3A5B; }
+        .pill_color_sparse, .pill_color_Sparse { background-color: #072336; }
+
+    </style>
+</head>
+<body>
+    <header class="navbar navbar-expand-lg navbar-dark bd-navbar sticky-top">
+        <nav class="container-xxl bd-gutter flex-wrap flex-lg-nowrap" aria-label="Main navigation">
+          <div class="bd-navbar-toggle">
+            <button class="navbar-toggler p-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#bdSidebar" aria-controls="bdSidebar" aria-label="Toggle docs navigation">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="bi" fill="currentColor" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"></path>
+            </svg>
+              <span class="d-none fs-6 pe-1">Browse Datasets</span>
+            </button>
+          </div>
+        </nav>
+    </header>
+    <div class="container-xxl bd-gutter mt-3 my-md-4 bd-layout">
+        <aside class="bd-sidebar">
+            <div class="offcanvas-lg offcanvas-start" tabindex="-1" id="bdSidebar" aria-labelledby="bdSidebarOffcanvasLabel">
+              <div class="offcanvas-header border-bottom">
+                <h5 class="offcanvas-title" id="bdSidebarOffcanvasLabel">Browse Datasets</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close" data-bs-target="#bdSidebar"></button>
+              </div>
+      
+              <div class="offcanvas-body">
+                <nav class="bd-links w-100" id="bd-docs-nav" aria-label="Docs navigation">
+                    <ul class="bd-links-nav list-unstyled mb-0 pb-3 pb-md-2 pe-lg-2" style="display: flex;">
+                        <div id="db-nav-list"></div>
+                    </ul>
+                </nav>
+              </div>
+            </div>
+          </aside>
+    <div class="container overflow-hidden">
+        <h1 class="" style="margin-top: 5%">Graph Layout Benchmark Datasets</h1>
+        <div class="row">
+          <!-- <div class="col-sm-2">
+            navbar navbar navbar menu menu menu <br> <br>
+            Usage instructions, cite us at [bibtex]
+          </div> -->
+          <div class="col-lg-10 bg-light">
+            The following is a list of benchmark datasets for testing graph layout algorithms. 
+            The list was collected at the <a href="https://vis.khoury.northeastern.edu/">Khoury Vis Lab at Northeastern University</a>, and is maintained by the same. Our colleciton methodology targeted layout algorithms specifically—we do acknowledge the existence of other repositories that target other network-related purposes more in detail. The collection and supplemental material is also accessible at <a href="https://osf.io/j7ucv/">https://osf.io/j7ucv/</a><br><br>
+
+            Click on the names of the collections to expand them and access information about their contents and a list of papers using them.<br><br>
+            If you find our work useful for your research, consider citing our paper as well as the linked "Origin Paper" for each dataset used:
+            <br><br>
+
+            <pre style="color: palevioletred;">
+
+
+    @Misc{DiBartolomeo2024BenchmarkDatasetsGraph,
+        author       = {Di~Bartolomeo, Sara and Wilson, Connor and Puerta, Eduardo and Crnovrsanin, Tarik and Frings, Alexander and Dunne, Cody},
+        howpublished = {Under submission to JoVI (\url{https://www.journalovi.org/})},
+        note         = {Supplemental material at \url{osf.io/j7ucv/}.},
+        title        = {Benchmark datasets for graph layout algorithms},
+        year         = {2024},
+        url          = {https://visdunneright.github.io/gd_benchmark_sets/},
+    }
+
+                </pre>
+
+                We also have a poster for an earlier version of this work:
+
+            <pre style="color: palevioletred;">
+
+
+    @Misc{DiBartolomeo2023CollectionBenchmarkDatasets,
+        author       = {Di~Bartolomeo, Sara and Puerta, Eduardo and Wilson, Connor and Crnovrsanin, Tarik and Dunne, Cody},
+        howpublished = {Poster at Graph Drawing and Network Visualization '23},
+        note         = {GD 2023 Best Poster Honorable Mention! Preprint at \url{https://osf.io/yftju/}. Supplemental material at \url{osf.io/j7ucv/}.},
+        title        = {A collection of benchmark datasets for evaluating graph layout algorithms},
+        year         = {2023},
+        series       = {GD Posters},
+        url          = {https://visdunneright.github.io/gd_benchmark_sets/}
+      }
+
+                </pre>
+
+            <div class="col-lg-10 bg-light"><b>Data Collection Process:</b> <br> The initial datasets were collected as a result of the analysis and exploration of what datasets were used in 196 graph-drawing-related papers, mostly sourced from the Graph Drawing conference's proceedings, plus searches done on IEEE Xplore and the Wiley Digital Library. A detailed description of the collection process can be found at <a href="https://www.journalovi.org/2024-dibartolomeo-benchmark/">https://www.journalovi.org/2024-dibartolomeo-benchmark/</a> </div>
+
+            <div style="margin-top: 20px;" class="col-lg-10 bg-light"><b>Contributing:</b></div> Please open an issue here: <a href="https://github.com/VisDunneRight/gd_benchmark_sets">https://github.com/VisDunneRight/gd_benchmark_sets</a> using this issue template: <a href="https://github.com/VisDunneRight/gd_benchmark_sets/issues/new?template=dataset-inclusion.md">https://github.com/VisDunneRight/gd_benchmark_sets/issues/new?template=dataset-inclusion.md</a>. <br><br> Alternatively, reach out to <a href="mailto:dibartolomeo.sara@gmail.com">dibartolomeo.sara@gmail.com</a></div><br>
+
+            </div>
+
+            <div id="named-list" data-bs-spy="scroll"  data-bs-target="db-nav-list" data-bs-offset="20" tabindex="0">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      <div class="footer">
+        
+      </div>
+</body>
+<script>
+    window.MathJax = {
+        tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']]
+        }
+    };
+
+    function add_simple_field(entry, field_name, div, name = ""){
+        if (entry[field_name] != "" && entry[field_name] != undefined){
+            let title = name === "" ? field_name : name;
+            div.append("div").html("<b>" + title + ": </b>" + urlify(entry[field_name]))
+        }
+    }
+
+    function add_download_field(entry, div){
+        let divSection = div.append("div").html("<b>" + "Download formatted data: " + "</b>");
+        const list = ['OSF link gexf', 'OSF link gml', 'OSF link graphml', 'OSF link json']
+
+        list.forEach((item)=>{
+            if(entry[item] != "" && entry[item] != undefined){
+                divSection.append("a")
+                // .attr('type', 'button')
+                .attr('href', entry[item])
+                .attr('class', 'btn btn-secondary btn-sm skinny-button')
+                .text(item.split("OSF link").pop().toUpperCase())
+            }   
+        })
+    }
+
+    function urlify(text) {
+        var urlRegex = /(([a-z]+:\/\/)?(([a-z0-9\-]+\.)+([a-z]{2}|aero|arpa|biz|com|coop|edu|gov|info|int|jobs|mil|museum|name|nato|net|org|pro|travel|local|internal))(:[0-9]{1,5})?(\/[a-z0-9_\-\.~]+)*(\/([a-z0-9_\-\.]*)(\?[a-z0-9+_\-\.%=&amp;]*)?)?(#[a-zA-Z0-9!$&'()*+.=-_~:@/?]*)?)(\s+|$)/gi;
+        return text.replace(urlRegex, function(url) {
+            return '<a href="' + url + '">' + url + '</a>';
+        })
+    }
+
+    function doify(text){
+        if (text == "" || text == undefined) return text;
+        if (text.includes("https")) return (text);
+        else return ("https://doi.org/" + text);
+    }
+
+    function getTextAfterBody(input) {
+        const lines = input.split('\n');
+        let emptyLineCount = 0;
+        let text = '';
+
+        for (let i = 0; i < lines.length; i++) {
+            const line = lines[i].trim();
+            
+            if (line === '# Body') {
+                text = lines.slice(i + 1).join('\n');
+                MathJax.typeset();
+            } 
+        }
+        
+        return text;
+    }
+
+    function name_cleanup(name){
+        return name.replace("(", "").replace(")", "").replace(" ", "_").replace(".", "").replace("'", "").replace("&", "").replaceAll(" ", "")
+    }
+
+    function make_sparkline_visualization(entry, row){
+        if (entry["sparkline data"] == "" || entry["sparkline data"] == undefined) {
+            row.append("div")
+                .attr("class", "col")
+            return;
+        };
+
+        // parse json
+        let parsed = JSON.parse(entry["sparkline data"].replaceAll("'", '"'))
+
+        let data, color;
+        if (parsed.num_nodes){
+            data = parsed.num_nodes;
+            color = "#69b3a2"
+        } else {
+            data = parsed.node_degree;
+            color = "#404080"
+        }
+
+        //Sparklines
+        const sparkHeight = 20;
+        const sparkWidth = 100;
+        const step = sparkWidth/data.length;
+        const min = parsed.min;
+        const max = parsed.max;
+
+        let gSpark = row.append("div")
+            .attr("class", "col-4")
+            .attr("style", "display:flex;align-items:center;")
+
+        let svg = gSpark.append("svg")
+        .attr("width", sparkWidth)
+        .attr("height", sparkHeight)
+        // .append("g")
+
+        let minMax = gSpark.append("div")
+        .attr("class", "col")
+        .attr("style","display:flex; align-items:left;");
+
+        minMax.append("img")
+        .attr("src","images/min.svg" )
+        .attr("width", 20)
+        .attr("height", 20)
+        .style("padding-left", "5px")
+
+        minMax.append("Span")
+        .text(min)
+        .attr("style", "padding-right:5px; padding-left:5px");
+
+        let divmax = gSpark.append("div")
+        .attr("class", "col")
+        .attr("style","display:flex; align-items:left;");
+
+        divmax.append("img")
+        .attr("src","images/max.svg")
+        .attr("width", 20)
+        .attr("height", 20)
+        .style("padding-left", "5px")
+
+        divmax.append("Span")
+        .text(max)
+        .attr("style", "padding-right:5px; padding-left:5px");
+
+        let y = d3.scaleLinear()
+        .domain([0, d3.max(data)])
+        .range([sparkHeight, 0]);
+        
+        svg.selectAll("bar")
+        .data(data)
+        .enter()
+        .append("rect")
+            .attr("x", function(d,i) { return i*step; })
+            .attr("y", function(d) { return y(d); })
+            .attr("width", step)
+            .attr("height", function(d) { return sparkHeight - y(d); })
+            .attr("fill", color)
+        .append("title")
+        .text(function(d){return d});
+
+        svg.append("line")
+            .attr("x1", 0)
+            .attr("y1", y(0))
+            .attr("x2", sparkWidth)
+            .attr("y2", y(0))
+            .attr("stroke", "#333")
+            .attr("stroke-width", 4);
+    }
+
+    function citation(e){
+        // console.log(window.origin_paper_data[e])
+        var win = window.open("", "Title", "toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=yes,width=780,height=200,top="+(screen.height-400)+",left="+(screen.width-840));
+        win.document.body.innerHTML = window.origin_paper_data[e].bib;
+    }
+
+    async function add_entry_row(named_list_dom, db_nav_list, paper_data, entry, origin_paper_data){
+        // console.log(entry["Type of Collection"])
+
+        //Fills the navs on the left sid        
+
+        db_nav_list.append("li")
+            .append("a")
+            .attr("href", "#moveTo" + name_cleanup(entry["Name"]))
+            .attr("class", "bd-links-link d-inline-block rounded")
+            .text(entry["Name"])
+
+
+        //Fills the content for each dataset
+        let row = named_list_dom.append("div")
+            .attr("class", "row scroll-offset")
+            .attr("id" ,"moveTo" + name_cleanup(entry["Name"]))
+
+
+        // row.append("div")
+        //     .style("width", "50%")
+        //     .style("height", "10%")
+        //     .attr("aria-controls", "inforow_" + name_cleanup(entry["Name"]))
+        //     .attr("data-bs-toggle", "collapse")
+        //     .attr("aria-expanded", "false")
+        //     .attr("role", "button")
+        //     .attr("href", "#inforow_" + name_cleanup(entry["Name"]))
+        //     .style("background-color", "red")
+        //     .style("position", "absolute")
+        //     // .html("aaaaaaaa")
+
+        row.append("div")
+            .attr("class", "col")
+            .append("a")
+            .style("font-weight", "bold")
+            .html("<u>" + entry["Name"] + "</u>")
+            .attr("data-bs-toggle", "collapse")
+            .attr("href", "#inforow_" + name_cleanup(entry["Name"]))
+            .attr("aria-expanded", "false")
+            .attr("aria-controls", "inforow_" + name_cleanup(entry["Name"]))
+            .style("color", "black")
+            .attr("role", "button")
+
+        make_sparkline_visualization(entry, row)
+        
+        //Pills for the type of data it is
+        let gfeatures = row.append("div")
+            .attr("class", "col")
+        
+        for (let graph_feature of entry["graph features handled"].split(",")){
+            if (graph_feature.charAt(0) == ' '){
+                graph_feature = graph_feature.substring(1)
+            }
+            gfeatures.append("div")
+                .attr("class", "rounded-pill badge pill_color_" + graph_feature.replaceAll(" ", "_").replaceAll("(", "").replaceAll(")", ""))
+                .style("margin", "2px")
+                // .style("background-color", graph_feature_tags_colors[graph_feature_tags.indexOf(graph_feature)%graph_feature_tags_colors.length])
+                .text(graph_feature)
+        }
+
+        let infocontainer = row.append("div")
+            .attr("class", "container collapse")
+            .attr("id", "inforow_" + name_cleanup(entry["Name"]))
+            .style("padding", "2%")
+
+        let inforow = infocontainer.append("div")
+            .append("div")
+            .attr("class", "card card-body")
+            .append("div")
+            .attr("class", "col small-text")
+
+        add_simple_field(entry, "Originally found at", inforow)
+        //add buttons
+        add_download_field(entry, inforow);
+        // add_simple_field(entry, "OSF link", inforow, "Link to Data")
+        add_simple_field(entry, "Note", inforow)
+        add_simple_field(entry, "Number of Files", inforow)
+        add_simple_field(entry, "Size", inforow)
+        add_simple_field(entry, "Origin Notes", inforow)
+        // add_simple_field(entry, "Format", inforow)
+
+        inforow.append("div").html("<b>Origin paper: </b>")
+        for (let e of entry["Origin paper plaintext"].split(",")){
+            e = e.trim();
+            if (e == "") continue;
+            let origindoi = (paper_data.find(a => a.Name == e) || {}).DOI
+            let cited_paper = origin_paper_data.find(o => o.Name == e)
+            let cite_index = origin_paper_data.indexOf(cited_paper)
+            if (origindoi != undefined && origindoi != ""){
+                inforow.append("div").html('<a href="' + doify(origindoi) + '">' + "[link]" + '</a> &nbsp; <a style="cursor: pointer; text-decoration: underline; color: rgba(var(--bs-link-color-rgb)" onclick="citation(' + cite_index + ')">' + "[citation]" + '</a> &nbsp;' + e)
+            } else inforow.append("div").html(e)
+        }
+
+        inforow.append("div").html("<b>Usage examples: </b>")
+
+        for (let i in entry["Related to Literature - Algorithm (Dataset tag relations) 1"].split(",")){
+            let e = entry["Related to Literature - Algorithm (Dataset tag relations) 1"].split(",")[i].split("(")[0].trim()
+            let entryrow = inforow.append("div").attr("class", "row")
+
+            if (e != "") {
+                let doi = (paper_data.find(a => a.Name == e) || {}).DOI
+                let link;
+                if (doi != undefined && doi != "") link = '<a href="' + doify(doi) + '">[link]</a>'
+                else link = ""
+
+                entryrow.append("div")
+                    .attr("class", "col-8")
+                    .html(link + " &nbsp; " + urlify(e))
+
+                let tagrow = entryrow.append("div").attr("class", "col-4")
+
+                if (paper_data.find(a => a.Name == e)){
+                    let feature_collection = (paper_data.find(a => a.Name == e) || {})["Graph feature"].split(",")
+                    
+                    for (let graph_feature of feature_collection){
+                        graph_feature = graph_feature.trim().toLowerCase()
+                        tagrow.append("div")
+                            .attr("class", "rounded-pill badge")
+                            .style("margin", "2px")
+                            .style("background-color", graph_feature_tags_colors[graph_feature_tags.indexOf(graph_feature)%graph_feature_tags_colors.length])
+                            .text(graph_feature)
+                    }
+                }
+            }
+        }
+
+        inforow.append("br")
+
+        // DRAW REST OF THE PAGE
+        let otherinfo = ""
+        try{
+            let otherinfo = await fetch("notion_data/Benchmark datasets 64e0439269f9497799025562a4087ce1/" + entry["Name"].replace(".", "") + " " + entry["Page id"] + ".md")
+            otherinfo = await otherinfo.text()
+            var converter = new showdown.Converter();
+            
+            otherinfo = getTextAfterBody(otherinfo);
+            
+            for (let line of otherinfo.split("\n")){
+                if (line[0] == "!") {
+                    // get everything after the first (, concat the rest
+                    let img = line.split("(")
+                    // concat all the entries after the first
+                    for (let i = 2; i < img.length; i++){
+                        img[1] += "(" + img[i]
+                    }
+                    // remove the last )
+                    img[1] = img[1].substring(0, img[1].length - 1)
+                    img = img[1]
+
+                    inforow.append("div")
+                        .style("text-align", "center")
+                        .append("img")
+                        .attr("src", "notion_data/Benchmark datasets 64e0439269f9497799025562a4087ce1/" + img)
+                        .attr("width", "80%")
+                } else if (line.includes("STOP RENDERING")){
+                     break;
+                } else inforow.append("div").html(converter.makeHtml(line))
+                
+            }
+
+        } catch (e){
+            console.log(e)
+        }
+
+        inforow.append("br")
+        // break;
+
+        row.append("hr")
+            .style("margin-left", "2.5%")
+            .style("width", "95%")
+            .style("margin-top", "5px")
+            .style("margin-bottom", "5px")
+    }
+
+    function add_col_headers(named_list_dom, avoid_middle=false, single_graph=false){
+        let dfes = named_list_dom.append("div")
+            .attr("class", "row")
+            .style("padding-bottom", "10px")
+
+        dfes.append("div")
+            .attr("class", "col coltext")
+            .style("text-align", "left")
+            .html("Name")
+
+        let d = dfes.append("div")
+            .attr("class", "col")
+            
+        if (!avoid_middle) {
+            let dr = d.append("div").attr("class", "row")
+
+            dr.append("div")
+                .attr("class", "col coltext")
+                .style("text-align", "left")
+                .html("Node Distr.")
+            
+            if (!single_graph){
+                dr.append("div")
+                    .attr("class", "col coltext")
+                    .style("text-align", "left")
+                    .html("Min nodes")
+
+                dr.append("div")
+                    .attr("class", "col coltext")
+                    .style("text-align", "left")
+                    .html("Max nodes")
+            } else {
+                dr.append("div")
+                    .attr("class", "col coltext")
+                    .style("text-align", "left")
+                    .html("Min deg.")
+
+                dr.append("div")
+                    .attr("class", "col coltext")
+                    .style("text-align", "left")
+                    .html("Max deg.")
+            }
+        }
+
+        dfes.append("div")
+            .attr("class", "col coltext")
+            .style("text-align", "left")
+            .html("Features")
+    }
+
+    graph_feature_tags = []
+    graph_feature_tags_colors = ["#9B9A97", "#64473A", "#D9730D", "#DFAB01", "#0F7B6C", "#0B6E99", "#6940A5", "#AD1A72", "#E03E3E"]
+
+    async function main(){
+        let data = await d3.csv("notion_data/Benchmark_datasets.csv")
+        let paper_data = await d3.csv("notion_data/Literature - Algorithm 12e01bfc60a84007aa7d2d34293e123d.csv")
+        let origin_paper_data = await d3.csv("notion_data/Paper Sources cb3332bc548a49a4a4f1e085486f71f1.csv")
+        window.origin_paper_data = origin_paper_data;
+        let named_list_dom = d3.select("#named-list")
+        let db_nav_list = d3.select("#db-nav-list");
+
+        for (let entry of data){
+            if (entry["graph features handled"] != "" && entry["graph features handled"] != undefined){
+                let tags = entry["graph features handled"].split(",")
+                for (let j = 0; j < tags.length; j++){
+                    if (tags[j].charAt(0) == ' '){
+                        tags[j] = tags[j].substring(1).toLowerCase()
+                    }
+                    if (!graph_feature_tags.includes(tags[j])){
+                        graph_feature_tags.push(tags[j])
+                    }
+                }
+            }
+        }
+        for (let entry of paper_data){
+            let features = (entry["Graph feature"]).split(",")
+            for (let feature of features){
+                feature = feature.trim().toLowerCase()
+                if (!graph_feature_tags.includes(feature)){
+                    graph_feature_tags.push(feature)
+                }
+            }
+        }
+
+        for (let entry of data.filter(d => d["Type of Collection"] == "Skip")){
+            entry.added = true;
+            continue;
+        }
+
+        populate_search_bar(data, named_list_dom, db_nav_list)
+
+        named_list_dom.append("div")
+            .attr("class", "row")
+            .append("div")
+            .attr("class", "col")
+            .append("h3")
+            .text("Uniform Benchmark datasets")
+            .style("margin-top", "10px")
+
+        named_list_dom.append("div")
+            .attr("class", "row")
+            .append("div")
+            .attr("class", "col")
+            .append("p")
+            .text("These are collections of graphs that have been frequently used in graph drawing papers. By clicking on each collection name, you can see additional information. We also provide an analysis of the contents of each collection, and a list of papers that use them, their sources, and various types of information.")
+            .style("color", "gray")
+
+        add_col_headers(named_list_dom)
+        
+        let benchLi = db_nav_list.append("li")
+            .attr("class", "bd-links-group py-2");
+
+        benchLi
+            .append("strong")
+            .attr("class", "bd-links-heading d-flex w-100 align-items-center fw-semibold")
+            .text("Uniform Benchmark datasets")
+        let benchul = benchLi
+            .append("ul")
+            .attr("class", "list-unstyled fw-normal pb-2 small")
+        
+        for (let entry of data.filter(d => d["Type of Collection"] == "Uniform Benchmark")){
+            entry.added = true;
+            await add_entry_row(named_list_dom, benchul, paper_data, entry, origin_paper_data)
+        }
+
+        named_list_dom.append("div")
+            .attr("class", "row")
+            .append("div")
+            .attr("class", "col")
+            .append("h3")
+            .text("Established Network Repositories")
+            .style("margin-top", "10px")
+
+        named_list_dom.append("div")
+            .attr("class", "row")
+            .append("div")
+            .attr("class", "col")
+            .append("p")
+            .text("The following collections are organized, classified and maintained by other people or institutions. We do not claim any ownership over them, and we do not guarantee that they will be maintained in the future. We provide links to them for convenience, as well as information about which papers use them and what features are contained in the graphs in them.")
+            .style("color", "gray")
+
+        add_col_headers(named_list_dom, true)
+
+        let netLi = db_nav_list.append("li")
+            .attr("class", "bd-links-group py-2")
+        netLi
+            .append("strong")
+            .attr("class", "bd-links-heading d-flex w-100 align-items-center fw-semibold")
+            .text("Established Network Repositories")
+        let netul = netLi
+            .append("ul")
+            .attr("class", "list-unstyled fw-normal pb-2 small")
+
+        for (let entry of data.filter(d => d["Type of Collection"] == "Established Network Repo (No report)")){
+            entry.added = true;
+            await add_entry_row(named_list_dom, netul, paper_data, entry, origin_paper_data)
+        }
+
+        named_list_dom.append("div")
+            .attr("class", "row")
+            .append("div")
+            .attr("class", "col")
+            .append("h3")
+            .text("Aggregate collections")
+            .style("margin-top", "10px")
+
+        named_list_dom.append("div")
+            .attr("class", "row")
+            .append("div")
+            .attr("class", "col")
+            .append("p")
+            .text("The following collections are aggregates: they share similar sources and similar features/purpose, but come from different sources. ")
+            .style("color", "gray")
+
+        add_col_headers(named_list_dom)
+
+        let aggLi = db_nav_list.append("li")
+            .attr("class", "bd-links-group py-2")
+        aggLi
+            .append("strong")
+            .attr("class", "bd-links-heading d-flex w-100 align-items-center fw-semibold")
+            .text("Aggregate collections")
+        let aggul = aggLi
+            .append("ul")
+            .attr("class", "list-unstyled fw-normal pb-2 small")
+
+        for (let entry of data.filter(d => d["Type of Collection"] == "Aggregate collection")){
+            entry.added = true;
+            await add_entry_row(named_list_dom, aggul, paper_data, entry, origin_paper_data)
+        }
+
+        named_list_dom.append("div")
+            .attr("class", "row")
+            .append("div")
+            .attr("class", "col")
+            .append("h3")
+            .text("Single Graphs")
+            .style("margin-top", "10px")
+
+        named_list_dom.append("div")
+            .attr("class", "row")
+            .append("div")
+            .attr("class", "col")
+            .append("p")
+            .text("The following are not collections, but individual graphs. They are often used as examples in papers, or as test cases for specific features. ")
+            .style("color", "gray")
+
+        add_col_headers(named_list_dom, false, true)
+        
+        let singleLi = db_nav_list.append("li")
+            .attr("class", "bd-links-group py-2")
+        singleLi    
+            .append("strong")
+            .attr("class", "bd-links-heading d-flex w-100 align-items-center fw-semibold")
+            .text("Single Graphs")
+        singleUl = singleLi
+            .append("ul")
+            .attr("class", "list-unstyled fw-normal pb-2 small")
+
+        for (let entry of data.filter(d => d["Type of Collection"] == "Single Graph")){
+            entry.added = true;
+            await add_entry_row(named_list_dom, singleUl, paper_data, entry, origin_paper_data)
+        }
+
+        // LOST OR UNAVAILABLE
+
+        named_list_dom.append("div")
+            .attr("class", "row")
+            .append("div")
+            .attr("class", "col")
+            .append("h3")
+            .text("Lost or Unavailable")
+            .style("margin-top", "10px")
+
+        named_list_dom.append("div")
+            .attr("class", "row")
+            .append("div")
+            .attr("class", "col")
+            .append("p")
+            .text("The following collections are unavailable, often due to link rot or unmaintained websites. We invite whoever might have access to these collections to contact us so that we can add them to the list, or gather more information about them. ")
+            .style("color", "gray")
+
+        add_col_headers(named_list_dom, true)
+        
+        let lostLi = db_nav_list.append("li")
+            .attr("class", "bd-links-group py-2")
+        lostLi    
+            .append("strong")
+            .attr("class", "bd-links-heading d-flex w-100 align-items-center fw-semibold")
+            .text("Lost or Unavailable")
+        let lostUl = lostLi
+            .append("ul")
+            .attr("class", "list-unstyled fw-normal pb-2 small")
+
+        for (let entry of data.filter(d => d["Type of Collection"] == "Lost/Unavailable")){
+            entry.added = true;
+            await add_entry_row(named_list_dom, lostUl, paper_data, entry, origin_paper_data)
+        }
+
+        // OTHER DATASETS
+
+        named_list_dom.append("div")
+            .attr("class", "row")
+            .append("div")
+            .attr("class", "col")
+            .append("h3")
+            .text("Subsets of other collections")
+            .style("margin-top", "10px")
+
+        named_list_dom.append("div")
+            .attr("class", "row")
+            .append("div")
+            .attr("class", "col")
+            .append("p")
+            .text("A few more datasets that did not fit in the preivous categories. ")
+            .style("color", "gray")
+
+        add_col_headers(named_list_dom, true)
+
+        let otherLi = db_nav_list.append("li")
+            .attr("class", "bd-links-group py-2")
+        otherLi
+            .append("strong")
+            .attr("class", "bd-links-heading d-flex w-100 align-items-center fw-semibold")
+            .text("Subsets of other collections")
+        let otherUl = otherLi 
+            .append("ul")
+            .attr("class", "list-unstyled fw-normal pb-2 small")
+
+        for (let entry of data.filter(d => d.added != true && d.Name != "")){
+            entry.added = true;
+            await add_entry_row(named_list_dom, otherUl, paper_data, entry, origin_paper_data)
+        }
+    }
+
+    function populate_search_bar(data, named_list_dom, db_nav_list){
+        let search_bar = d3.select("#search-bar")
+            .append("div")
+            .attr("class", "row")
+            .style("margin-top", "10px")
+
+        search_bar.append("div")
+            .attr("class", "col")
+            .append("h3")
+            .text("Search for datasets")
+            .style("margin-bottom", "10px")
+
+        let input = search_bar.append("div")
+            .attr("class", "col-12 col-md-6")
+            .append("input")
+            .attr("type", "text")
+            .attr("id", "search-input")
+            .attr("placeholder", "Search by name or feature...")
+            .attr("class", "form-control")
+
+        input.on("input", function() {
+            let query = this.value.toLowerCase();
+
+            // find all entries that match the query in any field
+            let matchingEntries = data.filter(entry => {
+                // Check all fields for a match with the query
+                return Object.values(entry).some(val => 
+                    typeof val === "string" && val.toLowerCase().includes(query)
+                );
+            });
+
+            if (query === "") {
+                // If the search bar is empty, clear all results
+                d3.select("#search-bar-results").selectAll("*").remove();
+                return;
+            }
+
+            // populate the results section
+            let resultsSection = d3.select("#search-bar-results");
+            resultsSection.selectAll("*").remove(); // Clear previous results
+            if (matchingEntries.length > 0 || matchingEntries.length == data.length) {
+                resultsSection.append("div").html("<b>Search Results:</b>")
+                    .style("display", "inline-block")
+                matchingEntries.forEach(entry => {
+                    let resultDiv = resultsSection.append("div")
+                        .attr("class", "result-item")
+                        .style("display", "inline-block")
+                        .style("margin-left", "10px");
+
+                    resultDiv.append("a")
+                        .attr("href", "#moveTo" + name_cleanup(entry.Name))
+                        .text(entry.Name)
+                        .attr("class", "result-link");
+
+                    // resultDiv.append("div").text("Features: " + entry["graph features handled"]);
+                });
+            } else {
+                resultsSection.append("p").text("No results found.");
+            }
+        });
+    }
+
+    // main()
+   
+</script>
+</html>
