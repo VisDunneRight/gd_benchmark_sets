@@ -10,7 +10,9 @@
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.1.0/showdown.min.js"></script>
 
-    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
 
     <style>
         #named-list {
@@ -168,6 +170,12 @@
                 </pre>
 
             <div><b>Contributing:</b> Please open an issue here: <a href="https://github.com/VisDunneRight/gd_benchmark_sets">https://github.com/VisDunneRight/gd_benchmark_sets</a>. <br> Alternatively, reach out to <a href="mailto:dibartolomeo.sara@gmail.com">dibartolomeo.sara@gmail.com</a></div><br>
+            
+            <div id="search-bar"></div>
+            <div id="search-bar-results">
+
+            </div>
+
             <div id="named-list" data-bs-spy="scroll"  data-bs-target="db-nav-list" data-bs-offset="20" tabindex="0">
             </div>
           </div>
@@ -597,6 +605,8 @@
             continue;
         }
 
+        populate_search_bar(data, named_list_dom, db_nav_list)
+
         named_list_dom.append("div")
             .attr("class", "row")
             .append("div")
@@ -799,6 +809,68 @@
             entry.added = true;
             await add_entry_row(named_list_dom, otherUl, paper_data, entry, origin_paper_data)
         }
+    }
+
+    function populate_search_bar(data, named_list_dom, db_nav_list){
+        let search_bar = d3.select("#search-bar")
+            .append("div")
+            .attr("class", "row")
+            .style("margin-top", "10px")
+
+        search_bar.append("div")
+            .attr("class", "col")
+            .append("h3")
+            .text("Search for datasets")
+            .style("margin-bottom", "10px")
+
+        let input = search_bar.append("div")
+            .attr("class", "col-12 col-md-6")
+            .append("input")
+            .attr("type", "text")
+            .attr("id", "search-input")
+            .attr("placeholder", "Search by name or feature...")
+            .attr("class", "form-control")
+
+        input.on("input", function() {
+            let query = this.value.toLowerCase();
+
+            // find all entries that match the query in any field
+            let matchingEntries = data.filter(entry => {
+                // Check all fields for a match with the query
+                return Object.values(entry).some(val => 
+                    typeof val === "string" && val.toLowerCase().includes(query)
+                );
+            });
+
+            if (query === "") {
+                // If the search bar is empty, clear all results
+                d3.select("#search-bar-results").selectAll("*").remove();
+                return;
+            }
+
+            // populate the results section
+            let resultsSection = d3.select("#search-bar-results");
+            resultsSection.selectAll("*").remove(); // Clear previous results
+            if (matchingEntries.length > 0 || matchingEntries.length == data.length) {
+                resultsSection.append("div").html("<b>Search Results:</b>")
+                    .style("display", "inline-block")
+                matchingEntries.forEach(entry => {
+                    let resultDiv = resultsSection.append("div")
+                        .attr("class", "result-item")
+                        .style("display", "inline-block")
+                        .style("margin-left", "10px");
+
+                    resultDiv.append("a")
+                        .attr("href", "#moveTo" + name_cleanup(entry.Name))
+                        .text(entry.Name)
+                        .attr("class", "result-link");
+
+                    // resultDiv.append("div").text("Features: " + entry["graph features handled"]);
+                });
+            } else {
+                resultsSection.append("p").text("No results found.");
+            }
+        });
     }
 
     main()
