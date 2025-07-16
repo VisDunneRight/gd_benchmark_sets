@@ -18,7 +18,7 @@ title = {A survey of two-dimensional graph layout techniques for information vis
 journal = {Information Visualization}
 }
 DOI: https://doi.org/10.1177/1473871612455749
-year: 2013
+Year: 2013
 Conference: Information Visualization
 link: https://journals.sagepub.com/doi/pdf/10.1177/1473871612455749
 paper type: survey

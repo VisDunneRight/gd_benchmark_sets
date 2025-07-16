@@ -14,7 +14,7 @@ title = {Layered Drawing of Undirected Graphs with Generalized Port Constraints}
 booktitle = {Lecture Notes in Computer Science}
 }
 DOI: https://doi.org/10.1007/978-3-030-68766-3_18
-year: 2020
+Year: 2020
 Conference: GD
 link: https://link.springer.com/content/pdf/10.1007%2F978-3-030-68766-3.pdf
 paper type: algorithm

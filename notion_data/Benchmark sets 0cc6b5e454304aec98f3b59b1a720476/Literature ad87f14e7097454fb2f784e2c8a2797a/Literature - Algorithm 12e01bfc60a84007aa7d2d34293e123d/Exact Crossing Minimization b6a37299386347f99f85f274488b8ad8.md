@@ -22,7 +22,7 @@ abstract="The crossing number of a graph is the minimum number of edge crossings
 isbn="978-3-540-31667-1"
 }
 DOI: https://doi.org/10.1007/11618058_4
-year: 2005
+Year: 2005
 Conference: GD
 link: https://link.springer.com/content/pdf/10.1007/11618058_4.pdf
 paper type: algorithm

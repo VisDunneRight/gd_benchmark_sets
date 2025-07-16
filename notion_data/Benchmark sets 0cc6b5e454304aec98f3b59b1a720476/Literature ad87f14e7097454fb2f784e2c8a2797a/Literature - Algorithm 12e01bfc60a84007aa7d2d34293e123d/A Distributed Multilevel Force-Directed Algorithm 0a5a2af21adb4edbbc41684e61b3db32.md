@@ -16,7 +16,7 @@ title = {A Distributed Multilevel Force-Directed Algorithm},
 journal = {{IEEE} Transactions on Parallel and Distributed Systems}
 }
 DOI: https://doi.org/https://doi.org/10.1109/TPDS.2018.2869805
-year: 2016
+Year: 2016
 Conference: TVCG
 link: https://ieeexplore.ieee.org/document/8462766
 Notes: source for dataset 2: https://networkrepository.com/
@@ -49,5 +49,7 @@ Go find the datasets: No
 Go hunt for citations: No
 Great example: No
 Dataset names: 3elt (C. Walshaw - Sparse Matrix), 4970 (rogue), 4elt (C. Walshaw), 516 (rogue), Sierpinski_08 (?), add20 (?), crack (C. Walshaw), cti, cylinder_010 (?), cylinder_032 (?), data (C. Walshaw), dg_617_part (?), esslingen1 (?), flower_001 (?), grid_20_20, grid_40_40, grid_rnd_032 (?), karateclub (Network Repository), protein_part (?), rna (?), sierpinski_04, sierpinski_06, snowflake_A (?), snowflake_B (?), spider_A (?), spider_B (?), tree_06_03 (?), tree_06_04 (?), uk (?), usg_380 (?)
+Related to Benchmark datasets (Related to Literature - Algorithm (Dataset tag relations) 1): Network Repository (../../Existing%20benchmark%20datasets%20(1)%204e6ac4f7a1004e179b2efe7128ee12b8/Benchmark%20datasets%20fff01d52e4ad81ae9875ec4733f4a970/Network%20Repository%20fff01d52e4ad81b0afcfc431cc32c8df.md), SNAP (Stanford Network Analysis Platform) (../../Existing%20benchmark%20datasets%20(1)%204e6ac4f7a1004e179b2efe7128ee12b8/Benchmark%20datasets%20fff01d52e4ad81ae9875ec4733f4a970/SNAP%20(Stanford%20Network%20Analysis%20Platform)%20fff01d52e4ad81bba7fdd4700e69d4e8.md)
+Related to Benchmark datasets (Related to Literature - Algorithm (Dataset tag relations) 1) 1: Network Repository (../../Existing%20benchmark%20datasets%20(1)%20d774ccc4903946489c8369c319381d05/Benchmark%20datasets%20fff01d52e4ad81298f4dcb2af7a126a8/Network%20Repository%20fff01d52e4ad81c0b6defb858e0fb80e.md), SNAP (Stanford Network Analysis Platform) (../../Existing%20benchmark%20datasets%20(1)%20d774ccc4903946489c8369c319381d05/Benchmark%20datasets%20fff01d52e4ad81298f4dcb2af7a126a8/SNAP%20(Stanford%20Network%20Analysis%20Platform)%20fff01d52e4ad81f0bc11d53cc1f769cb.md)
 
 ![Untitled](A%20Distributed%20Multilevel%20Force-Directed%20Algorithm%200a5a2af21adb4edbbc41684e61b3db32/Untitled.png)

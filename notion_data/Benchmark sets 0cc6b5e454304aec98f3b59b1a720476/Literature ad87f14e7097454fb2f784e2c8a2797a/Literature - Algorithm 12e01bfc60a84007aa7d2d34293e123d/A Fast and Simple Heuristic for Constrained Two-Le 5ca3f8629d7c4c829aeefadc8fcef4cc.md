@@ -14,7 +14,7 @@ title = {A Fast and Simple Heuristic for Constrained Two-Level Crossing Reductio
 booktitle = {Graph Drawing}
 }
 DOI: https://doi.org/https://doi.org/10.1007/978-3-540-31843-9_22
-year: 2004
+Year: 2004
 Conference: GD
 link: https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.59.1966&rep=rep1&type=pdf
 Notes: used in dagre. Experiment says "We have tested the im-

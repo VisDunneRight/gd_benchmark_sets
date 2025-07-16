@@ -17,7 +17,7 @@ year = {2018},
 copyright = {Permission is granted to quote short excerpts and to reproduce figures and tables from these proceed­ings, provided that the source of such material is fully acknowledged.}
 }
 DOI: https://doi.org/10.20380/GI2018.05
-year: 2018
+Year: 2018
 Conference: Graphics Interface
 Notes: this paper is terrible
 paper type: algorithm, system
@@ -43,5 +43,7 @@ Go find the datasets: No
 Go hunt for citations: No
 Great example: No
 Dataset names: Friends (Padia), Witcher (Padia)
+Related to Benchmark datasets (Related to Literature - Algorithm (Dataset tag relations) 1): Padia Stories (../../Existing%20benchmark%20datasets%20(1)%204e6ac4f7a1004e179b2efe7128ee12b8/Benchmark%20datasets%20fff01d52e4ad81ae9875ec4733f4a970/Padia%20Stories%20fff01d52e4ad81aab37cfe32b3735f7b.md)
+Related to Benchmark datasets (Related to Literature - Algorithm (Dataset tag relations) 1) 1: Padia Stories (../../Existing%20benchmark%20datasets%20(1)%20d774ccc4903946489c8369c319381d05/Benchmark%20datasets%20fff01d52e4ad81298f4dcb2af7a126a8/Padia%20Stories%20fff01d52e4ad81129ac5fae5ce46063e.md)
 
 ![Untitled](Yarn%20generating%20storyline%20visualizations%20using%20HTN%20c2613f33ff704f2eb5092e8db9ab9c28/Untitled.png)

@@ -13,7 +13,7 @@ title = {The Turing Test for Graph Drawing Algorithms},
 booktitle = {Lecture Notes in Computer Science}
 }
 DOI: https://doi.org/10.1007/978-3-030-68766-3_36
-year: 2020
+Year: 2020
 Conference: GD
 Notes: empirical study (turing test)
 paper type: comparison
@@ -36,5 +36,7 @@ To review: No
 Go find the datasets: Yes
 Go hunt for citations: No
 Great example: No
+Related to Benchmark datasets (Related to Literature - Algorithm (Dataset tag relations) 1): Social Networks (../../Existing%20benchmark%20datasets%20(1)%204e6ac4f7a1004e179b2efe7128ee12b8/Benchmark%20datasets%20fff01d52e4ad81ae9875ec4733f4a970/Social%20Networks%20fff01d52e4ad811e963fc9641224bac2.md), Blogposts, Tweets, and Forums (../../Existing%20benchmark%20datasets%20(1)%204e6ac4f7a1004e179b2efe7128ee12b8/Benchmark%20datasets%20fff01d52e4ad81ae9875ec4733f4a970/Blogposts,%20Tweets,%20and%20Forums%20fff01d52e4ad819f8c04e8216016ba53.md)
+Related to Benchmark datasets (Related to Literature - Algorithm (Dataset tag relations) 1) 1: Blogposts, Tweets, and Forums (../../Existing%20benchmark%20datasets%20(1)%20d774ccc4903946489c8369c319381d05/Benchmark%20datasets%20fff01d52e4ad81298f4dcb2af7a126a8/Blogposts,%20Tweets,%20and%20Forums%20fff01d52e4ad81bd929eee0d21a74723.md), Social Networks (../../Existing%20benchmark%20datasets%20(1)%20d774ccc4903946489c8369c319381d05/Benchmark%20datasets%20fff01d52e4ad81298f4dcb2af7a126a8/Social%20Networks%20fff01d52e4ad81e78e2efb90274be5f4.md)
 
 ![Untitled](The%20Turing%20Test%20for%20Graph%20Drawing%20Algorithms%209927a9580ae74b49a468a8c2816334da/Untitled.png)

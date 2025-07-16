@@ -13,7 +13,7 @@ title = {Drawing Bobbin Lace Graphs, or, Fundamental Cycles for a Subclass of Pe
 booktitle = {Lecture Notes in Computer Science}
 }
 DOI: https://doi.org/10.1007/978-3-319-73915-1_12
-year: 2017
+Year: 2017
 Conference: GD
 link: https://link.springer.com/content/pdf/10.1007%2F978-3-319-73915-1.pdf
 paper type: algorithm, proof

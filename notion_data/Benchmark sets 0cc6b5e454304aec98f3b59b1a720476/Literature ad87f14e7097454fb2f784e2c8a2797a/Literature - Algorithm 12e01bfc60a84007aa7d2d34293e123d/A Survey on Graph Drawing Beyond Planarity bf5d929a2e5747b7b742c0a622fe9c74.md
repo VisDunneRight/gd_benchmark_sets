@@ -16,7 +16,7 @@ title = {A Survey on Graph Drawing Beyond Planarity},
 journal = {{ACM} Computing Surveys}
 }
 DOI: https://doi.org/10.1145/3301281
-year: 2020
+Year: 2020
 Conference: ACM Computing Surveys 2020
 link: https://dl.acm.org/doi/pdf/10.1145/3301281
 paper type: survey

@@ -15,7 +15,7 @@ title = {A Sparse Stress Model},
 journal = {Journal of Graph Algorithms and Applications}
 }
 DOI: https://doi.org/http://dx.doi.org/10.7155/jgaa.00440
-year: 2016
+Year: 2016
 Conference: GD
 link: https://link.springer.com/content/pdf/10.1007%2F978-3-319-50106-2.pdf
 Notes: great example: covers all bases for reporting
@@ -46,5 +46,7 @@ Go find the datasets: No
 Go hunt for citations: No
 Great example: Yes
 Dataset names: 1138_bus (Sparse matrix - Matrix Market), 3elt (C. Walshaw - Sparse Matrix), LeHavre (SparseMatrix), bodyy5 (SparseMatrix), btree (Sparse Matrix), commanche (Sparse Matrix), dwt1005 (SparseMatrix), finance256 (SparseMatrix), lp_ship041 (Sparse Matrix), pesa (SparseMatrix), plat1919 (SparseMatrix), qh882 (Sparse Matrix), us_powergrid (Sparse Matrix)
+Related to Benchmark datasets (Related to Literature - Algorithm (Dataset tag relations) 1): SuiteSparse Matrix Collection (../../Existing%20benchmark%20datasets%20(1)%204e6ac4f7a1004e179b2efe7128ee12b8/Benchmark%20datasets%20fff01d52e4ad81ae9875ec4733f4a970/SuiteSparse%20Matrix%20Collection%20fff01d52e4ad81448874dfe4b2fdc1f8.md)
+Related to Benchmark datasets (Related to Literature - Algorithm (Dataset tag relations) 1) 1: SuiteSparse Matrix Collection (../../Existing%20benchmark%20datasets%20(1)%20d774ccc4903946489c8369c319381d05/Benchmark%20datasets%20fff01d52e4ad81298f4dcb2af7a126a8/SuiteSparse%20Matrix%20Collection%20fff01d52e4ad8166bd8dd2b5cef82c74.md)
 
 ![Untitled](A%20Sparse%20Stress%20Model%2096e7e209fadc468f9156cb44d0c8e59b/Untitled.png)

@@ -15,7 +15,7 @@ abstract="We describe a heuristic method for drawing graphs which uses a multile
 isbn="978-3-540-44541-8"
 }
 DOI: https://doi.org/10.1007/3-540-44541-2_17
-year: 2002
+Year: 2002
 Conference: GD
 link: https://www.researchgate.net/publication/220639640_A_Multilevel_Algorithm_for_Force-Directed_Graph_Drawing
 Notes: it reports the degree of the nodes
@@ -39,5 +39,7 @@ Go find the datasets: No
 Go hunt for citations: Yes
 Great example: No
 Dataset names: 4970 (rogue), 4elt (C. Walshaw), 516 (rogue), add32 (C. Walshaw), data (C. Walshaw), finan512 (C. Walshaw), mesh100 (rogue), whitaker3 (C. Walshaw)
+Related to Benchmark datasets (Related to Literature - Algorithm (Dataset tag relations) 1): Walshaw (../../Existing%20benchmark%20datasets%20(1)%204e6ac4f7a1004e179b2efe7128ee12b8/Benchmark%20datasets%20fff01d52e4ad81ae9875ec4733f4a970/Walshaw%20fff01d52e4ad8147a31cf6fd707eae88.md)
+Related to Benchmark datasets (Related to Literature - Algorithm (Dataset tag relations) 1) 1: Walshaw (../../Existing%20benchmark%20datasets%20(1)%20d774ccc4903946489c8369c319381d05/Benchmark%20datasets%20fff01d52e4ad81298f4dcb2af7a126a8/Walshaw%20fff01d52e4ad813a8b96dd3fbfc68ad8.md)
 
 ![Untitled](A%20Multilevel%20Algorithm%20for%20Force-Directed%20Graph%20Dr%20234ec1ad86724e0baed5830877d0c70d/Untitled.png)

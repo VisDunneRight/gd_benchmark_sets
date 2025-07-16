@@ -17,7 +17,7 @@ abstract = {Abstract Tracking graphs are a well established tool in topological 
 year = {2017}
 }
 DOI: https://doi.org/10.1111/cgf.13164
-year: 2017
+Year: 2017
 Conference: Computer Graphics Forum
 link: https://onlinelibrary.wiley.com/doi/epdf/10.1111/cgf.13164
 paper type: algorithm

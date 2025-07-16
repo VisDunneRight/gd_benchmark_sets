@@ -16,7 +16,7 @@ title = {A force-directed algorithm that preserves edge-crossing properties},
 journal = {Information Processing Letters}
 }
 DOI: https://doi.org/10.1016/S0020-0190(00)00042-9
-year: 1999
+Year: 1999
 Conference: GD
 link: https://link.springer.com/content/pdf/10.1007/3-540-46648-7_36.pdf
 Notes: evaluation by proof

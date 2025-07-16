@@ -17,7 +17,7 @@ abstract = {Abstract A set diagram represents the membership relation among data
 year = {2019}
 }
 DOI: https://doi.org/10.1111/cgf.13668
-year: 2019
+Year: 2019
 Conference: EuroVis
 link: https://onlinelibrary.wiley.com/doi/10.1111/cgf.13668
 paper type: algorithm
@@ -38,3 +38,5 @@ To review: No
 Go find the datasets: No
 Go hunt for citations: No
 Great example: No
+Related to Benchmark datasets (Related to Literature - Algorithm (Dataset tag relations) 1): Assorted Collaboration Network (../../Existing%20benchmark%20datasets%20(1)%204e6ac4f7a1004e179b2efe7128ee12b8/Benchmark%20datasets%20fff01d52e4ad81ae9875ec4733f4a970/Assorted%20Collaboration%20Network%20fff01d52e4ad81c6b058fa7c75c14808.md)
+Related to Benchmark datasets (Related to Literature - Algorithm (Dataset tag relations) 1) 1: Assorted Collaboration Network (../../Existing%20benchmark%20datasets%20(1)%20d774ccc4903946489c8369c319381d05/Benchmark%20datasets%20fff01d52e4ad81298f4dcb2af7a126a8/Assorted%20Collaboration%20Network%20fff01d52e4ad81e6ade9eb25f7da3f5f.md)

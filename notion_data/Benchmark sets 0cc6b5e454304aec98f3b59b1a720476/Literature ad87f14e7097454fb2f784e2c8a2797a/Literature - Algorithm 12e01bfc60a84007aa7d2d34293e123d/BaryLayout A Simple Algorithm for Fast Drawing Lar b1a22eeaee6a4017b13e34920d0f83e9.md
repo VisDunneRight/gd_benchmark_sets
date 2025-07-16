@@ -13,7 +13,7 @@ title = {{BaryLayout}: A Simple Algorithm for Fast Drawing Large Graphs},
 booktitle = {2010 International Conference on Computational Intelligence and Software Engineering}
 }
 DOI: http://dx.doi.org/10.1109/CISE.2010.5677225
-year: 2010
+Year: 2010
 Conference: CISE
 link: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=5677225
 Notes: dataset used: S. Hachul and M. Junger. An experimental comparison of fast algorithms for drawing general large graphs. In Proc. 13th Int. Symp. on Graph

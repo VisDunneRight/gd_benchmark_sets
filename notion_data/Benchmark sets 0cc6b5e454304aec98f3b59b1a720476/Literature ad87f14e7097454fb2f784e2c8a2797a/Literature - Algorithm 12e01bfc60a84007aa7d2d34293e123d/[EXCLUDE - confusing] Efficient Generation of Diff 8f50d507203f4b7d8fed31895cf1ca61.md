@@ -13,7 +13,7 @@ title = {Efficient Generation of Different Topological Representations of Graphs
 booktitle = {Lecture Notes in Computer Science}
 }
 DOI: https://doi.org/10.1007/978-3-030-35802-0_20
-year: 2019
+Year: 2019
 Conference: GD
 Notes: implementation: https://github.com/beyond-planarity/complete-graphs
 paper type: algorithm

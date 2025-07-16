@@ -19,7 +19,7 @@ abstract="Symmetry is a key feature observed in nature (from flowers and leaves,
 isbn="978-3-030-35802-0"
 }
 DOI: https://doi.org/10.1007/978-3-030-35802-0_38
-year: 2019
+Year: 2019
 Conference: GD
 Notes: it’s a machine-learning paper so datasets used are for the model not for the graph layout
 

@@ -18,7 +18,7 @@ location = {Karlsruhe, Germany},
 series = {GD'06}
 }
 DOI: https://doi.org/10.5555/1758612.1758620
-year: 2006
+Year: 2006
 Conference: GD
 link: https://dl.acm.org/doi/10.5555/1758612.1758620
 Notes: https://link.springer.com/content/pdf/10.1007/978-3-540-70904-6.pdf?pdf=button
@@ -41,3 +41,5 @@ Go find the datasets: No
 Go hunt for citations: Yes
 Great example: No
 Dataset names: 3elt (C. Walshaw - Sparse Matrix), 4elt (C. Walshaw), 4elt2 (C. Walshaw), add32 (C. Walshaw), bcsstk31 (C. Walshaw), bcsstk32 (C. Walshaw), bcsstk33 (C. Walshaw), crack (C. Walshaw), esslingen1 (?), fe_ocean (C. Walshaw), fidap006 (Matrix Market), fidap011 (Matrix Market), finan512 (C. Walshaw), power (Matrix Market), sphere (C. Walshaw), ug380 (?), whitaker3 (C. Walshaw)
+Related to Benchmark datasets (Related to Literature - Algorithm (Dataset tag relations) 1): Walshaw (../../Existing%20benchmark%20datasets%20(1)%204e6ac4f7a1004e179b2efe7128ee12b8/Benchmark%20datasets%20fff01d52e4ad81ae9875ec4733f4a970/Walshaw%20fff01d52e4ad8147a31cf6fd707eae88.md), Matrix Market (../../Existing%20benchmark%20datasets%20(1)%204e6ac4f7a1004e179b2efe7128ee12b8/Benchmark%20datasets%20fff01d52e4ad81ae9875ec4733f4a970/Matrix%20Market%20fff01d52e4ad81e9a370cd566ba10c3a.md)
+Related to Benchmark datasets (Related to Literature - Algorithm (Dataset tag relations) 1) 1: Walshaw (../../Existing%20benchmark%20datasets%20(1)%20d774ccc4903946489c8369c319381d05/Benchmark%20datasets%20fff01d52e4ad81298f4dcb2af7a126a8/Walshaw%20fff01d52e4ad813a8b96dd3fbfc68ad8.md), Matrix Market (../../Existing%20benchmark%20datasets%20(1)%20d774ccc4903946489c8369c319381d05/Benchmark%20datasets%20fff01d52e4ad81298f4dcb2af7a126a8/Matrix%20Market%20fff01d52e4ad81899e14dcfdc95a0c22.md)

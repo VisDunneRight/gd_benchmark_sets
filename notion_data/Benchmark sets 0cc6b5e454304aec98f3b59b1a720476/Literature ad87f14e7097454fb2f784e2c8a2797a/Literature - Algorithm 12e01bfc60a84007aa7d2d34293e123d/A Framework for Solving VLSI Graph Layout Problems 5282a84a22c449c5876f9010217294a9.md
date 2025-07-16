@@ -16,7 +16,7 @@ title = {A framework for solving {VLSI} graph layout problems},
 journal = {Journal of Computer and System Sciences}
 }
 DOI: https://doi.org/10.1016/0022-0000(84)90071-0
-year: 1984
+Year: 1984
 Conference: Journal of Computer and System Sciences
 link: https://www.sciencedirect.com/science/article/pii/0022000084900710
 paper type: proof

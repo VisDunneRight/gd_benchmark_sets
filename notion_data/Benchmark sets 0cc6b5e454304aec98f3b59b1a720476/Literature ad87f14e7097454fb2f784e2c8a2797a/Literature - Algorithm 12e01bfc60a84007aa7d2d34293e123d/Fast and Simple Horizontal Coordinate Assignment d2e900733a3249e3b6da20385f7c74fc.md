@@ -18,7 +18,7 @@ abstract="We present a simple, linear-time algorithm to determine horizontal coo
 isbn="978-3-540-45848-7"
 }
 DOI: https://doi.org/10.1007/3-540-45848-4_3
-year: 2002
+Year: 2002
 Conference: GD
 link: http://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=E944F4081AA4CCC56173B048E0F281D7?doi=10.1.1.64.4457&rep=rep1&type=pdf
 Notes: used in dagre. paper has pseudocode.

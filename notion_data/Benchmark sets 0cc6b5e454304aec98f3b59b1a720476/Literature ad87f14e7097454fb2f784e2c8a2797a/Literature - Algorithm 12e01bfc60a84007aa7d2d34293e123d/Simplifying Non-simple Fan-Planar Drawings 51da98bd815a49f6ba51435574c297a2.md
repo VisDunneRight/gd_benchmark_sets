@@ -14,7 +14,7 @@ title = {Simplifying Non-simple Fan-Planar Drawings},
 booktitle = {Lecture Notes in Computer Science}
 }
 DOI: https://doi.org/10.1007/978-3-030-92931-2_4
-year: 2021
+Year: 2021
 Conference: GD
 link: https://link.springer.com/content/pdf/10.1007%2F978-3-030-92931-2.pdf
 paper type: algorithm

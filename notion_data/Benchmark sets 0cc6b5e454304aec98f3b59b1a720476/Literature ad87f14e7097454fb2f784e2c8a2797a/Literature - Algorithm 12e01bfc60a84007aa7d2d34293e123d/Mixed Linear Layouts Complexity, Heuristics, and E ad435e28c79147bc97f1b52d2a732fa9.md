@@ -13,7 +13,7 @@ title = {Mixed Linear Layouts: Complexity, Heuristics, and Experiments},
 booktitle = {Lecture Notes in Computer Science}
 }
 DOI: https://doi.org/10.1007/978-3-030-35802-0_35
-year: 2019
+Year: 2019
 Conference: GD
 Notes: datasets generated according sparse graph classes
 paper type: algorithm, comparison

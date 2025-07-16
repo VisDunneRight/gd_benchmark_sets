@@ -13,7 +13,7 @@ title = {Line Crossing Minimization on Metro Maps},
 booktitle = {Graph Drawing}
 }
 DOI: https://doi.org/https://doi.org/10.1007/978-3-540-77537-9_24
-year: 2007
+Year: 2007
 Conference: GD
 link: https://link.springer.com/content/pdf/10.1007/978-3-540-77537-9_24.pdf
 paper type: algorithm

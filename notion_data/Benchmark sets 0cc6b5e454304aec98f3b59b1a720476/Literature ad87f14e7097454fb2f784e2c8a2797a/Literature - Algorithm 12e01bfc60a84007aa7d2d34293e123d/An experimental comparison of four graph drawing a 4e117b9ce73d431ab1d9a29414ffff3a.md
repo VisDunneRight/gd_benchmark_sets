@@ -16,7 +16,7 @@ title = {An experimental comparison of four graph drawing algorithms},
 journal = {Computational Geometry}
 }
 DOI: https://doi.org/10.1016/S0925-7721(96)00005-3
-year: 1997
+Year: 1997
 Conference: Computational Geometry
 Notes: Origin of Rome-Lib
 
@@ -71,5 +71,7 @@ To review: No
 Go find the datasets: No
 Go hunt for citations: No
 Great example: No
+Related to Benchmark datasets (Related to Literature - Algorithm (Dataset tag relations) 1): Rome-Lib (../../Existing%20benchmark%20datasets%20(1)%204e6ac4f7a1004e179b2efe7128ee12b8/Benchmark%20datasets%20fff01d52e4ad81ae9875ec4733f4a970/Rome-Lib%20fff01d52e4ad81aba440e2480769b62a.md)
+Related to Benchmark datasets (Related to Literature - Algorithm (Dataset tag relations) 1) 1: Rome-Lib (../../Existing%20benchmark%20datasets%20(1)%20d774ccc4903946489c8369c319381d05/Benchmark%20datasets%20fff01d52e4ad81298f4dcb2af7a126a8/Rome-Lib%20fff01d52e4ad81c6a9f8ecb881634ab6.md)
 
 ![Untitled](An%20experimental%20comparison%20of%20four%20graph%20drawing%20a%204e117b9ce73d431ab1d9a29414ffff3a/Untitled.png)

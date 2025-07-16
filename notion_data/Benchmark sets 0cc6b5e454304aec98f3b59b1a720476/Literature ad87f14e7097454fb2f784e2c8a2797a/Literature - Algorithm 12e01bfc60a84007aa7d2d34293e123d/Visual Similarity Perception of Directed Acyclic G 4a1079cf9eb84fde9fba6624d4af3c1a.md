@@ -26,7 +26,7 @@ Strategies},
 
         }
 DOI: https://doi.org/10.7155/jgaa.00467
-year: 2017
+Year: 2017
 Conference: GD
 link: https://link.springer.com/content/pdf/10.1007%2F978-3-319-73915-1.pdf
 Notes: user study - we have doubts about the inclusion of this

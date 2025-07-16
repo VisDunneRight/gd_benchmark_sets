@@ -4,7 +4,7 @@ Citation name: muelder2008
 Authors: Chris Muelder and Kwan-Liu Ma
 Bibtex: @ARTICLE{muelder2008, author={Muelder, Chris and Ma, Kwan-Liu}, journal={IEEE Transactions on Visualization and Computer Graphics}, title={Rapid Graph Layout Using Space Filling Curves}, year={2008}, volume={14}, number={6}, pages={1301-1308}, doi={10.1109/TVCG.2008.158}}
 DOI: https://doi.org/10.1109/TVCG.2008.158
-year: 2008
+Year: 2008
 Conference: TVCG
 link: https://ieeexplore.ieee.org/document/4658143
 Notes: visual and visual comparison to other layouts
@@ -28,5 +28,7 @@ To review: No
 Go find the datasets: No
 Go hunt for citations: Yes
 Great example: No
+Related to Benchmark datasets (Related to Literature - Algorithm (Dataset tag relations) 1): California (../../Existing%20benchmark%20datasets%20(1)%204e6ac4f7a1004e179b2efe7128ee12b8/Benchmark%20datasets%20fff01d52e4ad81ae9875ec4733f4a970/California%20fff01d52e4ad81298112e15f373aaf54.md), Transportation Networks (../../Existing%20benchmark%20datasets%20(1)%204e6ac4f7a1004e179b2efe7128ee12b8/Benchmark%20datasets%20fff01d52e4ad81ae9875ec4733f4a970/Transportation%20Networks%20fff01d52e4ad81db96f7d31c609dfe72.md), Protein Interactions (Publications) (../../Existing%20benchmark%20datasets%20(1)%204e6ac4f7a1004e179b2efe7128ee12b8/Benchmark%20datasets%20fff01d52e4ad81ae9875ec4733f4a970/Protein%20Interactions%20(Publications)%20fff01d52e4ad81ef9fa2df1816d007fd.md)
+Related to Benchmark datasets (Related to Literature - Algorithm (Dataset tag relations) 1) 1: Protein Interactions (Publications) (../../Existing%20benchmark%20datasets%20(1)%20d774ccc4903946489c8369c319381d05/Benchmark%20datasets%20fff01d52e4ad81298f4dcb2af7a126a8/Protein%20Interactions%20(Publications)%20fff01d52e4ad810e87deee9ba4ea2077.md), Transportation Networks (../../Existing%20benchmark%20datasets%20(1)%20d774ccc4903946489c8369c319381d05/Benchmark%20datasets%20fff01d52e4ad81298f4dcb2af7a126a8/Transportation%20Networks%20fff01d52e4ad81af890bc92a14aee5c0.md), California (../../Existing%20benchmark%20datasets%20(1)%20d774ccc4903946489c8369c319381d05/Benchmark%20datasets%20fff01d52e4ad81298f4dcb2af7a126a8/California%20fff01d52e4ad81e5aa98cbb9c7a51b4b.md)
 
 [9th DIMACS Implementation Challenge: Shortest Paths](http://www.diag.uniroma1.it//challenge9/download.shtml)

@@ -13,7 +13,7 @@ title = {Reordering Massive Sequence Views: Enabling temporal and structural ana
 booktitle = {2013 {IEEE} Pacific Visualization Symposium ({PacificVis})}
 }
 DOI: https://doi.org/10.1109/PacificVis.2013.6596125
-year: 2013
+Year: 2013
 Conference: PacificVis
 link: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6596125
 Notes: not a real evaluation
@@ -40,3 +40,5 @@ To review: No
 Go find the datasets: No
 Go hunt for citations: No
 Great example: No
+Related to Benchmark datasets (Related to Literature - Algorithm (Dataset tag relations) 1): Enron (../../Existing%20benchmark%20datasets%20(1)%204e6ac4f7a1004e179b2efe7128ee12b8/Benchmark%20datasets%20fff01d52e4ad81ae9875ec4733f4a970/Enron%20fff01d52e4ad81388893c8fa64519bb5.md)
+Related to Benchmark datasets (Related to Literature - Algorithm (Dataset tag relations) 1) 1: Enron (../../Existing%20benchmark%20datasets%20(1)%20d774ccc4903946489c8369c319381d05/Benchmark%20datasets%20fff01d52e4ad81298f4dcb2af7a126a8/Enron%20fff01d52e4ad81ff951ae639a98a177c.md)

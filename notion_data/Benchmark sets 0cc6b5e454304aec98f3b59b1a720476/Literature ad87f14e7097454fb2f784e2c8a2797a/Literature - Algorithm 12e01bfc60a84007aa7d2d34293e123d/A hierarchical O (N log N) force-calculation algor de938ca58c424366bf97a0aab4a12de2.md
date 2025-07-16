@@ -16,7 +16,7 @@ title = {A hierarchical O(N log N) force-calculation algorithm},
 journal = {Nature}
 }
 DOI: https://doi.org/10.1038/324446a0
-year: 1986
+Year: 1986
 Conference: Nature
 link: https://idp.nature.com/authorize/casa?redirect_uri=https://www.nature.com/articles/324446a0.pdf%3Forigin%3Dppub&casa_token=_bH6RCC4ACUAAAAA:6HvbghkoWPlmq3p5jP8b0VKSlHYvUG4N5vtxTvO-quOBuqKZQSeQYcpylNTLjlxHEzUzvp-Eb4V0w3mdaA
 paper type: algorithm

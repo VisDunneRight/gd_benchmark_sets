@@ -24,7 +24,7 @@ Bibtex: @Article{junger1997,
 
         }
 DOI: https://doi.org/10.1145/1671970.1671975https://dx.doi.org/10.7155/jgaa.00001
-year: 1997
+Year: 1997
 Conference: JGAA
 link: https://www.researchgate.net/profile/Petra-Mutzel/publication/30508315_2-Layer_Straightline_Crossing_Minimization_Performance_of_Exact_and_Heuristic_Algorithms/links/09e4150eabaf4cc7bd000000/2-Layer-Straightline-Crossing-Minimization-Performance-of-Exact-and-Heuristic-Algorithms.pdf
 Notes: used in dagre
@@ -50,3 +50,5 @@ To review: No
 Go find the datasets: No
 Go hunt for citations: No
 Great example: No
+Related to Benchmark datasets (Related to Literature - Algorithm (Dataset tag relations) 1): Stanford GraphBase (../../Existing%20benchmark%20datasets%20(1)%204e6ac4f7a1004e179b2efe7128ee12b8/Benchmark%20datasets%20fff01d52e4ad81ae9875ec4733f4a970/Stanford%20GraphBase%20fff01d52e4ad8183a7bfd55bda2ff06e.md)
+Related to Benchmark datasets (Related to Literature - Algorithm (Dataset tag relations) 1) 1: Stanford GraphBase (../../Existing%20benchmark%20datasets%20(1)%20d774ccc4903946489c8369c319381d05/Benchmark%20datasets%20fff01d52e4ad81298f4dcb2af7a126a8/Stanford%20GraphBase%20fff01d52e4ad81b78740d6eb034c59f4.md)

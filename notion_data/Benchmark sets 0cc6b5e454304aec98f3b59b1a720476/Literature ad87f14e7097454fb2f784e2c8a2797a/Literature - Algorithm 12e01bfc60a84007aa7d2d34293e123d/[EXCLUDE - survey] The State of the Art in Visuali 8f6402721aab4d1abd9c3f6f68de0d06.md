@@ -13,7 +13,7 @@ ISBN = {978-3-03868-028-4},
 DOI = {10.2312/eurovisstar.20141174}
 }
 DOI: https://doi.org/10.2312/eurovisstar.20141174
-year: 2014
+Year: 2014
 Conference: EuroVis
 link: https://www.researchgate.net/publication/261723303_The_State_of_the_Art_in_Visualizing_Dynamic_Graphs
 Notes: Good discussion on possible domains 

@@ -17,7 +17,7 @@ title = {Edge Compression Techniques for Visualization of Dense Directed Graphs}
 journal = {{IEEE} Transactions on Visualization and Computer Graphics}
 }
 DOI: https://doi.org/10.1109/TVCG.2013.151
-year: 2013
+Year: 2013
 Conference: TVCG
 link: https://www.microsoft.com/en-us/research/wp-content/uploads/2016/12/edgecompression_infovis2013.pdf
 Notes: This paper studies if the number of crossing really influences accuracy - interesting

@@ -13,7 +13,7 @@ title = {Visualizing the Template of a Chaotic Attractor},
 booktitle = {Lecture Notes in Computer Science}
 }
 DOI: https://doi.org/10.1007/978-3-030-04414-5_8
-year: 2018
+Year: 2018
 Conference: GD
 link: https://link.springer.com/content/pdf/10.1007%2F978-3-030-04414-5.pdf
 Notes: link to tool: https://gitlab.uni.lu/pcog/cate

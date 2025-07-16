@@ -16,7 +16,7 @@ title = {Edge-Path Bundling: A Less Ambiguous Edge Bundling Approach},
 journal = {{IEEE} Transactions on Visualization and Computer Graphics}
 }
 DOI: https://doi.org/https://doi.ieeecomputersociety.org/10.1109/TVCG.2021.3114795
-year: 2022
+Year: 2022
 Conference: TVCG
 link: https://arxiv.org/pdf/2108.05467.pdf
 Notes: Has data available here: https://github.com/mwallinger-tu/edge-path-bundling/tree/master/data
@@ -43,3 +43,5 @@ To review: No
 Go find the datasets: No
 Go hunt for citations: No
 Great example: No
+Related to Benchmark datasets (Related to Literature - Algorithm (Dataset tag relations) 1): Airlines, Migrations, and Air Traffic (../../Existing%20benchmark%20datasets%20(1)%204e6ac4f7a1004e179b2efe7128ee12b8/Benchmark%20datasets%20fff01d52e4ad81ae9875ec4733f4a970/Airlines,%20Migrations,%20and%20Air%20Traffic%20fff01d52e4ad811c9862dbd3e29e2137.md), Amazon (../../Existing%20benchmark%20datasets%20(1)%204e6ac4f7a1004e179b2efe7128ee12b8/Benchmark%20datasets%20fff01d52e4ad81ae9875ec4733f4a970/Amazon%20fff01d52e4ad811f9480e0e1da79424f.md)
+Related to Benchmark datasets (Related to Literature - Algorithm (Dataset tag relations) 1) 1: Airlines, Migrations, and Air Traffic (../../Existing%20benchmark%20datasets%20(1)%20d774ccc4903946489c8369c319381d05/Benchmark%20datasets%20fff01d52e4ad81298f4dcb2af7a126a8/Airlines,%20Migrations,%20and%20Air%20Traffic%20fff01d52e4ad810d82cee7e8d7e6fb09.md), Amazon (../../Existing%20benchmark%20datasets%20(1)%20d774ccc4903946489c8369c319381d05/Benchmark%20datasets%20fff01d52e4ad81298f4dcb2af7a126a8/Amazon%20fff01d52e4ad817c988afd297afd4a63.md)

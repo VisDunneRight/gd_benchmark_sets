@@ -8,7 +8,7 @@ Bibtex: @TECHREPORT{Sander96,
     institution = {FB INFORMATIK, UNIVERSITAT DES SAARLANDES},
     year = {1996}
 }
-year: 1996
+Year: 1996
 Conference: Technical Report
 link: https://publikationen.sulb.uni-saarland.de/bitstream/20.500.11880/25862/1/tr-A03-96.pdf
 Notes: used in dagre

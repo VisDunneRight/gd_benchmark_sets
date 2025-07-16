@@ -13,7 +13,7 @@ Bibtex: @incollection{Simonetto2018,
   booktitle = {Lecture Notes in Computer Science}
 }
 DOI: https://doi.org/10.1007/978-3-319-73915-1_31
-year: 2017
+Year: 2017
 Conference: GD
 link: https://link.springer.com/content/pdf/10.1007%2F978-3-319-73915-1.pdf
 Notes: Dataset sources: 
@@ -61,3 +61,5 @@ Go find the datasets: Yes
 Go hunt for citations: No
 Great example: No
 Dataset names: infovis coauthorship, newcomb fraternity data, pride and prejudice, rugby, van de bunt
+Related to Benchmark datasets (Related to Literature - Algorithm (Dataset tag relations) 1): Social Networks (../../Existing%20benchmark%20datasets%20(1)%204e6ac4f7a1004e179b2efe7128ee12b8/Benchmark%20datasets%20fff01d52e4ad81ae9875ec4733f4a970/Social%20Networks%20fff01d52e4ad811e963fc9641224bac2.md), Assorted Collaboration Network (../../Existing%20benchmark%20datasets%20(1)%204e6ac4f7a1004e179b2efe7128ee12b8/Benchmark%20datasets%20fff01d52e4ad81ae9875ec4733f4a970/Assorted%20Collaboration%20Network%20fff01d52e4ad81c6b058fa7c75c14808.md)
+Related to Benchmark datasets (Related to Literature - Algorithm (Dataset tag relations) 1) 1: Assorted Collaboration Network (../../Existing%20benchmark%20datasets%20(1)%20d774ccc4903946489c8369c319381d05/Benchmark%20datasets%20fff01d52e4ad81298f4dcb2af7a126a8/Assorted%20Collaboration%20Network%20fff01d52e4ad81e6ade9eb25f7da3f5f.md), Social Networks (../../Existing%20benchmark%20datasets%20(1)%20d774ccc4903946489c8369c319381d05/Benchmark%20datasets%20fff01d52e4ad81298f4dcb2af7a126a8/Social%20Networks%20fff01d52e4ad81e78e2efb90274be5f4.md)

@@ -18,7 +18,7 @@ abstract="Symmetry is an important factor in human perception in general, as wel
 isbn="978-3-030-04414-5"
 }
 DOI: https://doi.org/10.1007/978-3-030-04414-5_31
-year: 2018
+Year: 2018
 Conference: GD
 link: https://link.springer.com/content/pdf/10.1007%2F978-3-030-04414-5.pdf
 Notes: this paper is a qualitative evaluation of how well symmetry works for perception. Not sure it fits with the other evaluations.

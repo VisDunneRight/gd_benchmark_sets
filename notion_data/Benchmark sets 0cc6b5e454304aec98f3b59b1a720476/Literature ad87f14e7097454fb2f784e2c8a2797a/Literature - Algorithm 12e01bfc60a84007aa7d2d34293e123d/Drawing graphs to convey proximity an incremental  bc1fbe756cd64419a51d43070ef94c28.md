@@ -22,7 +22,7 @@ numpages = {33},
 keywords = {force-directed, graph drawing, graph layout, multidimensional scaling, MDS}
 }
 DOI: https://doi.org/10.1145/264645.264657
-year: 1997
+Year: 1997
 Conference: CHI
 link: https://dl.acm.org/doi/abs/10.1145/264645.264657
 paper type: algorithm

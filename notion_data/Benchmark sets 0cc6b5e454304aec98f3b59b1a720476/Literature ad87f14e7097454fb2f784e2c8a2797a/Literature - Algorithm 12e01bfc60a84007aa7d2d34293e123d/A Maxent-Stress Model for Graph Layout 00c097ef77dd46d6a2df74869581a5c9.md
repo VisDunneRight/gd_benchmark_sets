@@ -16,7 +16,7 @@ title = {A Maxent-Stress Model for Graph Layout},
 journal = {{IEEE} Transactions on Visualization and Computer Graphics}
 }
 DOI: https://doi.org/10.1109/TVCG.2012.299
-year: 2013
+Year: 2013
 Conference: TVCG
 paper type: algorithm, comparison
 Technique: other
@@ -40,3 +40,5 @@ Go find the datasets: No
 Go hunt for citations: No
 Great example: No
 Dataset names: 1138_bus (Sparse matrix - Matrix Market), bcsstk31 (C. Walshaw), btree (Sparse Matrix), commanche (Sparse Matrix), lp_ship041 (Sparse Matrix), luxembourg (Sparse Matrix), qh882 (Sparse Matrix), us_powergrid (Sparse Matrix)
+Related to Benchmark datasets (Related to Literature - Algorithm (Dataset tag relations) 1): SuiteSparse Matrix Collection (../../Existing%20benchmark%20datasets%20(1)%204e6ac4f7a1004e179b2efe7128ee12b8/Benchmark%20datasets%20fff01d52e4ad81ae9875ec4733f4a970/SuiteSparse%20Matrix%20Collection%20fff01d52e4ad81448874dfe4b2fdc1f8.md), Assorted Collaboration Network (../../Existing%20benchmark%20datasets%20(1)%204e6ac4f7a1004e179b2efe7128ee12b8/Benchmark%20datasets%20fff01d52e4ad81ae9875ec4733f4a970/Assorted%20Collaboration%20Network%20fff01d52e4ad81c6b058fa7c75c14808.md)
+Related to Benchmark datasets (Related to Literature - Algorithm (Dataset tag relations) 1) 1: SuiteSparse Matrix Collection (../../Existing%20benchmark%20datasets%20(1)%20d774ccc4903946489c8369c319381d05/Benchmark%20datasets%20fff01d52e4ad81298f4dcb2af7a126a8/SuiteSparse%20Matrix%20Collection%20fff01d52e4ad8166bd8dd2b5cef82c74.md), Assorted Collaboration Network (../../Existing%20benchmark%20datasets%20(1)%20d774ccc4903946489c8369c319381d05/Benchmark%20datasets%20fff01d52e4ad81298f4dcb2af7a126a8/Assorted%20Collaboration%20Network%20fff01d52e4ad81e6ade9eb25f7da3f5f.md)

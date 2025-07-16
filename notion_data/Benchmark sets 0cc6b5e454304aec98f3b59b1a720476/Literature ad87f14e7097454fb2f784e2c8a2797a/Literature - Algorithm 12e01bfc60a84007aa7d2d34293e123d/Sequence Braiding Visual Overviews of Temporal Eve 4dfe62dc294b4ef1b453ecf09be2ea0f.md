@@ -16,7 +16,7 @@ title = {Sequence Braiding: Visual Overviews of Temporal Event Sequences and Att
 journal = {{IEEE} Transactions on Visualization and Computer Graphics}
 }
 DOI: https://doi.org/1https://doi.org/10.1109/tvcg.2020.3030442
-year: 2020
+Year: 2020
 Conference: TVCG
 link: https://par.nsf.gov/servlets/purl/10200661
 paper type: algorithm
@@ -41,3 +41,5 @@ To review: No
 Go find the datasets: No
 Go hunt for citations: No
 Great example: No
+Related to Benchmark datasets (Related to Literature - Algorithm (Dataset tag relations) 1): Chess Games (../../Existing%20benchmark%20datasets%20(1)%204e6ac4f7a1004e179b2efe7128ee12b8/Benchmark%20datasets%20fff01d52e4ad81ae9875ec4733f4a970/Chess%20Games%20fff01d52e4ad81359632d5859c0be4bd.md), Storylines (Movie Plots) (../../Existing%20benchmark%20datasets%20(1)%204e6ac4f7a1004e179b2efe7128ee12b8/Benchmark%20datasets%20fff01d52e4ad81ae9875ec4733f4a970/Storylines%20(Movie%20Plots)%20fff01d52e4ad81d0a0c3e865ba2b75ea.md)
+Related to Benchmark datasets (Related to Literature - Algorithm (Dataset tag relations) 1) 1: Storylines (Movie Plots) (../../Existing%20benchmark%20datasets%20(1)%20d774ccc4903946489c8369c319381d05/Benchmark%20datasets%20fff01d52e4ad81298f4dcb2af7a126a8/Storylines%20(Movie%20Plots)%20fff01d52e4ad81a0b359ed64bc46b7e4.md), Chess Games (../../Existing%20benchmark%20datasets%20(1)%20d774ccc4903946489c8369c319381d05/Benchmark%20datasets%20fff01d52e4ad81298f4dcb2af7a126a8/Chess%20Games%20fff01d52e4ad81fe90d2c898d91ef7b3.md)

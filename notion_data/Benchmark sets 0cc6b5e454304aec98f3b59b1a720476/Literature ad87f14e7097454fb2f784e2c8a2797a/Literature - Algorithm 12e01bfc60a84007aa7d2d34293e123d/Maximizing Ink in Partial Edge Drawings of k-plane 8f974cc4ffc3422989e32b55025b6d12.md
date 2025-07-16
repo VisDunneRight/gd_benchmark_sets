@@ -13,7 +13,7 @@ title = {Maximizing Ink in Partial Edge Drawings of k-plane Graphs},
 booktitle = {Lecture Notes in Computer Science}
 }
 DOI: https://doi.org/10.1007/978-3-030-35802-0_25
-year: 2019
+Year: 2019
 Conference: GD
 paper type: algorithm
 Graph feature: K-planar, trees

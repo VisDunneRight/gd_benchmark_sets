@@ -13,7 +13,7 @@ title = {Multi-level Area Balancing of Clustered Graphs},
 journal = {{IEEE} Transactions on Visualization and Computer Graphics}
 }
 DOI: https://doi.org/https://doi.org/10.1109/TVCG.2020.3038154
-year: 2020
+Year: 2020
 Conference: TVCG
 link: http://yun-vis.net/projects/bionet/tvcg2020.pdf
 Notes: this is a difficult dataset to find, so the amount of graphs makes sense in this case
@@ -38,3 +38,5 @@ To review: No
 Go find the datasets: No
 Go hunt for citations: No
 Great example: Yes
+Related to Benchmark datasets (Related to Literature - Algorithm (Dataset tag relations) 1): Biological Pathways (KEGG) (../../Existing%20benchmark%20datasets%20(1)%204e6ac4f7a1004e179b2efe7128ee12b8/Benchmark%20datasets%20fff01d52e4ad81ae9875ec4733f4a970/Biological%20Pathways%20(KEGG)%20fff01d52e4ad812f835dd8b915982c04.md)
+Related to Benchmark datasets (Related to Literature - Algorithm (Dataset tag relations) 1) 1: Biological Pathways (KEGG) (../../Existing%20benchmark%20datasets%20(1)%20d774ccc4903946489c8369c319381d05/Benchmark%20datasets%20fff01d52e4ad81298f4dcb2af7a126a8/Biological%20Pathways%20(KEGG)%20fff01d52e4ad819eadfcda1e93741bfd.md)

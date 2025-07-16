@@ -21,7 +21,7 @@ abstract="The problem of orienting the edges of an undirected graph such that th
 isbn="978-3-031-22203-0"
 }
 DOI: 10.1007/978-3-031-22203-0_15
-year: 2023
+Year: 2023
 Conference: GD
 link: https://link.springer.com/chapter/10.1007/978-3-031-22203-0_15#citeas
 paper type: algorithm, proof

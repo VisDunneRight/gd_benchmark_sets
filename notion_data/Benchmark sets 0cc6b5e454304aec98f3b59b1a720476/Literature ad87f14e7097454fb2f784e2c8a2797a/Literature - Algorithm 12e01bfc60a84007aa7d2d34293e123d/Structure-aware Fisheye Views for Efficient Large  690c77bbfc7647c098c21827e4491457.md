@@ -2,7 +2,7 @@
 
 Citation name: fisheye2019
 Authors: Wang, Yunhai and Wang, Yanyan and Zhang, Haifeng and Sun, Yinqi and Fu, Chi-Wing and Sedlmair, Michael and Chen, Baoquan and Deussen, Oliver
-Bibtex: @ARTICLE{8440835,
+Bibtex: @ARTICLE{fisheye2019,
 author={Wang, Yunhai and Wang, Yanyan and Zhang, Haifeng and Sun, Yinqi and Fu, Chi-Wing and Sedlmair, Michael and Chen, Baoquan and Deussen, Oliver},
 journal={IEEE Transactions on Visualization and Computer Graphics},
 title={Structure-aware Fisheye Views for Efficient Large Graph Exploration},
@@ -11,8 +11,8 @@ volume={25},
 number={1},
 pages={566-575},
 doi={10.1109/TVCG.2018.2864911}}
-DOI: 10.1109/TVCG.2018.2864911
-year: 2019
+DOI: https://doi.org/10.1109/TVCG.2018.2864911
+Year: 2019
 Conference: Information Visualization
 link: https://ieeexplore.ieee.org/document/8440835
 paper type: algorithm, comparison
@@ -34,3 +34,5 @@ To review: No
 Go find the datasets: No
 Go hunt for citations: No
 Great example: No
+Related to Benchmark datasets (Related to Literature - Algorithm (Dataset tag relations) 1): Social Networks (../../Existing%20benchmark%20datasets%20(1)%204e6ac4f7a1004e179b2efe7128ee12b8/Benchmark%20datasets%20fff01d52e4ad81ae9875ec4733f4a970/Social%20Networks%20fff01d52e4ad811e963fc9641224bac2.md), Transportation Networks (../../Existing%20benchmark%20datasets%20(1)%204e6ac4f7a1004e179b2efe7128ee12b8/Benchmark%20datasets%20fff01d52e4ad81ae9875ec4733f4a970/Transportation%20Networks%20fff01d52e4ad81db96f7d31c609dfe72.md)
+Related to Benchmark datasets (Related to Literature - Algorithm (Dataset tag relations) 1) 1: Transportation Networks (../../Existing%20benchmark%20datasets%20(1)%20d774ccc4903946489c8369c319381d05/Benchmark%20datasets%20fff01d52e4ad81298f4dcb2af7a126a8/Transportation%20Networks%20fff01d52e4ad81af890bc92a14aee5c0.md), Social Networks (../../Existing%20benchmark%20datasets%20(1)%20d774ccc4903946489c8369c319381d05/Benchmark%20datasets%20fff01d52e4ad81298f4dcb2af7a126a8/Social%20Networks%20fff01d52e4ad81e78e2efb90274be5f4.md)

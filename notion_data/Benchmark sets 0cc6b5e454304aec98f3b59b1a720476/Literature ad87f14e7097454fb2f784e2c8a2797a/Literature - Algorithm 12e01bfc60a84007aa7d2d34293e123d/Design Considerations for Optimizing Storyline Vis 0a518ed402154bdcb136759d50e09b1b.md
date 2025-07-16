@@ -16,7 +16,7 @@ title = {Design Considerations for Optimizing Storyline Visualizations},
 journal = {{IEEE} Transactions on Visualization and Computer Graphics}
 }
 DOI: https://doi.org/10.1109/TVCG.2012.212
-year: 2012
+Year: 2012
 Conference: TVCG
 link: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6327274
 Notes: doesn’t really have a quantitative evaluation
@@ -41,3 +41,5 @@ To review: No
 Go find the datasets: No
 Go hunt for citations: No
 Great example: No
+Related to Benchmark datasets (Related to Literature - Algorithm (Dataset tag relations) 1): Militarized Interstate Disputes (MID) (../../Existing%20benchmark%20datasets%20(1)%204e6ac4f7a1004e179b2efe7128ee12b8/Benchmark%20datasets%20fff01d52e4ad81ae9875ec4733f4a970/Militarized%20Interstate%20Disputes%20(MID)%20fff01d52e4ad815c86f0d8377169f99b.md), Storylines (Movie Plots) (../../Existing%20benchmark%20datasets%20(1)%204e6ac4f7a1004e179b2efe7128ee12b8/Benchmark%20datasets%20fff01d52e4ad81ae9875ec4733f4a970/Storylines%20(Movie%20Plots)%20fff01d52e4ad81d0a0c3e865ba2b75ea.md)
+Related to Benchmark datasets (Related to Literature - Algorithm (Dataset tag relations) 1) 1: Militarized Interstate Disputes (MID) (../../Existing%20benchmark%20datasets%20(1)%20d774ccc4903946489c8369c319381d05/Benchmark%20datasets%20fff01d52e4ad81298f4dcb2af7a126a8/Militarized%20Interstate%20Disputes%20(MID)%20fff01d52e4ad8198b019e397a4498893.md), Storylines (Movie Plots) (../../Existing%20benchmark%20datasets%20(1)%20d774ccc4903946489c8369c319381d05/Benchmark%20datasets%20fff01d52e4ad81298f4dcb2af7a126a8/Storylines%20(Movie%20Plots)%20fff01d52e4ad81a0b359ed64bc46b7e4.md)

@@ -2,7 +2,7 @@
 
 Citation name: Taurus2023
 Authors: Xue, Mingliang and Wang, Zhi and Zhong, Fahai and Wang, Yong and Xu, Mingliang and Deussen, Oliver and Wang, Yunhai
-Bibtex: @ARTICLE{9904492,
+Bibtex: @ARTICLE{Taurus2023,
 author={Xue, Mingliang and Wang, Zhi and Zhong, Fahai and Wang, Yong and Xu, Mingliang and Deussen, Oliver and Wang, Yunhai},
 journal={IEEE Transactions on Visualization and Computer Graphics},
 title={Taurus: Towards a Unified Force Representation and Universal Solver for Graph Layout},
@@ -11,8 +11,8 @@ volume={29},
 number={1},
 pages={886-895},
 doi={10.1109/TVCG.2022.3209371}}
-DOI: 10.1109/TVCG.2022.3209371
-year: 2023
+DOI: https://doi.org/10.1109/TVCG.2022.3209371
+Year: 2023
 Conference: TVCG
 link: https://ieeexplore.ieee.org/document/9904492
 paper type: algorithm, comparison

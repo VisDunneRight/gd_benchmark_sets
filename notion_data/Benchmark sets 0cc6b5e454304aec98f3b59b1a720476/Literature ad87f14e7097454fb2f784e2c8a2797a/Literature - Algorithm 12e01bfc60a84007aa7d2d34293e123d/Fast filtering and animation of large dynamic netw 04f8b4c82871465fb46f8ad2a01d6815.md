@@ -16,7 +16,7 @@ title = {Fast filtering and animation of large dynamic networks},
 journal = {{EPJ} Data Science}
 }
 DOI: https://doi.org/10.1140/epjds/s13688-014-0027-8
-year: 2014
+Year: 2014
 Conference: EPJ data science
 link: https://epjdatascience.springeropen.com/track/pdf/10.1140/epjds/s13688-014-0027-8.pdf
 paper type: algorithm, technique
@@ -41,3 +41,5 @@ To review: No
 Go find the datasets: No
 Go hunt for citations: No
 Great example: No
+Related to Benchmark datasets (Related to Literature - Algorithm (Dataset tag relations) 1): Blogposts, Tweets, and Forums (../../Existing%20benchmark%20datasets%20(1)%204e6ac4f7a1004e179b2efe7128ee12b8/Benchmark%20datasets%20fff01d52e4ad81ae9875ec4733f4a970/Blogposts,%20Tweets,%20and%20Forums%20fff01d52e4ad819f8c04e8216016ba53.md), Assorted Collaboration Network (../../Existing%20benchmark%20datasets%20(1)%204e6ac4f7a1004e179b2efe7128ee12b8/Benchmark%20datasets%20fff01d52e4ad81ae9875ec4733f4a970/Assorted%20Collaboration%20Network%20fff01d52e4ad81c6b058fa7c75c14808.md)
+Related to Benchmark datasets (Related to Literature - Algorithm (Dataset tag relations) 1) 1: Blogposts, Tweets, and Forums (../../Existing%20benchmark%20datasets%20(1)%20d774ccc4903946489c8369c319381d05/Benchmark%20datasets%20fff01d52e4ad81298f4dcb2af7a126a8/Blogposts,%20Tweets,%20and%20Forums%20fff01d52e4ad81bd929eee0d21a74723.md), Assorted Collaboration Network (../../Existing%20benchmark%20datasets%20(1)%20d774ccc4903946489c8369c319381d05/Benchmark%20datasets%20fff01d52e4ad81298f4dcb2af7a126a8/Assorted%20Collaboration%20Network%20fff01d52e4ad81e6ade9eb25f7da3f5f.md)

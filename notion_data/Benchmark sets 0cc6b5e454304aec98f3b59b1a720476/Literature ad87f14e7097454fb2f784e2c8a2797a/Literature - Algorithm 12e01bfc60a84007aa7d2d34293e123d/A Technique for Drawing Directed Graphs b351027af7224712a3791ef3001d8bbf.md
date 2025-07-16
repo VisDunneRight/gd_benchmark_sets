@@ -2,7 +2,7 @@
 
 Citation name: Gansner1993
 Authors: Emden R. Gansner and Eleftherios Koutsofios and Stephen C. North and Kiem-Phong Vo
-Bibtex: @ARTICLE{221135,
+Bibtex: @ARTICLE{Gansner1993,
   author={Gansner, E.R. and Koutsofios, E. and North, S.C. and Vo, K.-P.},
   journal={IEEE Transactions on Software Engineering}, 
   title={A technique for drawing directed graphs}, 
@@ -12,7 +12,7 @@ Bibtex: @ARTICLE{221135,
   pages={214-230},
   doi={10.1109/32.221135}}
 DOI: https://doi.org/10.1109/32.221135
-year: 1993
+Year: 1993
 Conference: IEEE Transactions on Software Engineering
 link: https://www.researchgate.net/profile/Emden-Gansner/publication/3187542_A_Technique_for_Drawing_Directed_Graphs/links/5c0abd024585157ac1b04523/A-Technique-for-Drawing-Directed-Graphs.pdf
 paper type: algorithm

@@ -13,7 +13,7 @@ title = {Node Overlap Removal Algorithms: A Comparative Study},
 booktitle = {Lecture Notes in Computer Science}
 }
 DOI: https://doi.org/10.1007/978-3-030-35802-0_14
-year: 2019
+Year: 2019
 Conference: GD
 link: https://jgaa.info/accepted/recent/532.pdf
 paper type: comparison

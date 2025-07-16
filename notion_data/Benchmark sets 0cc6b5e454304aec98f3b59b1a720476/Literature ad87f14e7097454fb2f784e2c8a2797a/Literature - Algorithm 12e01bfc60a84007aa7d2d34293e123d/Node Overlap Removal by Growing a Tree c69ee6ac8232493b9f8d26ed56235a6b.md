@@ -15,7 +15,7 @@ Bibtex: @article{Nachmanson2017,
   journal = {Journal of Graph Algorithms and Applications}
 }
 DOI: https://doi.org/https://doi.org/10.7155/jgaa.00442
-year: 2016
+Year: 2016
 Conference: GD
 link: https://jgaa.info/accepted/2017/Nachmanson+2017.21.5.pdf
 paper type: algorithm, comparison
@@ -40,3 +40,5 @@ To review: No
 Go find the datasets: No
 Go hunt for citations: No
 Great example: No
+Related to Benchmark datasets (Related to Literature - Algorithm (Dataset tag relations) 1): Graphviz Examples (../../Existing%20benchmark%20datasets%20(1)%204e6ac4f7a1004e179b2efe7128ee12b8/Benchmark%20datasets%20fff01d52e4ad81ae9875ec4733f4a970/Graphviz%20Examples%20fff01d52e4ad8162acb2e066ebd8c1c7.md), Control Flow Graphs (../../Existing%20benchmark%20datasets%20(1)%204e6ac4f7a1004e179b2efe7128ee12b8/Benchmark%20datasets%20fff01d52e4ad81ae9875ec4733f4a970/Control%20Flow%20Graphs%20fff01d52e4ad81899acdfde78b396799.md)
+Related to Benchmark datasets (Related to Literature - Algorithm (Dataset tag relations) 1) 1: Control Flow Graphs (../../Existing%20benchmark%20datasets%20(1)%20d774ccc4903946489c8369c319381d05/Benchmark%20datasets%20fff01d52e4ad81298f4dcb2af7a126a8/Control%20Flow%20Graphs%20fff01d52e4ad81c3a4b3eb0c57cd99e1.md), Graphviz Examples (../../Existing%20benchmark%20datasets%20(1)%20d774ccc4903946489c8369c319381d05/Benchmark%20datasets%20fff01d52e4ad81298f4dcb2af7a126a8/Graphviz%20Examples%20fff01d52e4ad81f5b212f6c3ea492427.md)

@@ -17,7 +17,7 @@ abstract="We are concerned with the problem of visualizing interconnections in r
 isbn="978-3-540-37623-1"
 }
 DOI: https://doi.org/10.1007/3-540-37623-2_4
-year: 1998
+Year: 1998
 Conference: GD
 link: https://link.springer.com/chapter/10.1007/3-540-37623-2_4
 Notes: this is a good idea for the source for a natural dataset: train stations and their connections
@@ -42,3 +42,5 @@ To review: No
 Go find the datasets: No
 Go hunt for citations: No
 Great example: No
+Related to Benchmark datasets (Related to Literature - Algorithm (Dataset tag relations) 1): Transportation Networks (../../Existing%20benchmark%20datasets%20(1)%204e6ac4f7a1004e179b2efe7128ee12b8/Benchmark%20datasets%20fff01d52e4ad81ae9875ec4733f4a970/Transportation%20Networks%20fff01d52e4ad81db96f7d31c609dfe72.md)
+Related to Benchmark datasets (Related to Literature - Algorithm (Dataset tag relations) 1) 1: Transportation Networks (../../Existing%20benchmark%20datasets%20(1)%20d774ccc4903946489c8369c319381d05/Benchmark%20datasets%20fff01d52e4ad81298f4dcb2af7a126a8/Transportation%20Networks%20fff01d52e4ad81af890bc92a14aee5c0.md)

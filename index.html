@@ -347,7 +347,6 @@
     }
 
     async function add_entry_row(named_list_dom, db_nav_list, paper_data, entry, origin_paper_data){
-        // console.log(entry["Type of Collection"])
 
         //Fills the navs on the left sid        
 
@@ -438,7 +437,7 @@
             } else inforow.append("div").html(e)
         }
 
-        inforow.append("div").html("<b>Usage examples: </b>")
+        if (entry["Name"] != "KONECT") inforow.append("div").html("<b>Usage examples: </b>")
 
         for (let i in entry["Related to Literature - Algorithm (Dataset tag relations) 1"].split(",")){
             let e = entry["Related to Literature - Algorithm (Dataset tag relations) 1"].split(",")[i].split("(")[0].trim()
@@ -793,7 +792,7 @@
             .append("div")
             .attr("class", "col")
             .append("p")
-            .text("A few more datasets that did not fit in the preivous categories. ")
+            .text("These graphs appear already as parts of other collections. In any case, they are often used on their own, and often cited in papers as standalone collections.")
             .style("color", "gray")
 
         add_col_headers(named_list_dom, true)

@@ -13,7 +13,7 @@ title = {An Improved Algorithm for the Metro-line Crossing Minimization Problem}
 booktitle = {Graph Drawing}
 }
 DOI: https://doi.org/10.1007/978-3-642-11805-0_36
-year: 2009
+Year: 2009
 Conference: GD
 link: https://i11www.iti.kit.edu/extra/publications/n-iamlc-10.pdf
 paper type: algorithm

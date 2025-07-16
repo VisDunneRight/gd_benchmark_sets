@@ -13,7 +13,7 @@ title = {A Quality Metric for Visualization of Clusters in Graphs},
 booktitle = {Lecture Notes in Computer Science}
 }
 DOI: https://doi.org/https://doi.org/10.1007/978-3-030-35802-0_10
-year: 2019
+Year: 2019
 Conference: GD
 link: https://doi.org/10.1007/978-3-030-35802-0_10
 Notes: http://mrvar.fdv.uni-lj.si/pajek/
@@ -40,5 +40,7 @@ To review: No
 Go find the datasets: No
 Go hunt for citations: No
 Great example: No
+Related to Benchmark datasets (Related to Literature - Algorithm (Dataset tag relations) 1): SNAP (Stanford Network Analysis Platform) (../../Existing%20benchmark%20datasets%20(1)%204e6ac4f7a1004e179b2efe7128ee12b8/Benchmark%20datasets%20fff01d52e4ad81ae9875ec4733f4a970/SNAP%20(Stanford%20Network%20Analysis%20Platform)%20fff01d52e4ad81bba7fdd4700e69d4e8.md), Pajek (../../Existing%20benchmark%20datasets%20(1)%204e6ac4f7a1004e179b2efe7128ee12b8/Benchmark%20datasets%20fff01d52e4ad81ae9875ec4733f4a970/Pajek%20fff01d52e4ad81d58362f0edd2cf7dc4.md)
+Related to Benchmark datasets (Related to Literature - Algorithm (Dataset tag relations) 1) 1: Pajek (../../Existing%20benchmark%20datasets%20(1)%20d774ccc4903946489c8369c319381d05/Benchmark%20datasets%20fff01d52e4ad81298f4dcb2af7a126a8/Pajek%20fff01d52e4ad81b0a76dda99897ec860.md), SNAP (Stanford Network Analysis Platform) (../../Existing%20benchmark%20datasets%20(1)%20d774ccc4903946489c8369c319381d05/Benchmark%20datasets%20fff01d52e4ad81298f4dcb2af7a126a8/SNAP%20(Stanford%20Network%20Analysis%20Platform)%20fff01d52e4ad81f0bc11d53cc1f769cb.md)
 
 ![Screen Shot 2023-01-18 at 11.16.35 AM.png](A%20Quality%20Metric%20for%20Visualization%20of%20Clusters%20in%20%20a1c61d2b87b4457ca462ce04f80b4720/Screen_Shot_2023-01-18_at_11.16.35_AM.png)

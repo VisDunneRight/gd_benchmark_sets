@@ -18,7 +18,7 @@ title = {A heuristic for graph drawing},
 volume = 42,
 year = 1984
 }
-year: 2017
+Year: 2017
 Conference: Congressus Numerantium
 link: https://onlinelibrary.wiley.com/doi/epdf/10.1111/cgf.12872?saml_referrer
 Notes: focuses on design space. still useful

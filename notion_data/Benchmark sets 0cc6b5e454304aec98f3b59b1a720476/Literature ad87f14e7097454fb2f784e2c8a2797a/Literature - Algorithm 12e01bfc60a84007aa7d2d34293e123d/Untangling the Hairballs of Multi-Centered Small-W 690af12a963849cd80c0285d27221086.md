@@ -13,7 +13,7 @@ pages={595--618},
 author={Nocaj, Arlind and Ortmann, Mark and Brandes, Ulrik}
 }
 DOI: https://doi.org/10.7155/jgaa.00370
-year: 2015
+Year: 2015
 Conference: JGAA
 link: https://www.emis.de/journals/JGAA/accepted/recent/NocajOrtmannBrandes.pdf
 paper type: algorithm
@@ -35,6 +35,8 @@ To review: No
 Go find the datasets: Yes
 Go hunt for citations: Yes
 Great example: No
+Related to Benchmark datasets (Related to Literature - Algorithm (Dataset tag relations) 1): Social Networks (../../Existing%20benchmark%20datasets%20(1)%204e6ac4f7a1004e179b2efe7128ee12b8/Benchmark%20datasets%20fff01d52e4ad81ae9875ec4733f4a970/Social%20Networks%20fff01d52e4ad811e963fc9641224bac2.md), World Bank Trade Data (../../Existing%20benchmark%20datasets%20(1)%204e6ac4f7a1004e179b2efe7128ee12b8/Benchmark%20datasets%20fff01d52e4ad81ae9875ec4733f4a970/World%20Bank%20Trade%20Data%20fff01d52e4ad81f9a293e6a1603e6d5a.md)
+Related to Benchmark datasets (Related to Literature - Algorithm (Dataset tag relations) 1) 1: World Bank Trade Data (../../Existing%20benchmark%20datasets%20(1)%20d774ccc4903946489c8369c319381d05/Benchmark%20datasets%20fff01d52e4ad81298f4dcb2af7a126a8/World%20Bank%20Trade%20Data%20fff01d52e4ad81789e69c60438939e50.md), Social Networks (../../Existing%20benchmark%20datasets%20(1)%20d774ccc4903946489c8369c319381d05/Benchmark%20datasets%20fff01d52e4ad81298f4dcb2af7a126a8/Social%20Networks%20fff01d52e4ad81e78e2efb90274be5f4.md)
 
 Untangling the Hairballs of Multi-Centered,
 

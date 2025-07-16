@@ -16,7 +16,7 @@ abstract = {Abstract Flow maps are widely used to provide an overview of geospat
 year = {2016}
 }
 DOI: https://doi.org/10.1111/cgf.12922
-year: 2016
+Year: 2016
 Conference: Computer Graphics Forum
 link: https://onlinelibrary.wiley.com/doi/10.1111/cgf.12922
 paper type: algorithm

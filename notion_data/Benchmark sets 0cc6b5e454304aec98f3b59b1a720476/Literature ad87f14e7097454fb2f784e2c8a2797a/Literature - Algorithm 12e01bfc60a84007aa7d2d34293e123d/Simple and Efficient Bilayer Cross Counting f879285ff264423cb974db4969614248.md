@@ -19,7 +19,7 @@ abstract="We consider the problem of counting the interior edge crossings when a
 isbn="978-3-540-36151-0"
 }
 DOI: https://doi.org/10.1007/3-540-36151-0_13
-year: 2004
+Year: 2004
 Conference: JGAA
 link: https://jgaa.info/accepted/2004/BarthMutzelJuenger2004.8.2.pdf
 Notes: used in dagre
@@ -56,3 +56,5 @@ To review: No
 Go find the datasets: No
 Go hunt for citations: No
 Great example: No
+Related to Benchmark datasets (Related to Literature - Algorithm (Dataset tag relations) 1): AT&T (../../Existing%20benchmark%20datasets%20(1)%204e6ac4f7a1004e179b2efe7128ee12b8/Benchmark%20datasets%20fff01d52e4ad81ae9875ec4733f4a970/AT&T%20fff01d52e4ad8104b1c5d6a315688a68.md), Stanford GraphBase (../../Existing%20benchmark%20datasets%20(1)%204e6ac4f7a1004e179b2efe7128ee12b8/Benchmark%20datasets%20fff01d52e4ad81ae9875ec4733f4a970/Stanford%20GraphBase%20fff01d52e4ad8183a7bfd55bda2ff06e.md)
+Related to Benchmark datasets (Related to Literature - Algorithm (Dataset tag relations) 1) 1: Stanford GraphBase (../../Existing%20benchmark%20datasets%20(1)%20d774ccc4903946489c8369c319381d05/Benchmark%20datasets%20fff01d52e4ad81298f4dcb2af7a126a8/Stanford%20GraphBase%20fff01d52e4ad81b78740d6eb034c59f4.md), AT&T (../../Existing%20benchmark%20datasets%20(1)%20d774ccc4903946489c8369c319381d05/Benchmark%20datasets%20fff01d52e4ad81298f4dcb2af7a126a8/AT&T%20fff01d52e4ad81d19627e0005866b6ec.md)

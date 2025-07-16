@@ -19,7 +19,7 @@ abstract="This paper addresses the following basic question: given two layouts o
 isbn="978-3-030-04414-5"
 }
 DOI: https://doi.org/10.1007/978-3-030-04414-5_12
-year: 2018
+Year: 2018
 Conference: GD
 link: https://link.springer.com/content/pdf/10.1007%2F978-3-030-04414-5.pdf
 Notes: machine learning - uses ml to discriminate between which is the best layout in terms of quality
@@ -46,3 +46,5 @@ To review: No
 Go find the datasets: No
 Go hunt for citations: No
 Great example: Yes
+Related to Benchmark datasets (Related to Literature - Algorithm (Dataset tag relations) 1): RandDAG (../../Existing%20benchmark%20datasets%20(1)%204e6ac4f7a1004e179b2efe7128ee12b8/Benchmark%20datasets%20fff01d52e4ad81ae9875ec4733f4a970/RandDAG%20fff01d52e4ad810d9d73dbe59c26a4d9.md), Rome-Lib (../../Existing%20benchmark%20datasets%20(1)%204e6ac4f7a1004e179b2efe7128ee12b8/Benchmark%20datasets%20fff01d52e4ad81ae9875ec4733f4a970/Rome-Lib%20fff01d52e4ad81aba440e2480769b62a.md), North DAGs (../../Existing%20benchmark%20datasets%20(1)%204e6ac4f7a1004e179b2efe7128ee12b8/Benchmark%20datasets%20fff01d52e4ad81ae9875ec4733f4a970/North%20DAGs%20fff01d52e4ad81e69787d28f7ba83c44.md), Matrix Market (../../Existing%20benchmark%20datasets%20(1)%204e6ac4f7a1004e179b2efe7128ee12b8/Benchmark%20datasets%20fff01d52e4ad81ae9875ec4733f4a970/Matrix%20Market%20fff01d52e4ad81e9a370cd566ba10c3a.md)
+Related to Benchmark datasets (Related to Literature - Algorithm (Dataset tag relations) 1) 1: North DAGs (../../Existing%20benchmark%20datasets%20(1)%20d774ccc4903946489c8369c319381d05/Benchmark%20datasets%20fff01d52e4ad81298f4dcb2af7a126a8/North%20DAGs%20fff01d52e4ad8155ae0ccf7ffa7c4fcd.md), Matrix Market (../../Existing%20benchmark%20datasets%20(1)%20d774ccc4903946489c8369c319381d05/Benchmark%20datasets%20fff01d52e4ad81298f4dcb2af7a126a8/Matrix%20Market%20fff01d52e4ad81899e14dcfdc95a0c22.md), RandDAG (../../Existing%20benchmark%20datasets%20(1)%20d774ccc4903946489c8369c319381d05/Benchmark%20datasets%20fff01d52e4ad81298f4dcb2af7a126a8/RandDAG%20fff01d52e4ad81a6a011e8a9f2e50088.md), Rome-Lib (../../Existing%20benchmark%20datasets%20(1)%20d774ccc4903946489c8369c319381d05/Benchmark%20datasets%20fff01d52e4ad81298f4dcb2af7a126a8/Rome-Lib%20fff01d52e4ad81c6a9f8ecb881634ab6.md)

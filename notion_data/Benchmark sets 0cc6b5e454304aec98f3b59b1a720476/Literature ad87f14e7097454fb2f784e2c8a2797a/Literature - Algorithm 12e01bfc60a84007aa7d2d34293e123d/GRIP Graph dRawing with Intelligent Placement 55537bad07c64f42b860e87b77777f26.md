@@ -17,7 +17,7 @@ numpages = {7},
 series = {GD '00}
 }
 DOI: https://doi.org/10.5555/647552.729406
-year: 2000
+Year: 2000
 Conference: GD
 link: https://www2.cs.arizona.edu/~kobourov/grip_demo.pdf
 Notes: Paper has experiment but it is very vague in saying what data has been used - no range, no source, no number of instances.

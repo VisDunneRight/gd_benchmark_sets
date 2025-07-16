@@ -16,7 +16,7 @@ title = {Online Dynamic Graph Drawing},
 journal = {{IEEE} Transactions on Visualization and Computer Graphics}
 }
 DOI: https://doi.org/https://doi.org/10.1109/tvcg.2008.11
-year: 2008
+Year: 2008
 Conference: TVCG
 link: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=4433990
 paper type: algorithm
@@ -46,3 +46,5 @@ Go find the datasets: No
 Go hunt for citations: No
 Great example: No
 Dataset names: 3elt (C. Walshaw - Sparse Matrix), 4elt (C. Walshaw), bcsstk31 (C. Walshaw), fe_pwt (C. Walshaw)
+Related to Benchmark datasets (Related to Literature - Algorithm (Dataset tag relations) 1): Walshaw (../../Existing%20benchmark%20datasets%20(1)%204e6ac4f7a1004e179b2efe7128ee12b8/Benchmark%20datasets%20fff01d52e4ad81ae9875ec4733f4a970/Walshaw%20fff01d52e4ad8147a31cf6fd707eae88.md), Blogposts, Tweets, and Forums (../../Existing%20benchmark%20datasets%20(1)%204e6ac4f7a1004e179b2efe7128ee12b8/Benchmark%20datasets%20fff01d52e4ad81ae9875ec4733f4a970/Blogposts,%20Tweets,%20and%20Forums%20fff01d52e4ad819f8c04e8216016ba53.md)
+Related to Benchmark datasets (Related to Literature - Algorithm (Dataset tag relations) 1) 1: Walshaw (../../Existing%20benchmark%20datasets%20(1)%20d774ccc4903946489c8369c319381d05/Benchmark%20datasets%20fff01d52e4ad81298f4dcb2af7a126a8/Walshaw%20fff01d52e4ad813a8b96dd3fbfc68ad8.md), Blogposts, Tweets, and Forums (../../Existing%20benchmark%20datasets%20(1)%20d774ccc4903946489c8369c319381d05/Benchmark%20datasets%20fff01d52e4ad81298f4dcb2af7a126a8/Blogposts,%20Tweets,%20and%20Forums%20fff01d52e4ad81bd929eee0d21a74723.md)

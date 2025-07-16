@@ -17,7 +17,7 @@ abstract = {Abstract It is generally accepted practice that each cancer patient 
 year = {2017}
 }
 DOI: https://doi.org/10.1111/cgf.13172
-year: 2017
+Year: 2017
 Conference: Computer Graphics Forum
 link: https://onlinelibrary.wiley.com/doi/epdf/10.1111/cgf.13172
 paper type: system

@@ -16,7 +16,7 @@ title = {Towards Better Analysis of Deep Convolutional Neural Networks},
 journal = {{IEEE} Transactions on Visualization and Computer Graphics}
 }
 DOI: https://doi.org/10.1109/TVCG.2016.2598831
-year: 2017
+Year: 2017
 Conference: TVCG
 link: https://doi.org/10.1109/TVCG.2016.2598831
 Notes: case studies - the layout is not guided by readability criteria but by the importance of features 
@@ -42,3 +42,5 @@ To review: No
 Go find the datasets: No
 Go hunt for citations: No
 Great example: No
+Related to Benchmark datasets (Related to Literature - Algorithm (Dataset tag relations) 1): Neural Network (../../Existing%20benchmark%20datasets%20(1)%204e6ac4f7a1004e179b2efe7128ee12b8/Benchmark%20datasets%20fff01d52e4ad81ae9875ec4733f4a970/Neural%20Network%20fff01d52e4ad8189a56fc394bad97934.md)
+Related to Benchmark datasets (Related to Literature - Algorithm (Dataset tag relations) 1) 1: Neural Network (../../Existing%20benchmark%20datasets%20(1)%20d774ccc4903946489c8369c319381d05/Benchmark%20datasets%20fff01d52e4ad81298f4dcb2af7a126a8/Neural%20Network%20fff01d52e4ad81e9aad4e4548600a5ae.md)

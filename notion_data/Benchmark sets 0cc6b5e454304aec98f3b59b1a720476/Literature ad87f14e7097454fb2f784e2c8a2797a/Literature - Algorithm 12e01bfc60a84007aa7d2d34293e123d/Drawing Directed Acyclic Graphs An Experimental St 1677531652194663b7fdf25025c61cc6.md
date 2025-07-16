@@ -16,7 +16,7 @@ title = {{DRAWING} {DIRECTED} {ACYCLIC} {GRAPHS}: {AN} {EXPERIMENTAL} {STUDY}},
 journal = {International Journal of Computational Geometry {\&}amp$\mathsemicolon$ Applications}
 }
 DOI: https://doi.org/10.1142/S0218195900000358
-year: 1996
+Year: 1996
 Conference: International Journal of Computational Geometry & Applications
 link: https://www.researchgate.net/profile/Giuseppe-Liotta/publication/226769927_Drawing_directed_acyclic_graphs_An_experimental_study/links/09e41508af2c5405ea000000/Drawing-directed-acyclic-graphs-An-experimental-study.pdf
 Notes: this paper has a fair amount of discussion on datasets.
@@ -44,3 +44,5 @@ To review: No
 Go find the datasets: No
 Go hunt for citations: No
 Great example: Yes
+Related to Benchmark datasets (Related to Literature - Algorithm (Dataset tag relations) 1): AT&T (../../Existing%20benchmark%20datasets%20(1)%204e6ac4f7a1004e179b2efe7128ee12b8/Benchmark%20datasets%20fff01d52e4ad81ae9875ec4733f4a970/AT&T%20fff01d52e4ad8104b1c5d6a315688a68.md), North DAGs (../../Existing%20benchmark%20datasets%20(1)%204e6ac4f7a1004e179b2efe7128ee12b8/Benchmark%20datasets%20fff01d52e4ad81ae9875ec4733f4a970/North%20DAGs%20fff01d52e4ad81e69787d28f7ba83c44.md), Pert DAG (../../Existing%20benchmark%20datasets%20(1)%204e6ac4f7a1004e179b2efe7128ee12b8/Benchmark%20datasets%20fff01d52e4ad81ae9875ec4733f4a970/Pert%20DAG%20fff01d52e4ad81fca4e8cbd232d4a7ca.md)
+Related to Benchmark datasets (Related to Literature - Algorithm (Dataset tag relations) 1) 1: North DAGs (../../Existing%20benchmark%20datasets%20(1)%20d774ccc4903946489c8369c319381d05/Benchmark%20datasets%20fff01d52e4ad81298f4dcb2af7a126a8/North%20DAGs%20fff01d52e4ad8155ae0ccf7ffa7c4fcd.md), Pert DAG (../../Existing%20benchmark%20datasets%20(1)%20d774ccc4903946489c8369c319381d05/Benchmark%20datasets%20fff01d52e4ad81298f4dcb2af7a126a8/Pert%20DAG%20fff01d52e4ad8172b6c3d2339f8ea860.md), AT&T (../../Existing%20benchmark%20datasets%20(1)%20d774ccc4903946489c8369c319381d05/Benchmark%20datasets%20fff01d52e4ad81298f4dcb2af7a126a8/AT&T%20fff01d52e4ad81d19627e0005866b6ec.md)

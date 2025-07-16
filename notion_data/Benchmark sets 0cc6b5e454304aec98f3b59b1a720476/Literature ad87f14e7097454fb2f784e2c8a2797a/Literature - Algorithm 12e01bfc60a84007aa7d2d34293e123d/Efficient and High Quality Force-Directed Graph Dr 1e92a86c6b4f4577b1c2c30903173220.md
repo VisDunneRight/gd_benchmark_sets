@@ -17,7 +17,7 @@ Bibtex: @article{hu2005efficient,
   volume = 10,
   year = 2005
 }
-year: 2005
+Year: 2005
 Conference: The Mathematica Journal
 link: http://yifanhu.net/PUB/graph_draw.pdf
 paper type: algorithm, comparison
@@ -39,6 +39,8 @@ Go find the datasets: No
 Go hunt for citations: Yes
 Great example: No
 Dataset names: 4970 (rogue), 4elt (C. Walshaw), add32 (C. Walshaw), bodyy6 (SparseMatrix), c-fat500-10, data (C. Walshaw), dime20, fe_pwt (C. Walshaw), finan512 (C. Walshaw), mesh100 (rogue), pkustk01, pkustk02, sierpinski10, skirt (SparseMatrix)
+Related to Benchmark datasets (Related to Literature - Algorithm (Dataset tag relations) 1): Walshaw (../../Existing%20benchmark%20datasets%20(1)%204e6ac4f7a1004e179b2efe7128ee12b8/Benchmark%20datasets%20fff01d52e4ad81ae9875ec4733f4a970/Walshaw%20fff01d52e4ad8147a31cf6fd707eae88.md)
+Related to Benchmark datasets (Related to Literature - Algorithm (Dataset tag relations) 1) 1: Walshaw (../../Existing%20benchmark%20datasets%20(1)%20d774ccc4903946489c8369c319381d05/Benchmark%20datasets%20fff01d52e4ad81298f4dcb2af7a126a8/Walshaw%20fff01d52e4ad813a8b96dd3fbfc68ad8.md)
 
 ![Untitled](Efficient%20and%20High%20Quality%20Force-Directed%20Graph%20Dr%201e92a86c6b4f4577b1c2c30903173220/Untitled.png)
 

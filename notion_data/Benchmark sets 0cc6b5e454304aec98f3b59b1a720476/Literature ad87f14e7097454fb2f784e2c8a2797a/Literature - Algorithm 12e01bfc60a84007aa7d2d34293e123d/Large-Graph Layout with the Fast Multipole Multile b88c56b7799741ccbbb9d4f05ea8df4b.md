@@ -11,7 +11,7 @@ institution = {Universit{\"a}t zu K{\"o}ln},
 abstract = {The visualization of of large and complex networks or graphs is an indispensable instrument for getting deeper insight into their structure. Force-directed graph-drawing algorithms are widely used to draw such graphs. However, these methods do not guarantee a sub-quadratic running time in general. We present a new force-directed method that is based on a combination of an efficient multilevel scheme and a strategy for approximating the repulsive forces in the system by rapidly evaluating potential fields. Given a graph G=(V,E), the asymptotic worst-case running time of this method is O({\ensuremath{|}}V{\ensuremath{|}}log{\ensuremath{|}}V{\ensuremath{|}}+{\ensuremath{|}}E{\ensuremath{|}}) with linear memory requirements. In practice, the algorithm generates nice drawings of graphs with 100000 nodes in less than 5 minutes. Furthermore, it clearly visualizes even the structures of those graphs that turned out to be challenging for other methods.},
 url = {https://kups.ub.uni-koeln.de/54892/}
 }
-year: 2005
+Year: 2005
 link: http://e-archive.informatik.uni-koeln.de/509/2/zaik2006-509.pdf
 Notes: visual and visual comparison vs other algorithms
 paper type: algorithm, comparison
@@ -35,5 +35,7 @@ To review: No
 Go find the datasets: No
 Go hunt for citations: Yes
 Great example: Yes
+Related to Benchmark datasets (Related to Literature - Algorithm (Dataset tag relations) 1): AT&T (../../Existing%20benchmark%20datasets%20(1)%204e6ac4f7a1004e179b2efe7128ee12b8/Benchmark%20datasets%20fff01d52e4ad81ae9875ec4733f4a970/AT&T%20fff01d52e4ad8104b1c5d6a315688a68.md), Walshaw (../../Existing%20benchmark%20datasets%20(1)%204e6ac4f7a1004e179b2efe7128ee12b8/Benchmark%20datasets%20fff01d52e4ad81ae9875ec4733f4a970/Walshaw%20fff01d52e4ad8147a31cf6fd707eae88.md)
+Related to Benchmark datasets (Related to Literature - Algorithm (Dataset tag relations) 1) 1: Walshaw (../../Existing%20benchmark%20datasets%20(1)%20d774ccc4903946489c8369c319381d05/Benchmark%20datasets%20fff01d52e4ad81298f4dcb2af7a126a8/Walshaw%20fff01d52e4ad813a8b96dd3fbfc68ad8.md), AT&T (../../Existing%20benchmark%20datasets%20(1)%20d774ccc4903946489c8369c319381d05/Benchmark%20datasets%20fff01d52e4ad81298f4dcb2af7a126a8/AT&T%20fff01d52e4ad81d19627e0005866b6ec.md)
 
 ![Untitled](Large-Graph%20Layout%20with%20the%20Fast%20Multipole%20Multile%20b88c56b7799741ccbbb9d4f05ea8df4b/Untitled.png)

@@ -16,7 +16,7 @@ author = {Tomihisa Kamada and Satoru Kawai},
 keywords = {Graph, network structure, layout, drawing algorithm}
 }
 DOI: https://doi.org/10.1016/0020-0190(89)90102-6
-year: 1989
+Year: 1989
 Conference: IPL
 link: http://vis.pku.edu.cn/course/Visualization_2018F/reading/drawing_general_undirected.pdf
 Notes: graphs are so simple they are reproducible because they can be copied from pictures

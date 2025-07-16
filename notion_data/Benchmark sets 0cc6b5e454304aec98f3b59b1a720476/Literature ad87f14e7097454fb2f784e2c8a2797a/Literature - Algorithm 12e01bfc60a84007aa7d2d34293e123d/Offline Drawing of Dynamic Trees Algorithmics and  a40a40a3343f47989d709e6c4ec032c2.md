@@ -13,7 +13,7 @@ title = {Offline Drawing of Dynamic Trees: Algorithmics and Document Integration
 booktitle = {Lecture Notes in Computer Science}
 }
 DOI: https://doi.org/10.1007/978-3-319-50106-2_44
-year: 2016
+Year: 2016
 Conference: GD
 link: https://link.springer.com/content/pdf/10.1007%2F978-3-319-50106-2.pdf
 Notes: proof by theorem

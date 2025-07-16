@@ -11,7 +11,7 @@ volume="42",
 pages="149-160",
 URL="https://cir.nii.ac.jp/crid/1573387448853684864"
 }
-year: 1984
+Year: 1984
 To review: No
 Go find the datasets: No
 Go hunt for citations: Yes

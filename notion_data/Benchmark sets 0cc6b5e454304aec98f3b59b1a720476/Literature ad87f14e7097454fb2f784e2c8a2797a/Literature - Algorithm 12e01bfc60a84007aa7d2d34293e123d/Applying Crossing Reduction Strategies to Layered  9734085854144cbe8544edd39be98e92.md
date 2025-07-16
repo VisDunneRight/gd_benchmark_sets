@@ -17,7 +17,7 @@ abstract="We present a new method for the application of 2-layer crossing reduct
 isbn="978-3-540-36151-0"
 }
 DOI: https://doi.org/10.5555/647554.729577
-year: 2002
+Year: 2002
 Conference: GD
 link: https://link.springer.com/content/pdf/10.1007/3-540-36151-0_26.pdf
 Notes: used in dagre

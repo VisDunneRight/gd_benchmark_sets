@@ -21,7 +21,7 @@ numpages = {27},
 keywords = {planarization approach, Crossing number, upward drawing, upward planarization}
 }
 DOI: https://doi.org/10.1145/1671970.1671975
-year: 2008
+Year: 2008
 Conference: WEA
 link: https://www.researchgate.net/publication/221131619_Layer-Free_Upward_Crossing_Minimization
 Notes: used in dagre. experiment sorts by edges with North DAGs and by nodes with Rome-Lib
@@ -46,3 +46,5 @@ To review: No
 Go find the datasets: No
 Go hunt for citations: No
 Great example: No
+Related to Benchmark datasets (Related to Literature - Algorithm (Dataset tag relations) 1): Rome-Lib (../../Existing%20benchmark%20datasets%20(1)%204e6ac4f7a1004e179b2efe7128ee12b8/Benchmark%20datasets%20fff01d52e4ad81ae9875ec4733f4a970/Rome-Lib%20fff01d52e4ad81aba440e2480769b62a.md), North DAGs (../../Existing%20benchmark%20datasets%20(1)%204e6ac4f7a1004e179b2efe7128ee12b8/Benchmark%20datasets%20fff01d52e4ad81ae9875ec4733f4a970/North%20DAGs%20fff01d52e4ad81e69787d28f7ba83c44.md)
+Related to Benchmark datasets (Related to Literature - Algorithm (Dataset tag relations) 1) 1: North DAGs (../../Existing%20benchmark%20datasets%20(1)%20d774ccc4903946489c8369c319381d05/Benchmark%20datasets%20fff01d52e4ad81298f4dcb2af7a126a8/North%20DAGs%20fff01d52e4ad8155ae0ccf7ffa7c4fcd.md), Rome-Lib (../../Existing%20benchmark%20datasets%20(1)%20d774ccc4903946489c8369c319381d05/Benchmark%20datasets%20fff01d52e4ad81298f4dcb2af7a126a8/Rome-Lib%20fff01d52e4ad81c6a9f8ecb881634ab6.md)

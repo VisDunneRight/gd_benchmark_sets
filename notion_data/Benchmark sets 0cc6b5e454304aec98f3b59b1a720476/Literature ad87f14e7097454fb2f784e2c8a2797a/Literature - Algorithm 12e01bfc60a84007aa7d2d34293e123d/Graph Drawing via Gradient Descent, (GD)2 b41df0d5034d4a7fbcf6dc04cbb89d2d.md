@@ -14,7 +14,7 @@ title = {Graph Drawing via Gradient Descent, $({GD}){\^{}}2$,
 booktitle = {Lecture Notes in Computer Science}
 }
 DOI: https://doi.org/https://doi.org/10.1007/978-3-030-68766-3_1
-year: 2020
+Year: 2020
 Conference: GD
 link: https://link.springer.com/content/pdf/10.1007%2F978-3-030-68766-3.pdf
 paper type: algorithm

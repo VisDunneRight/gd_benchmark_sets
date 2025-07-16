@@ -17,7 +17,7 @@ abstract="We present a multi-scale layout algorithm for the aesthetic drawing of
 isbn="978-3-540-44541-8"
 }
 DOI: https://doi.org/10.1007/3-540-44541-2_18
-year: 2002
+Year: 2002
 Conference: GD
 link: https://www.wisdom.weizmann.ac.il/~harel/papers/ms_jgaa.pdf
 Notes: dataset refers to collection of graphs, can’t find much other than this: https://www.labri.fr/perso/pelegrin/scotch/
@@ -41,5 +41,7 @@ Go find the datasets: Yes
 Go hunt for citations: Yes
 Great example: No
 Dataset names: 3elt (C. Walshaw - Sparse Matrix), 4elt (C. Walshaw), Sierpinski_08 (?), folded_grid_80x80, grid_100x100, grid_32x32, grid_55x55, grid_80x80, torus_160x40, torus_64x16
+Related to Benchmark datasets (Related to Literature - Algorithm (Dataset tag relations) 1): Scotch Graph Collection (../../Existing%20benchmark%20datasets%20(1)%204e6ac4f7a1004e179b2efe7128ee12b8/Benchmark%20datasets%20fff01d52e4ad81ae9875ec4733f4a970/Scotch%20Graph%20Collection%20fff01d52e4ad8194b2fde505c5ec8fa2.md)
+Related to Benchmark datasets (Related to Literature - Algorithm (Dataset tag relations) 1) 1: Scotch Graph Collection (../../Existing%20benchmark%20datasets%20(1)%20d774ccc4903946489c8369c319381d05/Benchmark%20datasets%20fff01d52e4ad81298f4dcb2af7a126a8/Scotch%20Graph%20Collection%20fff01d52e4ad8154b1a8f9a29038d14a.md)
 
 ![Untitled](A%20Fast%20Multi-Scale%20Method%20for%20Drawing%20Large%20Graphs%20fdc9e1d148bc4fcd848d8b4cc959cdfd/Untitled.png)

@@ -13,7 +13,7 @@ title = {{GION}: Interactively Untangling Large Graphs on Wall-Sized Displays},
 booktitle = {Progress in Pattern Recognition, Image Analysis, Computer Vision, and Applications}
 }
 DOI: https://doi.org/10.1007/978-3-662-45803-7_10
-year: 2014
+Year: 2014
 Conference: GD
 Notes: technique + user interaction
 presents GION dataset, link broken
@@ -39,5 +39,7 @@ To review: No
 Go find the datasets: No
 Go hunt for citations: No
 Great example: No
+Related to Benchmark datasets (Related to Literature - Algorithm (Dataset tag relations) 1): GION (../../Existing%20benchmark%20datasets%20(1)%204e6ac4f7a1004e179b2efe7128ee12b8/Benchmark%20datasets%20fff01d52e4ad81ae9875ec4733f4a970/GION%20fff01d52e4ad817a97d8d387b580d6cc.md)
+Related to Benchmark datasets (Related to Literature - Algorithm (Dataset tag relations) 1) 1: GION (../../Existing%20benchmark%20datasets%20(1)%20d774ccc4903946489c8369c319381d05/Benchmark%20datasets%20fff01d52e4ad81298f4dcb2af7a126a8/GION%20fff01d52e4ad811cb966ce8a4d105962.md)
 
 ![Untitled](GION%20Interactively%20Untangling%20Large%20Graphs%20on%20Wall%20774568ebdd114a8790c026bfa0b125f0/Untitled.png)

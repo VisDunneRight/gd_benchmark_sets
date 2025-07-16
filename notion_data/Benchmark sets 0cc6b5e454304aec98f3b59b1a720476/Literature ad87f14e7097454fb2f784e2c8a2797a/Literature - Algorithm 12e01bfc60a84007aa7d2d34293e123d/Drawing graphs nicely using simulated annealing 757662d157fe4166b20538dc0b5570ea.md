@@ -22,7 +22,7 @@ numpages = {31},
 keywords = {graph drawing, aesthetics, simulated annealing}
 }
 DOI: https://doi.org/10.1145/234535.234538
-year: 1996
+Year: 1996
 Conference: ACM Transactions on Graphics
 link: https://dl.acm.org/doi/10.1145/234535.234538
 paper type: algorithm, comparison

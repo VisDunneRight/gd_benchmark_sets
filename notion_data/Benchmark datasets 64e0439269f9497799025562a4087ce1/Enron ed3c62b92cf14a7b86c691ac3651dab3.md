@@ -1,7 +1,7 @@
 # Enron
 
 Note: Very high variance in node degrees. Data can be considered threaded and directed, although http://snap.stanford.edu/data/email-Enron.html provides a version of the network that is explicitly undirected.
-Origin Notes: Data made public by the Federal Energy Regulatory Commission when investigating Enron. It has had a few changes over time documented in the link. The data is currently hosted by William W. Cohen from CMU on a webiste, and it is also hosted on SNAP. SNAP asks to cite the paper linked in Origin paper.
+Origin Notes: Data made public by the Federal Energy Regulatory Commission when investigating Enron. It has had a few changes over time documented in the link. The data is currently hosted by William W. Cohen from CMU on a website, and it is also hosted on SNAP. SNAP asks to cite the paper linked in Origin paper.
 graph features handled: Dynamic, Dynamic (discrete), Generic, Large
 Graph features in papers: dynamic,dynamic (discrete),layered graphs,n-layers
 Origin Paper: Introducing the Enron Corpus (https://www.notion.so/Introducing-the-Enron-Corpus-52663d33d36b4940b5966f72f6c73a70?pvs=21)

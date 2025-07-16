@@ -16,7 +16,7 @@ abstract = {Abstract We propose a new graph layout method based on a modificatio
 year = {2017}
 }
 DOI: https://doi.org/10.1111/cgf.13187
-year: 2017
+Year: 2017
 Conference: EuroVis
 link: http://www2.cs.arizona.edu/~kobourov/tsne-eurovis17.pdf
 Notes: Great example for dataset description with sources and properties
@@ -46,5 +46,7 @@ Go find the datasets: Yes
 Go hunt for citations: Yes
 Great example: Yes
 Dataset names: 3elt (C. Walshaw - Sparse Matrix), CA-GrQx, EVA, bcsstk09 (C. Walshaw), block_2000, cage8, can_96, dwt_1005, dwt_419, dwt_72, grid17, jazz, lesmis (SparseMatrix - Stanford GraphBase), mesh3e1, netscience, price1000, rajat11, sierpinski3d, us_powergrid (Sparse Matrix), visbrazil
+Related to Benchmark datasets (Related to Literature - Algorithm (Dataset tag relations) 1): SuiteSparse Matrix Collection (../../Existing%20benchmark%20datasets%20(1)%204e6ac4f7a1004e179b2efe7128ee12b8/Benchmark%20datasets%20fff01d52e4ad81ae9875ec4733f4a970/SuiteSparse%20Matrix%20Collection%20fff01d52e4ad81448874dfe4b2fdc1f8.md), Stanford GraphBase (../../Existing%20benchmark%20datasets%20(1)%204e6ac4f7a1004e179b2efe7128ee12b8/Benchmark%20datasets%20fff01d52e4ad81ae9875ec4733f4a970/Stanford%20GraphBase%20fff01d52e4ad8183a7bfd55bda2ff06e.md)
+Related to Benchmark datasets (Related to Literature - Algorithm (Dataset tag relations) 1) 1: SuiteSparse Matrix Collection (../../Existing%20benchmark%20datasets%20(1)%20d774ccc4903946489c8369c319381d05/Benchmark%20datasets%20fff01d52e4ad81298f4dcb2af7a126a8/SuiteSparse%20Matrix%20Collection%20fff01d52e4ad8166bd8dd2b5cef82c74.md), Stanford GraphBase (../../Existing%20benchmark%20datasets%20(1)%20d774ccc4903946489c8369c319381d05/Benchmark%20datasets%20fff01d52e4ad81298f4dcb2af7a126a8/Stanford%20GraphBase%20fff01d52e4ad81b78740d6eb034c59f4.md)
 
 ![Untitled](Graph%20Layouts%20by%20t-SNE%203af4ccbc89b547a38748745511744997/Untitled.png)

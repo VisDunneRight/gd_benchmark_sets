@@ -18,7 +18,7 @@ abstract="In numerous application areas, general undirected graphs need to be dr
 isbn="978-3-642-00219-9"
 }
 DOI: https://doi.org/10.1007/978-3-642-00219-9_21
-year: 2008
+Year: 2008
 Conference: GD
 link: https://link.springer.com/chapter/10.1007/978-3-642-00219-9_21
 paper type: comparison

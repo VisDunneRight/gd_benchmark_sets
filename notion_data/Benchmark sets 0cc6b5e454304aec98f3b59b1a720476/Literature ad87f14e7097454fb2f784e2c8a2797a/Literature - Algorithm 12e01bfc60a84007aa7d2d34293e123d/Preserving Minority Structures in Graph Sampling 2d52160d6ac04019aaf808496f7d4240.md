@@ -16,7 +16,7 @@ title = {Preserving Minority Structures in Graph Sampling},
 journal = {{IEEE} Transactions on Visualization and Computer Graphics}
 }
 DOI: https://doi.org/https://doi.org/10.1109/tvcg.2020.3030428
-year: 2021
+Year: 2021
 Conference: TVCG
 link: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9222065
 Notes: check supplemental material for description of the custom graphs used in the experiment:https://github.com/csuvis/MCGS
@@ -50,5 +50,7 @@ To review: No
 Go find the datasets: No
 Go hunt for citations: No
 Great example: Yes
+Related to Benchmark datasets (Related to Literature - Algorithm (Dataset tag relations) 1): Social Networks (../../Existing%20benchmark%20datasets%20(1)%204e6ac4f7a1004e179b2efe7128ee12b8/Benchmark%20datasets%20fff01d52e4ad81ae9875ec4733f4a970/Social%20Networks%20fff01d52e4ad811e963fc9641224bac2.md), Assorted Collaboration Network (../../Existing%20benchmark%20datasets%20(1)%204e6ac4f7a1004e179b2efe7128ee12b8/Benchmark%20datasets%20fff01d52e4ad81ae9875ec4733f4a970/Assorted%20Collaboration%20Network%20fff01d52e4ad81c6b058fa7c75c14808.md), Autonomous System Network (../../Existing%20benchmark%20datasets%20(1)%204e6ac4f7a1004e179b2efe7128ee12b8/Benchmark%20datasets%20fff01d52e4ad81ae9875ec4733f4a970/Autonomous%20System%20Network%20fff01d52e4ad81e39e06f59ddf850bed.md)
+Related to Benchmark datasets (Related to Literature - Algorithm (Dataset tag relations) 1) 1: Autonomous System Network (../../Existing%20benchmark%20datasets%20(1)%20d774ccc4903946489c8369c319381d05/Benchmark%20datasets%20fff01d52e4ad81298f4dcb2af7a126a8/Autonomous%20System%20Network%20fff01d52e4ad8173826eed5f6b88b3c6.md), Assorted Collaboration Network (../../Existing%20benchmark%20datasets%20(1)%20d774ccc4903946489c8369c319381d05/Benchmark%20datasets%20fff01d52e4ad81298f4dcb2af7a126a8/Assorted%20Collaboration%20Network%20fff01d52e4ad81e6ade9eb25f7da3f5f.md), Social Networks (../../Existing%20benchmark%20datasets%20(1)%20d774ccc4903946489c8369c319381d05/Benchmark%20datasets%20fff01d52e4ad81298f4dcb2af7a126a8/Social%20Networks%20fff01d52e4ad81e78e2efb90274be5f4.md)
 
 [https://github.com/csuvis/MCGS](https://github.com/csuvis/MCGS)

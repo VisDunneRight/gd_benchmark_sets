@@ -19,7 +19,7 @@ abstract="We present a novel graph drawing algorithm which uses a spectral decom
 isbn="978-3-540-31667-1"
 }
 DOI: https://doi.org/10.1007/11618058_48
-year: 2006
+Year: 2006
 Conference: GD
 link: http://www.cs.rpi.edu/~magdon/ps/journal/SDE_IJFCS05.pdf
 paper type: algorithm, comparison
@@ -42,5 +42,7 @@ Go find the datasets: No
 Go hunt for citations: Yes
 Great example: No
 Dataset names: 3elt (C. Walshaw - Sparse Matrix), 4970 (rogue), 4elt (C. Walshaw), 4elt2 (C. Walshaw), Sierpinski_08 (?), airfoil1, bcsstk33 (C. Walshaw), blckhole, crack (C. Walshaw), cti, grid_100x100, grid_50x50, grid_70x70, jagmesh1, lshp3466, nasa1824, nasa2146, sphere (C. Walshaw), torus_50x50, vibrobox (C. Walshaw), whitaker3 (C. Walshaw)
+Related to Benchmark datasets (Related to Literature - Algorithm (Dataset tag relations) 1): Walshaw (../../Existing%20benchmark%20datasets%20(1)%204e6ac4f7a1004e179b2efe7128ee12b8/Benchmark%20datasets%20fff01d52e4ad81ae9875ec4733f4a970/Walshaw%20fff01d52e4ad8147a31cf6fd707eae88.md)
+Related to Benchmark datasets (Related to Literature - Algorithm (Dataset tag relations) 1) 1: Walshaw (../../Existing%20benchmark%20datasets%20(1)%20d774ccc4903946489c8369c319381d05/Benchmark%20datasets%20fff01d52e4ad81298f4dcb2af7a126a8/Walshaw%20fff01d52e4ad813a8b96dd3fbfc68ad8.md)
 
 ![Untitled](SDE%20Graph%20Drawing%20Using%20Spectral%20Distance%20Embeddin%208ce58ef9bc5d4e1aa66f2935bf122f92/Untitled.png)

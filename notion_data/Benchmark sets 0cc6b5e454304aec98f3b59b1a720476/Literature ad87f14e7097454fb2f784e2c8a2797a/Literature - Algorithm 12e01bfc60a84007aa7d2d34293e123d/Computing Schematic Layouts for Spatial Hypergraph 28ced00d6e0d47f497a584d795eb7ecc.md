@@ -17,7 +17,7 @@ abstract = {Abstract Set systems can be visualized in various ways. An important
 year = {2022}
 }
 DOI: https://doi.org/10.1111/cgf.14497
-year: 2022
+Year: 2022
 Conference: Computer Graphics Forum
 link: https://onlinelibrary.wiley.com/doi/10.1111/cgf.14497#
 paper type: algorithm

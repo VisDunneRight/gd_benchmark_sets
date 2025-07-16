@@ -19,7 +19,7 @@ abstract="We present a randomized adaptive layout algorithm for nicely drawing u
 isbn="978-3-540-49155-2"
 }
 DOI: https://doi.org/10.1007/3-540-58950-3_393
-year: 1995
+Year: 1995
 Conference: GD
 link: https://link.springer.com/chapter/10.1007/3-540-58950-3_393
 paper type: algorithm, comparison

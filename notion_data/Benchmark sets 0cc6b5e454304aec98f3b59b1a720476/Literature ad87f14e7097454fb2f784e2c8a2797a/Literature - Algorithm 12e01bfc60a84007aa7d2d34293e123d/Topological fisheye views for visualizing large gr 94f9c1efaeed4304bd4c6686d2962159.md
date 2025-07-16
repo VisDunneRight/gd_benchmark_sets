@@ -16,7 +16,7 @@ title = {Topological Fisheye Views for Visualizing Large Graphs},
 journal = {{IEEE} Transactions on Visualization and Computer Graphics}
 }
 DOI: https://doi.org/https://doi.org/10.1109/tvcg.2005.66
-year: 2005
+Year: 2005
 Conference: TVCG
 link: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=1432691
 paper type: algorithm, technique
@@ -45,3 +45,5 @@ Go find the datasets: No
 Go hunt for citations: No
 Great example: No
 Dataset names: 4elt (C. Walshaw), crack (C. Walshaw), grid_317x317, grid_500x500, internet_graph (internet mapping project), sierpinski10
+Related to Benchmark datasets (Related to Literature - Algorithm (Dataset tag relations) 1): Walshaw (../../Existing%20benchmark%20datasets%20(1)%204e6ac4f7a1004e179b2efe7128ee12b8/Benchmark%20datasets%20fff01d52e4ad81ae9875ec4733f4a970/Walshaw%20fff01d52e4ad8147a31cf6fd707eae88.md), Internet Mapping Project (../../Existing%20benchmark%20datasets%20(1)%204e6ac4f7a1004e179b2efe7128ee12b8/Benchmark%20datasets%20fff01d52e4ad81ae9875ec4733f4a970/Internet%20Mapping%20Project%20fff01d52e4ad81bf9ec2c98df0ac84aa.md)
+Related to Benchmark datasets (Related to Literature - Algorithm (Dataset tag relations) 1) 1: Internet Mapping Project (../../Existing%20benchmark%20datasets%20(1)%20d774ccc4903946489c8369c319381d05/Benchmark%20datasets%20fff01d52e4ad81298f4dcb2af7a126a8/Internet%20Mapping%20Project%20fff01d52e4ad810d8f9bdf51d7d5da7d.md), Walshaw (../../Existing%20benchmark%20datasets%20(1)%20d774ccc4903946489c8369c319381d05/Benchmark%20datasets%20fff01d52e4ad81298f4dcb2af7a126a8/Walshaw%20fff01d52e4ad813a8b96dd3fbfc68ad8.md)

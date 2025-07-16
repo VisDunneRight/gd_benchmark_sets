@@ -13,7 +13,7 @@ title = {Crossing Minimization in Storyline Visualization},
 booktitle = {Lecture Notes in Computer Science}
 }
 DOI: https://doi.org/10.1007/978-3-319-50106-2_29
-year: 2016
+Year: 2016
 Conference: GD
 link: https://link.springer.com/content/pdf/10.1007%2F978-3-319-50106-2.pdf
 Notes: good evaluation
@@ -40,3 +40,5 @@ Go find the datasets: No
 Go hunt for citations: No
 Great example: No
 Dataset names: Adventures of Huckleberry Finn (Stanford GraphBase), Anna Karenina (Stanford GraphBase), inception (movie plots), lesmis (SparseMatrix - Stanford GraphBase), matrix (movie plots), star wars (movie plots)
+Related to Benchmark datasets (Related to Literature - Algorithm (Dataset tag relations) 1): Stanford GraphBase (../../Existing%20benchmark%20datasets%20(1)%204e6ac4f7a1004e179b2efe7128ee12b8/Benchmark%20datasets%20fff01d52e4ad81ae9875ec4733f4a970/Stanford%20GraphBase%20fff01d52e4ad8183a7bfd55bda2ff06e.md), Storylines (Movie Plots) (../../Existing%20benchmark%20datasets%20(1)%204e6ac4f7a1004e179b2efe7128ee12b8/Benchmark%20datasets%20fff01d52e4ad81ae9875ec4733f4a970/Storylines%20(Movie%20Plots)%20fff01d52e4ad81d0a0c3e865ba2b75ea.md)
+Related to Benchmark datasets (Related to Literature - Algorithm (Dataset tag relations) 1) 1: Storylines (Movie Plots) (../../Existing%20benchmark%20datasets%20(1)%20d774ccc4903946489c8369c319381d05/Benchmark%20datasets%20fff01d52e4ad81298f4dcb2af7a126a8/Storylines%20(Movie%20Plots)%20fff01d52e4ad81a0b359ed64bc46b7e4.md), Stanford GraphBase (../../Existing%20benchmark%20datasets%20(1)%20d774ccc4903946489c8369c319381d05/Benchmark%20datasets%20fff01d52e4ad81298f4dcb2af7a126a8/Stanford%20GraphBase%20fff01d52e4ad81b78740d6eb034c59f4.md)

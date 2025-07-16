@@ -4,7 +4,7 @@ Citation name: frishman2004
 Authors: Y. Frishman and Ayellet Tal
 Bibtex: @INPROCEEDINGS{frishman2004, author={Frishman, Y. and Ayellet Tal}, booktitle={IEEE Symposium on Information Visualization}, title={Dynamic Drawing of Clustered Graphs}, year={2004}, volume={}, number={}, pages={191-198}, doi={10.1109/INFVIS.2004.18}}
 DOI: https://doi.org/10.1109/INFVIS.2004.18
-year: 2004
+Year: 2004
 Conference: TVCG
 link: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1382908
 Notes: decent computational evaluation

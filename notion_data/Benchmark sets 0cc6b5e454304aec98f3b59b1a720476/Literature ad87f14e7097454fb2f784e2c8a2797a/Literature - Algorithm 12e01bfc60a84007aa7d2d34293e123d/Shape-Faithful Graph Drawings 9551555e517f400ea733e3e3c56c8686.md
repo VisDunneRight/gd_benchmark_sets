@@ -21,7 +21,7 @@ abstract="Shape-based metrics measure how faithfully a drawing D represents the 
 isbn="978-3-031-22203-0"
 }
 DOI: 10.1007/978-3-031-22203-0_8
-year: 2023
+Year: 2023
 Conference: GD
 link: https://link.springer.com/chapter/10.1007/978-3-031-22203-0_8#citeas
 Notes: most of the paper is a comparison
@@ -41,3 +41,5 @@ To review: No
 Go find the datasets: No
 Go hunt for citations: No
 Great example: No
+Related to Benchmark datasets (Related to Literature - Algorithm (Dataset tag relations) 1): SuiteSparse Matrix Collection (../../Existing%20benchmark%20datasets%20(1)%204e6ac4f7a1004e179b2efe7128ee12b8/Benchmark%20datasets%20fff01d52e4ad81ae9875ec4733f4a970/SuiteSparse%20Matrix%20Collection%20fff01d52e4ad81448874dfe4b2fdc1f8.md), SNAP (Stanford Network Analysis Platform) (../../Existing%20benchmark%20datasets%20(1)%204e6ac4f7a1004e179b2efe7128ee12b8/Benchmark%20datasets%20fff01d52e4ad81ae9875ec4733f4a970/SNAP%20(Stanford%20Network%20Analysis%20Platform)%20fff01d52e4ad81bba7fdd4700e69d4e8.md)
+Related to Benchmark datasets (Related to Literature - Algorithm (Dataset tag relations) 1) 1: SuiteSparse Matrix Collection (../../Existing%20benchmark%20datasets%20(1)%20d774ccc4903946489c8369c319381d05/Benchmark%20datasets%20fff01d52e4ad81298f4dcb2af7a126a8/SuiteSparse%20Matrix%20Collection%20fff01d52e4ad8166bd8dd2b5cef82c74.md), SNAP (Stanford Network Analysis Platform) (../../Existing%20benchmark%20datasets%20(1)%20d774ccc4903946489c8369c319381d05/Benchmark%20datasets%20fff01d52e4ad81298f4dcb2af7a126a8/SNAP%20(Stanford%20Network%20Analysis%20Platform)%20fff01d52e4ad81f0bc11d53cc1f769cb.md)

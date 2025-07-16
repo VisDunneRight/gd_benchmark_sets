@@ -13,7 +13,7 @@ Bibtex: @incollection{Klawitter2018,
   booktitle = {Lecture Notes in Computer Science}
 }
 DOI: https://doi.org/10.1007/978-3-319-73915-1_19
-year: 2017
+Year: 2017
 Conference: GD
 link: https://link.springer.com/content/pdf/10.1007%2F978-3-319-73915-1.pdf
 Notes: bunch of features in benchmark graphs described in section 3 - not proper graph features though

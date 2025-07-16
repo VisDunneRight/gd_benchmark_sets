@@ -17,7 +17,7 @@ abstract = {Abstract Compound digraphs are a widely used model in computer scien
 year = {2009}
 }
 DOI: https://doi.org/10.1111/j.1467-8659.2009.01451.x
-year: 2009
+Year: 2009
 Conference: EuroVis
 link: https://dl.acm.org/doi/10.1111/j.1467-8659.2009.01451.x
 Notes: uses german autobahn map
@@ -40,3 +40,5 @@ To review: No
 Go find the datasets: No
 Go hunt for citations: No
 Great example: No
+Related to Benchmark datasets (Related to Literature - Algorithm (Dataset tag relations) 1): Transportation Networks (../../Existing%20benchmark%20datasets%20(1)%204e6ac4f7a1004e179b2efe7128ee12b8/Benchmark%20datasets%20fff01d52e4ad81ae9875ec4733f4a970/Transportation%20Networks%20fff01d52e4ad81db96f7d31c609dfe72.md)
+Related to Benchmark datasets (Related to Literature - Algorithm (Dataset tag relations) 1) 1: Transportation Networks (../../Existing%20benchmark%20datasets%20(1)%20d774ccc4903946489c8369c319381d05/Benchmark%20datasets%20fff01d52e4ad81298f4dcb2af7a126a8/Transportation%20Networks%20fff01d52e4ad81af890bc92a14aee5c0.md)

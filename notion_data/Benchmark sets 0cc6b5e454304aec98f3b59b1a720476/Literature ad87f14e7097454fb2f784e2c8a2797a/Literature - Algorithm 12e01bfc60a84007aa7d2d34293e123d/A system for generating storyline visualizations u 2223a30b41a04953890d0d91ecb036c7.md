@@ -15,7 +15,7 @@ title = {A system for generating storyline visualizations using hierarchical tas
 journal = {Computers {\&}amp$\mathsemicolon$ Graphics}
 }
 DOI: http://dx.doi.org/10.1016/j.cag.2018.11.004
-year: 2019
+Year: 2019
 Conference: Graphics Interface
 link: https://www.csc2.ncsu.edu/faculty/healey/download/cg.19.pdf
 Notes: Check Padia2018, this just the journal version of that one
@@ -40,3 +40,5 @@ Go find the datasets: No
 Go hunt for citations: No
 Great example: No
 Dataset names: Friends (Padia), Witcher (Padia)
+Related to Benchmark datasets (Related to Literature - Algorithm (Dataset tag relations) 1): Padia Stories (../../Existing%20benchmark%20datasets%20(1)%204e6ac4f7a1004e179b2efe7128ee12b8/Benchmark%20datasets%20fff01d52e4ad81ae9875ec4733f4a970/Padia%20Stories%20fff01d52e4ad81aab37cfe32b3735f7b.md)
+Related to Benchmark datasets (Related to Literature - Algorithm (Dataset tag relations) 1) 1: Padia Stories (../../Existing%20benchmark%20datasets%20(1)%20d774ccc4903946489c8369c319381d05/Benchmark%20datasets%20fff01d52e4ad81298f4dcb2af7a126a8/Padia%20Stories%20fff01d52e4ad81129ac5fae5ce46063e.md)

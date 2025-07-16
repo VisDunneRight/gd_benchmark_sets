@@ -13,7 +13,7 @@ title = {Multi-level Graph Drawing Using Infomap Clustering},
 booktitle = {Lecture Notes in Computer Science}
 }
 DOI: https://doi.org/10.1007/978-3-030-35802-0_11
-year: 2019
+Year: 2019
 Conference: GD
 Notes: dataset ref 1: Bartel, G., Gutwenger, C., Klein, K., Mutzel, P.: An experimental evaluation of
 multilevel layout methods. In: Brandes, U., Cornelsen, S. (eds.) GD 2010. LNCS,
@@ -50,3 +50,5 @@ Go find the datasets: Yes
 Go hunt for citations: No
 Great example: No
 Dataset names: 3elt (C. Walshaw - Sparse Matrix), Bcsstk31 (Sparse Matrix Collection), G_15_0 (?), G_4_0, as1999060 (?), astroph2001 (?), commanche (Sparse Matrix), condmat2001 (?), crack (C. Walshaw), del16 (?), ecolippi (?), facebook (?), nasa1824, oflights (?), p2p-Gnutella05, shock-9 (?), soc_h (?), us_powergrid (Sparse Matrix), yeastappi (?)
+Related to Benchmark datasets (Related to Literature - Algorithm (Dataset tag relations) 1): SuiteSparse Matrix Collection (../../Existing%20benchmark%20datasets%20(1)%204e6ac4f7a1004e179b2efe7128ee12b8/Benchmark%20datasets%20fff01d52e4ad81ae9875ec4733f4a970/SuiteSparse%20Matrix%20Collection%20fff01d52e4ad81448874dfe4b2fdc1f8.md), Walshaw (../../Existing%20benchmark%20datasets%20(1)%204e6ac4f7a1004e179b2efe7128ee12b8/Benchmark%20datasets%20fff01d52e4ad81ae9875ec4733f4a970/Walshaw%20fff01d52e4ad8147a31cf6fd707eae88.md)
+Related to Benchmark datasets (Related to Literature - Algorithm (Dataset tag relations) 1) 1: Walshaw (../../Existing%20benchmark%20datasets%20(1)%20d774ccc4903946489c8369c319381d05/Benchmark%20datasets%20fff01d52e4ad81298f4dcb2af7a126a8/Walshaw%20fff01d52e4ad813a8b96dd3fbfc68ad8.md), SuiteSparse Matrix Collection (../../Existing%20benchmark%20datasets%20(1)%20d774ccc4903946489c8369c319381d05/Benchmark%20datasets%20fff01d52e4ad81298f4dcb2af7a126a8/SuiteSparse%20Matrix%20Collection%20fff01d52e4ad8166bd8dd2b5cef82c74.md)

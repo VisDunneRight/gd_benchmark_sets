@@ -17,7 +17,7 @@ abstract = {Abstract The UN Comtrade database is the world's largest repository 
 year = {2017}
 }
 DOI: https://doi.org/10.1111/cgf.13186
-year: 2017
+Year: 2017
 Conference: Computer Graphics Forum
 link: https://onlinelibrary.wiley.com/doi/full/10.1111/cgf.13186#
 paper type: algorithm

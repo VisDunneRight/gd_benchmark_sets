@@ -16,7 +16,7 @@ title = {Graph drawing by force-directed placement},
 journal = {Software: Practice and Experience}
 }
 DOI: https://doi.org/10.1002/spe.4380211102
-year: 1991
+Year: 1991
 Conference: Software Practice and Experience
 link: http://www.mathe2.uni-bayreuth.de/axel/papers/reingold:graph_drawing_by_force_directed_placement.pdf
 paper type: algorithm, comparison

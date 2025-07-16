@@ -19,7 +19,7 @@ abstract="In this paper, we present new quality metrics for dynamic graph drawin
 isbn="978-3-030-68766-3"
 }
 DOI: https://doi.org/10.1007/978-3-030-68766-3_35
-year: 2020
+Year: 2020
 Conference: GD
 Notes: second dataset from: Madan, A., Cebrian, M., Moturu, S., Farrahi, K., et al.: Sensing the “health state”
 of a community. IEEE Pervasive Comput. 11(4), 36–45 (2011)

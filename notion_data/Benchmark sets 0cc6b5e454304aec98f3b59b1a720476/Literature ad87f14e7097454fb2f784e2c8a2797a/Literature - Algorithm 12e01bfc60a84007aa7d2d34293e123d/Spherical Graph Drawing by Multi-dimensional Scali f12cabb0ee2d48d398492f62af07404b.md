@@ -21,7 +21,7 @@ abstract="We describe an efficient and scalable spherical graph embedding method
 isbn="978-3-031-22203-0"
 }
 DOI: 10.1007/978-3-031-22203-0_7
-year: 2023
+Year: 2023
 Conference: GD
 link: https://link.springer.com/chapter/10.1007/978-3-031-22203-0_7#citeas
 Notes: great example because of how things are presented: evaluation is clean, links are easy to find
@@ -43,5 +43,7 @@ To review: No
 Go find the datasets: No
 Go hunt for citations: No
 Great example: Yes
+Related to Benchmark datasets (Related to Literature - Algorithm (Dataset tag relations) 1): SuiteSparse Matrix Collection (../../Existing%20benchmark%20datasets%20(1)%204e6ac4f7a1004e179b2efe7128ee12b8/Benchmark%20datasets%20fff01d52e4ad81ae9875ec4733f4a970/SuiteSparse%20Matrix%20Collection%20fff01d52e4ad81448874dfe4b2fdc1f8.md)
+Related to Benchmark datasets (Related to Literature - Algorithm (Dataset tag relations) 1) 1: SuiteSparse Matrix Collection (../../Existing%20benchmark%20datasets%20(1)%20d774ccc4903946489c8369c319381d05/Benchmark%20datasets%20fff01d52e4ad81298f4dcb2af7a126a8/SuiteSparse%20Matrix%20Collection%20fff01d52e4ad8166bd8dd2b5cef82c74.md)
 
 Show in text form how to present the data and provides the data

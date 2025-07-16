@@ -16,7 +16,7 @@ title = {A branch-and-cut approach to the crossing number problem},
 journal = {Discrete Optimization}
 }
 DOI: https://doi.org/https://doi.org/10.1016/j.disopt.2007.05.006
-year: 2008
+Year: 2008
 Conference: WEA
 link: https://www.sciencedirect.com/science/article/pii/S1572528607000497
 Notes: Uses ILP. Chapter 5 contains their experiment, and it has some mention of the challenges of running computational experiments (e.g. when to stop, timeout) - contains a comparison against a heuristic.
@@ -42,3 +42,5 @@ To review: No
 Go find the datasets: No
 Go hunt for citations: No
 Great example: Yes
+Related to Benchmark datasets (Related to Literature - Algorithm (Dataset tag relations) 1): Rome-Lib (../../Existing%20benchmark%20datasets%20(1)%204e6ac4f7a1004e179b2efe7128ee12b8/Benchmark%20datasets%20fff01d52e4ad81ae9875ec4733f4a970/Rome-Lib%20fff01d52e4ad81aba440e2480769b62a.md)
+Related to Benchmark datasets (Related to Literature - Algorithm (Dataset tag relations) 1) 1: Rome-Lib (../../Existing%20benchmark%20datasets%20(1)%20d774ccc4903946489c8369c319381d05/Benchmark%20datasets%20fff01d52e4ad81298f4dcb2af7a126a8/Rome-Lib%20fff01d52e4ad81c6a9f8ecb881634ab6.md)

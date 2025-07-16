@@ -15,7 +15,7 @@ title = {Methods for Visual Understanding of Hierarchical System Structures},
 journal = {{IEEE} Transactions on Systems, Man, and Cybernetics}
 }
 DOI: https://doi.org/10.1109/TSMC.1981.4308636
-year: 1981
+Year: 1981
 Conference: IEEE Transactions on Systems, Man, and Cybernetics
 Notes: Presented in Fig. 5 are drawings c
 hierarchy which appeared in Malone [1 1]
@@ -47,3 +47,5 @@ To review: No
 Go find the datasets: No
 Go hunt for citations: No
 Great example: No
+Related to Benchmark datasets (Related to Literature - Algorithm (Dataset tag relations) 1): Investment Interdependence (../../Existing%20benchmark%20datasets%20(1)%204e6ac4f7a1004e179b2efe7128ee12b8/Benchmark%20datasets%20fff01d52e4ad81ae9875ec4733f4a970/Investment%20Interdependence%20fff01d52e4ad818e829fc7ebad9a4288.md)
+Related to Benchmark datasets (Related to Literature - Algorithm (Dataset tag relations) 1) 1: Investment Interdependence (../../Existing%20benchmark%20datasets%20(1)%20d774ccc4903946489c8369c319381d05/Benchmark%20datasets%20fff01d52e4ad81298f4dcb2af7a126a8/Investment%20Interdependence%20fff01d52e4ad816dbc14ea95e356f08d.md)

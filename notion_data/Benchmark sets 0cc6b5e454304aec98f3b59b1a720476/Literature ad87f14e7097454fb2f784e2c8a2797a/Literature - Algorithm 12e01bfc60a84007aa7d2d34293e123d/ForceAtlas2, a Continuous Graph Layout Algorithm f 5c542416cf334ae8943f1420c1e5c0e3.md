@@ -17,7 +17,7 @@ title = {{ForceAtlas}2, a Continuous Graph Layout Algorithm for Handy Network Vi
 journal = {{PLoS} {ONE}}
 }
 DOI: https://doi.org/10.1371/journal.pone.0098679
-year: 2014
+Year: 2014
 Conference: PLOS one
 link: https://www.researchgate.net/publication/262977655_ForceAtlas2_a_Continuous_Graph_Layout_Algorithm_for_Handy_Network_Visualization_Designed_for_the_Gephi_Software
 Notes: Pretty good example of a proper evaluation
@@ -49,3 +49,5 @@ To review: No
 Go find the datasets: No
 Go hunt for citations: No
 Great example: No
+Related to Benchmark datasets (Related to Literature - Algorithm (Dataset tag relations) 1): SNAP (Stanford Network Analysis Platform) (../../Existing%20benchmark%20datasets%20(1)%204e6ac4f7a1004e179b2efe7128ee12b8/Benchmark%20datasets%20fff01d52e4ad81ae9875ec4733f4a970/SNAP%20(Stanford%20Network%20Analysis%20Platform)%20fff01d52e4ad81bba7fdd4700e69d4e8.md)
+Related to Benchmark datasets (Related to Literature - Algorithm (Dataset tag relations) 1) 1: SNAP (Stanford Network Analysis Platform) (../../Existing%20benchmark%20datasets%20(1)%20d774ccc4903946489c8369c319381d05/Benchmark%20datasets%20fff01d52e4ad81298f4dcb2af7a126a8/SNAP%20(Stanford%20Network%20Analysis%20Platform)%20fff01d52e4ad81f0bc11d53cc1f769cb.md)

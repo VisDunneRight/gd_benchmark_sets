@@ -16,7 +16,7 @@ abstract="We introduce an energy model whose minimum energy drawings reveal the 
 isbn="978-3-540-24595-7"
 }
 DOI: https://doi.org/10.1007/978-3-540-24595-7_40
-year: 2006
+Year: 2006
 Conference: JGAA
 link: https://jgaa.info/accepted/2007/Noack2007.11.2.pdf
 Notes: presents linlog
@@ -41,3 +41,5 @@ To review: No
 Go find the datasets: Yes
 Go hunt for citations: Yes
 Great example: No
+Related to Benchmark datasets (Related to Literature - Algorithm (Dataset tag relations) 1): Pajek (../../Existing%20benchmark%20datasets%20(1)%204e6ac4f7a1004e179b2efe7128ee12b8/Benchmark%20datasets%20fff01d52e4ad81ae9875ec4733f4a970/Pajek%20fff01d52e4ad81d58362f0edd2cf7dc4.md), World Bank Trade Data (../../Existing%20benchmark%20datasets%20(1)%204e6ac4f7a1004e179b2efe7128ee12b8/Benchmark%20datasets%20fff01d52e4ad81ae9875ec4733f4a970/World%20Bank%20Trade%20Data%20fff01d52e4ad81f9a293e6a1603e6d5a.md)
+Related to Benchmark datasets (Related to Literature - Algorithm (Dataset tag relations) 1) 1: World Bank Trade Data (../../Existing%20benchmark%20datasets%20(1)%20d774ccc4903946489c8369c319381d05/Benchmark%20datasets%20fff01d52e4ad81298f4dcb2af7a126a8/World%20Bank%20Trade%20Data%20fff01d52e4ad81789e69c60438939e50.md), Pajek (../../Existing%20benchmark%20datasets%20(1)%20d774ccc4903946489c8369c319381d05/Benchmark%20datasets%20fff01d52e4ad81298f4dcb2af7a126a8/Pajek%20fff01d52e4ad81b0a76dda99897ec860.md)

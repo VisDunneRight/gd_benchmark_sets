@@ -13,7 +13,7 @@ title = {Algorithms and Bounds for Drawing Directed Graphs},
 booktitle = {Lecture Notes in Computer Science}
 }
 DOI: https://doi.org/10.1007/978-3-030-04414-5_41
-year: 2018
+Year: 2018
 Conference: GD
 link: https://link.springer.com/content/pdf/10.1007%2F978-3-030-04414-5.pdf
 paper type: algorithm, proof
